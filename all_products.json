@@ -1,0 +1,4038 @@
+[
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "Baskets pour homme",
+        "summary": "Référence : VG-003-000 Dessus / Tige: Textile Doublure: Textile Semelle: Gomme Fermeture : Lacets",
+        "currency": "TND",
+        "price": 19.0,
+        "price_min": 19,
+        "price_max": 35,
+        "price_drop": 16.0,
+        "price_drop_percent": 45.714,
+        "price_week_changed": "no",
+        "price_week_drop": 0,
+        "price_week_drop_percent": 0,
+        "price_deal": "yes",
+        "price_hot_deal": "no",
+        "price_top_deal": "no",
+        "link": "https://www.vongo.tn/chaussures-homme/2015274-baskets-pour-homme.html",
+        "uniqueID": "2e63befc8a19af5dec34e2a647059140",
+        "category": "fashion_beauty",
+        "subcategory": "fashion_beauty_shoes",
+        "source_name": "vongo",
+        "source_link": "https://www.vongo.tn/",
+        "brand": "les_etoiles",
+        "model": "",
+        "gender": "man",
+        "color": "na",
+        "material": "na",
+        "store": "no",
+        "store_label": "Vongo",
+        "store_description": "",
+        "delivery": "yes",
+        "delivery_description": "livraison sur toute la tunisie.",
+        "availability": "on_stock",
+        "clicks": 54,
+        "clicksExternal": 116,
+        "reviewsNumber": 0,
+        "reviewsValue": 0.0,
+        "priceTable": [
+          {
+            "date_price": "2023-01-31T01:20:35Z",
+            "price": 19.0
+          },
+          {
+            "date_price": "2023-01-06T01:19:36Z",
+            "price": 35.0
+          },
+          {
+            "date_price": "2022-12-24T01:19:58Z",
+            "price": 19.0
+          },
+          {
+            "date_price": "2021-11-18T09:35:16Z",
+            "price": 25.0
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2024-11-06T13:58:37Z",
+            "availability": "on_stock"
+          },
+          {
+            "date_availability": "2024-10-25T01:38:02Z",
+            "availability": "out_of_stock"
+          },
+          {
+            "date_availability": "2023-09-26T01:28:24Z",
+            "availability": "on_stock"
+          },
+          {
+            "date_availability": "2023-07-28T01:26:37Z",
+            "availability": "out_of_stock"
+          },
+          {
+            "date_availability": "2021-11-18T09:35:16Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/2e63befc8a19af5dec34e2a647059140.jpg",
+        "date_creation": "2021-11-18T09:35:16Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "LIRENE ECRAN SPF50+ INVISIBLE VISAGE A BASE DE VIT E 40ML",
+        "summary": "La lotion solaire rotative SPF50 + de Lirene offre une très haute protection aux peaux sensibles. L'émulsion imperméable fonde son action sur un système de filtres photostables sous forme de complexe UVBlock, qui protège la peau contre les effets négatifs des rayons UVA et UVB.",
+        "currency": "TND",
+        "price": 18.684,
+        "price_min": 18.684,
+        "price_max": 18.684,
+        "price_drop": 0.0,
+        "price_drop_percent": 0.0,
+        "price_week_changed": "no",
+        "price_week_drop": 0,
+        "price_week_drop_percent": 0,
+        "price_deal": "no",
+        "price_hot_deal": "no",
+        "price_top_deal": "no",
+        "link": "https://pharma-shop.tn/pack-solaire-2024/12312-lirene-ecran-spf50-invisible-visage-a-base-de-vit-e-40ml--5900717317338.html",
+        "uniqueID": "c73057d46899084ebc064b9d5a739a9c",
+        "category": "fashion_beauty",
+        "subcategory": "body_care",
+        "source_name": "pharma_shop",
+        "source_link": "https://www.pharma-shop.tn/",
+        "brand": "lirene",
+        "model": "",
+        "gender": "woman",
+        "color": "na",
+        "material": "na",
+        "store": "no",
+        "store_label": "Pharma shop",
+        "store_description": "vous trouverez chez pharma-shop.tn touts vos produits parapharmaceutique (santé, beauté, minceur, et bien être) aux prix défiant toutes concurrences et toutes les marques parapharmaceutiques",
+        "delivery": "yes",
+        "delivery_description": "grand tunis (tunis, ariana, ben arous et la manouba): 2,900 dt  ( la livraison est gratuite pour toute commande sup à 99 dt ). tout le reste du territoire tunisien : 4,700 dt   ( la livraison est gratuite pour toute commande sup à 99 dt )",
+        "availability": "on_stock",
+        "clicks": 34,
+        "clicksExternal": 8,
+        "reviewsNumber": 0,
+        "reviewsValue": 0.0,
+        "priceTable": [
+          {
+            "date_price": "2024-06-15T18:59:04Z",
+            "price": 18.684
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2024-06-15T18:59:04Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/c73057d46899084ebc064b9d5a739a9c.jpg",
+        "date_creation": "2024-06-15T18:59:04Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "Parfum OFF",
+        "summary": "Le parfum OFF est un floral épicé avec une note de spicy woody qui souligne sa force et son intensité. Son flacon en forme de micro lance le tempo, sa couleur noire souligne sa force de caractère.",
+        "currency": "TND",
+        "price": 27.99,
+        "price_min": 17.5,
+        "price_max": 27.99,
+        "price_drop": -5.59,
+        "price_drop_percent": -24.955,
+        "price_week_changed": "yes",
+        "price_week_drop": 0.0,
+        "price_week_drop_percent": 0.0,
+        "price_deal": "no",
+        "price_hot_deal": "yes",
+        "price_top_deal": "yes",
+        "link": "https://www.exist.com.tn/parfums/1437-8565-parfum-off.html#/1312-taille-var/1324-couleur-002noi1437",
+        "uniqueID": "9a1a970ae643b38b83db9c7cbd39bf69",
+        "category": "fashion_beauty",
+        "subcategory": "perfume",
+        "source_name": "exist",
+        "source_link": "https://www.exist.com.tn/",
+        "brand": "exist",
+        "model": "",
+        "gender": "man",
+        "color": "na",
+        "material": "na",
+        "store": "yes",
+        "store_label": "Exist",
+        "store_description": "exist est une société commerciale qui opère dans le secteur de la vente en détail du prêt à porter pour hommes, chaussures et accessoires en ligne ou en boutique. dotée de 43 points de ventes.",
+        "delivery": "yes",
+        "delivery_description": "livraison sur toute la tunisie. livraison gratuite à partir de 120dt.",
+        "availability": "on_stock",
+        "clicks": 29,
+        "clicksExternal": 2,
+        "reviewsNumber": 0,
+        "reviewsValue": 0.0,
+        "priceTable": [
+          {
+            "date_price": "2025-02-27T01:12:33Z",
+            "price": 27.99
+          },
+          {
+            "date_price": "2025-02-22T01:25:07Z",
+            "price": 22.4
+          },
+          {
+            "date_price": "2025-02-20T01:32:32Z",
+            "price": 27.99
+          },
+          {
+            "date_price": "2025-02-15T01:22:23Z",
+            "price": 22.4
+          },
+          {
+            "date_price": "2025-01-07T13:21:24Z",
+            "price": 27.99
+          },
+          {
+            "date_price": "2024-12-04T01:19:03Z",
+            "price": 24.99
+          },
+          {
+            "date_price": "2024-11-23T13:15:28Z",
+            "price": 20.0
+          },
+          {
+            "date_price": "2024-09-17T13:39:02Z",
+            "price": 24.99
+          },
+          {
+            "date_price": "2024-09-14T11:55:26Z",
+            "price": 20.0
+          },
+          {
+            "date_price": "2024-08-27T01:59:00Z",
+            "price": 24.99
+          },
+          {
+            "date_price": "2024-08-24T01:32:46Z",
+            "price": 20.0
+          },
+          {
+            "date_price": "2024-06-22T14:19:51Z",
+            "price": 24.99
+          },
+          {
+            "date_price": "2024-06-15T18:16:02Z",
+            "price": 20.0
+          },
+          {
+            "date_price": "2024-02-20T01:12:52Z",
+            "price": 24.99
+          },
+          {
+            "date_price": "2024-02-17T01:11:33Z",
+            "price": 20.0
+          },
+          {
+            "date_price": "2024-02-16T01:15:40Z",
+            "price": 24.99
+          },
+          {
+            "date_price": "2024-02-14T01:14:46Z",
+            "price": 20.0
+          },
+          {
+            "date_price": "2023-12-13T01:12:54Z",
+            "price": 24.99
+          },
+          {
+            "date_price": "2023-11-21T01:02:18Z",
+            "price": 17.5
+          },
+          {
+            "date_price": "2023-11-02T01:14:09Z",
+            "price": 24.99
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2023-11-02T01:14:09Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/9a1a970ae643b38b83db9c7cbd39bf69.jpg",
+        "date_creation": "2023-11-02T01:14:09Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "Sweat",
+        "summary": "Sweat-shirt à manches longues en molleton doux et chaud. Il a une coupe confort fit ample et confortable. Le col, les poignets et la taille sont en côte élastique pour un ajustement optimal. Disponible en deux couleurs taupe et noir.",
+        "currency": "TND",
+        "price": 39.99,
+        "price_min": 32.0,
+        "price_max": 64.99,
+        "price_drop": -7.99,
+        "price_drop_percent": -24.969,
+        "price_week_changed": "yes",
+        "price_week_drop": 0.0,
+        "price_week_drop_percent": 0.0,
+        "price_deal": "no",
+        "price_hot_deal": "yes",
+        "price_top_deal": "yes",
+        "link": "https://www.exist.com.tn/sweats/5308-30827-pull.html#/1029-taille-s/5248-couleur-taupe5308",
+        "uniqueID": "7c1bd503d81d02163568cbf42778d20f",
+        "category": "fashion_beauty",
+        "subcategory": "fashion_beauty_clothes",
+        "source_name": "exist",
+        "source_link": "https://www.exist.com.tn/",
+        "brand": "na",
+        "model": "",
+        "gender": "man",
+        "color": "na",
+        "material": "na",
+        "store": "yes",
+        "store_label": "Exist",
+        "store_description": "exist est une société commerciale qui opère dans le secteur de la vente en détail du prêt à porter pour hommes, chaussures et accessoires en ligne ou en boutique. dotée de 43 points de ventes.",
+        "delivery": "yes",
+        "delivery_description": "livraison sur toute la tunisie. livraison gratuite à partir de 120dt.",
+        "availability": "on_stock",
+        "clicks": 27,
+        "clicksExternal": 1,
+        "reviewsNumber": 0,
+        "reviewsValue": 0,
+        "priceTable": [
+          {
+            "date_price": "2025-02-27T01:01:46Z",
+            "price": 39.99
+          },
+          {
+            "date_price": "2025-02-22T01:11:15Z",
+            "price": 32.0
+          },
+          {
+            "date_price": "2025-02-15T01:10:55Z",
+            "price": 39.99
+          },
+          {
+            "date_price": "2024-12-28T22:03:45Z",
+            "price": 49.99
+          },
+          {
+            "date_price": "2024-12-04T01:02:18Z",
+            "price": 64.99
+          },
+          {
+            "date_price": "2024-11-23T13:08:19Z",
+            "price": 45.5
+          },
+          {
+            "date_price": "2024-09-18T01:05:59Z",
+            "price": 64.99
+          },
+          {
+            "date_price": "2024-09-13T20:57:32Z",
+            "price": 52.0
+          },
+          {
+            "date_price": "2024-08-27T01:38:07Z",
+            "price": 64.99
+          },
+          {
+            "date_price": "2024-08-24T01:08:47Z",
+            "price": 52.0
+          },
+          {
+            "date_price": "2024-04-29T18:46:41Z",
+            "price": 64.99
+          },
+          {
+            "date_price": "2024-03-16T01:03:21Z",
+            "price": 52.0
+          },
+          {
+            "date_price": "2024-02-20T01:11:53Z",
+            "price": 64.99
+          },
+          {
+            "date_price": "2024-02-17T01:10:34Z",
+            "price": 52.0
+          },
+          {
+            "date_price": "2023-11-30T01:06:51Z",
+            "price": 64.99
+          },
+          {
+            "date_price": "2023-11-21T01:01:08Z",
+            "price": 45.5
+          },
+          {
+            "date_price": "2023-11-02T01:13:16Z",
+            "price": 52.0
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2023-11-02T01:13:16Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/7c1bd503d81d02163568cbf42778d20f.jpg",
+        "date_creation": "2023-11-02T01:13:16Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "2 Bracelets Couple",
+        "summary": "2 Bracelets Couple Avec Aimant Signe de votre Grand et Intense Amour Hyper Tendance en ce Moment.",
+        "currency": "TND",
+        "price": 12.0,
+        "price_min": 12,
+        "price_max": 12,
+        "price_drop": 0.0,
+        "price_drop_percent": 0.0,
+        "price_week_changed": "no",
+        "price_week_drop": 0,
+        "price_week_drop_percent": 0,
+        "price_deal": "no",
+        "price_hot_deal": "no",
+        "price_top_deal": "no",
+        "link": "https://chillandlit.tn/accueil/3632-2-bracelets-couple.html",
+        "uniqueID": "5c3d85e7194de246c7a83b21a0291a74",
+        "category": "fashion_beauty",
+        "subcategory": "jewelry",
+        "source_name": "chillandlit",
+        "source_link": "https://chillandlit.tn/",
+        "brand": "chillandlit",
+        "model": "",
+        "gender": "woman",
+        "color": "na",
+        "material": "na",
+        "store": "no",
+        "store_label": "Chill&Lit",
+        "store_description": "chill&lit est une boutique 100% en ligne de mode.",
+        "delivery": "yes",
+        "delivery_description": "livraison sur toute la tunisie.",
+        "availability": "on_stock",
+        "clicks": 23,
+        "clicksExternal": 12,
+        "reviewsNumber": 0,
+        "reviewsValue": 0.0,
+        "priceTable": [
+          {
+            "date_price": "2023-02-08T01:10:21Z",
+            "price": 12.0
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2023-02-08T01:10:21Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/5c3d85e7194de246c7a83b21a0291a74.jpg",
+        "date_creation": "2023-02-08T01:10:21Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "AZAL GOMMAGE VISAGE ET CORPS FRAISES 220 G",
+        "summary": "Une peau fraîche, nette, délicatement parfumée et son grain est affiné.",
+        "currency": "TND",
+        "price": 14.9,
+        "price_min": 14.9,
+        "price_max": 14.9,
+        "price_drop": 0.0,
+        "price_drop_percent": 0.0,
+        "price_week_changed": "no",
+        "price_week_drop": 0,
+        "price_week_drop_percent": 0,
+        "price_deal": "no",
+        "price_hot_deal": "no",
+        "price_top_deal": "no",
+        "link": "https://pharma-shop.tn/corps/11888-azal-gommage-pour-visage-et-corps-fraises-6193608503029.html",
+        "uniqueID": "d23d4abf0cc9dce11490618b8165fe45",
+        "category": "fashion_beauty",
+        "subcategory": "body_care",
+        "source_name": "pharma_shop",
+        "source_link": "https://www.pharma-shop.tn/",
+        "brand": "azal",
+        "model": "",
+        "gender": "woman",
+        "color": "na",
+        "material": "na",
+        "store": "no",
+        "store_label": "Pharma shop",
+        "store_description": "vous trouverez chez pharma-shop.tn touts vos produits parapharmaceutique (santé, beauté, minceur, et bien être) aux prix défiant toutes concurrences et toutes les marques parapharmaceutiques",
+        "delivery": "yes",
+        "delivery_description": "grand tunis (tunis, ariana, ben arous et la manouba): 2,900 dt  ( la livraison est gratuite pour toute commande sup à 99 dt ). tout le reste du territoire tunisien : 4,700 dt   ( la livraison est gratuite pour toute commande sup à 99 dt )",
+        "availability": "on_stock",
+        "clicks": 22,
+        "clicksExternal": 1,
+        "reviewsNumber": 0,
+        "reviewsValue": 0.0,
+        "priceTable": [
+          {
+            "date_price": "2023-12-20T01:05:16Z",
+            "price": 14.9
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2023-12-20T01:05:16Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/d23d4abf0cc9dce11490618b8165fe45.jpg",
+        "date_creation": "2023-12-20T01:05:16Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "Survêtement Femme Jogging",
+        "summary": "Survêtement Femme Pantalon Large Molletonné non Gratté + T-shirt Demi Manches avec Impression Graphique Femme Molletonné non Gratté Super Tendance cet Hiver. Le Mannequin Porte La Taille M et Mesure 1m78.",
+        "currency": "TND",
+        "price": 59.0,
+        "price_min": 59.0,
+        "price_max": 89.9,
+        "price_drop": 20.0,
+        "price_drop_percent": 25.316,
+        "price_week_changed": "no",
+        "price_week_drop": 0,
+        "price_week_drop_percent": 0,
+        "price_deal": "yes",
+        "price_hot_deal": "no",
+        "price_top_deal": "yes",
+        "link": "https://chillandlit.tn/accueil/7917-survetement-femme-jogging.html",
+        "uniqueID": "09cd810a04f596a9e1fc238e5d128c1e",
+        "category": "fashion_beauty",
+        "subcategory": "fashion_beauty_clothes",
+        "source_name": "chillandlit",
+        "source_link": "https://chillandlit.tn/",
+        "brand": "chillandlit",
+        "model": "",
+        "gender": "woman",
+        "color": "na",
+        "material": "na",
+        "store": "no",
+        "store_label": "Chill&Lit",
+        "store_description": "chill&lit est une boutique 100% en ligne de mode.",
+        "delivery": "yes",
+        "delivery_description": "livraison sur toute la tunisie.",
+        "availability": "on_stock",
+        "clicks": 21,
+        "clicksExternal": 1,
+        "reviewsNumber": 0,
+        "reviewsValue": 0,
+        "priceTable": [
+          {
+            "date_price": "2025-02-14T01:05:17Z",
+            "price": 59.0
+          },
+          {
+            "date_price": "2025-01-16T13:10:52Z",
+            "price": 79.0
+          },
+          {
+            "date_price": "2024-12-03T01:02:34Z",
+            "price": 89.9
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2024-12-03T01:02:34Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/09cd810a04f596a9e1fc238e5d128c1e.jpg",
+        "date_creation": "2024-12-03T01:02:34Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "Ensemble Jogging Femme",
+        "summary": "Ensemble Jogging Femme Gilet+Pantalon Large Taille Haute Super Tendance cet Hiver. Le Mannequin Porte La Taille 42 et Mesure 1m78.",
+        "currency": "TND",
+        "price": 49.0,
+        "price_min": 49.0,
+        "price_max": 65,
+        "price_drop": 10.9,
+        "price_drop_percent": 18.197,
+        "price_week_changed": "no",
+        "price_week_drop": 0,
+        "price_week_drop_percent": 0,
+        "price_deal": "yes",
+        "price_hot_deal": "no",
+        "price_top_deal": "yes",
+        "link": "https://chillandlit.tn/accueil/5521-ensemble-jogging-femme.html",
+        "uniqueID": "c9ef7d87ec4444fe7c8cb56ec24ae910",
+        "category": "fashion_beauty",
+        "subcategory": "fashion_beauty_clothes",
+        "source_name": "chillandlit",
+        "source_link": "https://chillandlit.tn/",
+        "brand": "chillandlit",
+        "model": "",
+        "gender": "woman",
+        "color": "na",
+        "material": "na",
+        "store": "no",
+        "store_label": "Chill&Lit",
+        "store_description": "chill&lit est une boutique 100% en ligne de mode.",
+        "delivery": "yes",
+        "delivery_description": "livraison sur toute la tunisie.",
+        "availability": "on_stock",
+        "clicks": 20,
+        "clicksExternal": 10,
+        "reviewsNumber": 0,
+        "reviewsValue": 0.0,
+        "priceTable": [
+          {
+            "date_price": "2025-02-14T01:05:40Z",
+            "price": 49.0
+          },
+          {
+            "date_price": "2024-11-29T01:02:33Z",
+            "price": 59.9
+          },
+          {
+            "date_price": "2024-02-01T01:14:35Z",
+            "price": 54.0
+          },
+          {
+            "date_price": "2024-01-04T01:06:05Z",
+            "price": 59.9
+          },
+          {
+            "date_price": "2023-12-01T01:06:31Z",
+            "price": 65.0
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2023-12-01T01:06:31Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/c9ef7d87ec4444fe7c8cb56ec24ae910.jpg",
+        "date_creation": "2023-12-01T01:06:31Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "Kontakt – T-shirt col rond pour homme en coton pur – Noir",
+        "summary": "T-shirt col rond homme en coton bio",
+        "currency": "TND",
+        "price": 16.9,
+        "price_min": 16.9,
+        "price_max": 16.9,
+        "price_drop": 0.0,
+        "price_drop_percent": 0.0,
+        "price_week_changed": "no",
+        "price_week_drop": 0,
+        "price_week_drop_percent": 0,
+        "price_deal": "no",
+        "price_hot_deal": "no",
+        "price_top_deal": "no",
+        "link": "https://www.drest.tn/product/kontakt-t-shirt-col-rond-pour-homme-en-coton-pur-noir-0501002121K040/",
+        "uniqueID": "05bbffd41982f98842a5ada12cf2d05c",
+        "category": "fashion_beauty",
+        "subcategory": "fashion_beauty_clothes",
+        "source_name": "drest",
+        "source_link": "https://www.drest.tn/",
+        "brand": "kontakt",
+        "model": "",
+        "gender": "man",
+        "color": "noir",
+        "material": "coton",
+        "store": "no",
+        "store_label": "Drest",
+        "store_description": "drest est une boutique en ligne du prêt à porter et de la mode.",
+        "delivery": "yes",
+        "delivery_description": "livraison sur toute la tunisie. livraison gratuite à partir de 189dt.",
+        "availability": "on_stock",
+        "clicks": 19,
+        "clicksExternal": 1,
+        "reviewsNumber": 0,
+        "reviewsValue": 0.0,
+        "priceTable": [
+          {
+            "date_price": "2024-05-25T20:21:39Z",
+            "price": 16.9
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2024-05-25T20:21:39Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/05bbffd41982f98842a5ada12cf2d05c.jpg",
+        "date_creation": "2024-05-25T20:21:39Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "Brodequins",
+        "summary": "Ces brodequins pour homme sont fabriquées en cuir marron de haute qualité et possèdent une plateforme crantée qui leur donne un style moderne et audacieux. Elles sont dotées d'un bout rond confortable et d'un laçage à 7 œillets qui assure un bon maintien du pied. Ces bottes sont idéales pour affirmer votre personnalité et compléter votre look avec élégance.",
+        "currency": "TND",
+        "price": 159.99,
+        "price_min": 128.0,
+        "price_max": 239.99,
+        "price_drop": -31.99,
+        "price_drop_percent": -24.992,
+        "price_week_changed": "yes",
+        "price_week_drop": 0.0,
+        "price_week_drop_percent": 0.0,
+        "price_deal": "no",
+        "price_hot_deal": "yes",
+        "price_top_deal": "yes",
+        "link": "https://www.exist.com.tn/boots/5531-32150-boots.html#/1144-taille-40/5482-couleur-marron5531",
+        "uniqueID": "d2e6f6b6f58587085c6a12650ce6adae",
+        "category": "fashion_beauty",
+        "subcategory": "fashion_beauty_shoes",
+        "source_name": "exist",
+        "source_link": "https://www.exist.com.tn/",
+        "brand": "na",
+        "model": "",
+        "gender": "man",
+        "color": "na",
+        "material": "cuir",
+        "store": "yes",
+        "store_label": "Exist",
+        "store_description": "exist est une société commerciale qui opère dans le secteur de la vente en détail du prêt à porter pour hommes, chaussures et accessoires en ligne ou en boutique. dotée de 43 points de ventes.",
+        "delivery": "yes",
+        "delivery_description": "livraison sur toute la tunisie. livraison gratuite à partir de 120dt.",
+        "availability": "on_stock",
+        "clicks": 19,
+        "clicksExternal": 0,
+        "reviewsNumber": 0,
+        "reviewsValue": 0,
+        "priceTable": [
+          {
+            "date_price": "2025-02-27T01:04:33Z",
+            "price": 159.99
+          },
+          {
+            "date_price": "2025-02-22T01:22:23Z",
+            "price": 128.0
+          },
+          {
+            "date_price": "2025-02-15T01:19:20Z",
+            "price": 159.99
+          },
+          {
+            "date_price": "2024-12-29T22:11:06Z",
+            "price": 179.99
+          },
+          {
+            "date_price": "2024-12-04T01:10:35Z",
+            "price": 239.99
+          },
+          {
+            "date_price": "2024-11-23T13:09:01Z",
+            "price": 168.0
+          },
+          {
+            "date_price": "2024-09-17T13:35:09Z",
+            "price": 239.99
+          },
+          {
+            "date_price": "2024-09-14T11:14:44Z",
+            "price": 192.0
+          },
+          {
+            "date_price": "2024-08-27T01:54:17Z",
+            "price": 239.99
+          },
+          {
+            "date_price": "2024-08-24T01:28:21Z",
+            "price": 192.0
+          },
+          {
+            "date_price": "2024-02-20T01:12:40Z",
+            "price": 239.99
+          },
+          {
+            "date_price": "2024-02-17T01:11:21Z",
+            "price": 192.0
+          },
+          {
+            "date_price": "2024-02-15T01:07:35Z",
+            "price": 239.99
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2024-02-15T01:07:35Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/d2e6f6b6f58587085c6a12650ce6adae.jpg",
+        "date_creation": "2024-02-15T01:07:35Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "Veste",
+        "summary": "Cette veste universitaire pour homme allie confort et tendance avec ses manches blanches et son corps beige. Dotée d’un col côtelé, d’un zip frontal et de détails brodés \"New York 1997\", elle est parfaite pour un look casual et moderne. Idéale pour toutes les saisons, elle se porte facilement avec un jean ou un pantalon décontracté.",
+        "currency": "TND",
+        "price": 149.99,
+        "price_min": 120.0,
+        "price_max": 199.99,
+        "price_drop": -29.99,
+        "price_drop_percent": -24.992,
+        "price_week_changed": "yes",
+        "price_week_drop": 0.0,
+        "price_week_drop_percent": 0.0,
+        "price_deal": "no",
+        "price_hot_deal": "yes",
+        "price_top_deal": "yes",
+        "link": "https://www.exist.com.tn/blousons/6145-36131-blouson.html#/1057-taille-xs/6201-couleur-ver_blca6145",
+        "uniqueID": "4dc4950142829f5128e55f14029f85ed",
+        "category": "fashion_beauty",
+        "subcategory": "outwear",
+        "source_name": "exist",
+        "source_link": "https://www.exist.com.tn/",
+        "brand": "na",
+        "model": "",
+        "gender": "man",
+        "color": "na",
+        "material": "na",
+        "store": "yes",
+        "store_label": "Exist",
+        "store_description": "exist est une société commerciale qui opère dans le secteur de la vente en détail du prêt à porter pour hommes, chaussures et accessoires en ligne ou en boutique. dotée de 43 points de ventes.",
+        "delivery": "yes",
+        "delivery_description": "livraison sur toute la tunisie. livraison gratuite à partir de 120dt.",
+        "availability": "on_stock",
+        "clicks": 18,
+        "clicksExternal": 1,
+        "reviewsNumber": 0,
+        "reviewsValue": 0,
+        "priceTable": [
+          {
+            "date_price": "2025-02-27T01:02:08Z",
+            "price": 149.99
+          },
+          {
+            "date_price": "2025-02-22T01:16:25Z",
+            "price": 120.0
+          },
+          {
+            "date_price": "2025-02-20T01:29:32Z",
+            "price": 149.99
+          },
+          {
+            "date_price": "2025-02-16T01:13:23Z",
+            "price": 120.0
+          },
+          {
+            "date_price": "2025-01-25T01:12:29Z",
+            "price": 159.99
+          },
+          {
+            "date_price": "2024-12-04T01:03:01Z",
+            "price": 199.99
+          },
+          {
+            "date_price": "2024-11-27T13:03:01Z",
+            "price": 140.0
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2024-11-27T13:03:01Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/4dc4950142829f5128e55f14029f85ed.jpg",
+        "date_creation": "2024-11-27T13:03:01Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "T-shirt",
+        "summary": "Ce t-shirt semble être le choix parfait pour ceux qui aiment la détente et l'aventure. Avec son design \"sunset chaser\" sur le devant et \"Hawaii\" en bleu turquoise au dos, il capture l'esprit des soirées d'été sur la plage et des journées ensoleillées. Le jersey de coton assure un confort optimal, tandis que la coupe confort fit le rend idéal pour une utilisation quotidienne.",
+        "currency": "TND",
+        "price": 19.99,
+        "price_min": 16.0,
+        "price_max": 39.99,
+        "price_drop": -3.99,
+        "price_drop_percent": -24.938,
+        "price_week_changed": "yes",
+        "price_week_drop": 0.0,
+        "price_week_drop_percent": 0.0,
+        "price_deal": "no",
+        "price_hot_deal": "no",
+        "price_top_deal": "no",
+        "link": "https://www.exist.com.tn/t-shirts/5646-32763-t-shirt.html#/1031-taille-l/5613-couleur-blanc5646",
+        "uniqueID": "861b90b9f625255a52edc792575d1444",
+        "category": "fashion_beauty",
+        "subcategory": "fashion_beauty_clothes",
+        "source_name": "exist",
+        "source_link": "https://www.exist.com.tn/",
+        "brand": "na",
+        "model": "",
+        "gender": "man",
+        "color": "na",
+        "material": "na",
+        "store": "yes",
+        "store_label": "Exist",
+        "store_description": "exist est une société commerciale qui opère dans le secteur de la vente en détail du prêt à porter pour hommes, chaussures et accessoires en ligne ou en boutique. dotée de 43 points de ventes.",
+        "delivery": "yes",
+        "delivery_description": "livraison sur toute la tunisie. livraison gratuite à partir de 120dt.",
+        "availability": "on_stock",
+        "clicks": 17,
+        "clicksExternal": 0,
+        "reviewsNumber": 0,
+        "reviewsValue": 0.0,
+        "priceTable": [
+          {
+            "date_price": "2025-02-27T01:01:44Z",
+            "price": 19.99
+          },
+          {
+            "date_price": "2025-02-22T01:11:13Z",
+            "price": 16.0
+          },
+          {
+            "date_price": "2024-08-31T01:17:18Z",
+            "price": 19.99
+          },
+          {
+            "date_price": "2024-08-27T01:10:40Z",
+            "price": 29.99
+          },
+          {
+            "date_price": "2024-08-24T01:08:15Z",
+            "price": 24.0
+          },
+          {
+            "date_price": "2024-07-26T01:01:24Z",
+            "price": 29.99
+          },
+          {
+            "date_price": "2024-06-22T14:14:52Z",
+            "price": 39.99
+          },
+          {
+            "date_price": "2024-06-08T01:07:14Z",
+            "price": 32.0
+          },
+          {
+            "date_price": "2024-04-29T18:46:29Z",
+            "price": 39.99
+          },
+          {
+            "date_price": "2024-04-08T01:01:36Z",
+            "price": 32.0
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2024-04-08T01:01:36Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/861b90b9f625255a52edc792575d1444.jpg",
+        "date_creation": "2024-04-08T01:01:36Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "BIO ORIENT HUILE DE PEPIN DE RAISIN 90ML",
+        "summary": "BIO ORIENT Huile de pépin de raisin 90ML",
+        "currency": "TND",
+        "price": 9.248,
+        "price_min": 9.215,
+        "price_max": 9.248,
+        "price_drop": -0.033,
+        "price_drop_percent": -0.358,
+        "price_week_changed": "no",
+        "price_week_drop": 0,
+        "price_week_drop_percent": 0,
+        "price_deal": "no",
+        "price_hot_deal": "no",
+        "price_top_deal": "no",
+        "link": "https://pharma-shop.tn/huiles-vegetales/1835-bio-orient-huile-de-pepin-de-raisin-90ml-6191450600613.html",
+        "uniqueID": "866a184973c41849f331efddbe6c8ebc",
+        "category": "fashion_beauty",
+        "subcategory": "body_care",
+        "source_name": "pharma_shop",
+        "source_link": "https://www.pharma-shop.tn/",
+        "brand": "bio_orient",
+        "model": "",
+        "gender": "woman",
+        "color": "na",
+        "material": "na",
+        "store": "no",
+        "store_label": "Pharma shop",
+        "store_description": "vous trouverez chez pharma-shop.tn touts vos produits parapharmaceutique (santé, beauté, minceur, et bien être) aux prix défiant toutes concurrences et toutes les marques parapharmaceutiques",
+        "delivery": "yes",
+        "delivery_description": "grand tunis (tunis, ariana, ben arous et la manouba): 2,900 dt  ( la livraison est gratuite pour toute commande sup à 99 dt ). tout le reste du territoire tunisien : 4,700 dt   ( la livraison est gratuite pour toute commande sup à 99 dt )",
+        "availability": "on_stock",
+        "clicks": 16,
+        "clicksExternal": 0,
+        "reviewsNumber": 0,
+        "reviewsValue": 0.0,
+        "priceTable": [
+          {
+            "date_price": "2024-02-27T02:20:41Z",
+            "price": 9.248
+          },
+          {
+            "date_price": "2022-06-18T01:50:05Z",
+            "price": 9.215
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2022-06-18T01:50:05Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/866a184973c41849f331efddbe6c8ebc.jpg",
+        "date_creation": "2022-06-18T01:50:05Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "Montre Unisexe Casio F-91WM-9ADF",
+        "summary": "Montre Unisexe Casio F-91WM-9ADF Forme du cadran: Carré Largeur de boitier : 35.2 mm Couleur de cadran : Noir Ecran digital : Fonctionnel Couleur de boitier : Doré Matière de boitier: Résine Couleur bracelet : Noir Matière de bracelet : Silicone Résistance à l'eau : 5 ATM Garantie : 2 ans",
+        "currency": "TND",
+        "price": 71.1,
+        "price_min": 71.1,
+        "price_max": 71.1,
+        "price_drop": 0.0,
+        "price_drop_percent": 0.0,
+        "price_week_changed": "no",
+        "price_week_drop": 0,
+        "price_week_drop_percent": 0,
+        "price_deal": "no",
+        "price_hot_deal": "no",
+        "price_top_deal": "no",
+        "link": "https://citywatch.com.tn/accueil/13656-casio-f-91wm-9adf.html",
+        "uniqueID": "941c980ec5f7717388b046670b88c24d",
+        "category": "fashion_beauty",
+        "subcategory": "watches",
+        "source_name": "citywatch",
+        "source_link": "https://citywatch.com.tn/",
+        "brand": "casio",
+        "model": "",
+        "gender": "man",
+        "color": "na",
+        "material": "na",
+        "store": "yes",
+        "store_label": "City Watch",
+        "store_description": "en plus du site en ligne, city watch possède des boutiques (tunis, sousse, monastir, kairouan, gabes et djerba).",
+        "delivery": "yes",
+        "delivery_description": "les colis sont généralement expédiés dans un délai de 48h. livraison gratuite pour les commandes plus que 50dt entre 24h et 48h.",
+        "availability": "on_stock",
+        "clicks": 16,
+        "clicksExternal": 2,
+        "reviewsNumber": 0,
+        "reviewsValue": 0.0,
+        "priceTable": [
+          {
+            "date_price": "2024-10-22T13:30:28Z",
+            "price": 71.1
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2024-10-22T13:30:28Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/941c980ec5f7717388b046670b88c24d.jpg",
+        "date_creation": "2024-10-22T13:30:28Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "BEURER HR 7000 RASOIR RECHARGEABLE A GRILLE ET LAME TRIPLE",
+        "summary": "HR 7000",
+        "currency": "TND",
+        "price": 165.913,
+        "price_min": 165.913,
+        "price_max": 165.913,
+        "price_drop": 0.0,
+        "price_drop_percent": 0.0,
+        "price_week_changed": "no",
+        "price_week_drop": 0,
+        "price_week_drop_percent": 0,
+        "price_deal": "no",
+        "price_hot_deal": "no",
+        "price_top_deal": "no",
+        "link": "https://pharma-shop.tn/rasage-apres-rasage/14094-beurer-hr-7000-rasoir-rechargeable-a-grille-et-lame-triple-4211125580070.html",
+        "uniqueID": "b05cbc62842f00137a58bf36404d5ea1",
+        "category": "fashion_beauty",
+        "subcategory": "body_care",
+        "source_name": "pharma_shop",
+        "source_link": "https://www.pharma-shop.tn/",
+        "brand": "beurer",
+        "model": "",
+        "gender": "man",
+        "color": "na",
+        "material": "na",
+        "store": "no",
+        "store_label": "Pharma shop",
+        "store_description": "vous trouverez chez pharma-shop.tn touts vos produits parapharmaceutique (santé, beauté, minceur, et bien être) aux prix défiant toutes concurrences et toutes les marques parapharmaceutiques",
+        "delivery": "yes",
+        "delivery_description": "grand tunis (tunis, ariana, ben arous et la manouba): 2,900 dt  ( la livraison est gratuite pour toute commande sup à 99 dt ). tout le reste du territoire tunisien : 4,700 dt   ( la livraison est gratuite pour toute commande sup à 99 dt )",
+        "availability": "on_stock",
+        "clicks": 15,
+        "clicksExternal": 0,
+        "reviewsNumber": 0,
+        "reviewsValue": 0.0,
+        "priceTable": [
+          {
+            "date_price": "2024-04-23T01:34:10Z",
+            "price": 165.913
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2024-04-23T01:34:10Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/b05cbc62842f00137a58bf36404d5ea1.jpg",
+        "date_creation": "2024-04-23T01:34:10Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "Lunette",
+        "summary": "Ces lunettes solaires sont conçues pour vous offrir une protection optimale contre les rayons du soleil. Elles possèdent une monture métallique, qui s'adapte à la forme de votre visage. Les verres sont de couleur vert . Le verre de forme shield couvre tout le champ de vision. Ces lunettes de soleil sont idéales pour les activités en plein air, comme la randonnée, ou le vélo.",
+        "currency": "TND",
+        "price": 29.99,
+        "price_min": 24.0,
+        "price_max": 89.99,
+        "price_drop": -5.99,
+        "price_drop_percent": -24.958,
+        "price_week_changed": "yes",
+        "price_week_drop": 0.0,
+        "price_week_drop_percent": 0.0,
+        "price_deal": "no",
+        "price_hot_deal": "yes",
+        "price_top_deal": "yes",
+        "link": "https://www.exist.com.tn/lunettes/5018-28426-lunette.html#/1312-taille-var/4854-couleur-00vvert5018",
+        "uniqueID": "155810f138e48934e70f2847faf21595",
+        "category": "fashion_beauty",
+        "subcategory": "glasses",
+        "source_name": "exist",
+        "source_link": "https://www.exist.com.tn/",
+        "brand": "na",
+        "model": "",
+        "gender": "man",
+        "color": "na",
+        "material": "na",
+        "store": "yes",
+        "store_label": "Exist",
+        "store_description": "exist est une société commerciale qui opère dans le secteur de la vente en détail du prêt à porter pour hommes, chaussures et accessoires en ligne ou en boutique. dotée de 43 points de ventes.",
+        "delivery": "yes",
+        "delivery_description": "livraison sur toute la tunisie. livraison gratuite à partir de 120dt.",
+        "availability": "on_stock",
+        "clicks": 15,
+        "clicksExternal": 0,
+        "reviewsNumber": 0,
+        "reviewsValue": 0,
+        "priceTable": [
+          {
+            "date_price": "2025-02-27T01:05:39Z",
+            "price": 29.99
+          },
+          {
+            "date_price": "2025-02-22T01:23:30Z",
+            "price": 24.0
+          },
+          {
+            "date_price": "2025-02-15T01:21:10Z",
+            "price": 29.99
+          },
+          {
+            "date_price": "2024-12-04T01:14:52Z",
+            "price": 49.99
+          },
+          {
+            "date_price": "2024-11-23T13:10:26Z",
+            "price": 45.0
+          },
+          {
+            "date_price": "2024-08-27T01:57:05Z",
+            "price": 49.99
+          },
+          {
+            "date_price": "2024-08-24T01:30:01Z",
+            "price": 40.0
+          },
+          {
+            "date_price": "2024-07-26T01:09:20Z",
+            "price": 49.99
+          },
+          {
+            "date_price": "2024-06-22T14:19:52Z",
+            "price": 89.99
+          },
+          {
+            "date_price": "2024-06-08T01:08:00Z",
+            "price": 45.0
+          },
+          {
+            "date_price": "2024-02-20T01:12:44Z",
+            "price": 49.99
+          },
+          {
+            "date_price": "2024-02-17T01:11:25Z",
+            "price": 40.0
+          },
+          {
+            "date_price": "2024-01-23T01:06:12Z",
+            "price": 49.99
+          },
+          {
+            "date_price": "2023-11-30T01:07:45Z",
+            "price": 89.99
+          },
+          {
+            "date_price": "2023-11-21T01:02:08Z",
+            "price": 63.0
+          },
+          {
+            "date_price": "2023-06-28T01:08:12Z",
+            "price": 89.99
+          },
+          {
+            "date_price": "2023-06-18T01:12:14Z",
+            "price": 72.0
+          },
+          {
+            "date_price": "2023-06-01T01:07:33Z",
+            "price": 89.99
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2023-06-01T01:07:33Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/155810f138e48934e70f2847faf21595.jpg",
+        "date_creation": "2023-06-01T01:07:33Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "Montre",
+        "summary": "Montre avec bracelet en caoutchouc noir avec mouvement quartz 3 aiguilles, composée d'un boitier acier de 38 mm, d'un cadran gris coeur ouvert.",
+        "currency": "TND",
+        "price": 89.99,
+        "price_min": 63,
+        "price_max": 89.99,
+        "price_drop": -17.99,
+        "price_drop_percent": -24.986,
+        "price_week_changed": "yes",
+        "price_week_drop": 0.0,
+        "price_week_drop_percent": 0.0,
+        "price_deal": "no",
+        "price_hot_deal": "no",
+        "price_top_deal": "no",
+        "link": "https://www.exist.com.tn/montres/5012-28397-montre.html#/1312-taille-var/4848-couleur-005noir5012",
+        "uniqueID": "76b682bde3835c5bd8cbf2551206e664",
+        "category": "fashion_beauty",
+        "subcategory": "watches",
+        "source_name": "exist",
+        "source_link": "https://www.exist.com.tn/",
+        "brand": "na",
+        "model": "",
+        "gender": "man",
+        "color": "na",
+        "material": "acier",
+        "store": "yes",
+        "store_label": "Exist",
+        "store_description": "exist est une société commerciale qui opère dans le secteur de la vente en détail du prêt à porter pour hommes, chaussures et accessoires en ligne ou en boutique. dotée de 43 points de ventes.",
+        "delivery": "yes",
+        "delivery_description": "livraison sur toute la tunisie. livraison gratuite à partir de 120dt.",
+        "availability": "on_stock",
+        "clicks": 15,
+        "clicksExternal": 7,
+        "reviewsNumber": 0,
+        "reviewsValue": 0.0,
+        "priceTable": [
+          {
+            "date_price": "2025-02-27T01:10:30Z",
+            "price": 89.99
+          },
+          {
+            "date_price": "2025-02-22T01:24:16Z",
+            "price": 72.0
+          },
+          {
+            "date_price": "2025-02-20T01:28:47Z",
+            "price": 89.99
+          },
+          {
+            "date_price": "2025-02-15T01:22:18Z",
+            "price": 72.0
+          },
+          {
+            "date_price": "2024-12-04T01:16:50Z",
+            "price": 89.99
+          },
+          {
+            "date_price": "2024-11-23T13:12:03Z",
+            "price": 63.0
+          },
+          {
+            "date_price": "2024-09-17T13:38:01Z",
+            "price": 89.99
+          },
+          {
+            "date_price": "2024-09-14T11:52:53Z",
+            "price": 72.0
+          },
+          {
+            "date_price": "2024-08-27T01:57:10Z",
+            "price": 89.99
+          },
+          {
+            "date_price": "2024-08-24T01:31:18Z",
+            "price": 72.0
+          },
+          {
+            "date_price": "2024-06-22T14:19:19Z",
+            "price": 89.99
+          },
+          {
+            "date_price": "2024-06-15T18:15:35Z",
+            "price": 72.0
+          },
+          {
+            "date_price": "2024-02-20T01:12:49Z",
+            "price": 89.99
+          },
+          {
+            "date_price": "2024-02-17T01:11:29Z",
+            "price": 72.0
+          },
+          {
+            "date_price": "2024-02-16T01:15:37Z",
+            "price": 89.99
+          },
+          {
+            "date_price": "2024-02-14T01:14:42Z",
+            "price": 72.0
+          },
+          {
+            "date_price": "2023-11-30T01:07:48Z",
+            "price": 89.99
+          },
+          {
+            "date_price": "2023-11-21T01:02:12Z",
+            "price": 63.0
+          },
+          {
+            "date_price": "2023-06-28T01:08:15Z",
+            "price": 89.99
+          },
+          {
+            "date_price": "2023-06-18T01:12:16Z",
+            "price": 72.0
+          },
+          {
+            "date_price": "2023-05-24T01:12:07Z",
+            "price": 89.99
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2023-05-24T01:12:07Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/76b682bde3835c5bd8cbf2551206e664.jpg",
+        "date_creation": "2023-05-24T01:12:07Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "AZAL CREME PROTECTRICE CHEVEUX,100ML \"PRO PROTECTION\"",
+        "summary": "La Crème Protectrice pour Cheveux \"Pro Protection\" de Azal est spécialement conçue pour les cheveux naturels, colorés et lissés à la kératine/protéine.",
+        "currency": "TND",
+        "price": 12.9,
+        "price_min": 12.9,
+        "price_max": 12.9,
+        "price_drop": 0.0,
+        "price_drop_percent": 0.0,
+        "price_week_changed": "no",
+        "price_week_drop": 0,
+        "price_week_drop_percent": 0,
+        "price_deal": "no",
+        "price_hot_deal": "no",
+        "price_top_deal": "no",
+        "link": "https://pharma-shop.tn/cheveux/13480-azal-creme-protectrice-cheveux100ml-pro-protection-6193608503432.html",
+        "uniqueID": "e56151d18d2066a7d7aa8d4ca03c8532",
+        "category": "fashion_beauty",
+        "subcategory": "body_care",
+        "source_name": "pharma_shop",
+        "source_link": "https://www.pharma-shop.tn/",
+        "brand": "azal",
+        "model": "",
+        "gender": "woman",
+        "color": "na",
+        "material": "na",
+        "store": "no",
+        "store_label": "Pharma shop",
+        "store_description": "vous trouverez chez pharma-shop.tn touts vos produits parapharmaceutique (santé, beauté, minceur, et bien être) aux prix défiant toutes concurrences et toutes les marques parapharmaceutiques",
+        "delivery": "yes",
+        "delivery_description": "grand tunis (tunis, ariana, ben arous et la manouba): 2,900 dt  ( la livraison est gratuite pour toute commande sup à 99 dt ). tout le reste du territoire tunisien : 4,700 dt   ( la livraison est gratuite pour toute commande sup à 99 dt )",
+        "availability": "on_stock",
+        "clicks": 15,
+        "clicksExternal": 0,
+        "reviewsNumber": 0,
+        "reviewsValue": 0.0,
+        "priceTable": [
+          {
+            "date_price": "2023-11-30T01:36:12Z",
+            "price": 12.9
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2023-11-30T01:36:12Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/e56151d18d2066a7d7aa8d4ca03c8532.jpg",
+        "date_creation": "2023-11-30T01:36:12Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "Plaque Cheveux Babyliss Céramique Smooth Glide 230 (ST240E)",
+        "summary": "Plaque cheveux Babyliss - Réf : ST240E - Plaques en céramique - Jusqu'à 230°C - Chauffe rapide - Revêtement céramique 3 températures - Jusqu'à 230°C Voltage universel - Longeur du cordon 200 cm - Arrét automatique - Tapis thermoésistant - Montée de température Prêt en 30 secondes - Longueur des cheveux: Mi-longs et longs - Dimensions: 25 x 95 m - Couleur : Noir - Garantie : 1 an",
+        "currency": "TND",
+        "price": 149.0,
+        "price_min": 125,
+        "price_max": 158,
+        "price_drop": 9.0,
+        "price_drop_percent": 5.696,
+        "price_week_changed": "no",
+        "price_week_drop": 0,
+        "price_week_drop_percent": 0,
+        "price_deal": "yes",
+        "price_hot_deal": "no",
+        "price_top_deal": "no",
+        "link": "https://www.technopro-online.com/lisseur-babyliss-ceramique-smooth-glide-230-st240e.html",
+        "uniqueID": "cd36c3a2a400d162666b25b6f5c7e7d0",
+        "category": "fashion_beauty",
+        "subcategory": "care_machines",
+        "source_name": "technopro_online",
+        "source_link": "https://www.technopro-online.com/",
+        "brand": "babyliss",
+        "model": "",
+        "gender": "woman",
+        "color": "na",
+        "material": "na",
+        "store": "yes",
+        "store_label": "Oxtek",
+        "store_description": "oxtek est spécialisé dans la vente en ligne de matériel informatique. boutique et ecommerce platforme.",
+        "delivery": "yes",
+        "delivery_description": "livraison sur toute la tunisie. livraison gratuite à partir de 300dt.",
+        "availability": "on_stock",
+        "clicks": 15,
+        "clicksExternal": 1,
+        "reviewsNumber": 0,
+        "reviewsValue": 0.0,
+        "priceTable": [
+          {
+            "date_price": "2023-11-04T01:39:24Z",
+            "price": 149.0
+          },
+          {
+            "date_price": "2023-07-01T01:32:15Z",
+            "price": 158.0
+          },
+          {
+            "date_price": "2023-03-14T01:33:26Z",
+            "price": 149.0
+          },
+          {
+            "date_price": "2023-03-05T01:21:50Z",
+            "price": 126.0
+          },
+          {
+            "date_price": "2022-01-28T01:29:07Z",
+            "price": 129.0
+          },
+          {
+            "date_price": "2021-12-24T01:33:48Z",
+            "price": 125.0
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2023-11-04T01:39:24Z",
+            "availability": "on_stock"
+          },
+          {
+            "date_availability": "2023-03-05T01:21:50Z",
+            "availability": "on_command"
+          },
+          {
+            "date_availability": "2022-10-10T01:25:12Z",
+            "availability": "out_of_stock"
+          },
+          {
+            "date_availability": "2022-09-13T01:35:22Z",
+            "availability": "on_stock"
+          },
+          {
+            "date_availability": "2022-09-08T01:26:36Z",
+            "availability": "out_of_stock"
+          },
+          {
+            "date_availability": "2022-09-07T01:25:51Z",
+            "availability": "on_stock"
+          },
+          {
+            "date_availability": "2022-07-30T01:22:17Z",
+            "availability": "out_of_stock"
+          },
+          {
+            "date_availability": "2021-12-24T01:33:48Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/cd36c3a2a400d162666b25b6f5c7e7d0.jpg",
+        "date_creation": "2021-12-24T01:33:48Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "SVR TOPIALYSE GEL LAVANT FLACON POMPE 1L",
+        "summary": "Topialyse gel lavant nettoie en douceur et protège la peau des facteurs desséchants. Sa formule apaisante et hydratante 24h réduit les sensations de grattages et adoucie la peau pour un confort immédiat et longue durée.",
+        "currency": "TND",
+        "price": 35.669,
+        "price_min": 35.669,
+        "price_max": 37.498,
+        "price_drop": 0.001,
+        "price_drop_percent": 0.003,
+        "price_week_changed": "no",
+        "price_week_drop": 0,
+        "price_week_drop_percent": 0,
+        "price_deal": "no",
+        "price_hot_deal": "no",
+        "price_top_deal": "no",
+        "link": "https://pharma-shop.tn/gel-creme-huile/2091-svr-topialyse-gel-lavant-flacon-pompe-1l-3662361001866.html",
+        "uniqueID": "86d4232a795f3666127c49c293277dbf",
+        "category": "fashion_beauty",
+        "subcategory": "body_care",
+        "source_name": "pharma_shop",
+        "source_link": "https://www.pharma-shop.tn/",
+        "brand": "svr",
+        "model": "",
+        "gender": "woman",
+        "color": "na",
+        "material": "na",
+        "store": "no",
+        "store_label": "Pharma shop",
+        "store_description": "vous trouverez chez pharma-shop.tn touts vos produits parapharmaceutique (santé, beauté, minceur, et bien être) aux prix défiant toutes concurrences et toutes les marques parapharmaceutiques",
+        "delivery": "yes",
+        "delivery_description": "grand tunis (tunis, ariana, ben arous et la manouba): 2,900 dt  ( la livraison est gratuite pour toute commande sup à 99 dt ). tout le reste du territoire tunisien : 4,700 dt   ( la livraison est gratuite pour toute commande sup à 99 dt )",
+        "availability": "on_stock",
+        "clicks": 15,
+        "clicksExternal": 12,
+        "reviewsNumber": 0,
+        "reviewsValue": 0.0,
+        "priceTable": [
+          {
+            "date_price": "2025-02-23T01:47:22Z",
+            "price": 35.669
+          },
+          {
+            "date_price": "2024-04-04T01:38:04Z",
+            "price": 35.67
+          },
+          {
+            "date_price": "2024-03-16T01:05:13Z",
+            "price": 37.498
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2024-03-16T01:05:13Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/86d4232a795f3666127c49c293277dbf.jpg",
+        "date_creation": "2024-03-16T01:05:13Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "Pull",
+        "summary": "Pull homme en jersey doux et confortable, avec un col rond et des manches longues. Ce haut possède une coupe confort fit ample et confortable et est orné d'une impression blanche au devant qui représente une inscription en japonais et sur le dos on retrouve un imprimé de bandes dessinées manga. Ce pull est idéal pour afficher votre côté fun et décalé.",
+        "currency": "TND",
+        "price": 19.99,
+        "price_min": 19.99,
+        "price_max": 54.99,
+        "price_drop": 4.01,
+        "price_drop_percent": 16.708,
+        "price_week_changed": "yes",
+        "price_week_drop": 10.0,
+        "price_week_drop_percent": 33.344,
+        "price_deal": "yes",
+        "price_hot_deal": "yes",
+        "price_top_deal": "yes",
+        "link": "https://www.exist.com.tn/pulls/5289-30644-pull.html#/1030-taille-m/5209-couleur-blanc5289",
+        "uniqueID": "c98feddaac5fbebfb364e17ac7eed179",
+        "category": "fashion_beauty",
+        "subcategory": "fashion_beauty_clothes",
+        "source_name": "exist",
+        "source_link": "https://www.exist.com.tn/",
+        "brand": "na",
+        "model": "",
+        "gender": "man",
+        "color": "na",
+        "material": "na",
+        "store": "yes",
+        "store_label": "Exist",
+        "store_description": "exist est une société commerciale qui opère dans le secteur de la vente en détail du prêt à porter pour hommes, chaussures et accessoires en ligne ou en boutique. dotée de 43 points de ventes.",
+        "delivery": "yes",
+        "delivery_description": "livraison sur toute la tunisie. livraison gratuite à partir de 120dt.",
+        "availability": "on_stock",
+        "clicks": 14,
+        "clicksExternal": 0,
+        "reviewsNumber": 0,
+        "reviewsValue": 0,
+        "priceTable": [
+          {
+            "date_price": "2025-02-27T01:01:49Z",
+            "price": 19.99
+          },
+          {
+            "date_price": "2025-02-22T01:11:15Z",
+            "price": 24.0
+          },
+          {
+            "date_price": "2025-02-15T01:10:57Z",
+            "price": 29.99
+          },
+          {
+            "date_price": "2024-12-28T22:03:45Z",
+            "price": 39.99
+          },
+          {
+            "date_price": "2024-12-04T01:02:19Z",
+            "price": 54.99
+          },
+          {
+            "date_price": "2024-11-23T13:08:20Z",
+            "price": 38.5
+          },
+          {
+            "date_price": "2024-09-18T01:06:00Z",
+            "price": 54.99
+          },
+          {
+            "date_price": "2024-09-13T20:57:34Z",
+            "price": 44.0
+          },
+          {
+            "date_price": "2024-08-27T01:39:51Z",
+            "price": 54.99
+          },
+          {
+            "date_price": "2024-08-24T01:08:49Z",
+            "price": 44.0
+          },
+          {
+            "date_price": "2024-04-29T18:46:41Z",
+            "price": 54.99
+          },
+          {
+            "date_price": "2024-03-16T01:03:22Z",
+            "price": 44.0
+          },
+          {
+            "date_price": "2024-02-20T01:11:56Z",
+            "price": 54.99
+          },
+          {
+            "date_price": "2024-02-17T01:10:37Z",
+            "price": 44.0
+          },
+          {
+            "date_price": "2023-11-30T01:06:52Z",
+            "price": 54.99
+          },
+          {
+            "date_price": "2023-11-21T01:01:10Z",
+            "price": 38.5
+          },
+          {
+            "date_price": "2023-10-20T01:06:08Z",
+            "price": 44.0
+          },
+          {
+            "date_price": "2023-10-15T01:09:25Z",
+            "price": 54.99
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2023-10-15T01:09:25Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/c98feddaac5fbebfb364e17ac7eed179.jpg",
+        "date_creation": "2023-10-15T01:09:25Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "BIO ORIENT HUILE DE ROSE MUSQUEE 90ML",
+        "summary": "BIO ORIENT Huile de rose musquée, “Bourrée de vitamines A, C et E” pour le visage et le corps, offre des effets anti âge remarquables avec son complexe d'actifs hydratants et protecteurs. Grâce à la protection qu’elle procure, la peau est régénérée à l’intérieur comme à l’extérieur.",
+        "currency": "",
+        "price": 31.102,
+        "price_min": 17.88,
+        "price_max": 31.102,
+        "price_drop": -0.271,
+        "price_drop_percent": -0.879,
+        "price_week_changed": "no",
+        "price_week_drop": 0,
+        "price_week_drop_percent": 0,
+        "price_deal": "no",
+        "price_hot_deal": "no",
+        "price_top_deal": "no",
+        "link": "https://pharma-shop.tn/huiles-vegetales/6896-bio-orient-huile-de-rose-musquee-90ml-6191450602310.html",
+        "uniqueID": "a69662ec799c5fccde8950f99a1e8d36",
+        "category": "fashion_beauty",
+        "subcategory": "body_care",
+        "source_name": "pharma_shop",
+        "source_link": "https://www.pharma-shop.tn/",
+        "brand": "bio_orient",
+        "model": "",
+        "gender": "woman",
+        "color": "rose",
+        "material": "na",
+        "store": "no",
+        "store_label": "Pharma shop",
+        "store_description": "vous trouverez chez pharma-shop.tn touts vos produits parapharmaceutique (santé, beauté, minceur, et bien être) aux prix défiant toutes concurrences et toutes les marques parapharmaceutiques",
+        "delivery": "yes",
+        "delivery_description": "grand tunis (tunis, ariana, ben arous et la manouba): 2,900 dt  ( la livraison est gratuite pour toute commande sup à 99 dt ). tout le reste du territoire tunisien : 4,700 dt   ( la livraison est gratuite pour toute commande sup à 99 dt )",
+        "availability": "on_stock",
+        "clicks": 14,
+        "clicksExternal": 0,
+        "reviewsNumber": 0,
+        "reviewsValue": 0.0,
+        "priceTable": [
+          {
+            "date_price": "2025-02-14T01:39:36Z",
+            "price": 31.102
+          },
+          {
+            "date_price": "2024-07-06T12:31:54Z",
+            "price": 30.831
+          },
+          {
+            "date_price": "2024-02-27T02:20:41Z",
+            "price": 18.059
+          },
+          {
+            "date_price": "2024-01-06T02:03:23Z",
+            "price": 17.88
+          },
+          {
+            "date_price": "2023-08-25T01:47:39Z",
+            "price": 25.543
+          },
+          {
+            "date_price": "2023-08-24T02:48:24Z",
+            "price": 28.381
+          },
+          {
+            "date_price": "2022-03-07T02:04:27Z",
+            "price": 24.99
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2022-03-07T02:04:27Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/a69662ec799c5fccde8950f99a1e8d36.jpg",
+        "date_creation": "2022-03-07T02:04:27Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "Kontakt – T-shirt col rond pour homme en coton pur – NAVY",
+        "summary": "T-shirt col rond homme en coton bio",
+        "currency": "TND",
+        "price": 16.9,
+        "price_min": 16.9,
+        "price_max": 16.9,
+        "price_drop": 0.0,
+        "price_drop_percent": 0.0,
+        "price_week_changed": "no",
+        "price_week_drop": 0,
+        "price_week_drop_percent": 0,
+        "price_deal": "no",
+        "price_hot_deal": "no",
+        "price_top_deal": "no",
+        "link": "https://www.drest.tn/product/kontakt-t-shirt-col-rond-pour-homme-en-coton-pur-navy-0501002121K219/",
+        "uniqueID": "1a8867bead2bd6520b6657c2e0eef986",
+        "category": "fashion_beauty",
+        "subcategory": "fashion_beauty_clothes",
+        "source_name": "drest",
+        "source_link": "https://www.drest.tn/",
+        "brand": "kontakt",
+        "model": "",
+        "gender": "man",
+        "color": "na",
+        "material": "coton",
+        "store": "no",
+        "store_label": "Drest",
+        "store_description": "drest est une boutique en ligne du prêt à porter et de la mode.",
+        "delivery": "yes",
+        "delivery_description": "livraison sur toute la tunisie. livraison gratuite à partir de 189dt.",
+        "availability": "on_stock",
+        "clicks": 14,
+        "clicksExternal": 1,
+        "reviewsNumber": 0,
+        "reviewsValue": 0.0,
+        "priceTable": [
+          {
+            "date_price": "2024-05-25T20:21:45Z",
+            "price": 16.9
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2024-05-25T20:21:45Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/1a8867bead2bd6520b6657c2e0eef986.jpg",
+        "date_creation": "2024-05-25T20:21:45Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "Pantalon Homme en Coton",
+        "summary": "Pantalon Homme en Coton Rayé Super Tendance en ce Moment! Le Mannequin Porte La Taille L et Mesure 1m93.",
+        "currency": "TND",
+        "price": 19.0,
+        "price_min": 19.0,
+        "price_max": 29,
+        "price_drop": 10.0,
+        "price_drop_percent": 34.483,
+        "price_week_changed": "no",
+        "price_week_drop": 0,
+        "price_week_drop_percent": 0,
+        "price_deal": "yes",
+        "price_hot_deal": "no",
+        "price_top_deal": "no",
+        "link": "https://chillandlit.tn/hommes/1826-pantalon-homme-en-coton.html",
+        "uniqueID": "acda9084ee28faed63445550ba598778",
+        "category": "fashion_beauty",
+        "subcategory": "fashion_beauty_clothes",
+        "source_name": "chillandlit",
+        "source_link": "https://chillandlit.tn/",
+        "brand": "chillandlit",
+        "model": "",
+        "gender": "man",
+        "color": "na",
+        "material": "coton",
+        "store": "no",
+        "store_label": "Chill&Lit",
+        "store_description": "chill&lit est une boutique 100% en ligne de mode.",
+        "delivery": "yes",
+        "delivery_description": "livraison sur toute la tunisie.",
+        "availability": "on_stock",
+        "clicks": 14,
+        "clicksExternal": 21,
+        "reviewsNumber": 0,
+        "reviewsValue": 0.0,
+        "priceTable": [
+          {
+            "date_price": "2024-09-19T01:50:49Z",
+            "price": 19.0
+          },
+          {
+            "date_price": "2021-11-28T01:09:17Z",
+            "price": 29.0
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2021-11-28T01:09:17Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/acda9084ee28faed63445550ba598778.jpg",
+        "date_creation": "2021-11-28T01:09:17Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "Sweat-Shirt Homme Simple Brodé",
+        "summary": "Chill&amp;Lit Vous Propose un Sweat-Shirt Homme Simple Brodé. Le mannequin porte la taille L .Le Mannequin Mesure:1m93",
+        "currency": "TND",
+        "price": 24.0,
+        "price_min": 24.0,
+        "price_max": 39,
+        "price_drop": 11.0,
+        "price_drop_percent": 31.429,
+        "price_week_changed": "no",
+        "price_week_drop": 0,
+        "price_week_drop_percent": 0,
+        "price_deal": "yes",
+        "price_hot_deal": "no",
+        "price_top_deal": "no",
+        "link": "https://chillandlit.tn/hoodies-sweat-shirts/679-sweat-shirt-homme-simple-brode.html",
+        "uniqueID": "8397678d046142d6ae362830db8da2a9",
+        "category": "fashion_beauty",
+        "subcategory": "fashion_beauty_clothes",
+        "source_name": "chillandlit",
+        "source_link": "https://chillandlit.tn/",
+        "brand": "chillandlit",
+        "model": "",
+        "gender": "man",
+        "color": "na",
+        "material": "na",
+        "store": "no",
+        "store_label": "Chill&Lit",
+        "store_description": "chill&lit est une boutique 100% en ligne de mode.",
+        "delivery": "yes",
+        "delivery_description": "livraison sur toute la tunisie.",
+        "availability": "on_stock",
+        "clicks": 13,
+        "clicksExternal": 1,
+        "reviewsNumber": 0,
+        "reviewsValue": 0.0,
+        "priceTable": [
+          {
+            "date_price": "2025-01-17T01:44:27Z",
+            "price": 24.0
+          },
+          {
+            "date_price": "2022-02-11T01:10:31Z",
+            "price": 35.0
+          },
+          {
+            "date_price": "2021-11-18T09:30:46Z",
+            "price": 39.0
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2021-11-18T09:30:46Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/8397678d046142d6ae362830db8da2a9.jpg",
+        "date_creation": "2021-11-18T09:30:46Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "TOPFACE SKIN GLOW VEGAN COLLAGENE SERUM VISAGE 30 ML",
+        "summary": "TOPFACE SKIN GLOW VEGAN COLLAGENE SERUM VISAGE 30 ML.",
+        "currency": "TND",
+        "price": 26.891,
+        "price_min": 22.071,
+        "price_max": 27.589,
+        "price_drop": -4.82,
+        "price_drop_percent": -21.839,
+        "price_week_changed": "no",
+        "price_week_drop": 0,
+        "price_week_drop_percent": 0,
+        "price_deal": "no",
+        "price_hot_deal": "no",
+        "price_top_deal": "no",
+        "link": "https://pharma-shop.tn/maquillage/10420-topface-skin-glow-vegan-collagene-serum-visage-30-ml-8681217250604.html",
+        "uniqueID": "fdfe21d90d5f1dfd81d95fcdcd1acc2d",
+        "category": "fashion_beauty",
+        "subcategory": "body_care",
+        "source_name": "pharma_shop",
+        "source_link": "https://www.pharma-shop.tn/",
+        "brand": "topface",
+        "model": "",
+        "gender": "woman",
+        "color": "na",
+        "material": "na",
+        "store": "no",
+        "store_label": "Pharma shop",
+        "store_description": "vous trouverez chez pharma-shop.tn touts vos produits parapharmaceutique (santé, beauté, minceur, et bien être) aux prix défiant toutes concurrences et toutes les marques parapharmaceutiques",
+        "delivery": "yes",
+        "delivery_description": "grand tunis (tunis, ariana, ben arous et la manouba): 2,900 dt  ( la livraison est gratuite pour toute commande sup à 99 dt ). tout le reste du territoire tunisien : 4,700 dt   ( la livraison est gratuite pour toute commande sup à 99 dt )",
+        "availability": "on_stock",
+        "clicks": 13,
+        "clicksExternal": 0,
+        "reviewsNumber": 0,
+        "reviewsValue": 0.0,
+        "priceTable": [
+          {
+            "date_price": "2023-10-15T01:51:15Z",
+            "price": 26.891
+          },
+          {
+            "date_price": "2023-09-26T01:55:32Z",
+            "price": 22.071
+          },
+          {
+            "date_price": "2022-09-27T01:49:04Z",
+            "price": 27.589
+          },
+          {
+            "date_price": "2022-09-25T01:37:40Z",
+            "price": 24.83
+          },
+          {
+            "date_price": "2022-09-20T01:38:06Z",
+            "price": 27.589
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2022-09-20T01:38:06Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/fdfe21d90d5f1dfd81d95fcdcd1acc2d.jpg",
+        "date_creation": "2022-09-20T01:38:06Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "Veste Cuir Longue avec Doublure",
+        "summary": "Veste Cuir Femme Doublure Super Chaude et Douces. Ceinture Réglable à La Taille et Col et Poignets Manches en Fausse Fourrure Hyper Tendance cet Hiver. Le Mannequin Porte La Taille 1 et Mesure 1m78.",
+        "currency": "TND",
+        "price": 199.0,
+        "price_min": 199.0,
+        "price_max": 279.0,
+        "price_drop": 40.0,
+        "price_drop_percent": 16.736,
+        "price_week_changed": "no",
+        "price_week_drop": 0,
+        "price_week_drop_percent": 0,
+        "price_deal": "yes",
+        "price_hot_deal": "no",
+        "price_top_deal": "yes",
+        "link": "https://chillandlit.tn/femmes/8146-veste-cuir-longue-avec-doublure.html",
+        "uniqueID": "d7d73c7ab2b06c636977e5a37f061773",
+        "category": "fashion_beauty",
+        "subcategory": "outwear",
+        "source_name": "chillandlit",
+        "source_link": "https://chillandlit.tn/",
+        "brand": "chillandlit",
+        "model": "",
+        "gender": "woman",
+        "color": "na",
+        "material": "cuir",
+        "store": "no",
+        "store_label": "Chill&Lit",
+        "store_description": "chill&lit est une boutique 100% en ligne de mode.",
+        "delivery": "yes",
+        "delivery_description": "livraison sur toute la tunisie.",
+        "availability": "on_stock",
+        "clicks": 13,
+        "clicksExternal": 0,
+        "reviewsNumber": 0,
+        "reviewsValue": 0,
+        "priceTable": [
+          {
+            "date_price": "2025-02-14T01:31:23Z",
+            "price": 199.0
+          },
+          {
+            "date_price": "2025-01-16T13:31:14Z",
+            "price": 239.0
+          },
+          {
+            "date_price": "2025-01-04T14:10:52Z",
+            "price": 259.0
+          },
+          {
+            "date_price": "2024-11-13T01:37:29Z",
+            "price": 279.0
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2024-11-13T01:37:29Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/d7d73c7ab2b06c636977e5a37f061773.jpg",
+        "date_creation": "2024-11-13T01:37:29Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "TOPFACE SKIN GLOW SÉRUM VISAGE HYALURONIC ACID 30ML",
+        "summary": "Topface Hyaluronic Acid Serum a été développé pour vous faire découvrir le pouvoir repulpant unique de l'acide hyaluronique pur.",
+        "currency": "TND",
+        "price": 26.891,
+        "price_min": 22.071,
+        "price_max": 27.589,
+        "price_drop": -4.82,
+        "price_drop_percent": -21.839,
+        "price_week_changed": "no",
+        "price_week_drop": 0,
+        "price_week_drop_percent": 0,
+        "price_deal": "no",
+        "price_hot_deal": "no",
+        "price_top_deal": "no",
+        "link": "https://pharma-shop.tn/maquillage/10423-topface-skin-glow-s%C3%A9rum-visage-hyaluronic-acid-30ml--8681217250628.html",
+        "uniqueID": "d20213df91c6884ed713bd89a9606e22",
+        "category": "fashion_beauty",
+        "subcategory": "body_care",
+        "source_name": "pharma_shop",
+        "source_link": "https://www.pharma-shop.tn/",
+        "brand": "topface",
+        "model": "",
+        "gender": "woman",
+        "color": "na",
+        "material": "na",
+        "store": "no",
+        "store_label": "Pharma shop",
+        "store_description": "vous trouverez chez pharma-shop.tn touts vos produits parapharmaceutique (santé, beauté, minceur, et bien être) aux prix défiant toutes concurrences et toutes les marques parapharmaceutiques",
+        "delivery": "yes",
+        "delivery_description": "grand tunis (tunis, ariana, ben arous et la manouba): 2,900 dt  ( la livraison est gratuite pour toute commande sup à 99 dt ). tout le reste du territoire tunisien : 4,700 dt   ( la livraison est gratuite pour toute commande sup à 99 dt )",
+        "availability": "on_stock",
+        "clicks": 13,
+        "clicksExternal": 0,
+        "reviewsNumber": 0,
+        "reviewsValue": 0.0,
+        "priceTable": [
+          {
+            "date_price": "2023-10-22T02:09:12Z",
+            "price": 26.891
+          },
+          {
+            "date_price": "2023-09-26T01:55:43Z",
+            "price": 22.071
+          },
+          {
+            "date_price": "2022-09-27T01:48:59Z",
+            "price": 27.589
+          },
+          {
+            "date_price": "2022-09-25T01:37:32Z",
+            "price": 24.83
+          },
+          {
+            "date_price": "2022-09-20T01:38:07Z",
+            "price": 27.589
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2022-09-20T01:38:07Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/d20213df91c6884ed713bd89a9606e22.jpg",
+        "date_creation": "2022-09-20T01:38:07Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "CHAUSSURE SPORT",
+        "summary": "Ces baskets basses pour homme dotées d'une fermeture à lacet et d'une semelle souple en blanc. Elles sont confortables, légères et faciles à porter et vont aussi bien avec un style casual qu'avec un style chic.",
+        "currency": "TND",
+        "price": 59.99,
+        "price_min": 59.99,
+        "price_max": 129.99,
+        "price_drop": 4.01,
+        "price_drop_percent": 6.266,
+        "price_week_changed": "yes",
+        "price_week_drop": 4.01,
+        "price_week_drop_percent": 6.266,
+        "price_deal": "yes",
+        "price_hot_deal": "no",
+        "price_top_deal": "no",
+        "link": "https://www.exist.com.tn/categories/4893-27331-basket.html#/1150-taille-44/4697-couleur-00mblanc4893",
+        "uniqueID": "9f437f8046cb10fed47dbac29b0574ff",
+        "category": "fashion_beauty",
+        "subcategory": "fashion_beauty_shoes",
+        "source_name": "exist",
+        "source_link": "https://www.exist.com.tn/",
+        "brand": "na",
+        "model": "",
+        "gender": "man",
+        "color": "na",
+        "material": "na",
+        "store": "yes",
+        "store_label": "Exist",
+        "store_description": "exist est une société commerciale qui opère dans le secteur de la vente en détail du prêt à porter pour hommes, chaussures et accessoires en ligne ou en boutique. dotée de 43 points de ventes.",
+        "delivery": "yes",
+        "delivery_description": "livraison sur toute la tunisie. livraison gratuite à partir de 120dt.",
+        "availability": "on_stock",
+        "clicks": 13,
+        "clicksExternal": 16,
+        "reviewsNumber": 0,
+        "reviewsValue": 0.0,
+        "priceTable": [
+          {
+            "date_price": "2025-02-27T01:04:28Z",
+            "price": 59.99
+          },
+          {
+            "date_price": "2025-02-22T01:22:19Z",
+            "price": 64.0
+          },
+          {
+            "date_price": "2024-08-27T01:54:21Z",
+            "price": 79.99
+          },
+          {
+            "date_price": "2024-08-24T01:28:24Z",
+            "price": 64.0
+          },
+          {
+            "date_price": "2024-08-16T13:39:36Z",
+            "price": 79.99
+          },
+          {
+            "date_price": "2024-07-26T01:07:17Z",
+            "price": 99.99
+          },
+          {
+            "date_price": "2024-06-22T14:20:06Z",
+            "price": 129.99
+          },
+          {
+            "date_price": "2024-06-08T01:08:09Z",
+            "price": 91.0
+          },
+          {
+            "date_price": "2024-02-20T01:12:44Z",
+            "price": 129.99
+          },
+          {
+            "date_price": "2024-02-17T01:11:26Z",
+            "price": 104.0
+          },
+          {
+            "date_price": "2023-11-30T01:07:44Z",
+            "price": 129.99
+          },
+          {
+            "date_price": "2023-11-21T01:02:10Z",
+            "price": 104.0
+          },
+          {
+            "date_price": "2023-10-18T01:06:37Z",
+            "price": 129.99
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2023-10-18T01:06:37Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/9f437f8046cb10fed47dbac29b0574ff.jpg",
+        "date_creation": "2023-10-18T01:06:37Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "BASKETS FEMME jaune moutard",
+        "summary": "Référence :VG-140-150 Dessus: Synthétique Matériau de semelle: Caoutchouc Type de talons:plats Fermeture: A lacets",
+        "currency": "TND",
+        "price": 19.0,
+        "price_min": 19,
+        "price_max": 29,
+        "price_drop": 10.0,
+        "price_drop_percent": 34.483,
+        "price_week_changed": "no",
+        "price_week_drop": 0,
+        "price_week_drop_percent": 0,
+        "price_deal": "yes",
+        "price_hot_deal": "no",
+        "price_top_deal": "no",
+        "link": "https://www.vongo.tn/baskets-femme/2018813-baskets-femme-jaune-moutard.html",
+        "uniqueID": "f1db4a989fb78918e28080cf2d495222",
+        "category": "fashion_beauty",
+        "subcategory": "fashion_beauty_shoes",
+        "source_name": "vongo",
+        "source_link": "https://www.vongo.tn/",
+        "brand": "les_etoiles",
+        "model": "",
+        "gender": "woman",
+        "color": "moutarde",
+        "material": "na",
+        "store": "no",
+        "store_label": "Vongo",
+        "store_description": "",
+        "delivery": "yes",
+        "delivery_description": "livraison sur toute la tunisie.",
+        "availability": "out_of_stock",
+        "clicks": 12,
+        "clicksExternal": 5,
+        "reviewsNumber": 0,
+        "reviewsValue": 0.0,
+        "priceTable": [
+          {
+            "date_price": "2023-05-09T01:15:21Z",
+            "price": 19.0
+          },
+          {
+            "date_price": "2023-04-01T01:16:40Z",
+            "price": 29.0
+          },
+          {
+            "date_price": "2023-03-02T01:23:34Z",
+            "price": 25.0
+          },
+          {
+            "date_price": "2021-12-30T01:10:34Z",
+            "price": 29.0
+          },
+          {
+            "date_price": "2021-12-23T01:06:48Z",
+            "price": 27.0
+          },
+          {
+            "date_price": "2021-11-18T09:33:42Z",
+            "price": 29.0
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2024-12-28T08:00:36Z",
+            "availability": "out_of_stock"
+          },
+          {
+            "date_availability": "2021-11-18T09:33:42Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/f1db4a989fb78918e28080cf2d495222.jpg",
+        "date_creation": "2021-11-18T09:33:42Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "Nike Homme – Nike Air Force 1 Jewel – Noir",
+        "summary": "Universelles baskets basses de haute qualité. En choisissant Nike Air Force 1 Jewel CT3438-002 vous mises sur le produit solide et éprouvé",
+        "currency": "TND",
+        "price": 568.0,
+        "price_min": 568.0,
+        "price_max": 568.0,
+        "price_drop": 0.0,
+        "price_drop_percent": 0.0,
+        "price_week_changed": "no",
+        "price_week_drop": 0,
+        "price_week_drop_percent": 0,
+        "price_deal": "no",
+        "price_hot_deal": "no",
+        "price_top_deal": "no",
+        "link": "https://www.drest.tn/product/nike-homme-nike-air-force-1-jewel-noir-CT3438002/",
+        "uniqueID": "97478fc6ed6a11ab54593f5f824b453f",
+        "category": "fashion_beauty",
+        "subcategory": "fashion_beauty_shoes",
+        "source_name": "drest",
+        "source_link": "https://www.drest.tn/",
+        "brand": "nike",
+        "model": "",
+        "gender": "man",
+        "color": "noir",
+        "material": "na",
+        "store": "no",
+        "store_label": "Drest",
+        "store_description": "drest est une boutique en ligne du prêt à porter et de la mode.",
+        "delivery": "yes",
+        "delivery_description": "livraison sur toute la tunisie. livraison gratuite à partir de 189dt.",
+        "availability": "on_stock",
+        "clicks": 12,
+        "clicksExternal": 1,
+        "reviewsNumber": 0,
+        "reviewsValue": 0,
+        "priceTable": [
+          {
+            "date_price": "2025-02-14T01:38:52Z",
+            "price": 568.0
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2025-02-14T01:38:52Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/97478fc6ed6a11ab54593f5f824b453f.jpg",
+        "date_creation": "2025-02-14T01:38:52Z",
+        "imageSearch": "no"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "ENZO EC 2301C-C5",
+        "summary": "Garantie : 2 ansLivré avec coffret d'origine Enzo CollectionRevendeur officiel",
+        "currency": "TND",
+        "price": 236.0,
+        "price_min": 236,
+        "price_max": 236,
+        "price_drop": 0.0,
+        "price_drop_percent": 0.0,
+        "price_week_changed": "no",
+        "price_week_drop": 0,
+        "price_week_drop_percent": 0,
+        "price_deal": "no",
+        "price_hot_deal": "no",
+        "price_top_deal": "no",
+        "link": "https://www.joaillerie-larous.com.tn/cuir/17122-enzo-ec-2301c-c5.html",
+        "uniqueID": "bc90acc094901bfcf8e16de79ae1d183",
+        "category": "fashion_beauty",
+        "subcategory": "watches",
+        "source_name": "joaillerie_larous",
+        "source_link": "https://www.joaillerie-larous.com.tn/",
+        "brand": "enzo_collection",
+        "model": "",
+        "gender": "man",
+        "color": "na",
+        "material": "na",
+        "store": "yes",
+        "store_label": "Joaillerie Larous",
+        "store_description": "commandez vos montres de marque pour homme et femme chez bijouterie larous rapidement sur joaillerie-larous.com.tn.",
+        "delivery": "yes",
+        "delivery_description": "livraison rapide dans toute la tunisie.",
+        "availability": "on_stock",
+        "clicks": 12,
+        "clicksExternal": 1,
+        "reviewsNumber": 0,
+        "reviewsValue": 0.0,
+        "priceTable": [
+          {
+            "date_price": "2024-03-06T01:08:57Z",
+            "price": 236.0
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2024-03-06T01:08:57Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/bc90acc094901bfcf8e16de79ae1d183.jpg",
+        "date_creation": "2024-03-06T01:08:57Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "Gel Douche Fruité",
+        "summary": "Gels douche-fruit",
+        "currency": "TND",
+        "price": 7.0,
+        "price_min": 5,
+        "price_max": 7,
+        "price_drop": -1.0,
+        "price_drop_percent": -16.667,
+        "price_week_changed": "no",
+        "price_week_drop": 0,
+        "price_week_drop_percent": 0,
+        "price_deal": "no",
+        "price_hot_deal": "no",
+        "price_top_deal": "no",
+        "link": "https://www.merkado.tn/parapharmacie-soins/3054-gels-douche-fruite.html",
+        "uniqueID": "c827b9e5f13aeabc9ed8360913c224a0",
+        "category": "fashion_beauty",
+        "subcategory": "body_care",
+        "source_name": "merkado",
+        "source_link": "https://www.merkado.tn/",
+        "brand": "doris_cosmtiques",
+        "model": "",
+        "gender": "na",
+        "color": "na",
+        "material": "na",
+        "store": "no",
+        "store_label": "Merkado",
+        "store_description": "merkado.tn est une plateforme e-commerce destinée à la femme, sa famille et sa maison.",
+        "delivery": "yes",
+        "delivery_description": "la livraison est assurée dans toute la tunisie.",
+        "availability": "on_stock",
+        "clicks": 12,
+        "clicksExternal": 0,
+        "reviewsNumber": 0,
+        "reviewsValue": 0.0,
+        "priceTable": [
+          {
+            "date_price": "2024-11-01T14:04:02Z",
+            "price": 7.0
+          },
+          {
+            "date_price": "2024-10-23T13:56:10Z",
+            "price": 6.0
+          },
+          {
+            "date_price": "2024-05-11T01:30:47Z",
+            "price": 7.0
+          },
+          {
+            "date_price": "2023-07-18T01:21:52Z",
+            "price": 6.0
+          },
+          {
+            "date_price": "2023-05-04T01:12:09Z",
+            "price": 5.0
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2024-08-22T02:03:18Z",
+            "availability": "on_stock"
+          },
+          {
+            "date_availability": "2024-08-20T14:42:48Z",
+            "availability": "out_of_stock"
+          },
+          {
+            "date_availability": "2024-05-11T01:30:47Z",
+            "availability": "on_stock"
+          },
+          {
+            "date_availability": "2024-05-10T01:50:18Z",
+            "availability": "out_of_stock"
+          },
+          {
+            "date_availability": "2024-04-14T01:28:42Z",
+            "availability": "on_stock"
+          },
+          {
+            "date_availability": "2024-04-04T01:15:13Z",
+            "availability": "out_of_stock"
+          },
+          {
+            "date_availability": "2023-12-22T01:22:03Z",
+            "availability": "on_stock"
+          },
+          {
+            "date_availability": "2023-12-18T01:16:15Z",
+            "availability": "out_of_stock"
+          },
+          {
+            "date_availability": "2023-05-04T01:12:09Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/c827b9e5f13aeabc9ed8360913c224a0.jpg",
+        "date_creation": "2023-05-04T01:12:09Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "Eau Micellaire 200 Ml",
+        "summary": "Eau micellaire -200 Ml",
+        "currency": "TND",
+        "price": 10.0,
+        "price_min": 10,
+        "price_max": 11,
+        "price_drop": 1.0,
+        "price_drop_percent": 9.091,
+        "price_week_changed": "no",
+        "price_week_drop": 0,
+        "price_week_drop_percent": 0,
+        "price_deal": "yes",
+        "price_hot_deal": "no",
+        "price_top_deal": "no",
+        "link": "https://www.merkado.tn/parfums-maquillage/3083-eau-micellaire-200-ml.html",
+        "uniqueID": "e9022ed52bbf5924f6bc0ae8dab02c4f",
+        "category": "fashion_beauty",
+        "subcategory": "body_care",
+        "source_name": "merkado",
+        "source_link": "https://www.merkado.tn/",
+        "brand": "doris_cosmtiques",
+        "model": "",
+        "gender": "woman",
+        "color": "na",
+        "material": "na",
+        "store": "no",
+        "store_label": "Merkado",
+        "store_description": "merkado.tn est une plateforme e-commerce destinée à la femme, sa famille et sa maison.",
+        "delivery": "yes",
+        "delivery_description": "la livraison est assurée dans toute la tunisie.",
+        "availability": "on_stock",
+        "clicks": 12,
+        "clicksExternal": 1,
+        "reviewsNumber": 0,
+        "reviewsValue": 0.0,
+        "priceTable": [
+          {
+            "date_price": "2024-10-23T13:54:52Z",
+            "price": 10.0
+          },
+          {
+            "date_price": "2024-05-11T01:29:57Z",
+            "price": 11.0
+          },
+          {
+            "date_price": "2023-05-04T01:11:19Z",
+            "price": 10.0
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2023-05-04T01:11:19Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/e9022ed52bbf5924f6bc0ae8dab02c4f.jpg",
+        "date_creation": "2023-05-04T01:11:19Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "Montre Homme Casio F-91WM-1BDF Garantie 2 ans",
+        "summary": "Montre Homme Casio F-91WM-1BDF Garantie 2 ans",
+        "currency": "TND",
+        "price": 71.1,
+        "price_min": 71.1,
+        "price_max": 71.1,
+        "price_drop": 0.0,
+        "price_drop_percent": 0.0,
+        "price_week_changed": "no",
+        "price_week_drop": 0,
+        "price_week_drop_percent": 0,
+        "price_deal": "no",
+        "price_hot_deal": "no",
+        "price_top_deal": "no",
+        "link": "https://citywatch.com.tn/montre-homme-casio/6045-casio-f-91wm-1bdf.html",
+        "uniqueID": "48055cac002cd73e6774de2e7d3a0238",
+        "category": "fashion_beauty",
+        "subcategory": "watches",
+        "source_name": "citywatch",
+        "source_link": "https://citywatch.com.tn/",
+        "brand": "casio",
+        "model": "",
+        "gender": "man",
+        "color": "na",
+        "material": "na",
+        "store": "yes",
+        "store_label": "City Watch",
+        "store_description": "en plus du site en ligne, city watch possède des boutiques (tunis, sousse, monastir, kairouan, gabes et djerba).",
+        "delivery": "yes",
+        "delivery_description": "les colis sont généralement expédiés dans un délai de 48h. livraison gratuite pour les commandes plus que 50dt entre 24h et 48h.",
+        "availability": "on_stock",
+        "clicks": 12,
+        "clicksExternal": 0,
+        "reviewsNumber": 0,
+        "reviewsValue": 0.0,
+        "priceTable": [
+          {
+            "date_price": "2024-10-26T01:11:41Z",
+            "price": 71.1
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2024-10-26T01:11:41Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/48055cac002cd73e6774de2e7d3a0238.jpg",
+        "date_creation": "2024-10-26T01:11:41Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "BBR Lotion Tonifiante 100ML",
+        "summary": "Lotion Tonifiante pour nettoyer votre visage en douceur et revigorer votre peau.",
+        "currency": "TND",
+        "price": 43.2,
+        "price_min": 30.24,
+        "price_max": 43.2,
+        "price_drop": -12.96,
+        "price_drop_percent": -42.857,
+        "price_week_changed": "no",
+        "price_week_drop": 0,
+        "price_week_drop_percent": 0,
+        "price_deal": "no",
+        "price_hot_deal": "no",
+        "price_top_deal": "no",
+        "link": "https://www.bobio.tn/bobio-shop/bbr/clean/1518-lotion-tonifiante.html",
+        "uniqueID": "d16c9da9ccdfe511938006f5330e3e53",
+        "category": "fashion_beauty",
+        "subcategory": "body_care",
+        "source_name": "bobio",
+        "source_link": "https://www.bobio.tn/",
+        "brand": "bbr_cosmetics",
+        "model": "",
+        "gender": "na",
+        "color": "na",
+        "material": "na",
+        "store": "yes",
+        "store_label": "Bobio",
+        "store_description": "bobio est un centre spa, bien-être et shopping à nabeul.",
+        "delivery": "yes",
+        "delivery_description": "livraison sur toute la tunisie.",
+        "availability": "on_stock",
+        "clicks": 12,
+        "clicksExternal": 9,
+        "reviewsNumber": 0,
+        "reviewsValue": 0.0,
+        "priceTable": [
+          {
+            "date_price": "2024-07-13T03:01:38Z",
+            "price": 43.2
+          },
+          {
+            "date_price": "2024-06-15T17:17:51Z",
+            "price": 30.24
+          },
+          {
+            "date_price": "2024-04-25T01:13:23Z",
+            "price": 43.2
+          },
+          {
+            "date_price": "2024-03-26T01:06:17Z",
+            "price": 30.24
+          },
+          {
+            "date_price": "2024-03-02T23:20:29Z",
+            "price": 43.2
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2024-03-02T23:20:29Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/d16c9da9ccdfe511938006f5330e3e53.jpg",
+        "date_creation": "2024-03-02T23:20:29Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "BVLGARI MAN IN BLACK Eau de Parfum",
+        "summary": "UNE EAU DE PARFUM NÉO-ORIENTALE ET SENSUELLE. UN PARFUM ASSURÉMENT CHARISMATIQUE QUI EXPRIME TOUTE LA MASCULINITÉ DE L'HOMME. DESTINÉ AUX HOMMES AU CHARME TRANSCENDANT, BULGARI MAN IN BLACK EST CARACTÉRISÉ PAR UNE UNIQUE SIGNATURE SENSUELLE AUX NOTES AMBRÉES ET ORIENTALES.",
+        "currency": "TND",
+        "price": 208.0,
+        "price_min": 166.4,
+        "price_max": 768.0,
+        "price_drop": -41.6,
+        "price_drop_percent": -25.0,
+        "price_week_changed": "no",
+        "price_week_drop": 0,
+        "price_week_drop_percent": 0,
+        "price_deal": "no",
+        "price_hot_deal": "no",
+        "price_top_deal": "no",
+        "link": "https://www.fatales.tn/eau-de-parfum/7044-51640-bvlgari-man-in-black-eau-de-parfum.html#/64-contenance-30_ml",
+        "uniqueID": "9b75b0f7fc470ab11701ad7cf49bca34",
+        "category": "fashion_beauty",
+        "subcategory": "perfume",
+        "source_name": "fatales",
+        "source_link": "https://www.fatales.tn/",
+        "brand": "bvlgari",
+        "model": "",
+        "gender": "man",
+        "color": "noir",
+        "material": "na",
+        "store": "yes",
+        "store_label": "Fatales",
+        "store_description": "pionnier de la parfumerie sélective en libre service en tunisie, fatales compte aujourd’hui 27 points de vente sur le grand tunis, sousse, sfax, bizerte, nabeul, gabes, kairouan et monastir.",
+        "delivery": "yes",
+        "delivery_description": "la livraison est assurée dans plusieurs zones.",
+        "availability": "on_stock",
+        "clicks": 12,
+        "clicksExternal": 51,
+        "reviewsNumber": 0,
+        "reviewsValue": 0.0,
+        "priceTable": [
+          {
+            "date_price": "2024-12-02T01:20:21Z",
+            "price": 208.0
+          },
+          {
+            "date_price": "2024-11-29T13:36:05Z",
+            "price": 166.4
+          },
+          {
+            "date_price": "2024-11-29T01:07:54Z",
+            "price": 614.4
+          },
+          {
+            "date_price": "2024-11-28T13:35:32Z",
+            "price": 166.4
+          },
+          {
+            "date_price": "2024-11-09T13:21:03Z",
+            "price": 208.0
+          },
+          {
+            "date_price": "2024-11-09T01:07:46Z",
+            "price": 768.0
+          },
+          {
+            "date_price": "2024-11-07T13:37:58Z",
+            "price": 208.0
+          },
+          {
+            "date_price": "2024-11-07T01:07:23Z",
+            "price": 768.0
+          },
+          {
+            "date_price": "2024-11-05T13:47:30Z",
+            "price": 208.0
+          },
+          {
+            "date_price": "2024-11-05T01:08:42Z",
+            "price": 768.0
+          },
+          {
+            "date_price": "2024-11-02T13:15:47Z",
+            "price": 208.0
+          },
+          {
+            "date_price": "2024-11-02T01:07:40Z",
+            "price": 768.0
+          },
+          {
+            "date_price": "2024-10-31T01:14:53Z",
+            "price": 208.0
+          },
+          {
+            "date_price": "2024-10-29T01:07:08Z",
+            "price": 768.0
+          },
+          {
+            "date_price": "2024-10-23T13:11:50Z",
+            "price": 208.0
+          },
+          {
+            "date_price": "2024-10-23T01:07:34Z",
+            "price": 768.0
+          },
+          {
+            "date_price": "2024-10-03T01:14:31Z",
+            "price": 208.0
+          },
+          {
+            "date_price": "2024-10-02T13:18:30Z",
+            "price": 768.0
+          },
+          {
+            "date_price": "2024-08-02T13:31:31Z",
+            "price": 208.0
+          },
+          {
+            "date_price": "2024-08-02T01:27:23Z",
+            "price": 768.0
+          },
+          {
+            "date_price": "2024-04-23T01:12:56Z",
+            "price": 208.0
+          },
+          {
+            "date_price": "2024-04-20T01:06:42Z",
+            "price": 743.0
+          },
+          {
+            "date_price": "2024-03-29T01:08:37Z",
+            "price": 208.0
+          },
+          {
+            "date_price": "2024-03-28T01:04:56Z",
+            "price": 743.0
+          },
+          {
+            "date_price": "2024-03-17T01:04:35Z",
+            "price": 208.0
+          },
+          {
+            "date_price": "2024-03-16T01:04:27Z",
+            "price": 743.0
+          },
+          {
+            "date_price": "2024-02-10T01:13:21Z",
+            "price": 208.0
+          },
+          {
+            "date_price": "2024-02-08T01:05:37Z",
+            "price": 743.0
+          },
+          {
+            "date_price": "2023-12-15T01:06:08Z",
+            "price": 208.0
+          },
+          {
+            "date_price": "2023-12-14T01:05:47Z",
+            "price": 743.0
+          },
+          {
+            "date_price": "2023-11-27T01:13:25Z",
+            "price": 208.0
+          },
+          {
+            "date_price": "2023-11-23T01:16:20Z",
+            "price": 166.4
+          },
+          {
+            "date_price": "2023-11-22T01:04:55Z",
+            "price": 594.4
+          },
+          {
+            "date_price": "2023-11-21T01:02:13Z",
+            "price": 166.4
+          },
+          {
+            "date_price": "2023-10-12T01:03:16Z",
+            "price": 208.0
+          },
+          {
+            "date_price": "2023-10-10T01:05:29Z",
+            "price": 743.0
+          },
+          {
+            "date_price": "2023-10-07T01:10:19Z",
+            "price": 208.0
+          },
+          {
+            "date_price": "2023-10-05T01:04:30Z",
+            "price": 743.0
+          },
+          {
+            "date_price": "2023-09-07T01:03:19Z",
+            "price": 208.0
+          },
+          {
+            "date_price": "2023-09-06T01:06:35Z",
+            "price": 743.0
+          },
+          {
+            "date_price": "2023-08-07T01:11:16Z",
+            "price": 208.0
+          },
+          {
+            "date_price": "2023-08-04T01:05:30Z",
+            "price": 743.0
+          },
+          {
+            "date_price": "2023-05-12T01:04:50Z",
+            "price": 208.0
+          },
+          {
+            "date_price": "2023-05-11T01:05:17Z",
+            "price": 743.0
+          },
+          {
+            "date_price": "2023-04-29T01:05:42Z",
+            "price": 208.0
+          },
+          {
+            "date_price": "2023-04-28T01:05:02Z",
+            "price": 694.0
+          },
+          {
+            "date_price": "2023-03-10T01:02:41Z",
+            "price": 208.0
+          },
+          {
+            "date_price": "2023-03-08T01:04:21Z",
+            "price": 694.0
+          },
+          {
+            "date_price": "2023-02-23T01:16:13Z",
+            "price": 208.0
+          },
+          {
+            "date_price": "2023-02-22T01:04:14Z",
+            "price": 694.0
+          },
+          {
+            "date_price": "2023-02-01T01:06:15Z",
+            "price": 208.0
+          },
+          {
+            "date_price": "2023-01-31T01:05:06Z",
+            "price": 694.0
+          },
+          {
+            "date_price": "2023-01-26T01:08:54Z",
+            "price": 208.0
+          },
+          {
+            "date_price": "2023-01-25T01:04:49Z",
+            "price": 694.0
+          },
+          {
+            "date_price": "2023-01-08T01:04:43Z",
+            "price": 208.0
+          },
+          {
+            "date_price": "2023-01-07T01:04:11Z",
+            "price": 694.0
+          },
+          {
+            "date_price": "2023-01-04T01:05:07Z",
+            "price": 208.0
+          },
+          {
+            "date_price": "2023-01-03T01:04:49Z",
+            "price": 694.0
+          },
+          {
+            "date_price": "2022-12-18T01:01:49Z",
+            "price": 208.0
+          },
+          {
+            "date_price": "2022-12-17T01:04:02Z",
+            "price": 694.0
+          },
+          {
+            "date_price": "2022-11-05T01:05:54Z",
+            "price": 208.0
+          },
+          {
+            "date_price": "2022-11-04T01:03:54Z",
+            "price": 694.0
+          },
+          {
+            "date_price": "2022-09-07T01:04:12Z",
+            "price": 208.0
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2022-09-07T01:04:12Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/9b75b0f7fc470ab11701ad7cf49bca34.jpg",
+        "date_creation": "2022-09-07T01:04:12Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "Kontakt – T-shirt unisexe manches courtes PALESTINIAN LIVES MATTER – Noir",
+        "summary": "Faites une différence avec votre style. Les frais totales de chaque t-shirt Kontakt en partenariat avec le Croissant-Rouge soutient la Palestine. #SolidaritéPalestinienne T-shirt 100% Cotton.",
+        "currency": "TND",
+        "price": 49.9,
+        "price_min": 49.9,
+        "price_max": 49.9,
+        "price_drop": 0.0,
+        "price_drop_percent": 0.0,
+        "price_week_changed": "no",
+        "price_week_drop": 0,
+        "price_week_drop_percent": 0,
+        "price_deal": "no",
+        "price_hot_deal": "no",
+        "price_top_deal": "no",
+        "link": "https://www.drest.tn/product/kontakt-t-shirt-unisexe-manches-courtes-palestinian-lives-matter-noir-0501002518K040/",
+        "uniqueID": "aa1cd0996a7999bfa8a664c770a6222f",
+        "category": "fashion_beauty",
+        "subcategory": "fashion_beauty_clothes",
+        "source_name": "drest",
+        "source_link": "https://www.drest.tn/",
+        "brand": "kontakt",
+        "model": "",
+        "gender": "woman",
+        "color": "noir",
+        "material": "na",
+        "store": "no",
+        "store_label": "Drest",
+        "store_description": "drest est une boutique en ligne du prêt à porter et de la mode.",
+        "delivery": "yes",
+        "delivery_description": "livraison sur toute la tunisie. livraison gratuite à partir de 189dt.",
+        "availability": "on_stock",
+        "clicks": 11,
+        "clicksExternal": 0,
+        "reviewsNumber": 0,
+        "reviewsValue": 0,
+        "priceTable": [
+          {
+            "date_price": "2024-07-19T19:33:26Z",
+            "price": 49.9
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2024-07-19T19:33:26Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/aa1cd0996a7999bfa8a664c770a6222f.jpg",
+        "date_creation": "2024-07-19T19:33:26Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "Ecran Solaire De Cheveux",
+        "summary": "Ecran solaire de cheveux doris 200 ml SPF 50 +",
+        "currency": "TND",
+        "price": 29.75,
+        "price_min": 29.75,
+        "price_max": 30,
+        "price_drop": 0.25,
+        "price_drop_percent": 0.833,
+        "price_week_changed": "no",
+        "price_week_drop": 0,
+        "price_week_drop_percent": 0,
+        "price_deal": "no",
+        "price_hot_deal": "no",
+        "price_top_deal": "no",
+        "link": "https://www.merkado.tn/parapharmacie-soins/3094-ecran-solaire-de-cheveux.html",
+        "uniqueID": "4aeafadf6b2df3df7e9f36abc37cfeb4",
+        "category": "fashion_beauty",
+        "subcategory": "body_care",
+        "source_name": "merkado",
+        "source_link": "https://www.merkado.tn/",
+        "brand": "doris_cosmtiques",
+        "model": "",
+        "gender": "woman",
+        "color": "na",
+        "material": "na",
+        "store": "no",
+        "store_label": "Merkado",
+        "store_description": "merkado.tn est une plateforme e-commerce destinée à la femme, sa famille et sa maison.",
+        "delivery": "yes",
+        "delivery_description": "la livraison est assurée dans toute la tunisie.",
+        "availability": "on_stock",
+        "clicks": 11,
+        "clicksExternal": 0,
+        "reviewsNumber": 0,
+        "reviewsValue": 0.0,
+        "priceTable": [
+          {
+            "date_price": "2024-10-23T13:54:19Z",
+            "price": 29.75
+          },
+          {
+            "date_price": "2024-03-20T01:10:30Z",
+            "price": 30.0
+          },
+          {
+            "date_price": "2023-05-04T01:11:00Z",
+            "price": 29.75
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2023-05-04T01:11:00Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/4aeafadf6b2df3df7e9f36abc37cfeb4.jpg",
+        "date_creation": "2023-05-04T01:11:00Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "CERAVE BAUME HYDRATANT 177 ML",
+        "summary": "Type de peau :",
+        "currency": "TND",
+        "price": 51.051,
+        "price_min": 39.327,
+        "price_max": 51.051,
+        "price_drop": -0.072,
+        "price_drop_percent": -0.141,
+        "price_week_changed": "no",
+        "price_week_drop": 0,
+        "price_week_drop_percent": 0,
+        "price_deal": "no",
+        "price_hot_deal": "no",
+        "price_top_deal": "no",
+        "link": "https://pharma-shop.tn/corps/10161-cerave-baume-hydratant-177-ml-3337875598996.html",
+        "uniqueID": "52be76bcb9b1eaa26a8787a6faefe877",
+        "category": "fashion_beauty",
+        "subcategory": "body_care",
+        "source_name": "pharma_shop",
+        "source_link": "https://www.pharma-shop.tn/",
+        "brand": "cerave",
+        "model": "",
+        "gender": "woman",
+        "color": "na",
+        "material": "na",
+        "store": "no",
+        "store_label": "Pharma shop",
+        "store_description": "vous trouverez chez pharma-shop.tn touts vos produits parapharmaceutique (santé, beauté, minceur, et bien être) aux prix défiant toutes concurrences et toutes les marques parapharmaceutiques",
+        "delivery": "yes",
+        "delivery_description": "grand tunis (tunis, ariana, ben arous et la manouba): 2,900 dt  ( la livraison est gratuite pour toute commande sup à 99 dt ). tout le reste du territoire tunisien : 4,700 dt   ( la livraison est gratuite pour toute commande sup à 99 dt )",
+        "availability": "on_stock",
+        "clicks": 10,
+        "clicksExternal": 3,
+        "reviewsNumber": 0,
+        "reviewsValue": 0.0,
+        "priceTable": [
+          {
+            "date_price": "2024-04-23T01:54:38Z",
+            "price": 51.051
+          },
+          {
+            "date_price": "2023-10-08T01:59:06Z",
+            "price": 50.979
+          },
+          {
+            "date_price": "2022-09-27T01:50:31Z",
+            "price": 43.697
+          },
+          {
+            "date_price": "2022-09-25T01:47:49Z",
+            "price": 39.327
+          },
+          {
+            "date_price": "2022-08-26T01:40:50Z",
+            "price": 43.697
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2022-08-26T01:40:50Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/52be76bcb9b1eaa26a8787a6faefe877.jpg",
+        "date_creation": "2022-08-26T01:40:50Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "Nike Femme -Nike Gamma Force – Blanc Noir",
+        "summary": "Des couches superposées de style dimensionnel : c’est une force avec laquelle il faut compter. Offrant à la fois confort et polyvalence, ces chaussures sont ancrées dans la culture du basket-ball traditionnel",
+        "currency": "TND",
+        "price": 479.0,
+        "price_min": 339.2,
+        "price_max": 479.0,
+        "price_drop": -139.8,
+        "price_drop_percent": -41.215,
+        "price_week_changed": "no",
+        "price_week_drop": 0,
+        "price_week_drop_percent": 0,
+        "price_deal": "no",
+        "price_hot_deal": "no",
+        "price_top_deal": "no",
+        "link": "https://www.drest.tn/product/nike-femme-nike-gamma-force-blanc-noir-DX9176100/",
+        "uniqueID": "cb4c75ad5a48e9ad41c231bb60460983",
+        "category": "fashion_beauty",
+        "subcategory": "fashion_beauty_shoes",
+        "source_name": "drest",
+        "source_link": "https://www.drest.tn/",
+        "brand": "nike",
+        "model": "",
+        "gender": "woman",
+        "color": "multiple",
+        "material": "na",
+        "store": "no",
+        "store_label": "Drest",
+        "store_description": "drest est une boutique en ligne du prêt à porter et de la mode.",
+        "delivery": "yes",
+        "delivery_description": "livraison sur toute la tunisie. livraison gratuite à partir de 189dt.",
+        "availability": "on_stock",
+        "clicks": 10,
+        "clicksExternal": 0,
+        "reviewsNumber": 0,
+        "reviewsValue": 0.0,
+        "priceTable": [
+          {
+            "date_price": "2025-01-24T01:19:29Z",
+            "price": 479.0
+          },
+          {
+            "date_price": "2024-09-18T13:32:22Z",
+            "price": 339.2
+          },
+          {
+            "date_price": "2024-09-14T12:02:43Z",
+            "price": 399.0
+          },
+          {
+            "date_price": "2024-08-24T01:38:20Z",
+            "price": 479.0
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2024-08-24T01:38:20Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/cb4c75ad5a48e9ad41c231bb60460983.jpg",
+        "date_creation": "2024-08-24T01:38:20Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "ROGE CAVAILLES CREME DE DOUCHE NOURRISSANTE KARITE BIO PEAUX SECHES 250 ML",
+        "summary": "La Crème de Douche Nourrissante Rogé Cavaillès, au karité bio, est un produit d'exception spécialement conçu pour répondre aux besoins des peaux sèches et délicates. Enrichie en ingrédients naturels, cette crème de douche offre une expérience de soin agréable, nourrissante et régénérante pour la peau, tout en la nettoyant en douceur sans dessécher.",
+        "currency": "TND",
+        "price": 23.044,
+        "price_min": 23.044,
+        "price_max": 27.11,
+        "price_drop": 4.066,
+        "price_drop_percent": 14.998,
+        "price_week_changed": "no",
+        "price_week_drop": 0,
+        "price_week_drop_percent": 0,
+        "price_deal": "yes",
+        "price_hot_deal": "yes",
+        "price_top_deal": "yes",
+        "link": "https://pharma-shop.tn/bain-moussant-huile-sels-soins/14313-roge-cavailles-creme-de-douche-nourrissante-karite-bio-peaux-seches-250-ml-3596490006952.html",
+        "uniqueID": "b64325188d565fae54c991b3f3c43787",
+        "category": "fashion_beauty",
+        "subcategory": "body_care",
+        "source_name": "pharma_shop",
+        "source_link": "https://www.pharma-shop.tn/",
+        "brand": "roge_cavailles",
+        "model": "",
+        "gender": "woman",
+        "color": "na",
+        "material": "na",
+        "store": "no",
+        "store_label": "Pharma shop",
+        "store_description": "vous trouverez chez pharma-shop.tn touts vos produits parapharmaceutique (santé, beauté, minceur, et bien être) aux prix défiant toutes concurrences et toutes les marques parapharmaceutiques",
+        "delivery": "yes",
+        "delivery_description": "grand tunis (tunis, ariana, ben arous et la manouba): 2,900 dt  ( la livraison est gratuite pour toute commande sup à 99 dt ). tout le reste du territoire tunisien : 4,700 dt   ( la livraison est gratuite pour toute commande sup à 99 dt )",
+        "availability": "on_stock",
+        "clicks": 10,
+        "clicksExternal": 0,
+        "reviewsNumber": 0,
+        "reviewsValue": 0,
+        "priceTable": [
+          {
+            "date_price": "2025-02-19T01:09:37Z",
+            "price": 23.044
+          },
+          {
+            "date_price": "2024-07-19T20:28:45Z",
+            "price": 27.11
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2024-07-19T20:28:45Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/b64325188d565fae54c991b3f3c43787.jpg",
+        "date_creation": "2024-07-19T20:28:45Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "AZAL GOMMAGE CAFE POUR VISAGE ET CORPS 220 G",
+        "summary": "Une peau fraîche, nette, délicatement parfumée et son grain est affiné.",
+        "currency": "TND",
+        "price": 14.9,
+        "price_min": 13.2,
+        "price_max": 14.9,
+        "price_drop": -1.7,
+        "price_drop_percent": -12.879,
+        "price_week_changed": "no",
+        "price_week_drop": 0,
+        "price_week_drop_percent": 0,
+        "price_deal": "no",
+        "price_hot_deal": "no",
+        "price_top_deal": "no",
+        "link": "https://pharma-shop.tn/gommage-et-exfoliant-corps/11900-azal-gommage-cafe-pour-visage-et-corps-220-g-6193608503012.html",
+        "uniqueID": "c8ed820c0615f29ae672b4e208df367b",
+        "category": "fashion_beauty",
+        "subcategory": "body_care",
+        "source_name": "pharma_shop",
+        "source_link": "https://www.pharma-shop.tn/",
+        "brand": "azal",
+        "model": "",
+        "gender": "woman",
+        "color": "na",
+        "material": "na",
+        "store": "no",
+        "store_label": "Pharma shop",
+        "store_description": "vous trouverez chez pharma-shop.tn touts vos produits parapharmaceutique (santé, beauté, minceur, et bien être) aux prix défiant toutes concurrences et toutes les marques parapharmaceutiques",
+        "delivery": "yes",
+        "delivery_description": "grand tunis (tunis, ariana, ben arous et la manouba): 2,900 dt  ( la livraison est gratuite pour toute commande sup à 99 dt ). tout le reste du territoire tunisien : 4,700 dt   ( la livraison est gratuite pour toute commande sup à 99 dt )",
+        "availability": "on_stock",
+        "clicks": 10,
+        "clicksExternal": 0,
+        "reviewsNumber": 0,
+        "reviewsValue": 0.0,
+        "priceTable": [
+          {
+            "date_price": "2023-09-13T02:04:36Z",
+            "price": 14.9
+          },
+          {
+            "date_price": "2023-09-01T01:45:57Z",
+            "price": 13.2
+          },
+          {
+            "date_price": "2023-01-20T01:55:56Z",
+            "price": 14.85
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2023-01-20T01:55:56Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/c8ed820c0615f29ae672b4e208df367b.jpg",
+        "date_creation": "2023-01-20T01:55:56Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "Polo",
+        "summary": "Polo blanc sale à manches courtes fabriqué en coton piqué; un tissu respirant et résistant qui offre une bonne tenue. Le col classique de même tissu apporte une touche de raffinement, tandis que la coupe confort fit vous assure une liberté de mouvement optimale. Ce polo est idéal pour un style casual, que vous pouvez porter avec un jean ou un pantalon chino.",
+        "currency": "TND",
+        "price": 29.99,
+        "price_min": 24.0,
+        "price_max": 79.99,
+        "price_drop": -5.99,
+        "price_drop_percent": -24.958,
+        "price_week_changed": "yes",
+        "price_week_drop": 0.0,
+        "price_week_drop_percent": 0.0,
+        "price_deal": "no",
+        "price_hot_deal": "yes",
+        "price_top_deal": "yes",
+        "link": "https://www.exist.com.tn/polos/5188-29840-polo.html#/1031-taille-l/5077-couleur-gris5188",
+        "uniqueID": "2c3ed6a9355e1abe8c5c83faf94ee56a",
+        "category": "fashion_beauty",
+        "subcategory": "fashion_beauty_clothes",
+        "source_name": "exist",
+        "source_link": "https://www.exist.com.tn/",
+        "brand": "na",
+        "model": "",
+        "gender": "man",
+        "color": "na",
+        "material": "coton",
+        "store": "yes",
+        "store_label": "Exist",
+        "store_description": "exist est une société commerciale qui opère dans le secteur de la vente en détail du prêt à porter pour hommes, chaussures et accessoires en ligne ou en boutique. dotée de 43 points de ventes.",
+        "delivery": "yes",
+        "delivery_description": "livraison sur toute la tunisie. livraison gratuite à partir de 120dt.",
+        "availability": "on_stock",
+        "clicks": 10,
+        "clicksExternal": 1,
+        "reviewsNumber": 0,
+        "reviewsValue": 0,
+        "priceTable": [
+          {
+            "date_price": "2025-02-27T01:01:30Z",
+            "price": 29.99
+          },
+          {
+            "date_price": "2025-02-22T01:10:59Z",
+            "price": 24.0
+          },
+          {
+            "date_price": "2025-02-15T01:10:41Z",
+            "price": 29.99
+          },
+          {
+            "date_price": "2024-08-31T01:17:39Z",
+            "price": 39.99
+          },
+          {
+            "date_price": "2024-08-27T01:10:41Z",
+            "price": 49.99
+          },
+          {
+            "date_price": "2024-08-24T01:08:18Z",
+            "price": 40.0
+          },
+          {
+            "date_price": "2024-08-16T13:01:39Z",
+            "price": 49.99
+          },
+          {
+            "date_price": "2024-07-26T01:01:29Z",
+            "price": 59.99
+          },
+          {
+            "date_price": "2024-04-29T18:46:48Z",
+            "price": 79.99
+          },
+          {
+            "date_price": "2024-03-16T01:03:25Z",
+            "price": 64.0
+          },
+          {
+            "date_price": "2024-02-20T01:12:02Z",
+            "price": 79.99
+          },
+          {
+            "date_price": "2024-02-17T01:10:41Z",
+            "price": 64.0
+          },
+          {
+            "date_price": "2023-11-30T01:06:58Z",
+            "price": 79.99
+          },
+          {
+            "date_price": "2023-11-21T01:01:17Z",
+            "price": 56.0
+          },
+          {
+            "date_price": "2023-10-20T01:06:14Z",
+            "price": 64.0
+          },
+          {
+            "date_price": "2023-09-01T01:01:29Z",
+            "price": 79.99
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2023-09-01T01:01:29Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/2c3ed6a9355e1abe8c5c83faf94ee56a.jpg",
+        "date_creation": "2023-09-01T01:01:29Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "Tondeuse Bikini BRAUN Silk-Épil Styler - Rose (FG1100)",
+        "summary": "Réf : BREP0511 - FG1100 - Tondeuse Bikini BRAUN Silk-Épil Styler - Rose - 2 sabots de coupe: 5 mm et 8 mm - Tête de rasage fournie -1 tête de rasage haute précision - 10 stickers de personnalisation - 1 capot de protection, brossette de nettoyage, pochette de rangement - Alimentation: Pile - Couleur: Rose - Garantie : 1 an",
+        "currency": "TND",
+        "price": 104.0,
+        "price_min": 104,
+        "price_max": 104,
+        "price_drop": 0.0,
+        "price_drop_percent": 0.0,
+        "price_week_changed": "no",
+        "price_week_drop": 0,
+        "price_week_drop_percent": 0,
+        "price_deal": "no",
+        "price_hot_deal": "no",
+        "price_top_deal": "no",
+        "link": "https://www.technopro-online.com/tondeuse-bikini-braun-silk-epil-styler-rose-fg1100.html",
+        "uniqueID": "59cd77145269021de8e50e72b7347387",
+        "category": "fashion_beauty",
+        "subcategory": "care_machines",
+        "source_name": "technopro_online",
+        "source_link": "https://www.technopro-online.com/",
+        "brand": "braun",
+        "model": "",
+        "gender": "man",
+        "color": "rose",
+        "material": "na",
+        "store": "yes",
+        "store_label": "Oxtek",
+        "store_description": "oxtek est spécialisé dans la vente en ligne de matériel informatique. boutique et ecommerce platforme.",
+        "delivery": "yes",
+        "delivery_description": "livraison sur toute la tunisie. livraison gratuite à partir de 300dt.",
+        "availability": "out_of_stock",
+        "clicks": 10,
+        "clicksExternal": 2,
+        "reviewsNumber": 0,
+        "reviewsValue": 0,
+        "priceTable": [
+          {
+            "date_price": "2023-12-15T01:46:12Z",
+            "price": 104.0
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2024-09-27T13:56:16Z",
+            "availability": "out_of_stock"
+          },
+          {
+            "date_availability": "2023-12-15T01:46:12Z",
+            "availability": "on_command"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/59cd77145269021de8e50e72b7347387.jpg",
+        "date_creation": "2023-12-15T01:46:12Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "Valise",
+        "summary": "Notre valise en dimension large avec une capacité de 90L est idéale pour long séjour. En plus de sa poignée télescopique réglable à la taille du corp, cette valise est un bagage à manoeuvre grace à ses roulettes pivotantes à 360° et est dotée d'un intérieur doublé avec séparateur zippé. Grâce à sa coq antichoc, elle résiste à l'épreuve du temps et s'adapte à votre objectif. Dimensions: 50x29x77cm.",
+        "currency": "TND",
+        "price": 299.99,
+        "price_min": 210.0,
+        "price_max": 299.99,
+        "price_drop": -59.99,
+        "price_drop_percent": -24.996,
+        "price_week_changed": "yes",
+        "price_week_drop": 0.0,
+        "price_week_drop_percent": 0.0,
+        "price_deal": "no",
+        "price_hot_deal": "no",
+        "price_top_deal": "no",
+        "link": "https://www.exist.com.tn/valises/5575-32311-valise.html#/5507-couleur-noir5575/5508-taille-grand",
+        "uniqueID": "f513f73e91d839cda4aacb35b4a93697",
+        "category": "fashion_beauty",
+        "subcategory": "fashion_beauty_bags",
+        "source_name": "exist",
+        "source_link": "https://www.exist.com.tn/",
+        "brand": "na",
+        "model": "",
+        "gender": "man",
+        "color": "na",
+        "material": "na",
+        "store": "yes",
+        "store_label": "Exist",
+        "store_description": "exist est une société commerciale qui opère dans le secteur de la vente en détail du prêt à porter pour hommes, chaussures et accessoires en ligne ou en boutique. dotée de 43 points de ventes.",
+        "delivery": "yes",
+        "delivery_description": "livraison sur toute la tunisie. livraison gratuite à partir de 120dt.",
+        "availability": "on_stock",
+        "clicks": 10,
+        "clicksExternal": 0,
+        "reviewsNumber": 0,
+        "reviewsValue": 0.0,
+        "priceTable": [
+          {
+            "date_price": "2025-02-27T01:28:57Z",
+            "price": 299.99
+          },
+          {
+            "date_price": "2025-02-22T01:33:44Z",
+            "price": 240.0
+          },
+          {
+            "date_price": "2025-02-20T01:51:41Z",
+            "price": 299.99
+          },
+          {
+            "date_price": "2025-02-15T01:30:59Z",
+            "price": 240.0
+          },
+          {
+            "date_price": "2024-12-04T01:39:01Z",
+            "price": 299.99
+          },
+          {
+            "date_price": "2024-11-23T13:37:16Z",
+            "price": 210.0
+          },
+          {
+            "date_price": "2024-09-17T13:48:17Z",
+            "price": 299.99
+          },
+          {
+            "date_price": "2024-09-14T12:09:35Z",
+            "price": 240.0
+          },
+          {
+            "date_price": "2024-08-27T02:13:06Z",
+            "price": 299.99
+          },
+          {
+            "date_price": "2024-08-24T01:43:31Z",
+            "price": 240.0
+          },
+          {
+            "date_price": "2024-06-22T14:23:17Z",
+            "price": 299.99
+          },
+          {
+            "date_price": "2024-06-15T18:18:09Z",
+            "price": 240.0
+          },
+          {
+            "date_price": "2024-02-28T01:16:27Z",
+            "price": 299.99
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2024-02-28T01:16:27Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/f513f73e91d839cda4aacb35b4a93697.jpg",
+        "date_creation": "2024-02-28T01:16:27Z",
+        "imageSearch": "yes"
+      }
+    ]
+  },
+  {
+    "status": {
+      "code": "OK",
+      "description": "request and response are ok."
+    },
+    "response": [
+      {
+        "title": "Sweat-shirt Homme Tricolor",
+        "summary": "Chill&amp;Lit Vous Propose un Sweat-shirt Homme Tricolor. Le mannequin porte la taille L .Le Mannequin Mesure:1m93",
+        "currency": "TND",
+        "price": 24.0,
+        "price_min": 24.0,
+        "price_max": 39,
+        "price_drop": 11.0,
+        "price_drop_percent": 31.429,
+        "price_week_changed": "no",
+        "price_week_drop": 0,
+        "price_week_drop_percent": 0,
+        "price_deal": "yes",
+        "price_hot_deal": "no",
+        "price_top_deal": "no",
+        "link": "https://chillandlit.tn/hoodies-sweat-shirts/678-sweat-shirt-homme-tricolor.html",
+        "uniqueID": "d66ad14e16041eff1f8866c9ffffda74",
+        "category": "fashion_beauty",
+        "subcategory": "fashion_beauty_clothes",
+        "source_name": "chillandlit",
+        "source_link": "https://chillandlit.tn/",
+        "brand": "chillandlit",
+        "model": "",
+        "gender": "man",
+        "color": "na",
+        "material": "na",
+        "store": "no",
+        "store_label": "Chill&Lit",
+        "store_description": "chill&lit est une boutique 100% en ligne de mode.",
+        "delivery": "yes",
+        "delivery_description": "livraison sur toute la tunisie.",
+        "availability": "on_stock",
+        "clicks": 10,
+        "clicksExternal": 4,
+        "reviewsNumber": 0,
+        "reviewsValue": 0.0,
+        "priceTable": [
+          {
+            "date_price": "2025-01-17T01:44:28Z",
+            "price": 24.0
+          },
+          {
+            "date_price": "2022-02-11T01:10:31Z",
+            "price": 35.0
+          },
+          {
+            "date_price": "2021-11-18T09:30:45Z",
+            "price": 39.0
+          }
+        ],
+        "availabilityTable": [
+          {
+            "date_availability": "2021-11-18T09:30:45Z",
+            "availability": "on_stock"
+          }
+        ],
+        "image": "https://barbechli.tn/images/product/d66ad14e16041eff1f8866c9ffffda74.jpg",
+        "date_creation": "2021-11-18T09:30:45Z",
+        "imageSearch": "yes"
+      }
+    ]
+  }
+]

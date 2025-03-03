@@ -1,0 +1,1469 @@
+2025-03-03 21:22:09,193 - INFO - Starting scraping process
+2025-03-03 21:22:09,194 - INFO - Starting to collect product IDs for category: fashion_beauty
+2025-03-03 21:22:09,888 - INFO - Processing page 1
+2025-03-03 21:22:13,028 - INFO - Found 24 products on page 1. Total products so far: 24
+2025-03-03 21:22:13,028 - INFO - Processing page 2
+2025-03-03 21:22:13,864 - INFO - Found 24 products on page 2. Total products so far: 48
+2025-03-03 21:22:13,864 - INFO - Processing page 3
+2025-03-03 21:22:14,597 - INFO - Found 24 products on page 3. Total products so far: 72
+2025-03-03 21:22:14,598 - INFO - Processing page 4
+2025-03-03 21:22:15,323 - INFO - Found 24 products on page 4. Total products so far: 96
+2025-03-03 21:22:15,323 - INFO - Processing page 5
+2025-03-03 21:22:15,996 - INFO - Found 24 products on page 5. Total products so far: 120
+2025-03-03 21:22:15,996 - INFO - Processing page 6
+2025-03-03 21:22:16,686 - INFO - Found 24 products on page 6. Total products so far: 144
+2025-03-03 21:22:16,686 - INFO - Processing page 7
+2025-03-03 21:22:17,388 - INFO - Found 24 products on page 7. Total products so far: 168
+2025-03-03 21:22:17,389 - INFO - Processing page 8
+2025-03-03 21:22:18,079 - INFO - Found 24 products on page 8. Total products so far: 192
+2025-03-03 21:22:18,079 - INFO - Processing page 9
+2025-03-03 21:22:18,735 - INFO - Found 24 products on page 9. Total products so far: 216
+2025-03-03 21:22:18,735 - INFO - Processing page 10
+2025-03-03 21:22:19,403 - INFO - Found 24 products on page 10. Total products so far: 240
+2025-03-03 21:22:19,403 - INFO - Processing page 11
+2025-03-03 21:22:20,341 - INFO - Found 24 products on page 11. Total products so far: 264
+2025-03-03 21:22:20,341 - INFO - Processing page 12
+2025-03-03 21:22:20,965 - INFO - Found 24 products on page 12. Total products so far: 288
+2025-03-03 21:22:20,966 - INFO - Processing page 13
+2025-03-03 21:22:21,676 - INFO - Found 24 products on page 13. Total products so far: 312
+2025-03-03 21:22:21,676 - INFO - Processing page 14
+2025-03-03 21:22:22,339 - INFO - Found 24 products on page 14. Total products so far: 336
+2025-03-03 21:22:22,340 - INFO - Processing page 15
+2025-03-03 21:22:23,033 - INFO - Found 24 products on page 15. Total products so far: 360
+2025-03-03 21:22:23,034 - INFO - Processing page 16
+2025-03-03 21:22:23,902 - INFO - Found 24 products on page 16. Total products so far: 384
+2025-03-03 21:22:23,902 - INFO - Processing page 17
+2025-03-03 21:22:24,527 - INFO - Found 24 products on page 17. Total products so far: 408
+2025-03-03 21:22:24,527 - INFO - Processing page 18
+2025-03-03 21:22:25,301 - INFO - Found 24 products on page 18. Total products so far: 432
+2025-03-03 21:22:25,302 - INFO - Processing page 19
+2025-03-03 21:22:25,917 - INFO - Found 24 products on page 19. Total products so far: 456
+2025-03-03 21:22:25,918 - INFO - Processing page 20
+2025-03-03 21:22:26,647 - INFO - Found 24 products on page 20. Total products so far: 480
+2025-03-03 21:22:26,647 - INFO - Processing page 21
+2025-03-03 21:22:27,562 - INFO - Found 24 products on page 21. Total products so far: 504
+2025-03-03 21:22:27,562 - INFO - Processing page 22
+2025-03-03 21:22:28,524 - INFO - Found 24 products on page 22. Total products so far: 528
+2025-03-03 21:22:28,524 - INFO - Processing page 23
+2025-03-03 21:22:29,462 - INFO - Found 24 products on page 23. Total products so far: 552
+2025-03-03 21:22:29,462 - INFO - Processing page 24
+2025-03-03 21:22:30,090 - INFO - Found 24 products on page 24. Total products so far: 576
+2025-03-03 21:22:30,090 - INFO - Processing page 25
+2025-03-03 21:22:30,828 - INFO - Found 24 products on page 25. Total products so far: 600
+2025-03-03 21:22:30,828 - INFO - Processing page 26
+2025-03-03 21:22:31,478 - INFO - Found 24 products on page 26. Total products so far: 624
+2025-03-03 21:22:31,478 - INFO - Processing page 27
+2025-03-03 21:22:32,123 - INFO - Found 24 products on page 27. Total products so far: 648
+2025-03-03 21:22:32,123 - INFO - Processing page 28
+2025-03-03 21:22:32,799 - INFO - Found 24 products on page 28. Total products so far: 672
+2025-03-03 21:22:32,800 - INFO - Processing page 29
+2025-03-03 21:22:33,497 - INFO - Found 24 products on page 29. Total products so far: 696
+2025-03-03 21:22:33,497 - INFO - Processing page 30
+2025-03-03 21:22:34,187 - INFO - Found 24 products on page 30. Total products so far: 720
+2025-03-03 21:22:34,187 - INFO - Processing page 31
+2025-03-03 21:22:34,812 - INFO - Found 24 products on page 31. Total products so far: 744
+2025-03-03 21:22:34,813 - INFO - Processing page 32
+2025-03-03 21:22:35,577 - INFO - Found 24 products on page 32. Total products so far: 768
+2025-03-03 21:22:35,577 - INFO - Processing page 33
+2025-03-03 21:22:36,199 - INFO - Found 24 products on page 33. Total products so far: 792
+2025-03-03 21:22:36,200 - INFO - Processing page 34
+2025-03-03 21:22:36,875 - INFO - Found 24 products on page 34. Total products so far: 816
+2025-03-03 21:22:36,876 - INFO - Processing page 35
+2025-03-03 21:22:37,526 - INFO - Found 24 products on page 35. Total products so far: 840
+2025-03-03 21:22:37,527 - INFO - Processing page 36
+2025-03-03 21:22:38,233 - INFO - Found 24 products on page 36. Total products so far: 864
+2025-03-03 21:22:38,234 - INFO - Processing page 37
+2025-03-03 21:22:38,887 - INFO - Found 24 products on page 37. Total products so far: 888
+2025-03-03 21:22:38,887 - INFO - Processing page 38
+2025-03-03 21:22:39,703 - INFO - Found 24 products on page 38. Total products so far: 912
+2025-03-03 21:22:39,703 - INFO - Processing page 39
+2025-03-03 21:22:41,088 - INFO - Found 24 products on page 39. Total products so far: 936
+2025-03-03 21:22:41,088 - INFO - Processing page 40
+2025-03-03 21:22:42,574 - INFO - Found 24 products on page 40. Total products so far: 960
+2025-03-03 21:22:42,574 - INFO - Processing page 41
+2025-03-03 21:22:43,248 - INFO - Found 24 products on page 41. Total products so far: 984
+2025-03-03 21:22:43,248 - INFO - Processing page 42
+2025-03-03 21:22:43,939 - INFO - Found 24 products on page 42. Total products so far: 1008
+2025-03-03 21:22:43,939 - INFO - Processing page 43
+2025-03-03 21:22:44,794 - INFO - Found 24 products on page 43. Total products so far: 1032
+2025-03-03 21:22:44,795 - INFO - Processing page 44
+2025-03-03 21:22:45,543 - INFO - Found 24 products on page 44. Total products so far: 1056
+2025-03-03 21:22:45,543 - INFO - Processing page 45
+2025-03-03 21:22:46,274 - INFO - Found 24 products on page 45. Total products so far: 1080
+2025-03-03 21:22:46,274 - INFO - Processing page 46
+2025-03-03 21:22:47,021 - INFO - Found 24 products on page 46. Total products so far: 1104
+2025-03-03 21:22:47,022 - INFO - Processing page 47
+2025-03-03 21:22:47,766 - INFO - Found 24 products on page 47. Total products so far: 1128
+2025-03-03 21:22:47,766 - INFO - Processing page 48
+2025-03-03 21:22:48,467 - INFO - Found 24 products on page 48. Total products so far: 1152
+2025-03-03 21:22:48,468 - INFO - Processing page 49
+2025-03-03 21:22:49,110 - INFO - Found 24 products on page 49. Total products so far: 1176
+2025-03-03 21:22:49,110 - INFO - Processing page 50
+2025-03-03 21:22:49,794 - INFO - Found 24 products on page 50. Total products so far: 1200
+2025-03-03 21:22:49,794 - INFO - Processing page 51
+2025-03-03 21:22:50,447 - INFO - Found 24 products on page 51. Total products so far: 1224
+2025-03-03 21:22:50,447 - INFO - Processing page 52
+2025-03-03 21:22:51,182 - INFO - Found 24 products on page 52. Total products so far: 1248
+2025-03-03 21:22:51,182 - INFO - Processing page 53
+2025-03-03 21:22:51,935 - INFO - Found 24 products on page 53. Total products so far: 1272
+2025-03-03 21:22:51,936 - INFO - Processing page 54
+2025-03-03 21:22:52,612 - INFO - Found 24 products on page 54. Total products so far: 1296
+2025-03-03 21:22:52,612 - INFO - Processing page 55
+2025-03-03 21:22:53,306 - INFO - Found 24 products on page 55. Total products so far: 1320
+2025-03-03 21:22:53,307 - INFO - Processing page 56
+2025-03-03 21:22:54,007 - INFO - Found 24 products on page 56. Total products so far: 1344
+2025-03-03 21:22:54,007 - INFO - Processing page 57
+2025-03-03 21:22:54,790 - INFO - Found 24 products on page 57. Total products so far: 1368
+2025-03-03 21:22:54,790 - INFO - Processing page 58
+2025-03-03 21:22:55,906 - INFO - Found 24 products on page 58. Total products so far: 1392
+2025-03-03 21:22:55,906 - INFO - Processing page 59
+2025-03-03 21:22:56,930 - INFO - Found 24 products on page 59. Total products so far: 1416
+2025-03-03 21:22:56,931 - INFO - Processing page 60
+2025-03-03 21:22:57,835 - INFO - Found 24 products on page 60. Total products so far: 1440
+2025-03-03 21:22:57,836 - INFO - Processing page 61
+2025-03-03 21:22:58,574 - INFO - Found 24 products on page 61. Total products so far: 1464
+2025-03-03 21:22:58,575 - INFO - Processing page 62
+2025-03-03 21:22:59,275 - INFO - Found 24 products on page 62. Total products so far: 1488
+2025-03-03 21:22:59,276 - INFO - Processing page 63
+2025-03-03 21:23:00,063 - INFO - Found 24 products on page 63. Total products so far: 1512
+2025-03-03 21:23:00,064 - INFO - Processing page 64
+2025-03-03 21:23:00,738 - INFO - Found 24 products on page 64. Total products so far: 1536
+2025-03-03 21:23:00,739 - INFO - Processing page 65
+2025-03-03 21:23:01,399 - INFO - Found 24 products on page 65. Total products so far: 1560
+2025-03-03 21:23:01,399 - INFO - Processing page 66
+2025-03-03 21:23:02,028 - INFO - Found 24 products on page 66. Total products so far: 1584
+2025-03-03 21:23:02,029 - INFO - Processing page 67
+2025-03-03 21:23:02,707 - INFO - Found 24 products on page 67. Total products so far: 1608
+2025-03-03 21:23:02,708 - INFO - Processing page 68
+2025-03-03 21:23:03,302 - INFO - Found 24 products on page 68. Total products so far: 1632
+2025-03-03 21:23:03,302 - INFO - Processing page 69
+2025-03-03 21:23:03,993 - INFO - Found 24 products on page 69. Total products so far: 1656
+2025-03-03 21:23:03,993 - INFO - Processing page 70
+2025-03-03 21:23:04,629 - INFO - Found 24 products on page 70. Total products so far: 1680
+2025-03-03 21:23:04,629 - INFO - Processing page 71
+2025-03-03 21:23:05,259 - INFO - Found 24 products on page 71. Total products so far: 1704
+2025-03-03 21:23:05,259 - INFO - Processing page 72
+2025-03-03 21:23:06,047 - INFO - Found 24 products on page 72. Total products so far: 1728
+2025-03-03 21:23:06,047 - INFO - Processing page 73
+2025-03-03 21:23:07,036 - INFO - Found 24 products on page 73. Total products so far: 1752
+2025-03-03 21:23:07,037 - INFO - Processing page 74
+2025-03-03 21:23:07,701 - INFO - Found 24 products on page 74. Total products so far: 1776
+2025-03-03 21:23:07,702 - INFO - Processing page 75
+2025-03-03 21:23:08,416 - INFO - Found 24 products on page 75. Total products so far: 1800
+2025-03-03 21:23:08,416 - INFO - Processing page 76
+2025-03-03 21:23:09,505 - INFO - Found 24 products on page 76. Total products so far: 1824
+2025-03-03 21:23:09,506 - INFO - Processing page 77
+2025-03-03 21:23:11,065 - INFO - Found 24 products on page 77. Total products so far: 1848
+2025-03-03 21:23:11,065 - INFO - Processing page 78
+2025-03-03 21:23:11,839 - INFO - Found 24 products on page 78. Total products so far: 1872
+2025-03-03 21:23:11,839 - INFO - Processing page 79
+2025-03-03 21:23:12,579 - INFO - Found 24 products on page 79. Total products so far: 1896
+2025-03-03 21:23:12,579 - INFO - Processing page 80
+2025-03-03 21:23:13,238 - INFO - Found 24 products on page 80. Total products so far: 1920
+2025-03-03 21:23:13,238 - INFO - Processing page 81
+2025-03-03 21:23:13,934 - INFO - Found 24 products on page 81. Total products so far: 1944
+2025-03-03 21:23:13,934 - INFO - Processing page 82
+2025-03-03 21:23:14,626 - INFO - Found 24 products on page 82. Total products so far: 1968
+2025-03-03 21:23:14,627 - INFO - Processing page 83
+2025-03-03 21:23:15,391 - INFO - Found 24 products on page 83. Total products so far: 1992
+2025-03-03 21:23:15,392 - INFO - Processing page 84
+2025-03-03 21:23:16,114 - INFO - Found 24 products on page 84. Total products so far: 2016
+2025-03-03 21:23:16,114 - INFO - Processing page 85
+2025-03-03 21:23:16,757 - INFO - Found 24 products on page 85. Total products so far: 2040
+2025-03-03 21:23:16,757 - INFO - Processing page 86
+2025-03-03 21:23:17,494 - INFO - Found 24 products on page 86. Total products so far: 2064
+2025-03-03 21:23:17,494 - INFO - Processing page 87
+2025-03-03 21:23:18,172 - INFO - Found 24 products on page 87. Total products so far: 2088
+2025-03-03 21:23:18,172 - INFO - Processing page 88
+2025-03-03 21:23:18,843 - INFO - Found 24 products on page 88. Total products so far: 2112
+2025-03-03 21:23:18,843 - INFO - Processing page 89
+2025-03-03 21:23:19,549 - INFO - Found 24 products on page 89. Total products so far: 2136
+2025-03-03 21:23:19,549 - INFO - Processing page 90
+2025-03-03 21:23:20,262 - INFO - Found 24 products on page 90. Total products so far: 2160
+2025-03-03 21:23:20,262 - INFO - Processing page 91
+2025-03-03 21:23:21,104 - INFO - Found 24 products on page 91. Total products so far: 2184
+2025-03-03 21:23:21,104 - INFO - Processing page 92
+2025-03-03 21:23:22,230 - INFO - Found 24 products on page 92. Total products so far: 2208
+2025-03-03 21:23:22,230 - INFO - Processing page 93
+2025-03-03 21:23:22,854 - INFO - Found 24 products on page 93. Total products so far: 2232
+2025-03-03 21:23:22,854 - INFO - Processing page 94
+2025-03-03 21:23:23,533 - INFO - Found 24 products on page 94. Total products so far: 2256
+2025-03-03 21:23:23,533 - INFO - Processing page 95
+2025-03-03 21:23:24,272 - INFO - Found 24 products on page 95. Total products so far: 2280
+2025-03-03 21:23:24,273 - INFO - Processing page 96
+2025-03-03 21:23:24,969 - INFO - Found 24 products on page 96. Total products so far: 2304
+2025-03-03 21:23:24,970 - INFO - Processing page 97
+2025-03-03 21:23:25,563 - INFO - Found 24 products on page 97. Total products so far: 2328
+2025-03-03 21:23:25,563 - INFO - Processing page 98
+2025-03-03 21:23:26,264 - INFO - Found 24 products on page 98. Total products so far: 2352
+2025-03-03 21:23:26,264 - INFO - Processing page 99
+2025-03-03 21:23:26,973 - INFO - Found 24 products on page 99. Total products so far: 2376
+2025-03-03 21:23:26,974 - INFO - Processing page 100
+2025-03-03 21:23:27,676 - INFO - Found 24 products on page 100. Total products so far: 2400
+2025-03-03 21:23:27,676 - INFO - Processing page 101
+2025-03-03 21:23:28,372 - INFO - Found 24 products on page 101. Total products so far: 2424
+2025-03-03 21:23:28,372 - INFO - Processing page 102
+2025-03-03 21:23:29,027 - INFO - Found 24 products on page 102. Total products so far: 2448
+2025-03-03 21:23:29,027 - INFO - Processing page 103
+2025-03-03 21:23:30,102 - INFO - Found 24 products on page 103. Total products so far: 2472
+2025-03-03 21:23:30,103 - INFO - Processing page 104
+2025-03-03 21:23:30,816 - INFO - Found 24 products on page 104. Total products so far: 2496
+2025-03-03 21:23:30,817 - INFO - Processing page 105
+2025-03-03 21:23:31,535 - INFO - Found 24 products on page 105. Total products so far: 2520
+2025-03-03 21:23:31,535 - INFO - Processing page 106
+2025-03-03 21:23:32,328 - INFO - Found 24 products on page 106. Total products so far: 2544
+2025-03-03 21:23:32,329 - INFO - Processing page 107
+2025-03-03 21:23:33,277 - INFO - Found 24 products on page 107. Total products so far: 2568
+2025-03-03 21:23:33,277 - INFO - Processing page 108
+2025-03-03 21:23:34,111 - INFO - Found 24 products on page 108. Total products so far: 2592
+2025-03-03 21:23:34,112 - INFO - Processing page 109
+2025-03-03 21:23:34,906 - INFO - Found 24 products on page 109. Total products so far: 2616
+2025-03-03 21:23:34,906 - INFO - Processing page 110
+2025-03-03 21:23:35,577 - INFO - Found 24 products on page 110. Total products so far: 2640
+2025-03-03 21:23:35,577 - INFO - Processing page 111
+2025-03-03 21:23:36,236 - INFO - Found 24 products on page 111. Total products so far: 2664
+2025-03-03 21:23:36,236 - INFO - Processing page 112
+2025-03-03 21:23:36,899 - INFO - Found 24 products on page 112. Total products so far: 2688
+2025-03-03 21:23:36,900 - INFO - Processing page 113
+2025-03-03 21:23:37,504 - INFO - Found 24 products on page 113. Total products so far: 2712
+2025-03-03 21:23:37,504 - INFO - Processing page 114
+2025-03-03 21:23:38,188 - INFO - Found 24 products on page 114. Total products so far: 2736
+2025-03-03 21:23:38,189 - INFO - Processing page 115
+2025-03-03 21:23:38,854 - INFO - Found 24 products on page 115. Total products so far: 2760
+2025-03-03 21:23:38,854 - INFO - Processing page 116
+2025-03-03 21:23:39,544 - INFO - Found 24 products on page 116. Total products so far: 2784
+2025-03-03 21:23:39,545 - INFO - Processing page 117
+2025-03-03 21:23:40,262 - INFO - Found 24 products on page 117. Total products so far: 2808
+2025-03-03 21:23:40,263 - INFO - Processing page 118
+2025-03-03 21:23:40,932 - INFO - Found 24 products on page 118. Total products so far: 2832
+2025-03-03 21:23:40,933 - INFO - Processing page 119
+2025-03-03 21:23:41,613 - INFO - Found 24 products on page 119. Total products so far: 2856
+2025-03-03 21:23:41,613 - INFO - Processing page 120
+2025-03-03 21:23:42,428 - INFO - Found 24 products on page 120. Total products so far: 2880
+2025-03-03 21:23:42,429 - INFO - Processing page 121
+2025-03-03 21:23:43,110 - INFO - Found 24 products on page 121. Total products so far: 2904
+2025-03-03 21:23:43,110 - INFO - Processing page 122
+2025-03-03 21:23:43,794 - INFO - Found 24 products on page 122. Total products so far: 2928
+2025-03-03 21:23:43,795 - INFO - Processing page 123
+2025-03-03 21:23:44,463 - INFO - Found 24 products on page 123. Total products so far: 2952
+2025-03-03 21:23:44,464 - INFO - Processing page 124
+2025-03-03 21:23:45,119 - INFO - Found 24 products on page 124. Total products so far: 2976
+2025-03-03 21:23:45,119 - INFO - Processing page 125
+2025-03-03 21:23:45,848 - INFO - Found 24 products on page 125. Total products so far: 3000
+2025-03-03 21:23:45,849 - INFO - Processing page 126
+2025-03-03 21:23:46,819 - INFO - Found 24 products on page 126. Total products so far: 3024
+2025-03-03 21:23:46,819 - INFO - Processing page 127
+2025-03-03 21:23:47,585 - INFO - Found 24 products on page 127. Total products so far: 3048
+2025-03-03 21:23:47,585 - INFO - Processing page 128
+2025-03-03 21:23:48,811 - INFO - Found 24 products on page 128. Total products so far: 3072
+2025-03-03 21:23:48,812 - INFO - Processing page 129
+2025-03-03 21:23:49,621 - INFO - Found 24 products on page 129. Total products so far: 3096
+2025-03-03 21:23:49,621 - INFO - Processing page 130
+2025-03-03 21:23:50,253 - INFO - Found 24 products on page 130. Total products so far: 3120
+2025-03-03 21:23:50,254 - INFO - Processing page 131
+2025-03-03 21:23:50,930 - INFO - Found 24 products on page 131. Total products so far: 3144
+2025-03-03 21:23:50,931 - INFO - Processing page 132
+2025-03-03 21:23:51,614 - INFO - Found 24 products on page 132. Total products so far: 3168
+2025-03-03 21:23:51,614 - INFO - Processing page 133
+2025-03-03 21:23:52,276 - INFO - Found 24 products on page 133. Total products so far: 3192
+2025-03-03 21:23:52,277 - INFO - Processing page 134
+2025-03-03 21:23:52,920 - INFO - Found 24 products on page 134. Total products so far: 3216
+2025-03-03 21:23:52,920 - INFO - Processing page 135
+2025-03-03 21:23:53,579 - INFO - Found 24 products on page 135. Total products so far: 3240
+2025-03-03 21:23:53,579 - INFO - Processing page 136
+2025-03-03 21:23:54,339 - INFO - Found 24 products on page 136. Total products so far: 3264
+2025-03-03 21:23:54,340 - INFO - Processing page 137
+2025-03-03 21:23:55,024 - INFO - Found 24 products on page 137. Total products so far: 3288
+2025-03-03 21:23:55,026 - INFO - Processing page 138
+2025-03-03 21:23:55,673 - INFO - Found 24 products on page 138. Total products so far: 3312
+2025-03-03 21:23:55,673 - INFO - Processing page 139
+2025-03-03 21:23:56,379 - INFO - Found 24 products on page 139. Total products so far: 3336
+2025-03-03 21:23:56,379 - INFO - Processing page 140
+2025-03-03 21:23:57,020 - INFO - Found 24 products on page 140. Total products so far: 3360
+2025-03-03 21:23:57,020 - INFO - Processing page 141
+2025-03-03 21:23:57,660 - INFO - Found 24 products on page 141. Total products so far: 3384
+2025-03-03 21:23:57,661 - INFO - Processing page 142
+2025-03-03 21:23:58,280 - INFO - Found 24 products on page 142. Total products so far: 3408
+2025-03-03 21:23:58,280 - INFO - Processing page 143
+2025-03-03 21:23:58,958 - INFO - Found 24 products on page 143. Total products so far: 3432
+2025-03-03 21:23:58,959 - INFO - Processing page 144
+2025-03-03 21:23:59,630 - INFO - Found 24 products on page 144. Total products so far: 3456
+2025-03-03 21:23:59,631 - INFO - Processing page 145
+2025-03-03 21:24:00,323 - INFO - Found 24 products on page 145. Total products so far: 3480
+2025-03-03 21:24:00,323 - INFO - Processing page 146
+2025-03-03 21:24:01,005 - INFO - Found 24 products on page 146. Total products so far: 3504
+2025-03-03 21:24:01,005 - INFO - Processing page 147
+2025-03-03 21:24:01,942 - INFO - Found 24 products on page 147. Total products so far: 3528
+2025-03-03 21:24:01,942 - INFO - Processing page 148
+2025-03-03 21:24:02,831 - INFO - Found 24 products on page 148. Total products so far: 3552
+2025-03-03 21:24:02,832 - INFO - Processing page 149
+2025-03-03 21:24:03,762 - INFO - Found 24 products on page 149. Total products so far: 3576
+2025-03-03 21:24:03,763 - INFO - Processing page 150
+2025-03-03 21:24:04,680 - INFO - Found 24 products on page 150. Total products so far: 3600
+2025-03-03 21:24:04,680 - INFO - Processing page 151
+2025-03-03 21:24:05,308 - INFO - Found 24 products on page 151. Total products so far: 3624
+2025-03-03 21:24:05,308 - INFO - Processing page 152
+2025-03-03 21:24:05,917 - INFO - Found 24 products on page 152. Total products so far: 3648
+2025-03-03 21:24:05,917 - INFO - Processing page 153
+2025-03-03 21:24:06,747 - INFO - Found 24 products on page 153. Total products so far: 3672
+2025-03-03 21:24:06,747 - INFO - Processing page 154
+2025-03-03 21:24:07,403 - INFO - Found 24 products on page 154. Total products so far: 3696
+2025-03-03 21:24:07,404 - INFO - Processing page 155
+2025-03-03 21:24:08,132 - INFO - Found 24 products on page 155. Total products so far: 3720
+2025-03-03 21:24:08,132 - INFO - Processing page 156
+2025-03-03 21:24:08,762 - INFO - Found 24 products on page 156. Total products so far: 3744
+2025-03-03 21:24:08,762 - INFO - Processing page 157
+2025-03-03 21:24:09,380 - INFO - Found 24 products on page 157. Total products so far: 3768
+2025-03-03 21:24:09,381 - INFO - Processing page 158
+2025-03-03 21:24:10,096 - INFO - Found 24 products on page 158. Total products so far: 3792
+2025-03-03 21:24:10,096 - INFO - Processing page 159
+2025-03-03 21:24:10,784 - INFO - Found 24 products on page 159. Total products so far: 3816
+2025-03-03 21:24:10,784 - INFO - Processing page 160
+2025-03-03 21:24:11,546 - INFO - Found 24 products on page 160. Total products so far: 3840
+2025-03-03 21:24:11,547 - INFO - Processing page 161
+2025-03-03 21:24:12,234 - INFO - Found 24 products on page 161. Total products so far: 3864
+2025-03-03 21:24:12,234 - INFO - Processing page 162
+2025-03-03 21:24:12,854 - INFO - Found 24 products on page 162. Total products so far: 3888
+2025-03-03 21:24:12,854 - INFO - Processing page 163
+2025-03-03 21:24:13,597 - INFO - Found 24 products on page 163. Total products so far: 3912
+2025-03-03 21:24:13,598 - INFO - Processing page 164
+2025-03-03 21:24:14,290 - INFO - Found 24 products on page 164. Total products so far: 3936
+2025-03-03 21:24:14,290 - INFO - Processing page 165
+2025-03-03 21:24:14,963 - INFO - Found 24 products on page 165. Total products so far: 3960
+2025-03-03 21:24:14,963 - INFO - Processing page 166
+2025-03-03 21:24:15,584 - INFO - Found 24 products on page 166. Total products so far: 3984
+2025-03-03 21:24:15,584 - INFO - Processing page 167
+2025-03-03 21:24:16,398 - INFO - Found 24 products on page 167. Total products so far: 4008
+2025-03-03 21:24:16,398 - INFO - Processing page 168
+2025-03-03 21:24:17,906 - INFO - Found 24 products on page 168. Total products so far: 4032
+2025-03-03 21:24:17,907 - INFO - Processing page 169
+2025-03-03 21:24:19,495 - INFO - Found 24 products on page 169. Total products so far: 4056
+2025-03-03 21:24:19,495 - INFO - Processing page 170
+2025-03-03 21:24:20,281 - INFO - Found 24 products on page 170. Total products so far: 4080
+2025-03-03 21:24:20,281 - INFO - Processing page 171
+2025-03-03 21:24:20,873 - INFO - Found 24 products on page 171. Total products so far: 4104
+2025-03-03 21:24:20,873 - INFO - Processing page 172
+2025-03-03 21:24:21,507 - INFO - Found 24 products on page 172. Total products so far: 4128
+2025-03-03 21:24:21,507 - INFO - Processing page 173
+2025-03-03 21:24:22,283 - INFO - Found 24 products on page 173. Total products so far: 4152
+2025-03-03 21:24:22,284 - INFO - Processing page 174
+2025-03-03 21:24:22,932 - INFO - Found 24 products on page 174. Total products so far: 4176
+2025-03-03 21:24:22,933 - INFO - Processing page 175
+2025-03-03 21:24:23,598 - INFO - Found 24 products on page 175. Total products so far: 4200
+2025-03-03 21:24:23,598 - INFO - Processing page 176
+2025-03-03 21:24:24,270 - INFO - Found 24 products on page 176. Total products so far: 4224
+2025-03-03 21:24:24,271 - INFO - Processing page 177
+2025-03-03 21:24:24,887 - INFO - Found 24 products on page 177. Total products so far: 4248
+2025-03-03 21:24:24,887 - INFO - Processing page 178
+2025-03-03 21:24:25,480 - INFO - Found 24 products on page 178. Total products so far: 4272
+2025-03-03 21:24:25,481 - INFO - Processing page 179
+2025-03-03 21:24:26,155 - INFO - Found 24 products on page 179. Total products so far: 4296
+2025-03-03 21:24:26,157 - INFO - Processing page 180
+2025-03-03 21:24:26,811 - INFO - Found 24 products on page 180. Total products so far: 4320
+2025-03-03 21:24:26,811 - INFO - Processing page 181
+2025-03-03 21:24:27,520 - INFO - Found 24 products on page 181. Total products so far: 4344
+2025-03-03 21:24:27,520 - INFO - Processing page 182
+2025-03-03 21:24:28,121 - INFO - Found 24 products on page 182. Total products so far: 4368
+2025-03-03 21:24:28,121 - INFO - Processing page 183
+2025-03-03 21:24:28,833 - INFO - Found 24 products on page 183. Total products so far: 4392
+2025-03-03 21:24:28,833 - INFO - Processing page 184
+2025-03-03 21:24:29,520 - INFO - Found 24 products on page 184. Total products so far: 4416
+2025-03-03 21:24:29,521 - INFO - Processing page 185
+2025-03-03 21:24:30,176 - INFO - Found 24 products on page 185. Total products so far: 4440
+2025-03-03 21:24:30,177 - INFO - Processing page 186
+2025-03-03 21:24:30,939 - INFO - Found 24 products on page 186. Total products so far: 4464
+2025-03-03 21:24:30,939 - INFO - Processing page 187
+2025-03-03 21:24:31,551 - INFO - Found 24 products on page 187. Total products so far: 4488
+2025-03-03 21:24:31,553 - INFO - Processing page 188
+2025-03-03 21:24:32,306 - INFO - Found 24 products on page 188. Total products so far: 4512
+2025-03-03 21:24:32,307 - INFO - Processing page 189
+2025-03-03 21:24:32,989 - INFO - Found 24 products on page 189. Total products so far: 4536
+2025-03-03 21:24:32,989 - INFO - Processing page 190
+2025-03-03 21:24:33,861 - INFO - Found 24 products on page 190. Total products so far: 4560
+2025-03-03 21:24:33,862 - INFO - Processing page 191
+2025-03-03 21:24:34,683 - INFO - Found 24 products on page 191. Total products so far: 4584
+2025-03-03 21:24:34,683 - INFO - Processing page 192
+2025-03-03 21:24:35,401 - INFO - Found 24 products on page 192. Total products so far: 4608
+2025-03-03 21:24:35,401 - INFO - Processing page 193
+2025-03-03 21:24:36,096 - INFO - Found 24 products on page 193. Total products so far: 4632
+2025-03-03 21:24:36,097 - INFO - Processing page 194
+2025-03-03 21:24:36,720 - INFO - Found 24 products on page 194. Total products so far: 4656
+2025-03-03 21:24:36,720 - INFO - Processing page 195
+2025-03-03 21:24:37,393 - INFO - Found 24 products on page 195. Total products so far: 4680
+2025-03-03 21:24:37,393 - INFO - Processing page 196
+2025-03-03 21:24:38,021 - INFO - Found 24 products on page 196. Total products so far: 4704
+2025-03-03 21:24:38,021 - INFO - Processing page 197
+2025-03-03 21:24:38,721 - INFO - Found 24 products on page 197. Total products so far: 4728
+2025-03-03 21:24:38,722 - INFO - Processing page 198
+2025-03-03 21:24:39,359 - INFO - Found 24 products on page 198. Total products so far: 4752
+2025-03-03 21:24:39,359 - INFO - Processing page 199
+2025-03-03 21:24:39,950 - INFO - Found 24 products on page 199. Total products so far: 4776
+2025-03-03 21:24:39,951 - INFO - Processing page 200
+2025-03-03 21:24:40,624 - INFO - Found 24 products on page 200. Total products so far: 4800
+2025-03-03 21:24:40,624 - INFO - Processing page 201
+2025-03-03 21:24:41,328 - INFO - Found 24 products on page 201. Total products so far: 4824
+2025-03-03 21:24:41,328 - INFO - Processing page 202
+2025-03-03 21:24:42,027 - INFO - Found 24 products on page 202. Total products so far: 4848
+2025-03-03 21:24:42,027 - INFO - Processing page 203
+2025-03-03 21:24:42,730 - INFO - Found 24 products on page 203. Total products so far: 4872
+2025-03-03 21:24:42,730 - INFO - Processing page 204
+2025-03-03 21:24:43,441 - INFO - Found 24 products on page 204. Total products so far: 4896
+2025-03-03 21:24:43,441 - INFO - Processing page 205
+2025-03-03 21:24:44,115 - INFO - Found 24 products on page 205. Total products so far: 4920
+2025-03-03 21:24:44,116 - INFO - Processing page 206
+2025-03-03 21:24:44,836 - INFO - Found 24 products on page 206. Total products so far: 4944
+2025-03-03 21:24:44,836 - INFO - Processing page 207
+2025-03-03 21:24:45,556 - INFO - Found 24 products on page 207. Total products so far: 4968
+2025-03-03 21:24:45,556 - INFO - Processing page 208
+2025-03-03 21:24:46,238 - INFO - Found 24 products on page 208. Total products so far: 4992
+2025-03-03 21:24:46,238 - INFO - Processing page 209
+2025-03-03 21:24:46,980 - INFO - Found 24 products on page 209. Total products so far: 5016
+2025-03-03 21:24:46,981 - INFO - Processing page 210
+2025-03-03 21:24:47,905 - INFO - Found 24 products on page 210. Total products so far: 5040
+2025-03-03 21:24:47,905 - INFO - Processing page 211
+2025-03-03 21:24:48,754 - INFO - Found 24 products on page 211. Total products so far: 5064
+2025-03-03 21:24:48,754 - INFO - Processing page 212
+2025-03-03 21:24:49,957 - INFO - Found 24 products on page 212. Total products so far: 5088
+2025-03-03 21:24:49,958 - INFO - Processing page 213
+2025-03-03 21:24:50,620 - INFO - Found 24 products on page 213. Total products so far: 5112
+2025-03-03 21:24:50,621 - INFO - Processing page 214
+2025-03-03 21:24:51,291 - INFO - Found 24 products on page 214. Total products so far: 5136
+2025-03-03 21:24:51,292 - INFO - Processing page 215
+2025-03-03 21:24:51,961 - INFO - Found 24 products on page 215. Total products so far: 5160
+2025-03-03 21:24:51,961 - INFO - Processing page 216
+2025-03-03 21:24:52,689 - INFO - Found 24 products on page 216. Total products so far: 5184
+2025-03-03 21:24:52,689 - INFO - Processing page 217
+2025-03-03 21:24:53,331 - INFO - Found 24 products on page 217. Total products so far: 5208
+2025-03-03 21:24:53,332 - INFO - Processing page 218
+2025-03-03 21:24:54,002 - INFO - Found 24 products on page 218. Total products so far: 5232
+2025-03-03 21:24:54,003 - INFO - Processing page 219
+2025-03-03 21:24:54,723 - INFO - Found 24 products on page 219. Total products so far: 5256
+2025-03-03 21:24:54,723 - INFO - Processing page 220
+2025-03-03 21:24:55,347 - INFO - Found 24 products on page 220. Total products so far: 5280
+2025-03-03 21:24:55,347 - INFO - Processing page 221
+2025-03-03 21:24:55,965 - INFO - Found 24 products on page 221. Total products so far: 5304
+2025-03-03 21:24:55,966 - INFO - Processing page 222
+2025-03-03 21:24:56,610 - INFO - Found 24 products on page 222. Total products so far: 5328
+2025-03-03 21:24:56,610 - INFO - Processing page 223
+2025-03-03 21:24:57,306 - INFO - Found 24 products on page 223. Total products so far: 5352
+2025-03-03 21:24:57,307 - INFO - Processing page 224
+2025-03-03 21:24:58,017 - INFO - Found 24 products on page 224. Total products so far: 5376
+2025-03-03 21:24:58,017 - INFO - Processing page 225
+2025-03-03 21:24:58,809 - INFO - Found 24 products on page 225. Total products so far: 5400
+2025-03-03 21:24:58,809 - INFO - Processing page 226
+2025-03-03 21:24:59,537 - INFO - Found 24 products on page 226. Total products so far: 5424
+2025-03-03 21:24:59,538 - INFO - Processing page 227
+2025-03-03 21:25:00,249 - INFO - Found 24 products on page 227. Total products so far: 5448
+2025-03-03 21:25:00,249 - INFO - Processing page 228
+2025-03-03 21:25:01,052 - INFO - Found 24 products on page 228. Total products so far: 5472
+2025-03-03 21:25:01,052 - INFO - Processing page 229
+2025-03-03 21:25:02,032 - INFO - Found 24 products on page 229. Total products so far: 5496
+2025-03-03 21:25:02,032 - INFO - Processing page 230
+2025-03-03 21:25:03,326 - INFO - Found 24 products on page 230. Total products so far: 5520
+2025-03-03 21:25:03,326 - INFO - Processing page 231
+2025-03-03 21:25:04,373 - INFO - Found 24 products on page 231. Total products so far: 5544
+2025-03-03 21:25:04,374 - INFO - Processing page 232
+2025-03-03 21:25:05,011 - INFO - Found 24 products on page 232. Total products so far: 5568
+2025-03-03 21:25:05,012 - INFO - Processing page 233
+2025-03-03 21:25:06,093 - INFO - Found 24 products on page 233. Total products so far: 5592
+2025-03-03 21:25:06,095 - INFO - Processing page 234
+2025-03-03 21:25:06,862 - INFO - Found 24 products on page 234. Total products so far: 5616
+2025-03-03 21:25:06,862 - INFO - Processing page 235
+2025-03-03 21:25:07,542 - INFO - Found 24 products on page 235. Total products so far: 5640
+2025-03-03 21:25:07,542 - INFO - Processing page 236
+2025-03-03 21:25:08,247 - INFO - Found 24 products on page 236. Total products so far: 5664
+2025-03-03 21:25:08,247 - INFO - Processing page 237
+2025-03-03 21:25:09,086 - INFO - Found 24 products on page 237. Total products so far: 5688
+2025-03-03 21:25:09,087 - INFO - Processing page 238
+2025-03-03 21:25:11,850 - INFO - Found 24 products on page 238. Total products so far: 5712
+2025-03-03 21:25:11,850 - INFO - Processing page 239
+2025-03-03 21:25:12,627 - INFO - Found 24 products on page 239. Total products so far: 5736
+2025-03-03 21:25:12,627 - INFO - Processing page 240
+2025-03-03 21:25:13,302 - INFO - Found 24 products on page 240. Total products so far: 5760
+2025-03-03 21:25:13,302 - INFO - Processing page 241
+2025-03-03 21:25:14,369 - INFO - Found 24 products on page 241. Total products so far: 5784
+2025-03-03 21:25:14,369 - INFO - Processing page 242
+2025-03-03 21:25:18,046 - INFO - Found 24 products on page 242. Total products so far: 5808
+2025-03-03 21:25:18,046 - INFO - Processing page 243
+2025-03-03 21:25:19,766 - INFO - Found 24 products on page 243. Total products so far: 5832
+2025-03-03 21:25:19,766 - INFO - Processing page 244
+2025-03-03 21:25:20,541 - INFO - Found 24 products on page 244. Total products so far: 5856
+2025-03-03 21:25:20,541 - INFO - Processing page 245
+2025-03-03 21:25:21,236 - INFO - Found 24 products on page 245. Total products so far: 5880
+2025-03-03 21:25:21,236 - INFO - Processing page 246
+2025-03-03 21:25:21,899 - INFO - Found 24 products on page 246. Total products so far: 5904
+2025-03-03 21:25:21,899 - INFO - Processing page 247
+2025-03-03 21:25:22,596 - INFO - Found 24 products on page 247. Total products so far: 5928
+2025-03-03 21:25:22,596 - INFO - Processing page 248
+2025-03-03 21:25:23,250 - INFO - Found 24 products on page 248. Total products so far: 5952
+2025-03-03 21:25:23,250 - INFO - Processing page 249
+2025-03-03 21:25:23,873 - INFO - Found 24 products on page 249. Total products so far: 5976
+2025-03-03 21:25:23,873 - INFO - Processing page 250
+2025-03-03 21:25:24,573 - INFO - Found 24 products on page 250. Total products so far: 6000
+2025-03-03 21:25:24,573 - INFO - Processing page 251
+2025-03-03 21:25:25,197 - INFO - Found 24 products on page 251. Total products so far: 6024
+2025-03-03 21:25:25,197 - INFO - Processing page 252
+2025-03-03 21:25:25,939 - INFO - Found 24 products on page 252. Total products so far: 6048
+2025-03-03 21:25:25,939 - INFO - Processing page 253
+2025-03-03 21:25:26,723 - INFO - Found 24 products on page 253. Total products so far: 6072
+2025-03-03 21:25:26,723 - INFO - Processing page 254
+2025-03-03 21:25:35,830 - INFO - Found 24 products on page 254. Total products so far: 6096
+2025-03-03 21:25:35,830 - INFO - Processing page 255
+2025-03-03 21:25:36,537 - INFO - Found 24 products on page 255. Total products so far: 6120
+2025-03-03 21:25:36,538 - INFO - Processing page 256
+2025-03-03 21:25:37,220 - INFO - Found 24 products on page 256. Total products so far: 6144
+2025-03-03 21:25:37,220 - INFO - Processing page 257
+2025-03-03 21:25:37,943 - INFO - Found 24 products on page 257. Total products so far: 6168
+2025-03-03 21:25:37,944 - INFO - Processing page 258
+2025-03-03 21:25:38,632 - INFO - Found 24 products on page 258. Total products so far: 6192
+2025-03-03 21:25:38,633 - INFO - Processing page 259
+2025-03-03 21:25:39,254 - INFO - Found 24 products on page 259. Total products so far: 6216
+2025-03-03 21:25:39,255 - INFO - Processing page 260
+2025-03-03 21:25:39,979 - INFO - Found 24 products on page 260. Total products so far: 6240
+2025-03-03 21:25:39,980 - INFO - Processing page 261
+2025-03-03 21:25:40,597 - INFO - Found 24 products on page 261. Total products so far: 6264
+2025-03-03 21:25:40,599 - INFO - Processing page 262
+2025-03-03 21:25:41,270 - INFO - Found 24 products on page 262. Total products so far: 6288
+2025-03-03 21:25:41,271 - INFO - Processing page 263
+2025-03-03 21:25:42,010 - INFO - Found 24 products on page 263. Total products so far: 6312
+2025-03-03 21:25:42,011 - INFO - Processing page 264
+2025-03-03 21:25:42,738 - INFO - Found 24 products on page 264. Total products so far: 6336
+2025-03-03 21:25:42,738 - INFO - Processing page 265
+2025-03-03 21:25:43,346 - INFO - Found 24 products on page 265. Total products so far: 6360
+2025-03-03 21:25:43,347 - INFO - Processing page 266
+2025-03-03 21:25:44,043 - INFO - Found 24 products on page 266. Total products so far: 6384
+2025-03-03 21:25:44,045 - INFO - Processing page 267
+2025-03-03 21:25:44,668 - INFO - Found 24 products on page 267. Total products so far: 6408
+2025-03-03 21:25:44,669 - INFO - Processing page 268
+2025-03-03 21:25:45,332 - INFO - Found 24 products on page 268. Total products so far: 6432
+2025-03-03 21:25:45,332 - INFO - Processing page 269
+2025-03-03 21:25:45,997 - INFO - Found 24 products on page 269. Total products so far: 6456
+2025-03-03 21:25:45,997 - INFO - Processing page 270
+2025-03-03 21:25:46,700 - INFO - Found 24 products on page 270. Total products so far: 6480
+2025-03-03 21:25:46,700 - INFO - Processing page 271
+2025-03-03 21:25:47,424 - INFO - Found 24 products on page 271. Total products so far: 6504
+2025-03-03 21:25:47,424 - INFO - Processing page 272
+2025-03-03 21:25:48,258 - INFO - Found 24 products on page 272. Total products so far: 6528
+2025-03-03 21:25:48,259 - INFO - Processing page 273
+2025-03-03 21:25:49,361 - INFO - Found 24 products on page 273. Total products so far: 6552
+2025-03-03 21:25:49,362 - INFO - Processing page 274
+2025-03-03 21:25:50,200 - INFO - Found 24 products on page 274. Total products so far: 6576
+2025-03-03 21:25:50,200 - INFO - Processing page 275
+2025-03-03 21:25:50,974 - INFO - Found 24 products on page 275. Total products so far: 6600
+2025-03-03 21:25:50,974 - INFO - Processing page 276
+2025-03-03 21:25:51,637 - INFO - Found 24 products on page 276. Total products so far: 6624
+2025-03-03 21:25:51,637 - INFO - Processing page 277
+2025-03-03 21:25:52,363 - INFO - Found 24 products on page 277. Total products so far: 6648
+2025-03-03 21:25:52,363 - INFO - Processing page 278
+2025-03-03 21:25:53,062 - INFO - Found 24 products on page 278. Total products so far: 6672
+2025-03-03 21:25:53,062 - INFO - Processing page 279
+2025-03-03 21:25:53,806 - INFO - Found 24 products on page 279. Total products so far: 6696
+2025-03-03 21:25:53,807 - INFO - Processing page 280
+2025-03-03 21:25:54,449 - INFO - Found 24 products on page 280. Total products so far: 6720
+2025-03-03 21:25:54,449 - INFO - Processing page 281
+2025-03-03 21:25:55,122 - INFO - Found 24 products on page 281. Total products so far: 6744
+2025-03-03 21:25:55,123 - INFO - Processing page 282
+2025-03-03 21:25:55,797 - INFO - Found 24 products on page 282. Total products so far: 6768
+2025-03-03 21:25:55,799 - INFO - Processing page 283
+2025-03-03 21:25:56,468 - INFO - Found 24 products on page 283. Total products so far: 6792
+2025-03-03 21:25:56,469 - INFO - Processing page 284
+2025-03-03 21:25:57,173 - INFO - Found 24 products on page 284. Total products so far: 6816
+2025-03-03 21:25:57,173 - INFO - Processing page 285
+2025-03-03 21:25:57,863 - INFO - Found 24 products on page 285. Total products so far: 6840
+2025-03-03 21:25:57,863 - INFO - Processing page 286
+2025-03-03 21:25:58,544 - INFO - Found 24 products on page 286. Total products so far: 6864
+2025-03-03 21:25:58,544 - INFO - Processing page 287
+2025-03-03 21:25:59,285 - INFO - Found 24 products on page 287. Total products so far: 6888
+2025-03-03 21:25:59,285 - INFO - Processing page 288
+2025-03-03 21:25:59,962 - INFO - Found 24 products on page 288. Total products so far: 6912
+2025-03-03 21:25:59,962 - INFO - Processing page 289
+2025-03-03 21:26:00,605 - INFO - Found 24 products on page 289. Total products so far: 6936
+2025-03-03 21:26:00,605 - INFO - Processing page 290
+2025-03-03 21:26:01,309 - INFO - Found 24 products on page 290. Total products so far: 6960
+2025-03-03 21:26:01,309 - INFO - Processing page 291
+2025-03-03 21:26:02,328 - INFO - Found 24 products on page 291. Total products so far: 6984
+2025-03-03 21:26:02,328 - INFO - Processing page 292
+2025-03-03 21:26:03,166 - INFO - Found 24 products on page 292. Total products so far: 7008
+2025-03-03 21:26:03,166 - INFO - Processing page 293
+2025-03-03 21:26:04,130 - INFO - Found 24 products on page 293. Total products so far: 7032
+2025-03-03 21:26:04,130 - INFO - Processing page 294
+2025-03-03 21:26:04,910 - INFO - Found 24 products on page 294. Total products so far: 7056
+2025-03-03 21:26:04,910 - INFO - Processing page 295
+2025-03-03 21:26:05,623 - INFO - Found 24 products on page 295. Total products so far: 7080
+2025-03-03 21:26:05,625 - INFO - Processing page 296
+2025-03-03 21:26:06,304 - INFO - Found 24 products on page 296. Total products so far: 7104
+2025-03-03 21:26:06,305 - INFO - Processing page 297
+2025-03-03 21:26:07,007 - INFO - Found 24 products on page 297. Total products so far: 7128
+2025-03-03 21:26:07,008 - INFO - Processing page 298
+2025-03-03 21:26:07,666 - INFO - Found 24 products on page 298. Total products so far: 7152
+2025-03-03 21:26:07,667 - INFO - Processing page 299
+2025-03-03 21:26:08,339 - INFO - Found 24 products on page 299. Total products so far: 7176
+2025-03-03 21:26:08,339 - INFO - Processing page 300
+2025-03-03 21:26:08,974 - INFO - Found 24 products on page 300. Total products so far: 7200
+2025-03-03 21:26:08,974 - INFO - Processing page 301
+2025-03-03 21:26:09,624 - INFO - Found 24 products on page 301. Total products so far: 7224
+2025-03-03 21:26:09,624 - INFO - Processing page 302
+2025-03-03 21:26:10,349 - INFO - Found 24 products on page 302. Total products so far: 7248
+2025-03-03 21:26:10,349 - INFO - Processing page 303
+2025-03-03 21:26:11,017 - INFO - Found 24 products on page 303. Total products so far: 7272
+2025-03-03 21:26:11,018 - INFO - Processing page 304
+2025-03-03 21:26:11,757 - INFO - Found 24 products on page 304. Total products so far: 7296
+2025-03-03 21:26:11,757 - INFO - Processing page 305
+2025-03-03 21:26:12,422 - INFO - Found 24 products on page 305. Total products so far: 7320
+2025-03-03 21:26:12,422 - INFO - Processing page 306
+2025-03-03 21:26:13,108 - INFO - Found 24 products on page 306. Total products so far: 7344
+2025-03-03 21:26:13,108 - INFO - Processing page 307
+2025-03-03 21:26:13,782 - INFO - Found 24 products on page 307. Total products so far: 7368
+2025-03-03 21:26:13,783 - INFO - Processing page 308
+2025-03-03 21:26:14,423 - INFO - Found 24 products on page 308. Total products so far: 7392
+2025-03-03 21:26:14,423 - INFO - Processing page 309
+2025-03-03 21:26:15,116 - INFO - Found 24 products on page 309. Total products so far: 7416
+2025-03-03 21:26:15,118 - INFO - Processing page 310
+2025-03-03 21:26:15,749 - INFO - Found 24 products on page 310. Total products so far: 7440
+2025-03-03 21:26:15,749 - INFO - Processing page 311
+2025-03-03 21:26:16,474 - INFO - Found 24 products on page 311. Total products so far: 7464
+2025-03-03 21:26:16,475 - INFO - Processing page 312
+2025-03-03 21:26:17,598 - INFO - Found 24 products on page 312. Total products so far: 7488
+2025-03-03 21:26:17,598 - INFO - Processing page 313
+2025-03-03 21:26:19,076 - INFO - Found 24 products on page 313. Total products so far: 7512
+2025-03-03 21:26:19,076 - INFO - Processing page 314
+2025-03-03 21:26:20,411 - INFO - Found 24 products on page 314. Total products so far: 7536
+2025-03-03 21:26:20,411 - INFO - Processing page 315
+2025-03-03 21:26:21,101 - INFO - Found 24 products on page 315. Total products so far: 7560
+2025-03-03 21:26:21,102 - INFO - Processing page 316
+2025-03-03 21:26:21,769 - INFO - Found 24 products on page 316. Total products so far: 7584
+2025-03-03 21:26:21,769 - INFO - Processing page 317
+2025-03-03 21:26:22,461 - INFO - Found 24 products on page 317. Total products so far: 7608
+2025-03-03 21:26:22,462 - INFO - Processing page 318
+2025-03-03 21:26:23,100 - INFO - Found 24 products on page 318. Total products so far: 7632
+2025-03-03 21:26:23,100 - INFO - Processing page 319
+2025-03-03 21:26:23,805 - INFO - Found 24 products on page 319. Total products so far: 7656
+2025-03-03 21:26:23,806 - INFO - Processing page 320
+2025-03-03 21:26:24,542 - INFO - Found 24 products on page 320. Total products so far: 7680
+2025-03-03 21:26:24,542 - INFO - Processing page 321
+2025-03-03 21:26:25,167 - INFO - Found 24 products on page 321. Total products so far: 7704
+2025-03-03 21:26:25,168 - INFO - Processing page 322
+2025-03-03 21:26:25,891 - INFO - Found 24 products on page 322. Total products so far: 7728
+2025-03-03 21:26:25,892 - INFO - Processing page 323
+2025-03-03 21:26:26,533 - INFO - Found 24 products on page 323. Total products so far: 7752
+2025-03-03 21:26:26,534 - INFO - Processing page 324
+2025-03-03 21:26:27,302 - INFO - Found 24 products on page 324. Total products so far: 7776
+2025-03-03 21:26:27,302 - INFO - Processing page 325
+2025-03-03 21:26:28,315 - INFO - Found 24 products on page 325. Total products so far: 7800
+2025-03-03 21:26:28,316 - INFO - Processing page 326
+2025-03-03 21:26:29,936 - INFO - Found 24 products on page 326. Total products so far: 7824
+2025-03-03 21:26:29,937 - INFO - Processing page 327
+2025-03-03 21:26:31,527 - INFO - Found 24 products on page 327. Total products so far: 7848
+2025-03-03 21:26:31,527 - INFO - Processing page 328
+2025-03-03 21:26:34,848 - INFO - Found 24 products on page 328. Total products so far: 7872
+2025-03-03 21:26:34,848 - INFO - Processing page 329
+2025-03-03 21:26:37,163 - INFO - Found 24 products on page 329. Total products so far: 7896
+2025-03-03 21:26:37,163 - INFO - Processing page 330
+2025-03-03 21:26:39,178 - INFO - Found 24 products on page 330. Total products so far: 7920
+2025-03-03 21:26:39,179 - INFO - Processing page 331
+2025-03-03 21:26:40,153 - INFO - Found 24 products on page 331. Total products so far: 7944
+2025-03-03 21:26:40,154 - INFO - Processing page 332
+2025-03-03 21:26:40,867 - INFO - Found 24 products on page 332. Total products so far: 7968
+2025-03-03 21:26:40,867 - INFO - Processing page 333
+2025-03-03 21:26:41,612 - INFO - Found 24 products on page 333. Total products so far: 7992
+2025-03-03 21:26:41,612 - INFO - Processing page 334
+2025-03-03 21:26:42,424 - INFO - Found 24 products on page 334. Total products so far: 8016
+2025-03-03 21:26:42,425 - INFO - Processing page 335
+2025-03-03 21:26:43,135 - INFO - Found 24 products on page 335. Total products so far: 8040
+2025-03-03 21:26:43,136 - INFO - Processing page 336
+2025-03-03 21:26:43,884 - INFO - Found 24 products on page 336. Total products so far: 8064
+2025-03-03 21:26:43,884 - INFO - Processing page 337
+2025-03-03 21:26:44,504 - INFO - Found 24 products on page 337. Total products so far: 8088
+2025-03-03 21:26:44,504 - INFO - Processing page 338
+2025-03-03 21:26:45,259 - INFO - Found 24 products on page 338. Total products so far: 8112
+2025-03-03 21:26:45,259 - INFO - Processing page 339
+2025-03-03 21:26:45,880 - INFO - Found 24 products on page 339. Total products so far: 8136
+2025-03-03 21:26:45,880 - INFO - Processing page 340
+2025-03-03 21:26:46,729 - INFO - Found 24 products on page 340. Total products so far: 8160
+2025-03-03 21:26:46,730 - INFO - Processing page 341
+2025-03-03 21:26:47,654 - INFO - Found 24 products on page 341. Total products so far: 8184
+2025-03-03 21:26:47,655 - INFO - Processing page 342
+2025-03-03 21:26:48,640 - INFO - Found 24 products on page 342. Total products so far: 8208
+2025-03-03 21:26:48,641 - INFO - Processing page 343
+2025-03-03 21:26:49,556 - INFO - Found 24 products on page 343. Total products so far: 8232
+2025-03-03 21:26:49,556 - INFO - Processing page 344
+2025-03-03 21:26:50,223 - INFO - Found 24 products on page 344. Total products so far: 8256
+2025-03-03 21:26:50,224 - INFO - Processing page 345
+2025-03-03 21:26:50,923 - INFO - Found 24 products on page 345. Total products so far: 8280
+2025-03-03 21:26:50,923 - INFO - Processing page 346
+2025-03-03 21:26:51,628 - INFO - Found 24 products on page 346. Total products so far: 8304
+2025-03-03 21:26:51,628 - INFO - Processing page 347
+2025-03-03 21:26:52,437 - INFO - Found 24 products on page 347. Total products so far: 8328
+2025-03-03 21:26:52,440 - INFO - Processing page 348
+2025-03-03 21:26:53,105 - INFO - Found 24 products on page 348. Total products so far: 8352
+2025-03-03 21:26:53,107 - INFO - Processing page 349
+2025-03-03 21:26:53,942 - INFO - Found 24 products on page 349. Total products so far: 8376
+2025-03-03 21:26:53,943 - INFO - Processing page 350
+2025-03-03 21:26:54,607 - INFO - Found 24 products on page 350. Total products so far: 8400
+2025-03-03 21:26:54,608 - INFO - Processing page 351
+2025-03-03 21:26:55,373 - INFO - Found 24 products on page 351. Total products so far: 8424
+2025-03-03 21:26:55,373 - INFO - Processing page 352
+2025-03-03 21:26:56,116 - INFO - Found 24 products on page 352. Total products so far: 8448
+2025-03-03 21:26:56,117 - INFO - Processing page 353
+2025-03-03 21:26:56,870 - INFO - Found 24 products on page 353. Total products so far: 8472
+2025-03-03 21:26:56,871 - INFO - Processing page 354
+2025-03-03 21:26:57,607 - INFO - Found 24 products on page 354. Total products so far: 8496
+2025-03-03 21:26:57,607 - INFO - Processing page 355
+2025-03-03 21:26:58,380 - INFO - Found 24 products on page 355. Total products so far: 8520
+2025-03-03 21:26:58,381 - INFO - Processing page 356
+2025-03-03 21:26:59,057 - INFO - Found 24 products on page 356. Total products so far: 8544
+2025-03-03 21:26:59,057 - INFO - Processing page 357
+2025-03-03 21:26:59,779 - INFO - Found 24 products on page 357. Total products so far: 8568
+2025-03-03 21:26:59,780 - INFO - Processing page 358
+2025-03-03 21:27:00,553 - INFO - Found 24 products on page 358. Total products so far: 8592
+2025-03-03 21:27:00,553 - INFO - Processing page 359
+2025-03-03 21:27:01,286 - INFO - Found 24 products on page 359. Total products so far: 8616
+2025-03-03 21:27:01,287 - INFO - Processing page 360
+2025-03-03 21:27:02,439 - INFO - Found 24 products on page 360. Total products so far: 8640
+2025-03-03 21:27:02,439 - INFO - Processing page 361
+2025-03-03 21:27:03,458 - INFO - Found 24 products on page 361. Total products so far: 8664
+2025-03-03 21:27:03,458 - INFO - Processing page 362
+2025-03-03 21:27:04,499 - INFO - Found 24 products on page 362. Total products so far: 8688
+2025-03-03 21:27:04,500 - INFO - Processing page 363
+2025-03-03 21:27:05,250 - INFO - Found 24 products on page 363. Total products so far: 8712
+2025-03-03 21:27:05,250 - INFO - Processing page 364
+2025-03-03 21:27:05,943 - INFO - Found 24 products on page 364. Total products so far: 8736
+2025-03-03 21:27:05,943 - INFO - Processing page 365
+2025-03-03 21:27:06,755 - INFO - Found 24 products on page 365. Total products so far: 8760
+2025-03-03 21:27:06,755 - INFO - Processing page 366
+2025-03-03 21:27:07,551 - INFO - Found 24 products on page 366. Total products so far: 8784
+2025-03-03 21:27:07,552 - INFO - Processing page 367
+2025-03-03 21:27:08,221 - INFO - Found 24 products on page 367. Total products so far: 8808
+2025-03-03 21:27:08,222 - INFO - Processing page 368
+2025-03-03 21:27:08,912 - INFO - Found 24 products on page 368. Total products so far: 8832
+2025-03-03 21:27:08,913 - INFO - Processing page 369
+2025-03-03 21:27:09,621 - INFO - Found 24 products on page 369. Total products so far: 8856
+2025-03-03 21:27:09,621 - INFO - Processing page 370
+2025-03-03 21:27:10,345 - INFO - Found 24 products on page 370. Total products so far: 8880
+2025-03-03 21:27:10,345 - INFO - Processing page 371
+2025-03-03 21:27:11,056 - INFO - Found 24 products on page 371. Total products so far: 8904
+2025-03-03 21:27:11,056 - INFO - Processing page 372
+2025-03-03 21:27:11,705 - INFO - Found 24 products on page 372. Total products so far: 8928
+2025-03-03 21:27:11,705 - INFO - Processing page 373
+2025-03-03 21:27:12,467 - INFO - Found 24 products on page 373. Total products so far: 8952
+2025-03-03 21:27:12,467 - INFO - Processing page 374
+2025-03-03 21:27:13,222 - INFO - Found 24 products on page 374. Total products so far: 8976
+2025-03-03 21:27:13,222 - INFO - Processing page 375
+2025-03-03 21:27:13,934 - INFO - Found 24 products on page 375. Total products so far: 9000
+2025-03-03 21:27:13,935 - INFO - Processing page 376
+2025-03-03 21:27:14,596 - INFO - Found 24 products on page 376. Total products so far: 9024
+2025-03-03 21:27:14,596 - INFO - Processing page 377
+2025-03-03 21:27:15,386 - INFO - Found 24 products on page 377. Total products so far: 9048
+2025-03-03 21:27:15,387 - INFO - Processing page 378
+2025-03-03 21:27:15,992 - INFO - Found 24 products on page 378. Total products so far: 9072
+2025-03-03 21:27:15,993 - INFO - Processing page 379
+2025-03-03 21:27:16,839 - INFO - Found 24 products on page 379. Total products so far: 9096
+2025-03-03 21:27:16,839 - INFO - Processing page 380
+2025-03-03 21:27:17,936 - INFO - Found 24 products on page 380. Total products so far: 9120
+2025-03-03 21:27:17,937 - INFO - Processing page 381
+2025-03-03 21:27:18,841 - INFO - Found 24 products on page 381. Total products so far: 9144
+2025-03-03 21:27:18,842 - INFO - Processing page 382
+2025-03-03 21:27:19,890 - INFO - Found 24 products on page 382. Total products so far: 9168
+2025-03-03 21:27:19,890 - INFO - Processing page 383
+2025-03-03 21:27:20,538 - INFO - Found 24 products on page 383. Total products so far: 9192
+2025-03-03 21:27:20,539 - INFO - Processing page 384
+2025-03-03 21:27:21,188 - INFO - Found 24 products on page 384. Total products so far: 9216
+2025-03-03 21:27:21,188 - INFO - Processing page 385
+2025-03-03 21:27:21,900 - INFO - Found 24 products on page 385. Total products so far: 9240
+2025-03-03 21:27:21,900 - INFO - Processing page 386
+2025-03-03 21:27:22,574 - INFO - Found 24 products on page 386. Total products so far: 9264
+2025-03-03 21:27:22,574 - INFO - Processing page 387
+2025-03-03 21:27:23,254 - INFO - Found 24 products on page 387. Total products so far: 9288
+2025-03-03 21:27:23,254 - INFO - Processing page 388
+2025-03-03 21:27:23,960 - INFO - Found 24 products on page 388. Total products so far: 9312
+2025-03-03 21:27:23,960 - INFO - Processing page 389
+2025-03-03 21:27:24,803 - INFO - Found 24 products on page 389. Total products so far: 9336
+2025-03-03 21:27:24,803 - INFO - Processing page 390
+2025-03-03 21:27:25,508 - INFO - Found 24 products on page 390. Total products so far: 9360
+2025-03-03 21:27:25,509 - INFO - Processing page 391
+2025-03-03 21:27:26,261 - INFO - Found 24 products on page 391. Total products so far: 9384
+2025-03-03 21:27:26,261 - INFO - Processing page 392
+2025-03-03 21:27:26,948 - INFO - Found 24 products on page 392. Total products so far: 9408
+2025-03-03 21:27:26,949 - INFO - Processing page 393
+2025-03-03 21:27:27,678 - INFO - Found 24 products on page 393. Total products so far: 9432
+2025-03-03 21:27:27,679 - INFO - Processing page 394
+2025-03-03 21:27:28,358 - INFO - Found 24 products on page 394. Total products so far: 9456
+2025-03-03 21:27:28,359 - INFO - Processing page 395
+2025-03-03 21:27:29,064 - INFO - Found 24 products on page 395. Total products so far: 9480
+2025-03-03 21:27:29,064 - INFO - Processing page 396
+2025-03-03 21:27:29,791 - INFO - Found 24 products on page 396. Total products so far: 9504
+2025-03-03 21:27:29,792 - INFO - Processing page 397
+2025-03-03 21:27:30,404 - INFO - Found 24 products on page 397. Total products so far: 9528
+2025-03-03 21:27:30,404 - INFO - Processing page 398
+2025-03-03 21:27:31,142 - INFO - Found 24 products on page 398. Total products so far: 9552
+2025-03-03 21:27:31,143 - INFO - Processing page 399
+2025-03-03 21:27:31,833 - INFO - Found 24 products on page 399. Total products so far: 9576
+2025-03-03 21:27:31,833 - INFO - Processing page 400
+2025-03-03 21:27:33,452 - INFO - Found 24 products on page 400. Total products so far: 9600
+2025-03-03 21:27:33,452 - INFO - Processing page 401
+2025-03-03 21:27:34,424 - INFO - Found 24 products on page 401. Total products so far: 9624
+2025-03-03 21:27:34,424 - INFO - Processing page 402
+2025-03-03 21:27:35,122 - INFO - Found 24 products on page 402. Total products so far: 9648
+2025-03-03 21:27:35,122 - INFO - Processing page 403
+2025-03-03 21:27:35,723 - INFO - Found 24 products on page 403. Total products so far: 9672
+2025-03-03 21:27:35,723 - INFO - Processing page 404
+2025-03-03 21:27:36,413 - INFO - Found 24 products on page 404. Total products so far: 9696
+2025-03-03 21:27:36,414 - INFO - Processing page 405
+2025-03-03 21:27:37,085 - INFO - Found 24 products on page 405. Total products so far: 9720
+2025-03-03 21:27:37,086 - INFO - Processing page 406
+2025-03-03 21:27:37,909 - INFO - Found 24 products on page 406. Total products so far: 9744
+2025-03-03 21:27:37,910 - INFO - Processing page 407
+2025-03-03 21:27:38,700 - INFO - Found 24 products on page 407. Total products so far: 9768
+2025-03-03 21:27:38,701 - INFO - Processing page 408
+2025-03-03 21:27:39,628 - INFO - Found 24 products on page 408. Total products so far: 9792
+2025-03-03 21:27:39,629 - INFO - Processing page 409
+2025-03-03 21:27:40,565 - INFO - Found 24 products on page 409. Total products so far: 9816
+2025-03-03 21:27:40,566 - INFO - Processing page 410
+2025-03-03 21:27:41,244 - INFO - Found 24 products on page 410. Total products so far: 9840
+2025-03-03 21:27:41,244 - INFO - Processing page 411
+2025-03-03 21:27:41,913 - INFO - Found 24 products on page 411. Total products so far: 9864
+2025-03-03 21:27:41,914 - INFO - Processing page 412
+2025-03-03 21:27:42,630 - INFO - Found 24 products on page 412. Total products so far: 9888
+2025-03-03 21:27:42,631 - INFO - Processing page 413
+2025-03-03 21:27:43,281 - INFO - Found 24 products on page 413. Total products so far: 9912
+2025-03-03 21:27:43,281 - INFO - Processing page 414
+2025-03-03 21:27:43,966 - INFO - Found 24 products on page 414. Total products so far: 9936
+2025-03-03 21:27:43,966 - INFO - Processing page 415
+2025-03-03 21:27:44,622 - INFO - Found 24 products on page 415. Total products so far: 9960
+2025-03-03 21:27:44,622 - INFO - Processing page 416
+2025-03-03 21:27:45,308 - INFO - Found 24 products on page 416. Total products so far: 9984
+2025-03-03 21:27:45,309 - INFO - Processing page 417
+2025-03-03 21:27:45,830 - INFO - Reached end of available pages
+2025-03-03 21:27:46,017 - INFO - Finished collecting product IDs. Total products found: 9984
+2025-03-03 21:27:46,032 - INFO - Found 9984 products to process
+2025-03-03 21:27:46,032 - INFO - Processing product 1/9984
+2025-03-03 21:27:46,032 - INFO - Fetching details for product ID: 2e63befc8a19af5dec34e2a647059140
+2025-03-03 21:27:50,271 - INFO - Processing product 2/9984
+2025-03-03 21:27:50,271 - INFO - Fetching details for product ID: c73057d46899084ebc064b9d5a739a9c
+2025-03-03 21:27:52,250 - INFO - Processing product 3/9984
+2025-03-03 21:27:52,250 - INFO - Fetching details for product ID: 9a1a970ae643b38b83db9c7cbd39bf69
+2025-03-03 21:27:54,159 - INFO - Processing product 4/9984
+2025-03-03 21:27:54,159 - INFO - Fetching details for product ID: 7c1bd503d81d02163568cbf42778d20f
+2025-03-03 21:27:56,054 - INFO - Processing product 5/9984
+2025-03-03 21:27:56,054 - INFO - Fetching details for product ID: 5c3d85e7194de246c7a83b21a0291a74
+2025-03-03 21:27:57,999 - INFO - Processing product 6/9984
+2025-03-03 21:27:58,000 - INFO - Fetching details for product ID: d23d4abf0cc9dce11490618b8165fe45
+2025-03-03 21:27:59,981 - INFO - Processing product 7/9984
+2025-03-03 21:27:59,981 - INFO - Fetching details for product ID: 09cd810a04f596a9e1fc238e5d128c1e
+2025-03-03 21:28:04,837 - INFO - Processing product 8/9984
+2025-03-03 21:28:04,837 - INFO - Fetching details for product ID: c9ef7d87ec4444fe7c8cb56ec24ae910
+2025-03-03 21:28:06,945 - INFO - Processing product 9/9984
+2025-03-03 21:28:06,945 - INFO - Fetching details for product ID: 05bbffd41982f98842a5ada12cf2d05c
+2025-03-03 21:28:08,801 - INFO - Processing product 10/9984
+2025-03-03 21:28:08,801 - INFO - Fetching details for product ID: d2e6f6b6f58587085c6a12650ce6adae
+2025-03-03 21:28:11,628 - INFO - Processing product 11/9984
+2025-03-03 21:28:11,628 - INFO - Fetching details for product ID: 4dc4950142829f5128e55f14029f85ed
+2025-03-03 21:28:13,670 - INFO - Processing product 12/9984
+2025-03-03 21:28:13,670 - INFO - Fetching details for product ID: 861b90b9f625255a52edc792575d1444
+2025-03-03 21:28:15,609 - INFO - Processing product 13/9984
+2025-03-03 21:28:15,609 - INFO - Fetching details for product ID: 866a184973c41849f331efddbe6c8ebc
+2025-03-03 21:28:18,836 - INFO - Processing product 14/9984
+2025-03-03 21:28:18,836 - INFO - Fetching details for product ID: 941c980ec5f7717388b046670b88c24d
+2025-03-03 21:28:21,201 - INFO - Processing product 15/9984
+2025-03-03 21:28:21,201 - INFO - Fetching details for product ID: b05cbc62842f00137a58bf36404d5ea1
+2025-03-03 21:28:23,101 - INFO - Processing product 16/9984
+2025-03-03 21:28:23,101 - INFO - Fetching details for product ID: 155810f138e48934e70f2847faf21595
+2025-03-03 21:28:25,124 - INFO - Processing product 17/9984
+2025-03-03 21:28:25,124 - INFO - Fetching details for product ID: e56151d18d2066a7d7aa8d4ca03c8532
+2025-03-03 21:28:26,867 - INFO - Processing product 18/9984
+2025-03-03 21:28:26,867 - INFO - Fetching details for product ID: cd36c3a2a400d162666b25b6f5c7e7d0
+2025-03-03 21:28:28,839 - INFO - Processing product 19/9984
+2025-03-03 21:28:28,840 - INFO - Fetching details for product ID: 86d4232a795f3666127c49c293277dbf
+2025-03-03 21:28:30,839 - INFO - Processing product 20/9984
+2025-03-03 21:28:30,839 - INFO - Fetching details for product ID: 76b682bde3835c5bd8cbf2551206e664
+2025-03-03 21:28:33,146 - INFO - Processing product 21/9984
+2025-03-03 21:28:33,146 - INFO - Fetching details for product ID: c98feddaac5fbebfb364e17ac7eed179
+2025-03-03 21:28:35,729 - INFO - Processing product 22/9984
+2025-03-03 21:28:35,729 - INFO - Fetching details for product ID: a69662ec799c5fccde8950f99a1e8d36
+2025-03-03 21:28:37,725 - INFO - Processing product 23/9984
+2025-03-03 21:28:37,725 - INFO - Fetching details for product ID: 1a8867bead2bd6520b6657c2e0eef986
+2025-03-03 21:28:39,604 - INFO - Processing product 24/9984
+2025-03-03 21:28:39,605 - INFO - Fetching details for product ID: acda9084ee28faed63445550ba598778
+2025-03-03 21:28:41,453 - INFO - Processing product 25/9984
+2025-03-03 21:28:41,453 - INFO - Fetching details for product ID: d7d73c7ab2b06c636977e5a37f061773
+2025-03-03 21:28:43,408 - INFO - Processing product 26/9984
+2025-03-03 21:28:43,408 - INFO - Fetching details for product ID: d20213df91c6884ed713bd89a9606e22
+2025-03-03 21:28:45,602 - INFO - Processing product 27/9984
+2025-03-03 21:28:45,602 - INFO - Fetching details for product ID: 8397678d046142d6ae362830db8da2a9
+2025-03-03 21:28:50,595 - INFO - Processing product 28/9984
+2025-03-03 21:28:50,595 - INFO - Fetching details for product ID: fdfe21d90d5f1dfd81d95fcdcd1acc2d
+2025-03-03 21:28:52,467 - INFO - Processing product 29/9984
+2025-03-03 21:28:52,468 - INFO - Fetching details for product ID: 9f437f8046cb10fed47dbac29b0574ff
+2025-03-03 21:28:54,297 - INFO - Processing product 30/9984
+2025-03-03 21:28:54,297 - INFO - Fetching details for product ID: bc90acc094901bfcf8e16de79ae1d183
+2025-03-03 21:28:56,486 - INFO - Processing product 31/9984
+2025-03-03 21:28:56,487 - INFO - Fetching details for product ID: dd9eb89b9fd2676a627a1d07515256ea
+2025-03-03 21:28:58,337 - INFO - Processing product 32/9984
+2025-03-03 21:28:58,337 - INFO - Fetching details for product ID: f1db4a989fb78918e28080cf2d495222
+2025-03-03 21:29:00,203 - INFO - Processing product 33/9984
+2025-03-03 21:29:00,203 - INFO - Fetching details for product ID: 97478fc6ed6a11ab54593f5f824b453f
+2025-03-03 21:29:05,006 - INFO - Processing product 34/9984
+2025-03-03 21:29:05,007 - INFO - Fetching details for product ID: c827b9e5f13aeabc9ed8360913c224a0
+2025-03-03 21:29:07,226 - INFO - Processing product 35/9984
+2025-03-03 21:29:07,227 - INFO - Fetching details for product ID: 48055cac002cd73e6774de2e7d3a0238
+2025-03-03 21:29:08,973 - INFO - Processing product 36/9984
+2025-03-03 21:29:08,973 - INFO - Fetching details for product ID: d16c9da9ccdfe511938006f5330e3e53
+2025-03-03 21:29:10,889 - INFO - Processing product 37/9984
+2025-03-03 21:29:10,890 - INFO - Fetching details for product ID: 9b75b0f7fc470ab11701ad7cf49bca34
+2025-03-03 21:29:12,863 - INFO - Processing product 38/9984
+2025-03-03 21:29:12,863 - INFO - Fetching details for product ID: e9022ed52bbf5924f6bc0ae8dab02c4f
+2025-03-03 21:29:14,793 - INFO - Processing product 39/9984
+2025-03-03 21:29:14,793 - INFO - Fetching details for product ID: aa1cd0996a7999bfa8a664c770a6222f
+2025-03-03 21:29:16,848 - INFO - Processing product 40/9984
+2025-03-03 21:29:16,849 - INFO - Fetching details for product ID: cb4c75ad5a48e9ad41c231bb60460983
+2025-03-03 21:29:21,359 - INFO - Processing product 41/9984
+2025-03-03 21:29:21,359 - INFO - Fetching details for product ID: b64325188d565fae54c991b3f3c43787
+2025-03-03 21:29:23,590 - INFO - Processing product 42/9984
+2025-03-03 21:29:23,590 - INFO - Fetching details for product ID: c8ed820c0615f29ae672b4e208df367b
+2025-03-03 21:29:25,721 - INFO - Processing product 43/9984
+2025-03-03 21:29:25,721 - INFO - Fetching details for product ID: 4aeafadf6b2df3df7e9f36abc37cfeb4
+2025-03-03 21:29:27,608 - INFO - Processing product 44/9984
+2025-03-03 21:29:27,608 - INFO - Fetching details for product ID: 2c3ed6a9355e1abe8c5c83faf94ee56a
+2025-03-03 21:29:29,550 - INFO - Processing product 45/9984
+2025-03-03 21:29:29,550 - INFO - Fetching details for product ID: f513f73e91d839cda4aacb35b4a93697
+2025-03-03 21:29:31,427 - INFO - Processing product 46/9984
+2025-03-03 21:29:31,427 - INFO - Fetching details for product ID: d66ad14e16041eff1f8866c9ffffda74
+2025-03-03 21:29:36,128 - INFO - Processing product 47/9984
+2025-03-03 21:29:36,128 - INFO - Fetching details for product ID: 8b905390a0c56f2b0d271113e00e27dc
+2025-03-03 21:29:37,982 - INFO - Processing product 48/9984
+2025-03-03 21:29:37,983 - INFO - Fetching details for product ID: 52be76bcb9b1eaa26a8787a6faefe877
+2025-03-03 21:29:39,931 - INFO - Processing product 49/9984
+2025-03-03 21:29:39,932 - INFO - Fetching details for product ID: d23983d053edb0472d26ccb7d5c9cd03
+2025-03-03 21:29:42,008 - INFO - Processing product 50/9984
+2025-03-03 21:29:42,009 - INFO - Fetching details for product ID: 52be76bcb9b1eaa26a8787a6faefe877
+2025-03-03 21:29:43,903 - INFO - Processing product 51/9984
+2025-03-03 21:29:43,904 - INFO - Fetching details for product ID: f73f43a89db622a3df71939fbf185eb9
+2025-03-03 21:29:45,842 - INFO - Processing product 52/9984
+2025-03-03 21:29:45,842 - INFO - Fetching details for product ID: 24d11704f94a542ac82d9d0260b88708
+2025-03-03 21:29:48,623 - INFO - Processing product 53/9984
+2025-03-03 21:29:48,624 - INFO - Fetching details for product ID: 32e973b4866df8e63d89e13f38d4dddf
+2025-03-03 21:29:53,427 - INFO - Processing product 54/9984
+2025-03-03 21:29:53,427 - INFO - Fetching details for product ID: 847e3198d16d74c1d5776deaf6afde98
+2025-03-03 21:29:56,630 - INFO - Processing product 55/9984
+2025-03-03 21:29:56,631 - INFO - Fetching details for product ID: 2e802eadc55bf2d52b6dd4f0bb31a550
+2025-03-03 21:29:58,620 - INFO - Processing product 56/9984
+2025-03-03 21:29:58,620 - INFO - Fetching details for product ID: e47e48ed1941feb72ffcee846477db4c
+2025-03-03 21:30:00,750 - INFO - Processing product 57/9984
+2025-03-03 21:30:00,750 - INFO - Fetching details for product ID: 59cd77145269021de8e50e72b7347387
+2025-03-03 21:30:04,426 - INFO - Processing product 58/9984
+2025-03-03 21:30:04,426 - INFO - Fetching details for product ID: 741f428c1fba9db3ce2e3c3fa4bd7d8f
+2025-03-03 21:30:06,773 - INFO - Processing product 59/9984
+2025-03-03 21:30:06,773 - INFO - Fetching details for product ID: d6e96acaedb84517d460c03177ad455d
+2025-03-03 21:30:09,135 - INFO - Processing product 60/9984
+2025-03-03 21:30:09,135 - INFO - Fetching details for product ID: bc92e4ab3d43354133a7af97bed53197
+2025-03-03 21:30:11,029 - INFO - Processing product 61/9984
+2025-03-03 21:30:11,029 - INFO - Fetching details for product ID: c660f4840c4bda965d5da15753d5003d
+2025-03-03 21:30:13,288 - INFO - Processing product 62/9984
+2025-03-03 21:30:13,288 - INFO - Fetching details for product ID: 81ea6356a2b1a405ae909d842dceeead
+2025-03-03 21:30:15,238 - INFO - Processing product 63/9984
+2025-03-03 21:30:15,238 - INFO - Fetching details for product ID: 4033a6b5e08740580f7ea4cc7f330ed6
+2025-03-03 21:30:18,221 - INFO - Processing product 64/9984
+2025-03-03 21:30:18,222 - INFO - Fetching details for product ID: f352ca2a7bdcb11fcbe35253e3284718
+2025-03-03 21:30:20,892 - INFO - Processing product 65/9984
+2025-03-03 21:30:20,892 - INFO - Fetching details for product ID: c0e05bf09aaa02d6540fbe5d3b5304e2
+2025-03-03 21:30:22,762 - INFO - Processing product 66/9984
+2025-03-03 21:30:22,762 - INFO - Fetching details for product ID: cd9ae5a581f3ac3849db3d870a95786a
+2025-03-03 21:30:24,608 - INFO - Processing product 67/9984
+2025-03-03 21:30:24,608 - INFO - Fetching details for product ID: 53fc1e0f6599d4f5491877a36ccf255f
+2025-03-03 21:30:26,414 - INFO - Processing product 68/9984
+2025-03-03 21:30:26,414 - INFO - Fetching details for product ID: db13590a507caa45122dad17ab10cae7
+2025-03-03 21:30:28,417 - INFO - Processing product 69/9984
+2025-03-03 21:30:28,418 - INFO - Fetching details for product ID: 8dfba88755ed8b5b1f13998fc00497d8
+2025-03-03 21:30:30,397 - INFO - Processing product 70/9984
+2025-03-03 21:30:30,397 - INFO - Fetching details for product ID: c10128dd4086dfd310212e6459363702
+2025-03-03 21:30:33,308 - INFO - Processing product 71/9984
+2025-03-03 21:30:33,308 - INFO - Fetching details for product ID: 0ea3b96fe63780382dc4a89a372be30d
+2025-03-03 21:30:35,311 - INFO - Processing product 72/9984
+2025-03-03 21:30:35,312 - INFO - Fetching details for product ID: a87364cb48eb187a2902c46721f6eea0
+2025-03-03 21:30:37,224 - INFO - Processing product 73/9984
+2025-03-03 21:30:37,224 - INFO - Fetching details for product ID: 068a73da8220f6774e0b4fe9b6a09c5d
+2025-03-03 21:30:39,120 - INFO - Processing product 74/9984
+2025-03-03 21:30:39,121 - INFO - Fetching details for product ID: 35d8c4a3e062c99fe977befc829de362
+2025-03-03 21:30:41,221 - INFO - Processing product 75/9984
+2025-03-03 21:30:41,222 - INFO - Fetching details for product ID: 3854615b3fa860ebc499e73511d3bc4f
+2025-03-03 21:30:43,164 - INFO - Processing product 76/9984
+2025-03-03 21:30:43,164 - INFO - Fetching details for product ID: 84c370096fc0c161f1d3790b2babd39c
+2025-03-03 21:30:45,006 - INFO - Processing product 77/9984
+2025-03-03 21:30:45,006 - INFO - Fetching details for product ID: ec81d4a4aa5ef814ad6be3446fe09e9d
+2025-03-03 21:30:49,893 - INFO - Processing product 78/9984
+2025-03-03 21:30:49,893 - INFO - Fetching details for product ID: 49444ef9a78e49a3e18ee6d5c1c95d4b
+2025-03-03 21:30:51,764 - INFO - Processing product 79/9984
+2025-03-03 21:30:51,764 - INFO - Fetching details for product ID: ec40ec73f573cf0e5e3d9f38c61d8601
+2025-03-03 21:30:53,691 - INFO - Processing product 80/9984
+2025-03-03 21:30:53,693 - INFO - Fetching details for product ID: 7dea0dd7317b81a1a75e0ca681e2dd8b
+2025-03-03 21:30:55,603 - INFO - Processing product 81/9984
+2025-03-03 21:30:55,603 - INFO - Fetching details for product ID: 7182bcef8d2a6eb265157b0e1c6a5f0c
+2025-03-03 21:30:57,618 - INFO - Processing product 82/9984
+2025-03-03 21:30:57,618 - INFO - Fetching details for product ID: 7a06f8f7e7ac1b7639b3743f443c31ef
+2025-03-03 21:30:59,566 - INFO - Processing product 83/9984
+2025-03-03 21:30:59,566 - INFO - Fetching details for product ID: 22935713e0c14cca7b7642f4439039bf
+2025-03-03 21:31:02,543 - INFO - Processing product 84/9984
+2025-03-03 21:31:02,543 - INFO - Fetching details for product ID: 74622d3afe647bd47b80c460530f1eb1
+2025-03-03 21:31:05,635 - INFO - Processing product 85/9984
+2025-03-03 21:31:05,635 - INFO - Fetching details for product ID: 361ffdf9121108ff394ded4461971103
+2025-03-03 21:31:07,322 - INFO - Processing product 86/9984
+2025-03-03 21:31:07,323 - INFO - Fetching details for product ID: 7024a2efd69be14fa3138dac7028febe
+2025-03-03 21:31:09,292 - INFO - Processing product 87/9984
+2025-03-03 21:31:09,292 - INFO - Fetching details for product ID: 62be3d8959f13311fc8cc1d358f31726
+2025-03-03 21:31:11,381 - INFO - Processing product 88/9984
+2025-03-03 21:31:11,381 - INFO - Fetching details for product ID: 259ac47ffaf7d889f5fca88a7a7f401f
+2025-03-03 21:31:13,648 - INFO - Processing product 89/9984
+2025-03-03 21:31:13,648 - INFO - Fetching details for product ID: 1302d6db24fa402dba3c6ac478f154a7
+2025-03-03 21:31:21,668 - INFO - Processing product 90/9984
+2025-03-03 21:31:21,668 - INFO - Fetching details for product ID: 3659dc6c8128f027e855330badcdaadd
+2025-03-03 21:31:23,501 - INFO - Processing product 91/9984
+2025-03-03 21:31:23,501 - INFO - Fetching details for product ID: 1e401c4f0f9bb1851886592eeea23dfa
+2025-03-03 21:31:25,925 - INFO - Processing product 92/9984
+2025-03-03 21:31:25,925 - INFO - Fetching details for product ID: fac0714e2ac7f5bbee4d6584babe40a4
+2025-03-03 21:31:27,936 - INFO - Processing product 93/9984
+2025-03-03 21:31:27,937 - INFO - Fetching details for product ID: 329f2415a097572c21ed498ab97a95d9
+2025-03-03 21:31:29,811 - INFO - Processing product 94/9984
+2025-03-03 21:31:29,811 - INFO - Fetching details for product ID: 505dd3ce904a60024e2a001575cf524e
+2025-03-03 21:31:31,752 - INFO - Processing product 95/9984
+2025-03-03 21:31:31,753 - INFO - Fetching details for product ID: c8aa262152afde96f4cf88625a98785b
+2025-03-03 21:31:34,975 - INFO - Processing product 96/9984
+2025-03-03 21:31:34,976 - INFO - Fetching details for product ID: dd4225039e9fcf2d8221636e660b739c
+2025-03-03 21:31:36,877 - INFO - Processing product 97/9984
+2025-03-03 21:31:36,877 - INFO - Fetching details for product ID: 1fd75ba9502df6df5cd462a0df203bd9
+2025-03-03 21:31:38,808 - INFO - Processing product 98/9984
+2025-03-03 21:31:38,808 - INFO - Fetching details for product ID: a63e2da5516e1c5323fe8f8a7034182c
+2025-03-03 21:31:40,736 - INFO - Processing product 99/9984
+2025-03-03 21:31:40,737 - INFO - Fetching details for product ID: 6fa4cbefec855e147b1e4a661b5c7a78
+2025-03-03 21:31:42,546 - INFO - Processing product 100/9984
+2025-03-03 21:31:42,547 - INFO - Fetching details for product ID: 3d0378de93891d6896ad8e0b2b6c99db
+2025-03-03 21:31:44,634 - INFO - Processing product 101/9984
+2025-03-03 21:31:44,634 - INFO - Fetching details for product ID: a8ddeae5aa0b4a6a3da2328f36f46ebd
+2025-03-03 21:31:50,254 - INFO - Processing product 102/9984
+2025-03-03 21:31:50,254 - INFO - Fetching details for product ID: b8fc10ef07b68205ffbf5d69b1dd104a
+2025-03-03 21:31:52,273 - INFO - Processing product 103/9984
+2025-03-03 21:31:52,274 - INFO - Fetching details for product ID: 50e858aaec93148a8ee007fd2ac7b6d6
+2025-03-03 21:31:55,668 - INFO - Processing product 104/9984
+2025-03-03 21:31:55,669 - INFO - Fetching details for product ID: 37bf7a82019e92e6f393ac08ba115248
+2025-03-03 21:31:59,067 - INFO - Processing product 105/9984
+2025-03-03 21:31:59,068 - INFO - Fetching details for product ID: 1faa5501ad78a3ed856027175de8dd76
+2025-03-03 21:32:06,042 - INFO - Processing product 106/9984
+2025-03-03 21:32:06,042 - INFO - Fetching details for product ID: db04ac5e80cfecd617e8ffa82e8ff4d9
+2025-03-03 21:32:08,051 - INFO - Processing product 107/9984
+2025-03-03 21:32:08,052 - INFO - Fetching details for product ID: 77bb991c30d4674b9e110f6a358376be
+2025-03-03 21:32:10,074 - INFO - Processing product 108/9984
+2025-03-03 21:32:10,075 - INFO - Fetching details for product ID: 7f04094093aab963ab59155d5394b7d3
+2025-03-03 21:32:12,164 - INFO - Processing product 109/9984
+2025-03-03 21:32:12,165 - INFO - Fetching details for product ID: bd8a16159c1d90f1bb5578fba37df8ba
+2025-03-03 21:32:14,011 - INFO - Processing product 110/9984
+2025-03-03 21:32:14,011 - INFO - Fetching details for product ID: b1959baf3a2356cc0bbc0a0f65a6b02c
+2025-03-03 21:32:16,083 - INFO - Processing product 111/9984
+2025-03-03 21:32:16,083 - INFO - Fetching details for product ID: 092ff5061153cf24f5185d70397c53ad
+2025-03-03 21:32:19,381 - INFO - Processing product 112/9984
+2025-03-03 21:32:19,381 - INFO - Fetching details for product ID: fa58776652cd84f678bb4d4973814a47
+2025-03-03 21:32:22,517 - INFO - Processing product 113/9984
+2025-03-03 21:32:22,517 - INFO - Fetching details for product ID: bdd70c5151271ac2183a5ae9dca03c95
+2025-03-03 21:32:24,721 - INFO - Processing product 114/9984
+2025-03-03 21:32:24,721 - INFO - Fetching details for product ID: 8a5d5961e2928d1f2424ddaf1eb74f73
+2025-03-03 21:32:26,712 - INFO - Processing product 115/9984
+2025-03-03 21:32:26,712 - INFO - Fetching details for product ID: 65af31b84087442ee8fd70e15d449d7b
+2025-03-03 21:32:28,437 - INFO - Processing product 116/9984
+2025-03-03 21:32:28,437 - INFO - Fetching details for product ID: ac1784ec8e8355026fdfd382256c423e
+2025-03-03 21:32:30,212 - INFO - Processing product 117/9984
+2025-03-03 21:32:30,213 - INFO - Fetching details for product ID: 8d61ca528b3df2eed149852938194912
+2025-03-03 21:32:33,610 - INFO - Processing product 118/9984
+2025-03-03 21:32:33,610 - INFO - Fetching details for product ID: e112c12c75bec2bfd7dcbdb9b91fcb10
+2025-03-03 21:32:35,522 - INFO - Processing product 119/9984
+2025-03-03 21:32:35,522 - INFO - Fetching details for product ID: 2365b1ffcffc0c625b4b6d43180551be
+2025-03-03 21:32:37,511 - INFO - Processing product 120/9984
+2025-03-03 21:32:37,511 - INFO - Fetching details for product ID: 08fe08dfd23aa676d19d1fe28636fcfd
+2025-03-03 21:32:39,411 - INFO - Processing product 121/9984
+2025-03-03 21:32:39,412 - INFO - Fetching details for product ID: fc10d654c202866aa8ca836e8ce343d3
+2025-03-03 21:32:41,331 - INFO - Processing product 122/9984
+2025-03-03 21:32:41,331 - INFO - Fetching details for product ID: 28998bb0833e6387a07bf6578f7b7c35
+2025-03-03 21:32:43,248 - INFO - Processing product 123/9984
+2025-03-03 21:32:43,249 - INFO - Fetching details for product ID: c03229d4e4eb0d6ed11401b5f3801a2b
+2025-03-03 21:32:45,209 - INFO - Processing product 124/9984
+2025-03-03 21:32:45,210 - INFO - Fetching details for product ID: 3071eebdab456fcc327a34cf3d9f4c76
+2025-03-03 21:32:48,880 - INFO - Processing product 125/9984
+2025-03-03 21:32:48,880 - INFO - Fetching details for product ID: 06efbab57bc1cbeb2085739d056ea4cb
+2025-03-03 21:32:50,950 - INFO - Processing product 126/9984
+2025-03-03 21:32:50,950 - INFO - Fetching details for product ID: 64a67ffbd89ffaf9b0ef5b20a8f99ff6
+2025-03-03 21:32:52,931 - INFO - Processing product 127/9984
+2025-03-03 21:32:52,931 - INFO - Fetching details for product ID: 1c493d882340f30d6e60cc947166717b
+2025-03-03 21:32:54,960 - INFO - Processing product 128/9984
+2025-03-03 21:32:54,961 - INFO - Fetching details for product ID: 699d9a646502e14f1785df279ee47874
+2025-03-03 21:32:57,034 - INFO - Processing product 129/9984
+2025-03-03 21:32:57,034 - INFO - Fetching details for product ID: d45f314c5ddc9ae7b5f4e33ebf785b60
+2025-03-03 21:32:58,995 - INFO - Processing product 130/9984
+2025-03-03 21:32:58,995 - INFO - Fetching details for product ID: 168becb765ca3d853d278fce26e89312
+2025-03-03 21:33:02,282 - INFO - Processing product 131/9984
+2025-03-03 21:33:02,283 - INFO - Fetching details for product ID: 8c6f27525affc7981fdfe1132002235c
+2025-03-03 21:33:04,734 - INFO - Processing product 132/9984
+2025-03-03 21:33:04,734 - INFO - Fetching details for product ID: 43644f918d4e3d110060cb21ca4dfee3
+2025-03-03 21:33:07,015 - INFO - Processing product 133/9984
+2025-03-03 21:33:07,015 - INFO - Fetching details for product ID: 146c8ffe93c57119112d7bf78685473f
+2025-03-03 21:33:08,850 - INFO - Processing product 134/9984
+2025-03-03 21:33:08,850 - INFO - Fetching details for product ID: 151507dca50d762a9a8bf784e0fe49b0
+2025-03-03 21:33:10,665 - INFO - Processing product 135/9984
+2025-03-03 21:33:10,665 - INFO - Fetching details for product ID: f7cdecd7797764e23b9c7f94870ad5ea
+2025-03-03 21:33:12,909 - INFO - Processing product 136/9984
+2025-03-03 21:33:12,909 - INFO - Fetching details for product ID: ae601bbb935cceffefb2ddb9803e2ddc
+2025-03-03 21:33:15,680 - INFO - Processing product 137/9984
+2025-03-03 21:33:15,681 - INFO - Fetching details for product ID: 4a97fca4955ddd4dbf419d585c3776ce
+2025-03-03 21:33:19,944 - INFO - Processing product 138/9984
+2025-03-03 21:33:19,944 - INFO - Fetching details for product ID: dfdfdb031a24a5fd6c57e1c7e23bb72f
+2025-03-03 21:33:22,028 - INFO - Processing product 139/9984
+2025-03-03 21:33:22,028 - INFO - Fetching details for product ID: fbda6c4d324a048ccc46a8fca8872c12
+2025-03-03 21:33:24,037 - INFO - Processing product 140/9984
+2025-03-03 21:33:24,037 - INFO - Fetching details for product ID: ae37bb74a8a35e07b6c5c2e2bd2b297a
+2025-03-03 21:33:25,849 - INFO - Processing product 141/9984
+2025-03-03 21:33:25,849 - INFO - Fetching details for product ID: 59f44c9419b60302be6246453038518b
+2025-03-03 21:33:27,865 - INFO - Processing product 142/9984
+2025-03-03 21:33:27,865 - INFO - Fetching details for product ID: 5203d0a43b8ef9ee8078c0972667f906
+2025-03-03 21:33:30,410 - INFO - Processing product 143/9984
+2025-03-03 21:33:30,410 - INFO - Fetching details for product ID: 6725c4160213b4e9dd0b0e8b07b334bf
+2025-03-03 21:33:33,167 - INFO - Processing product 144/9984
+2025-03-03 21:33:33,167 - INFO - Fetching details for product ID: e6e5cc2f460d233a83bd4aaa55d4a2f8
+2025-03-03 21:33:35,389 - INFO - Processing product 145/9984
+2025-03-03 21:33:35,389 - INFO - Fetching details for product ID: 22f5930c322e9e3a0477b7dcec460422
+2025-03-03 21:33:37,208 - INFO - Processing product 146/9984
+2025-03-03 21:33:37,208 - INFO - Fetching details for product ID: 04f8a99aaf2c40bb986ee8da70c5662a
+2025-03-03 21:33:39,024 - INFO - Processing product 147/9984
+2025-03-03 21:33:39,025 - INFO - Fetching details for product ID: bd6566019410f0ddf5df86e887b30a4f
+2025-03-03 21:33:41,079 - INFO - Processing product 148/9984
+2025-03-03 21:33:41,080 - INFO - Fetching details for product ID: c4d6b6df39a07a6dcb0ab6789991a48d
+2025-03-03 21:33:42,930 - INFO - Processing product 149/9984
+2025-03-03 21:33:42,930 - INFO - Fetching details for product ID: 25e5ebc2dbd115a19af5d63ac1397a62
+2025-03-03 21:33:44,675 - INFO - Processing product 150/9984
+2025-03-03 21:33:44,676 - INFO - Fetching details for product ID: 895c0b2bb4021eabce016bc1b1ccd71d
+2025-03-03 21:33:48,101 - INFO - Processing product 151/9984
+2025-03-03 21:33:48,102 - INFO - Fetching details for product ID: 850b80113396a77ae0f10955a1ffcb33
+2025-03-03 21:33:50,626 - INFO - Processing product 152/9984
+2025-03-03 21:33:50,626 - INFO - Fetching details for product ID: 658a598cda84162d9e37487f52213055
+2025-03-03 21:33:52,425 - INFO - Processing product 153/9984
+2025-03-03 21:33:52,425 - INFO - Fetching details for product ID: 5b5e0206a30469f24d951bc57a7865f2
+2025-03-03 21:33:54,370 - INFO - Processing product 154/9984
+2025-03-03 21:33:54,371 - INFO - Fetching details for product ID: e5456f7e7d20b56f2d09aa7126d9a8a0
+2025-03-03 21:33:56,536 - INFO - Processing product 155/9984
+2025-03-03 21:33:56,536 - INFO - Fetching details for product ID: e8c5834e815caeafbd658d17b5a9f113
+2025-03-03 21:33:58,525 - INFO - Processing product 156/9984
+2025-03-03 21:33:58,525 - INFO - Fetching details for product ID: 0df1fbf3b3d4b9174d2c8146c57d1099
+2025-03-03 21:34:00,116 - INFO - Processing product 157/9984
+2025-03-03 21:34:00,116 - INFO - Fetching details for product ID: a44db4872c068039afa9dd6522214a39
+2025-03-03 21:34:02,846 - INFO - Processing product 158/9984
+2025-03-03 21:34:02,847 - INFO - Fetching details for product ID: 0126147df704aa9e7b90a65abe1012b2
+2025-03-03 21:34:05,462 - INFO - Processing product 159/9984
+2025-03-03 21:34:05,462 - INFO - Fetching details for product ID: 928a04ffc7971e491637b38988c816eb
+2025-03-03 21:34:07,598 - INFO - Processing product 160/9984
+2025-03-03 21:34:07,600 - INFO - Fetching details for product ID: 21da13e86229446242a26dff3d7a58cb
+2025-03-03 21:34:09,526 - INFO - Processing product 161/9984
+2025-03-03 21:34:09,526 - INFO - Fetching details for product ID: 3d7a334040965af94d05c0d0c5abb1d6
+2025-03-03 21:34:12,042 - INFO - Processing product 162/9984
+2025-03-03 21:34:12,042 - INFO - Fetching details for product ID: 3608022227fb74bde3fd918658aa5594
+2025-03-03 21:34:13,879 - INFO - Processing product 163/9984
+2025-03-03 21:34:13,879 - INFO - Fetching details for product ID: 34744305583e843fcc2d0a2f51f23ce9
+2025-03-03 21:34:15,812 - INFO - Processing product 164/9984
+2025-03-03 21:34:15,812 - INFO - Fetching details for product ID: 4d21faef53402044bae220b503fa0454
+2025-03-03 21:34:20,829 - INFO - Processing product 165/9984
+2025-03-03 21:34:20,829 - INFO - Fetching details for product ID: 8caeccdc35e754ce6b79736fc270bfe6
+2025-03-03 21:34:30,720 - INFO - Processing product 166/9984
+2025-03-03 21:34:30,720 - INFO - Fetching details for product ID: a7d3923a14408787bd556de1f4f532d6
+2025-03-03 21:34:34,937 - INFO - Processing product 167/9984
+2025-03-03 21:34:34,937 - INFO - Fetching details for product ID: 23a87198bd2b76a0d33d3cf774fd6bc6
+2025-03-03 21:34:37,749 - INFO - Processing product 168/9984
+2025-03-03 21:34:37,750 - INFO - Fetching details for product ID: 2fd7f6ef44d88db2d4624940948b8925
+2025-03-03 21:34:39,774 - INFO - Processing product 169/9984
+2025-03-03 21:34:39,774 - INFO - Fetching details for product ID: 4196c0d7eb1194cc4083f7af2b0d44ca
+2025-03-03 21:34:41,532 - INFO - Processing product 170/9984
+2025-03-03 21:34:41,532 - INFO - Fetching details for product ID: 2c6dce25eaf6394e25e99a4128960ba8
+2025-03-03 21:34:43,977 - INFO - Processing product 171/9984
+2025-03-03 21:34:43,977 - INFO - Fetching details for product ID: 7c0848a5208540d6a414d636c0cf5196
+2025-03-03 21:34:45,745 - INFO - Processing product 172/9984
+2025-03-03 21:34:45,746 - INFO - Fetching details for product ID: 97c92e6a5427dc3d8d3608c30a54401c
+2025-03-03 21:34:54,895 - INFO - Processing product 173/9984
+2025-03-03 21:34:54,896 - INFO - Fetching details for product ID: 09928d7a3528e928c6000d43812ee76f
+2025-03-03 21:35:11,774 - INFO - Starting scraping process
+2025-03-03 21:35:11,774 - INFO - Starting to collect product IDs for category: fashion_beauty
+2025-03-03 21:35:12,307 - INFO - Processing page 1
+2025-03-03 21:35:16,572 - INFO - Found 24 products on page 1. Total products so far: 24
+2025-03-03 21:35:16,572 - INFO - Processing page 2
+2025-03-03 21:35:19,836 - INFO - Found 24 products on page 2. Total products so far: 48
+2025-03-03 21:35:19,837 - INFO - Processing page 3
+2025-03-03 21:35:23,400 - INFO - Found 24 products on page 3. Total products so far: 72
+2025-03-03 21:35:23,401 - INFO - Processing page 4
+2025-03-03 21:35:26,394 - INFO - Found 24 products on page 4. Total products so far: 96
+2025-03-03 21:35:26,395 - INFO - Processing page 5
+2025-03-03 21:35:28,407 - INFO - Found 24 products on page 5. Total products so far: 120
+2025-03-03 21:35:28,407 - INFO - Processing page 6
+2025-03-03 21:35:30,142 - INFO - Found 24 products on page 6. Total products so far: 144
+2025-03-03 21:35:30,143 - INFO - Processing page 7
+2025-03-03 21:35:30,774 - WARNING - No response data received for page 7
+2025-03-03 21:35:30,777 - ERROR - Error capturing response on page 7: Response.text: Target page, context or browser has been closed
+2025-03-03 21:35:30,967 - INFO - Finished collecting product IDs. Total products found: 144
+2025-03-03 21:35:30,979 - INFO - Found 144 products to process
+2025-03-03 21:35:30,979 - INFO - Processing product 1/144
+2025-03-03 21:35:30,980 - INFO - Fetching details for product ID: 2e63befc8a19af5dec34e2a647059140
+2025-03-03 21:35:34,019 - INFO - Processing product 2/144
+2025-03-03 21:35:34,020 - INFO - Fetching details for product ID: c73057d46899084ebc064b9d5a739a9c
+2025-03-03 21:35:35,742 - INFO - Processing product 3/144
+2025-03-03 21:35:35,742 - INFO - Fetching details for product ID: 9a1a970ae643b38b83db9c7cbd39bf69
+2025-03-03 21:35:38,049 - INFO - Processing product 4/144
+2025-03-03 21:35:38,049 - INFO - Fetching details for product ID: 7c1bd503d81d02163568cbf42778d20f
+2025-03-03 21:35:42,179 - INFO - Starting scraping process
+2025-03-03 21:35:42,180 - INFO - Starting to collect product IDs for category: fashion_beauty
+2025-03-03 21:35:42,724 - INFO - Processing page 1
+2025-03-03 21:35:44,928 - INFO - Found 24 products on page 1. Total products so far: 24
+2025-03-03 21:35:44,929 - INFO - Processing page 2
+2025-03-03 21:35:45,924 - INFO - Found 24 products on page 2. Total products so far: 48
+2025-03-03 21:35:45,925 - INFO - Processing page 3
+2025-03-03 21:35:46,548 - WARNING - No response data received for page 3
+2025-03-03 21:35:46,552 - ERROR - Exception in callback SyncBase._sync.<locals>.<lambda>(<Task finishe...been closed')>) at C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\playwright\_impl\_sync_base.py:111
+handle: <Handle SyncBase._sync.<locals>.<lambda>(<Task finishe...been closed')>) at C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\playwright\_impl\_sync_base.py:111>
+Traceback (most recent call last):
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\playwright\_impl\_sync_base.py", line 111, in <lambda>
+    task.add_done_callback(lambda _: g_self.switch())
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\playwright\_impl\_connection.py", line 444, in _listener_with_error_handler_attached
+    potential_future = listener(params)
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\playwright\_impl\_browser_context.py", line 177, in <lambda>
+    lambda params: self._on_request(
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\playwright\_impl\_browser_context.py", line 702, in _on_request
+    page.emit(Page.Events.Request, request)
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\pyee\base.py", line 212, in emit
+    handled = self._call_handlers(event, args, kwargs)
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\pyee\base.py", line 188, in _call_handlers
+    self._emit_run(f, args, kwargs)
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\pyee\asyncio.py", line 53, in _emit_run
+    self.emit("error", exc)
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\pyee\base.py", line 215, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\pyee\base.py", line 173, in _emit_handle_potential_error
+    raise error
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\pyee\asyncio.py", line 51, in _emit_run
+    coro: Any = f(*args, **kwargs)
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\playwright\_impl\_impl_to_api_mapping.py", line 123, in wrapper_func
+    return handler(
+  File "c:\Users\Yassine\p\main.py", line 51, in handle_category_request
+    response = request.response()
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\playwright\sync_api\_generated.py", line 326, in response
+    return mapping.from_impl_nullable(self._sync(self._impl_obj.response()))
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\playwright\_impl\_network.py", line 229, in response
+    return from_nullable_channel(await self._channel.send("response"))
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\playwright\_impl\_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\playwright\_impl\_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Request.response: Target page, context or browser has been closed
+2025-03-03 21:35:46,710 - INFO - Finished collecting product IDs. Total products found: 48
+2025-03-03 21:35:46,720 - INFO - Found 48 products to process
+2025-03-03 21:35:46,721 - INFO - Processing product 1/48
+2025-03-03 21:35:46,721 - INFO - Fetching details for product ID: 2e63befc8a19af5dec34e2a647059140
+2025-03-03 21:35:51,243 - INFO - Processing product 2/48
+2025-03-03 21:35:51,243 - INFO - Fetching details for product ID: c73057d46899084ebc064b9d5a739a9c
+2025-03-03 21:35:53,399 - INFO - Processing product 3/48
+2025-03-03 21:35:53,401 - INFO - Fetching details for product ID: 9a1a970ae643b38b83db9c7cbd39bf69
+2025-03-03 21:35:55,342 - INFO - Processing product 4/48
+2025-03-03 21:35:55,342 - INFO - Fetching details for product ID: 7c1bd503d81d02163568cbf42778d20f
+2025-03-03 21:35:57,309 - INFO - Processing product 5/48
+2025-03-03 21:35:57,311 - INFO - Fetching details for product ID: 5c3d85e7194de246c7a83b21a0291a74
+2025-03-03 21:35:59,151 - INFO - Processing product 6/48
+2025-03-03 21:35:59,151 - INFO - Fetching details for product ID: d23d4abf0cc9dce11490618b8165fe45
+2025-03-03 21:36:01,094 - INFO - Processing product 7/48
+2025-03-03 21:36:01,094 - INFO - Fetching details for product ID: 09cd810a04f596a9e1fc238e5d128c1e
+2025-03-03 21:36:03,748 - INFO - Processing product 8/48
+2025-03-03 21:36:03,748 - INFO - Fetching details for product ID: c9ef7d87ec4444fe7c8cb56ec24ae910
+2025-03-03 21:36:05,892 - INFO - Processing product 9/48
+2025-03-03 21:36:05,892 - INFO - Fetching details for product ID: 05bbffd41982f98842a5ada12cf2d05c
+2025-03-03 21:36:07,797 - INFO - Processing product 10/48
+2025-03-03 21:36:07,797 - INFO - Fetching details for product ID: d2e6f6b6f58587085c6a12650ce6adae
+2025-03-03 21:36:09,615 - INFO - Processing product 11/48
+2025-03-03 21:36:09,615 - INFO - Fetching details for product ID: 4dc4950142829f5128e55f14029f85ed
+2025-03-03 21:36:11,800 - INFO - Processing product 12/48
+2025-03-03 21:36:11,801 - INFO - Fetching details for product ID: 861b90b9f625255a52edc792575d1444
+2025-03-03 21:36:13,776 - INFO - Processing product 13/48
+2025-03-03 21:36:13,777 - INFO - Fetching details for product ID: 866a184973c41849f331efddbe6c8ebc
+2025-03-03 21:36:15,621 - INFO - Processing product 14/48
+2025-03-03 21:36:15,621 - INFO - Fetching details for product ID: 941c980ec5f7717388b046670b88c24d
+2025-03-03 21:36:18,036 - INFO - Processing product 15/48
+2025-03-03 21:36:18,036 - INFO - Fetching details for product ID: b05cbc62842f00137a58bf36404d5ea1
+2025-03-03 21:36:20,584 - INFO - Processing product 16/48
+2025-03-03 21:36:20,584 - INFO - Fetching details for product ID: 155810f138e48934e70f2847faf21595
+2025-03-03 21:36:22,498 - INFO - Processing product 17/48
+2025-03-03 21:36:22,499 - INFO - Fetching details for product ID: 76b682bde3835c5bd8cbf2551206e664
+2025-03-03 21:36:24,390 - INFO - Processing product 18/48
+2025-03-03 21:36:24,390 - INFO - Fetching details for product ID: e56151d18d2066a7d7aa8d4ca03c8532
+2025-03-03 21:36:26,162 - INFO - Processing product 19/48
+2025-03-03 21:36:26,163 - INFO - Fetching details for product ID: cd36c3a2a400d162666b25b6f5c7e7d0
+2025-03-03 21:36:28,422 - INFO - Processing product 20/48
+2025-03-03 21:36:28,423 - INFO - Fetching details for product ID: 86d4232a795f3666127c49c293277dbf
+2025-03-03 21:36:30,222 - INFO - Processing product 21/48
+2025-03-03 21:36:30,223 - INFO - Fetching details for product ID: c98feddaac5fbebfb364e17ac7eed179
+2025-03-03 21:36:32,747 - INFO - Processing product 22/48
+2025-03-03 21:36:32,747 - INFO - Fetching details for product ID: a69662ec799c5fccde8950f99a1e8d36
+2025-03-03 21:36:35,691 - INFO - Processing product 23/48
+2025-03-03 21:36:35,691 - INFO - Fetching details for product ID: 1a8867bead2bd6520b6657c2e0eef986
+2025-03-03 21:36:37,586 - INFO - Processing product 24/48
+2025-03-03 21:36:37,587 - INFO - Fetching details for product ID: acda9084ee28faed63445550ba598778
+2025-03-03 21:36:39,704 - INFO - Processing product 25/48
+2025-03-03 21:36:39,704 - INFO - Fetching details for product ID: dd9eb89b9fd2676a627a1d07515256ea
+2025-03-03 21:36:44,328 - WARNING - No response body received for product dd9eb89b9fd2676a627a1d07515256ea
+2025-03-03 21:36:44,339 - ERROR - Exception in callback SyncBase._sync.<locals>.<lambda>(<Task finishe...been closed')>) at C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\playwright\_impl\_sync_base.py:111
+handle: <Handle SyncBase._sync.<locals>.<lambda>(<Task finishe...been closed')>) at C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\playwright\_impl\_sync_base.py:111>
+Traceback (most recent call last):
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\playwright\_impl\_sync_base.py", line 111, in <lambda>
+    task.add_done_callback(lambda _: g_self.switch())
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\playwright\_impl\_connection.py", line 444, in _listener_with_error_handler_attached
+    potential_future = listener(params)
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\playwright\_impl\_browser_context.py", line 177, in <lambda>
+    lambda params: self._on_request(
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\playwright\_impl\_browser_context.py", line 702, in _on_request
+    page.emit(Page.Events.Request, request)
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\pyee\base.py", line 212, in emit
+    handled = self._call_handlers(event, args, kwargs)
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\pyee\base.py", line 188, in _call_handlers
+    self._emit_run(f, args, kwargs)
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\pyee\asyncio.py", line 53, in _emit_run
+    self.emit("error", exc)
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\pyee\base.py", line 215, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\pyee\base.py", line 173, in _emit_handle_potential_error
+    raise error
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\pyee\asyncio.py", line 51, in _emit_run
+    coro: Any = f(*args, **kwargs)
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\playwright\_impl\_impl_to_api_mapping.py", line 123, in wrapper_func
+    return handler(
+  File "c:\Users\Yassine\p\main.py", line 116, in handle_request
+    def handle_request(request):
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\playwright\sync_api\_generated.py", line 326, in response
+    return mapping.from_impl_nullable(self._sync(self._impl_obj.response()))
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\playwright\_impl\_network.py", line 229, in response
+    return from_nullable_channel(await self._channel.send("response"))
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\playwright\_impl\_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\playwright\_impl\_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Request.response: Target page, context or browser has been closed
+2025-03-03 21:36:44,403 - WARNING - Failed to get details for product dd9eb89b9fd2676a627a1d07515256ea
+2025-03-03 21:36:44,403 - INFO - Processing product 26/48
+2025-03-03 21:36:44,404 - INFO - Fetching details for product ID: 8397678d046142d6ae362830db8da2a9
+2025-03-03 21:36:52,779 - INFO - Processing product 27/48
+2025-03-03 21:36:52,779 - INFO - Fetching details for product ID: fdfe21d90d5f1dfd81d95fcdcd1acc2d
+2025-03-03 21:36:56,908 - INFO - Processing product 28/48
+2025-03-03 21:36:56,909 - INFO - Fetching details for product ID: d7d73c7ab2b06c636977e5a37f061773
+2025-03-03 21:36:58,906 - INFO - Processing product 29/48
+2025-03-03 21:36:58,906 - INFO - Fetching details for product ID: d20213df91c6884ed713bd89a9606e22
+2025-03-03 21:37:00,810 - INFO - Processing product 30/48
+2025-03-03 21:37:00,811 - INFO - Fetching details for product ID: 9f437f8046cb10fed47dbac29b0574ff
+2025-03-03 21:37:04,240 - INFO - Processing product 31/48
+2025-03-03 21:37:04,241 - INFO - Fetching details for product ID: f1db4a989fb78918e28080cf2d495222
+2025-03-03 21:37:06,375 - INFO - Processing product 32/48
+2025-03-03 21:37:06,376 - INFO - Fetching details for product ID: 97478fc6ed6a11ab54593f5f824b453f
+2025-03-03 21:37:08,276 - INFO - Processing product 33/48
+2025-03-03 21:37:08,276 - INFO - Fetching details for product ID: bc90acc094901bfcf8e16de79ae1d183
+2025-03-03 21:37:10,123 - INFO - Processing product 34/48
+2025-03-03 21:37:10,124 - INFO - Fetching details for product ID: c827b9e5f13aeabc9ed8360913c224a0
+2025-03-03 21:37:12,045 - INFO - Processing product 35/48
+2025-03-03 21:37:12,046 - INFO - Fetching details for product ID: e9022ed52bbf5924f6bc0ae8dab02c4f
+2025-03-03 21:37:13,974 - INFO - Processing product 36/48
+2025-03-03 21:37:13,975 - INFO - Fetching details for product ID: 48055cac002cd73e6774de2e7d3a0238
+2025-03-03 21:37:15,843 - INFO - Processing product 37/48
+2025-03-03 21:37:15,844 - INFO - Fetching details for product ID: d16c9da9ccdfe511938006f5330e3e53
+2025-03-03 21:37:19,897 - INFO - Processing product 38/48
+2025-03-03 21:37:19,898 - INFO - Fetching details for product ID: 9b75b0f7fc470ab11701ad7cf49bca34
+2025-03-03 21:37:21,872 - INFO - Processing product 39/48
+2025-03-03 21:37:21,872 - INFO - Fetching details for product ID: aa1cd0996a7999bfa8a664c770a6222f
+2025-03-03 21:37:24,173 - INFO - Processing product 40/48
+2025-03-03 21:37:24,173 - INFO - Fetching details for product ID: 4aeafadf6b2df3df7e9f36abc37cfeb4
+2025-03-03 21:37:26,074 - INFO - Processing product 41/48
+2025-03-03 21:37:26,074 - INFO - Fetching details for product ID: 52be76bcb9b1eaa26a8787a6faefe877
+2025-03-03 21:37:27,788 - INFO - Processing product 42/48
+2025-03-03 21:37:27,789 - INFO - Fetching details for product ID: cb4c75ad5a48e9ad41c231bb60460983
+2025-03-03 21:37:29,728 - INFO - Processing product 43/48
+2025-03-03 21:37:29,728 - INFO - Fetching details for product ID: b64325188d565fae54c991b3f3c43787
+2025-03-03 21:37:31,618 - INFO - Processing product 44/48
+2025-03-03 21:37:31,618 - INFO - Fetching details for product ID: c8ed820c0615f29ae672b4e208df367b
+2025-03-03 21:37:34,469 - INFO - Processing product 45/48
+2025-03-03 21:37:34,470 - INFO - Fetching details for product ID: 2c3ed6a9355e1abe8c5c83faf94ee56a
+2025-03-03 21:37:36,584 - INFO - Processing product 46/48
+2025-03-03 21:37:36,584 - INFO - Fetching details for product ID: 59cd77145269021de8e50e72b7347387
+2025-03-03 21:37:38,451 - INFO - Processing product 47/48
+2025-03-03 21:37:38,452 - INFO - Fetching details for product ID: f513f73e91d839cda4aacb35b4a93697
+2025-03-03 21:37:40,884 - INFO - Processing product 48/48
+2025-03-03 21:37:40,884 - INFO - Fetching details for product ID: d66ad14e16041eff1f8866c9ffffda74
+2025-03-03 21:37:42,992 - INFO - Scraping completed. Saved 47 products to all_products.json
+2025-03-03 21:40:18,979 - INFO - Starting scraping process
+2025-03-03 21:40:18,981 - INFO - Starting to collect product IDs for category: fashion_beauty
+2025-03-03 21:40:19,525 - INFO - Processing page 1
+2025-03-03 21:40:23,924 - INFO - Found 24 products on page 1. Total products so far: 24
+2025-03-03 21:40:23,948 - INFO - Processing page 2
+2025-03-03 21:40:27,039 - INFO - Found 24 products on page 2. Total products so far: 48
+2025-03-03 21:40:27,062 - INFO - Processing page 3
+2025-03-03 21:40:31,199 - INFO - Found 24 products on page 3. Total products so far: 72
+2025-03-03 21:40:31,223 - INFO - Processing page 4
+2025-03-03 21:40:34,470 - INFO - Found 24 products on page 4. Total products so far: 96
+2025-03-03 21:40:34,493 - INFO - Processing page 5
+2025-03-03 21:40:36,640 - INFO - Found 24 products on page 5. Total products so far: 120
+2025-03-03 21:40:36,643 - INFO - Processing page 6
+2025-03-03 21:40:37,906 - INFO - Found 24 products on page 6. Total products so far: 144
+2025-03-03 21:40:37,909 - INFO - Processing page 7
+2025-03-03 21:40:38,490 - WARNING - No response data received for page 7
+2025-03-03 21:40:38,492 - ERROR - Exception in callback AsyncIOEventEmitter._emit_run.<locals>.callback(<Task finishe...been closed')>) at C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\pyee\asyncio.py:69
+handle: <Handle AsyncIOEventEmitter._emit_run.<locals>.callback(<Task finishe...been closed')>) at C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\pyee\asyncio.py:69>
+Traceback (most recent call last):
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\pyee\asyncio.py", line 77, in callback
+    self.emit("error", exc)
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\pyee\base.py", line 215, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\pyee\base.py", line 173, in _emit_handle_potential_error
+    raise error
+  File "c:\Users\Yassine\p\main.py", line 55, in handle_category_request
+    response = await request.response()
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\playwright\async_api\_generated.py", line 326, in response
+    return mapping.from_impl_nullable(await self._impl_obj.response())
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\playwright\_impl\_network.py", line 229, in response
+    return from_nullable_channel(await self._channel.send("response"))
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\playwright\_impl\_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+  File "C:\Users\Yassine\anaconda3\envs\crawlai\lib\site-packages\playwright\_impl\_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Request.response: Target page, context or browser has been closed
+2025-03-03 21:40:38,687 - INFO - Finished collecting product IDs. Total products found: 144
+2025-03-03 21:40:38,697 - INFO - Found 144 products to process
+2025-03-03 21:40:38,698 - INFO - Fetching details for product ID: 2e63befc8a19af5dec34e2a647059140
+2025-03-03 21:40:38,698 - INFO - Fetching details for product ID: c73057d46899084ebc064b9d5a739a9c
+2025-03-03 21:40:38,698 - INFO - Fetching details for product ID: 9a1a970ae643b38b83db9c7cbd39bf69
+2025-03-03 21:40:38,698 - INFO - Fetching details for product ID: 7c1bd503d81d02163568cbf42778d20f
+2025-03-03 21:40:38,699 - INFO - Fetching details for product ID: 5c3d85e7194de246c7a83b21a0291a74
+2025-03-03 21:40:51,591 - INFO - Fetching details for product ID: d23d4abf0cc9dce11490618b8165fe45
+2025-03-03 21:40:51,665 - INFO - Fetching details for product ID: 09cd810a04f596a9e1fc238e5d128c1e
+2025-03-03 21:40:52,784 - INFO - Fetching details for product ID: c9ef7d87ec4444fe7c8cb56ec24ae910
+2025-03-03 21:40:52,884 - INFO - Fetching details for product ID: 05bbffd41982f98842a5ada12cf2d05c
+2025-03-03 21:40:54,163 - INFO - Fetching details for product ID: d2e6f6b6f58587085c6a12650ce6adae
+2025-03-03 21:40:59,686 - INFO - Fetching details for product ID: 4dc4950142829f5128e55f14029f85ed
+2025-03-03 21:41:00,120 - INFO - Fetching details for product ID: 861b90b9f625255a52edc792575d1444
+2025-03-03 21:41:01,067 - INFO - Fetching details for product ID: 866a184973c41849f331efddbe6c8ebc
+2025-03-03 21:41:06,173 - INFO - Fetching details for product ID: b05cbc62842f00137a58bf36404d5ea1
+2025-03-03 21:41:06,436 - INFO - Fetching details for product ID: 941c980ec5f7717388b046670b88c24d
+2025-03-03 21:41:07,669 - INFO - Fetching details for product ID: 155810f138e48934e70f2847faf21595
+2025-03-03 21:41:08,491 - INFO - Fetching details for product ID: e56151d18d2066a7d7aa8d4ca03c8532
+2025-03-03 21:41:09,445 - INFO - Fetching details for product ID: cd36c3a2a400d162666b25b6f5c7e7d0
+2025-03-03 21:41:13,294 - INFO - Fetching details for product ID: 86d4232a795f3666127c49c293277dbf
+2025-03-03 21:41:13,563 - INFO - Fetching details for product ID: 76b682bde3835c5bd8cbf2551206e664
+2025-03-03 21:41:15,102 - INFO - Fetching details for product ID: d7d73c7ab2b06c636977e5a37f061773
+2025-03-03 21:41:22,733 - INFO - Fetching details for product ID: d20213df91c6884ed713bd89a9606e22
+2025-03-03 21:41:23,420 - INFO - Fetching details for product ID: c98feddaac5fbebfb364e17ac7eed179
+2025-03-03 21:41:24,683 - INFO - Fetching details for product ID: a69662ec799c5fccde8950f99a1e8d36
+2025-03-03 21:41:24,736 - INFO - Fetching details for product ID: 1a8867bead2bd6520b6657c2e0eef986
+2025-03-03 21:41:26,035 - INFO - Fetching details for product ID: acda9084ee28faed63445550ba598778
+2025-03-03 21:41:29,324 - INFO - Fetching details for product ID: 9b75b0f7fc470ab11701ad7cf49bca34
+2025-03-03 21:41:29,478 - INFO - Fetching details for product ID: fdfe21d90d5f1dfd81d95fcdcd1acc2d
+2025-03-03 21:41:30,364 - INFO - Fetching details for product ID: dd9eb89b9fd2676a627a1d07515256ea
