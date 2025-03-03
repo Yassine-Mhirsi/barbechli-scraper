@@ -1,0 +1,64 @@
+{
+  "status": {
+    "code": "OK",
+    "description": "request and response are ok."
+  },
+  "response": [
+    {
+      "title": "Sac Femme Us Polo Assn US23520-KAHVE-BROWN",
+      "summary": "Sac Femme Us Polo Assn US23520-KAHVE-BROWN",
+      "currency": "TND",
+      "price": 386.4,
+      "price_min": 386.4,
+      "price_max": 441.6,
+      "price_drop": 55.2,
+      "price_drop_percent": 12.5,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "yes",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://citywatch.com.tn/sac-a-main/13927-us-polo-assn-us23520-kahve-brown.html",
+      "uniqueID": "3191a01878c09e98dd1a6c854a89ca03",
+      "category": "fashion_beauty",
+      "subcategory": "fashion_beauty_bags",
+      "source_name": "citywatch",
+      "source_link": "https://citywatch.com.tn/",
+      "brand": "u_s_polo_assn",
+      "model": "",
+      "gender": "woman",
+      "color": "marron",
+      "material": "na",
+      "store": "yes",
+      "store_label": "City Watch",
+      "store_description": "en plus du site en ligne, city watch possède des boutiques (tunis, sousse, monastir, kairouan, gabes et djerba).",
+      "delivery": "yes",
+      "delivery_description": "les colis sont généralement expédiés dans un délai de 48h. livraison gratuite pour les commandes plus que 50dt entre 24h et 48h.",
+      "availability": "on_stock",
+      "clicks": 2,
+      "clicksExternal": 0,
+      "reviewsNumber": 0,
+      "reviewsValue": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-01-17T01:27:36Z",
+          "price": 386.4
+        },
+        {
+          "date_price": "2024-11-27T13:25:26Z",
+          "price": 441.6
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-11-27T13:25:26Z",
+          "availability": "on_stock"
+        }
+      ],
+      "image": "https://barbechli.tn/images/product/3191a01878c09e98dd1a6c854a89ca03.jpg",
+      "date_creation": "2024-11-27T13:25:26Z",
+      "imageSearch": "yes"
+    }
+  ]
+}
