@@ -2,6 +2,9 @@ from playwright.sync_api import sync_playwright
 import json
 from typing import List, Optional
 import logging
+import queue
+import threading
+import time
 
 # Set up logging configuration
 logging.basicConfig(
@@ -13,8 +16,16 @@ logging.basicConfig(
     ]
 )
 
-def get_product_ids(category: str) -> List[str]:
-    product_ids = []
+# Shared queue for product IDs
+product_queue = queue.Queue()
+# Event to signal when producer is done
+producer_done = threading.Event()
+# List to store all products (thread-safe)
+all_products = []
+# Lock for thread-safe list operations
+products_lock = threading.Lock()
+
+def get_product_ids(category: str):
     logging.info(f"Starting to collect product IDs for category: {category}")
     
     with sync_playwright() as p:
@@ -36,9 +47,9 @@ def get_product_ids(category: str) -> List[str]:
             java_script_enabled=True,
         )
 
-        page = context.new_page()
         page_number = 1
         has_more_pages = True
+        total_products = 0
 
         while has_more_pages:
             response_data = None
@@ -48,13 +59,11 @@ def get_product_ids(category: str) -> List[str]:
                 if (request.resource_type == "xhr" and 
                     f'https://barbechli.tn/find/?q={{%22category%22:[%22{category}%22],%22key%' in request.url and 
                     f',%22orderby%22:{{%22type%22:%22popularity%22,%22direction%22:%22desc%22,%22desc%22:%22popularity%22}},%22pages%22:{{%22number%22:{page_number},%22rows%22:24}}}}' in request.url):
-                    logging.debug(f"Found matching XHR request on page {page_number}")
                     response = request.response()
                     if response:
                         try:
                             nonlocal response_data
                             response_data = json.loads(response.text())
-                            page.close()
                         except Exception as e:
                             logging.error(f"Error capturing response on page {page_number}: {str(e)}")
 
@@ -64,10 +73,9 @@ def get_product_ids(category: str) -> List[str]:
             try:
                 url = f"https://barbechli.tn/search;category={category};orderby=popularity;pagenumber={page_number}"
                 page.goto(url)
-                page.wait_for_timeout(2000)  # Wait for XHR to complete
+                page.wait_for_timeout(2000)
             except Exception as e:
-                if "Target page, context or browser has been closed" not in str(e):
-                    print(f"An error occurred: {e}")
+                logging.error(f"An error occurred: {e}")
 
             if response_data:
                 if "status" in response_data and response_data["status"].get("code") == "ERROR_ELASTIC":
@@ -75,25 +83,29 @@ def get_product_ids(category: str) -> List[str]:
                     has_more_pages = False
                 else:
                     new_ids = [product["uniqueID"] for product in response_data.get("response", []) if "uniqueID" in product]
-                    product_ids.extend(new_ids)
-                    logging.info(f"Found {len(new_ids)} products on page {page_number}. Total products so far: {len(product_ids)}")
+                    # Add new IDs to queue
+                    for product_id in new_ids:
+                        product_queue.put(product_id)
+                    total_products += len(new_ids)
+                    logging.info(f"Found {len(new_ids)} products on page {page_number}. Total products so far: {total_products}")
                     page_number += 1
             else:
                 logging.warning(f"No response data received for page {page_number}")
                 has_more_pages = False
 
+            page.close()
+
         context.close()
         browser.close()
-        logging.info(f"Finished collecting product IDs. Total products found: {len(product_ids)}")
-
-    return product_ids
-
-def get_product_details(product_id: str) -> Optional[dict]:
-    logging.info(f"Fetching details for product ID: {product_id}")
+        logging.info(f"Finished collecting product IDs. Total products found: {total_products}")
     
+    # Signal that we're done producing IDs
+    producer_done.set()
+
+def get_product_details():
     with sync_playwright() as p:
         browser = p.chromium.launch(
-            headless=True,
+            headless=False,
             args=[
                 '--disable-gpu',
                 '--disable-dev-shm-usage',
@@ -110,58 +122,77 @@ def get_product_details(product_id: str) -> Optional[dict]:
             java_script_enabled=True,
         )
 
-        page = context.new_page()
-        response_body = None
+        while not (producer_done.is_set() and product_queue.empty()):
+            try:
+                # Try to get a product ID from the queue, wait up to 1 second
+                product_id = product_queue.get(timeout=1)
+            except queue.Empty:
+                continue
 
-        def handle_request(request):
-            if request.resource_type == "xhr" and 'https://barbechli.tn/find/?q={%22uid' in request.url:
-                response = request.response()
-                if response:
-                    try:
-                        nonlocal response_body
-                        response_body = json.loads(response.text())
-                        logging.debug(f"Successfully captured response for product {product_id}")
-                        page.close()
-                    except Exception as e:
-                        logging.error(f"Error capturing response for product {product_id}: {str(e)}")
+            logging.info(f"Fetching details for product ID: {product_id}")
+            
+            page = context.new_page()
+            response_body = None
 
-        page.on('request', handle_request)
+            def handle_request(request):
+                if request.resource_type == "xhr" and 'https://barbechli.tn/find/?q={%22uid' in request.url:
+                    response = request.response()
+                    if response:
+                        try:
+                            nonlocal response_body
+                            response_body = json.loads(response.text())
+                            page.close()
+                        except Exception as e:
+                            logging.error(f"Error capturing response for product {product_id}: {str(e)}")
 
-        try:
-            page.goto(f"https://barbechli.tn/product/{product_id}")
-            page.wait_for_timeout(2000)  # Wait for XHR to complete
-        except Exception as e:
-            if "Target page, context or browser has been closed" not in str(e):
-                print(f"An error occurred: {e}")
+            page.on('request', handle_request)
 
-        if not response_body:
-            logging.warning(f"No response body received for product {product_id}")
-        
+            try:
+                page.goto(f"https://barbechli.tn/product/{product_id}")
+                #page.wait_for_timeout(2000)
+            except Exception as e:
+                logging.error(f"An error occurred: {e}")
+
+            if response_body:
+                with products_lock:
+                    all_products.append(response_body)
+                logging.info(f"Successfully processed product {product_id}")
+            else:
+                logging.warning(f"No response body received for product {product_id}")
+
         context.close()
         browser.close()
-        return response_body
+
+def save_results():
+    while not (producer_done.is_set() and product_queue.empty()):
+        time.sleep(2)
+        # Save current progress
+        with products_lock:
+            with open('all_products.json', 'w', encoding='utf-8') as f:
+                json.dump(all_products, f, indent=2, ensure_ascii=False)
+            logging.info(f"Saved {len(all_products)} products to all_products.json")
 
 if __name__ == "__main__":
     logging.info("Starting scraping process")
     category = "fashion_beauty"
     
-    # Get all product IDs
-    product_ids = get_product_ids(category)
-    logging.info(f"Found {len(product_ids)} products to process")
+    # Create threads
+    producer_thread = threading.Thread(target=get_product_ids, args=(category,))
+    consumer_thread = threading.Thread(target=get_product_details)
+    saver_thread = threading.Thread(target=save_results)
     
-    # Get details for each product
-    all_products = []
-    for idx, product_id in enumerate(product_ids, 1):
-        logging.info(f"Processing product {idx}/{len(product_ids)}")
-        product_details = get_product_details(product_id)
-        if product_details:
-            all_products.append(product_details)
-        else:
-            logging.warning(f"Failed to get details for product {product_id}")
+    # Start all threads
+    producer_thread.start()
+    consumer_thread.start()
+    saver_thread.start()
     
-    # Save all products to a file
-    output_file = 'all_products.json'
-    with open(output_file, 'w', encoding='utf-8') as f:
+    # Wait for all threads to complete
+    producer_thread.join()
+    consumer_thread.join()
+    saver_thread.join()
+    
+    # Final save
+    with open('all_products.json', 'w', encoding='utf-8') as f:
         json.dump(all_products, f, indent=2, ensure_ascii=False)
     
-    logging.info(f"Scraping completed. Saved {len(all_products)} products to {output_file}")
+    logging.info(f"Scraping completed. Saved {len(all_products)} products to all_products.json")
