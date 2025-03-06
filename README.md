@@ -1,16 +1,21 @@
 # Barbechli.tn Web Scraper
 
-A multi-threaded web scraper built with Python and Playwright to extract product data from barbechli.tn.
+A multi-threaded web scraper built with Python and Playwright to extract product data from barbechli.tn, focusing on specific stores and categories.
 
 ## Features
 
-- Collects product IDs and details concurrently using a producer-consumer pattern
-- Saves progress automatically during execution
-- Comprehensive logging to track the scraping process
+- Multi-threaded architecture with producer-consumer pattern
+- Store-specific product scraping (Tunisianet, Mytek, Mediavision, etc.)
+- Automatic retry system for failed requests (3 attempts)
+- Smart pagination with end-of-results detection
+- Headless browser operation for faster scraping
+- Dynamic output filenames based on store and category
+- Comprehensive logging and error handling
+- Automatic progress saving
 
 ## Prerequisites
 
-- Python 3.7+
+- Python 3.9+
 - pip (Python package installer)
 
 ## Installation
@@ -18,8 +23,7 @@ A multi-threaded web scraper built with Python and Playwright to extract product
 1. Clone this repository or download the source code:
 
 ```bash
-git clone <repository-url>
-# or download and extract the zip file
+git clone git@github.com:Yassine-Mhirsi/barbechli-scraper.git
 ```
 
 2. Navigate to the project directory:
@@ -59,70 +63,84 @@ playwright install chromium
 
 ## Usage
 
-1. Run the scraper:
+1. Configure the scraper in `main.py`:
+
+```python
+# Set the store and category to scrape
+text = "mytek"          # Store name for search
+sources = "mytek"       # Store identifier
+subcategories = "laptops"  # Category to scrape
+
+# Adjust number of concurrent threads if needed
+NUM_CONSUMERS = 5  # Increase for faster scraping
+```
+
+2. Run the scraper:
 
 ```bash
 python main.py
 ```
 
-2. The script will:
-   - Start collecting product IDs from the specified category
-   - Process product details concurrently
-   - Save results to `all_products.json`
-   - Create a log file `scraper.log`
-
-3. To change the category being scraped, edit the `category` variable in the `main.py` file:
-
-```python
-category = "fashion_beauty"  # Change to your desired category
-```
-
-4. To adjust the number of concurrent threads, modify the `NUM_CONSUMERS` variable:
-
-```python
-NUM_CONSUMERS = 2  # Increase for faster scraping (with more resources)
-```
+3. The script will:
+   - Start collecting product IDs from the specified store and category
+   - Process product details concurrently using multiple threads
+   - Save results to `<store>_<category>.json` (e.g., `mytek_laptops.json`)
+   - Create a detailed log file `scraper.log`
 
 ## Output
 
-- `all_products.json`: Contains all scraped product data
-- `scraper.log`: Detailed log of the scraping process
-
-## Notes
-
-- The browser will be visible during execution (headless=False)
-- The script may take some time to complete depending on the number of products
-- Be respectful of the website's resources and consider adding delays between requests
+- `<store>_<category>.json`: Contains all scraped product data
+- `scraper.log`: Detailed log of the scraping process, including:
+  - Page processing status
+  - Retry attempts
+  - Product counts
+  - Error messages
 
 ## How It Works
 
 The scraper operates in three main stages using a multi-threaded approach:
 
 1. **Product ID Collection (Producer Thread)**
-   - Navigates to category pages on barbechli.tn
+   - Navigates to store-specific category pages
    - Intercepts XHR requests to capture product IDs
-   - Places product IDs in a shared queue
-   - Handles pagination to collect IDs from all available pages
+   - Implements smart pagination with retry system
+   - Detects end of available products through multiple checks
 
 2. **Product Details Extraction (Consumer Threads)**
-   - Multiple threads pull product IDs from the shared queue
-   - Each thread visits individual product pages
-   - Intercepts XHR responses containing detailed product information
-   - Adds complete product data to a shared collection
+   - Multiple threads process product IDs concurrently
+   - Each thread handles individual product pages
+   - Captures detailed product information from XHR responses
+   - Adds data to thread-safe collection
 
 3. **Data Saving (Saver Thread)**
-   - Periodically saves all collected product data to a JSON file
-   - Ensures no data is lost if the process is interrupted
-   - Performs a final save when all products have been processed
+   - Periodically saves progress to JSON file
+   - Uses dynamic filenames based on store and category
+   - Ensures no data loss in case of interruption
 
-This architecture allows for efficient parallel processing while maintaining a controlled flow of data between threads.
+## Performance Features
 
+- Headless browser operation for faster processing
+- Configurable number of consumer threads
+- Automatic retry system (3 attempts) for failed requests
+- Smart pagination with multiple end-of-results checks:
+  - ERROR_ELASTIC status detection
+  - Empty results detection
+  - Partial page detection (< 24 products)
+- 2-second delay between retry attempts
+
+## Notes
+
+- The scraper runs in headless mode for better performance
+- Processing time depends on number of products and threads
+- Consider website load when adjusting thread count
+- Automatic retries help handle temporary network issues
 
 ## Troubleshooting
 
 If you encounter any issues:
 
-1. Check the `scraper.log` file for error messages
-2. Ensure you have a stable internet connection
-3. Try reducing the number of concurrent threads
-4. Make sure your IP hasn't been blocked by the website 
+1. Check the `scraper.log` file for detailed error messages
+2. Ensure stable internet connection
+3. Try reducing the number of consumer threads
+4. Verify the store and category parameters
+5. Check if the website is blocking automated access 
