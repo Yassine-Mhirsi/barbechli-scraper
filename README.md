@@ -20,46 +20,27 @@ A multi-threaded web scraper built with Python and Playwright to extract product
 
 ## Installation
 
-1. Clone this repository or download the source code:
+1. Clone this repository or download the source code && Navigate to the project directory:
 
 ```bash
 git clone git@github.com:Yassine-Mhirsi/barbechli-scraper.git
-```
-
-2. Navigate to the project directory:
-
-```bash
 cd barbechli-scraper
 ```
 
-3. Create a virtual environment (recommended):
+2. Create and Activate virtual environment (recommended):
 
 ```bash
 python -m venv venv
-```
-
-4. Activate the virtual environment:
-
-- On Windows:
-```bash
 venv\Scripts\activate
 ```
-- On macOS/Linux:
-```bash
-source venv/bin/activate
-```
 
-5. Install the required dependencies:
+3. Install the required dependencies:
 
 ```bash
 pip install playwright
-```
-
-6. Install Playwright browsers:
-
-```bash
 playwright install chromium
 ```
+
 
 ## Usage
 
