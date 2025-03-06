@@ -25,12 +25,12 @@ all_products = []
 # Lock for thread-safe list operations
 products_lock = threading.Lock()
 
-def get_product_ids(category: str):
-    logging.info(f"Starting to collect product IDs for category: {category}")
+def get_product_ids(text: str,subcategories: str,sources: str):
+    logging.info(f"Starting to collect product IDs for category: {subcategories}")
     
     with sync_playwright() as p:
         browser = p.chromium.launch(
-            headless=False,
+            headless=True,
             args=[
                 '--disable-gpu',
                 '--disable-dev-shm-usage',
@@ -50,50 +50,78 @@ def get_product_ids(category: str):
         page_number = 1
         has_more_pages = True
         total_products = 0
+        MAX_RETRIES = 3
 
         while has_more_pages:
             response_data = None
-            logging.info(f"Processing page {page_number}")
+            retry_count = 0
+            
+            while response_data is None and retry_count < MAX_RETRIES:
+                if retry_count > 0:
+                    logging.warning(f"Retrying page {page_number} (Attempt {retry_count + 1}/{MAX_RETRIES})")
+                    time.sleep(2)  # Wait 2 seconds between retries
+                else:
+                    logging.info(f"Processing page {page_number}")
 
-            def handle_category_request(request):
-                if (request.resource_type == "xhr" and 
-                    f'https://barbechli.tn/find/?q={{%22category%22:[%22{category}%22],%22key%' in request.url and 
-                    f',%22orderby%22:{{%22type%22:%22popularity%22,%22direction%22:%22desc%22,%22desc%22:%22popularity%22}},%22pages%22:{{%22number%22:{page_number},%22rows%22:24}}}}' in request.url):
-                    response = request.response()
-                    if response:
-                        try:
-                            nonlocal response_data
-                            response_data = json.loads(response.text())
-                        except Exception as e:
-                            logging.error(f"Error capturing response on page {page_number}: {str(e)}")
+                def handle_category_request(request):
+                    if (request.resource_type == "xhr" and 
+                        f'https://barbechli.tn/find/?q={{%22text%22:%22{text}%22,%22key%' in request.url and 
+                        #f',%22orderby%22:{{%22type%22:%22popularity%22,%22direction%22:%22desc%22,%22desc%22:%22popularity%22}},%22pages%22:{{%22number%22:{page_number},%22rows%22:24}}}}' in request.url and 
+                        f',%22subcategories%22:[%22{subcategories}%22],%22sources%22:[%22{sources}%22],%22orderby%22:{{%22type%22:%22popularity%22,%22direction%22:%22desc%22,%22desc%22:%22popularity%22}},%22pages%22:{{%22number%22:{page_number},%22rows%22:24}}}}' in request.url ):
+                        response = request.response()
+                        if response:
+                            try:
+                                nonlocal response_data
+                                response_data = json.loads(response.text())
+                            except Exception as e:
+                                logging.error(f"Error capturing response on page {page_number}: {str(e)}")
 
-            page = context.new_page()
-            page.on('request', handle_category_request)
+                page = context.new_page()
+                page.on('request', handle_category_request)
 
-            try:
-                url = f"https://barbechli.tn/search;category={category};orderby=popularity;pagenumber={page_number}"
-                page.goto(url)
-                page.wait_for_timeout(2000)
-            except Exception as e:
-                logging.error(f"An error occurred: {e}")
+                try:
+                    url = f"https://barbechli.tn/search;text={text};subcategories={subcategories};sources={sources};orderby=popularity;pagenumber={page_number}"
+                    page.goto(url)
+                    page.wait_for_timeout(2000)
+                except Exception as e:
+                    logging.error(f"An error occurred: {e}")
+
+                if not response_data:
+                    retry_count += 1
+                    if retry_count < MAX_RETRIES:
+                        logging.warning(f"No response data received for page {page_number}, will retry")
+                    else:
+                        logging.error(f"Failed to get response data for page {page_number} after {MAX_RETRIES} attempts")
+                        has_more_pages = False
+
+                page.close()
 
             if response_data:
                 if "status" in response_data and response_data["status"].get("code") == "ERROR_ELASTIC":
-                    logging.info("Reached end of available pages")
+                    logging.info("Reached end of available pages (ERROR_ELASTIC)")
                     has_more_pages = False
                 else:
                     new_ids = [product["uniqueID"] for product in response_data.get("response", []) if "uniqueID" in product]
-                    # Add new IDs to queue
-                    for product_id in new_ids:
-                        product_queue.put(product_id)
-                    total_products += len(new_ids)
-                    logging.info(f"Found {len(new_ids)} products on page {page_number}. Total products so far: {total_products}")
-                    page_number += 1
+                    
+                    # Check if we got any products
+                    if not new_ids:
+                        logging.info("Reached end of available pages (no products found)")
+                        has_more_pages = False
+                    else:
+                        # Add new IDs to queue
+                        for product_id in new_ids:
+                            product_queue.put(product_id)
+                        total_products += len(new_ids)
+                        logging.info(f"Found {len(new_ids)} products on page {page_number}. Total products so far: {total_products}")
+                        
+                        # Check if we got fewer products than expected (24 per page)
+                        if len(new_ids) < 24:
+                            logging.info("Reached end of available pages (last page with fewer products)")
+                            has_more_pages = False
+                        else:
+                            page_number += 1
             else:
-                logging.warning(f"No response data received for page {page_number}")
                 has_more_pages = False
-
-            page.close()
 
         context.close()
         browser.close()
@@ -105,7 +133,7 @@ def get_product_ids(category: str):
 def get_product_details():
     with sync_playwright() as p:
         browser = p.chromium.launch(
-            headless=False,
+            headless=True,
             args=[
                 '--disable-gpu',
                 '--disable-dev-shm-usage',
@@ -163,24 +191,32 @@ def get_product_details():
         context.close()
         browser.close()
 
-def save_results():
+def save_results(output_file='all_products.json'):
     while not (producer_done.is_set() and product_queue.empty()):
         time.sleep(2)
         # Save current progress
         with products_lock:
-            with open('all_products.json', 'w', encoding='utf-8') as f:
+            with open(output_file, 'w', encoding='utf-8') as f:
                 json.dump(all_products, f, indent=2, ensure_ascii=False)
-            logging.info(f"Saved {len(all_products)} products to all_products.json")
+            logging.info(f"Saved {len(all_products)} products to {output_file}")
 
 if __name__ == "__main__":
     logging.info("Starting scraping process")
-    category = "fashion_beauty"
-    NUM_CONSUMERS = 2  # Number of concurrent consumer threads
+    #category = "fashion_beauty"
+    text = "mytek"
+    sources = "mytek"
+    subcategories = "laptops"
+    
+    # Create dynamic output filename based on store and category
+    output_file = f"{sources}_{subcategories}.json"
+    logging.info(f"Output will be saved to: {output_file}")
+
+    NUM_CONSUMERS = 5  # Number of concurrent consumer threads
     
     # Create threads
-    producer_thread = threading.Thread(target=get_product_ids, args=(category,))
+    producer_thread = threading.Thread(target=get_product_ids, args=(text,subcategories,sources))
     consumer_threads = [threading.Thread(target=get_product_details) for _ in range(NUM_CONSUMERS)]
-    saver_thread = threading.Thread(target=save_results)
+    saver_thread = threading.Thread(target=save_results, args=(output_file,))
     
     # Start all threads
     producer_thread.start()
@@ -195,7 +231,7 @@ if __name__ == "__main__":
     saver_thread.join()
     
     # Final save
-    with open('all_products.json', 'w', encoding='utf-8') as f:
+    with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(all_products, f, indent=2, ensure_ascii=False)
     
-    logging.info(f"Scraping completed. Saved {len(all_products)} products to all_products.json")
+    logging.info(f"Scraping completed. Saved {len(all_products)} products to {output_file}")
