@@ -175,20 +175,23 @@ def save_results():
 if __name__ == "__main__":
     logging.info("Starting scraping process")
     category = "fashion_beauty"
+    NUM_CONSUMERS = 2  # Number of concurrent consumer threads
     
     # Create threads
     producer_thread = threading.Thread(target=get_product_ids, args=(category,))
-    consumer_thread = threading.Thread(target=get_product_details)
+    consumer_threads = [threading.Thread(target=get_product_details) for _ in range(NUM_CONSUMERS)]
     saver_thread = threading.Thread(target=save_results)
     
     # Start all threads
     producer_thread.start()
-    consumer_thread.start()
+    for consumer_thread in consumer_threads:
+        consumer_thread.start()
     saver_thread.start()
     
     # Wait for all threads to complete
     producer_thread.join()
-    consumer_thread.join()
+    for consumer_thread in consumer_threads:
+        consumer_thread.join()
     saver_thread.join()
     
     # Final save
