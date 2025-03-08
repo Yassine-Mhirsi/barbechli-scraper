@@ -10,34 +10,90 @@ import requests
 import requests
 import logging
 
-def save_to_api(product_data):
+import requests
+import logging
+from typing import List, Dict, Any
+
+def save_to_api():
     """
-    Sends product data to the FastAPI /products endpoint.
+    Continuously sends product data to the FastAPI /products endpoint.
     """
-    try:
-        # Prepare the product data
-        product = {
-            "uniqueID": product_data.get("uniqueID"),  # Updated to match the Pydantic model
-            "name": product_data.get("name"),
-            "price": float(product_data.get("price")),  # Ensure price is a float
-            "store": product_data.get("store"),
-            "category": product_data.get("category")
-        }
+    while not (producer_done.is_set() and product_queue.empty()):
+        with products_lock:  # Use a lock for thread-safe access
+            if all_products:
+                product = all_products.pop(0)  # Get the first product
+                try:
+                    # Prepare the product data
+                    product = {
+                        "uniqueID": product.get("uniqueID"),
+                        "title": product.get("title"),
+                        "summary": product.get("summary"),
+                        "currency": product.get("currency"),
+                        "price": float(product.get("price")),
+                        "price_min": float(product.get("price_min")),
+                        "price_max": float(product.get("price_max")),
+                        "price_drop": float(product.get("price_drop")),
+                        "price_drop_percent": float(product.get("price_drop_percent")),
+                        "price_week_changed": product.get("price_week_changed"),
+                        "price_week_drop": float(product.get("price_week_drop")),
+                        "price_week_drop_percent": float(product.get("price_week_drop_percent")),
+                        "price_deal": product.get("price_deal"),
+                        "price_hot_deal": product.get("price_hot_deal"),
+                        "price_top_deal": product.get("price_top_deal"),
+                        "link": product.get("link"),
+                        "category": product.get("category"),
+                        "subcategory": product.get("subcategory"),
+                        "source_name": product.get("source_name"),
+                        "source_link": product.get("source_link"),
+                        "brand": product.get("brand"),
+                        "model": product.get("model"),
+                        "gender": product.get("gender"),
+                        "color": product.get("color"),
+                        "material": product.get("material"),
+                        "store": product.get("store"),
+                        "store_label": product.get("store_label"),
+                        "store_description": product.get("store_description"),
+                        "delivery": product.get("delivery"),
+                        "delivery_description": product.get("delivery_description"),
+                        "availability": product.get("availability"),
+                        "clicks": int(product.get("clicks")),
+                        "clicksExternal": int(product.get("clicksExternal")),
+                        "reviewsNumber": int(product.get("reviewsNumber")),
+                        "reviewsValue": float(product.get("reviewsValue")),
+                        "priceTable": [
+                            {
+                                "date_price": entry.get("date_price"),
+                                "price": float(entry.get("price"))
+                            }
+                            for entry in product.get("priceTable", [])
+                        ],
+                        "availabilityTable": [
+                            {
+                                "date_availability": entry.get("date_availability"),
+                                "availability": entry.get("availability")
+                            }
+                            for entry in product.get("availabilityTable", [])
+                        ],
+                        "image": product.get("image"),
+                        "date_creation": product.get("date_creation"),
+                        "imageSearch": product.get("imageSearch")
+                    }
         
-        # Send data to FastAPI endpoint
-        response = requests.post(
-            "http://127.0.0.1:8000/products",  # FastAPI endpoint
-            json=product,  # Send data as JSON
-            headers={"Content-Type": "application/json"}  # Set content type
-        )
-        
-        # Check if the request was successful
-        if response.status_code == 200:
-            logging.info(f"Inserted product: {product['name']}")
-        else:
-            logging.error(f"Failed to insert product: {response.text}")
-    except Exception as e:
-        logging.error(f"Error inserting product: {e}")
+                    # Send data to FastAPI endpoint
+                    response = requests.post(
+                        "http://127.0.0.1:8000/products",  # FastAPI endpoint
+                        json=product,  # Send data as JSON
+                        headers={"Content-Type": "application/json"}  # Set content type
+                    )
+                    
+                    # Check if the request was successful
+                    if response.status_code == 200:
+                        logging.info(f"Inserted product: {product['title']}")
+                    else:
+                        logging.error(f"Failed to insert product: {response.text}")
+                except Exception as e:
+                    logging.error(f"Error inserting product: {e}")
+        time.sleep(1)  # Sleep to avoid busy-waiting
 
 # Set up logging configuration
 logging.basicConfig(
@@ -250,18 +306,21 @@ if __name__ == "__main__":
     producer_thread = threading.Thread(target=get_product_ids, args=(text,subcategories,sources))
     consumer_threads = [threading.Thread(target=get_product_details) for _ in range(NUM_CONSUMERS)]
     saver_thread = threading.Thread(target=save_results, args=(output_file,))
+    api_saver_thread = threading.Thread(target=save_to_api)
     
     # Start all threads
     producer_thread.start()
     for consumer_thread in consumer_threads:
         consumer_thread.start()
     saver_thread.start()
+    api_saver_thread.start()
     
     # Wait for all threads to complete
     producer_thread.join()
     for consumer_thread in consumer_threads:
         consumer_thread.join()
     saver_thread.join()
+    api_saver_thread.join()
     
     # Final save
     with open(output_file, 'w', encoding='utf-8') as f:
