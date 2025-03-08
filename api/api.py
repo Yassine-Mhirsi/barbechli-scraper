@@ -11,7 +11,7 @@ app = FastAPI()
 MONGO_URI = 'mongodb+srv://nrsm301:connection-pass@scraper-ordinateurs.aic8d.mongodb.net/?retryWrites=true&w=majority&appName=scraper-ordinateurs&ssl=true'
 client = MongoClient(MONGO_URI)
 db = client["barbechli_db"]
-collection = db["mytek_laptops_test"]
+collection = db["test"]
 
 
 # Pydantic model for product data
@@ -76,7 +76,7 @@ class Product(BaseModel):
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-@app.post("/products")
+@app.post("/scrape")
 async def add_product(product: Product, request: Request):
     logger.info(f"Incoming request body: {await request.json()}")
     try:
@@ -87,7 +87,7 @@ async def add_product(product: Product, request: Request):
         raise HTTPException(status_code=500, detail=str(e))
 
 # GET endpoint to retrieve all products
-@app.get("/products")
+@app.get("/annonces")
 async def get_products():
     try:
         products = list(collection.find({}, {"_id": 0}))
