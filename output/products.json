@@ -1,27 +1,37 @@
 {
   "stats": {
-    "total_products": 1704,
-    "total_sources": 4,
+    "total_products": 1840,
+    "total_sources": 6,
     "sources": [
       {
         "name": "tunisianet",
         "products": 667,
-        "percentage": 39.14
+        "percentage": 36.25
       },
       {
         "name": "mediavision",
         "products": 447,
-        "percentage": 26.23
+        "percentage": 24.29
       },
       {
         "name": "technopro_online",
-        "products": 357,
-        "percentage": 20.95
+        "products": 401,
+        "percentage": 21.79
       },
       {
         "name": "mytek",
         "products": 233,
-        "percentage": 13.67
+        "percentage": 12.66
+      },
+      {
+        "name": "tech_store",
+        "products": 58,
+        "percentage": 3.15
+      },
+      {
+        "name": "cyberinfo",
+        "products": 34,
+        "percentage": 1.85
       }
     ]
   },
@@ -88089,6 +88099,5774 @@
         }
       ],
       "date_creation": "2023-08-11T01:06:16Z"
+    },
+    {
+      "uniqueID": "85d3a9241d1b8c7e015ed6b798d90a79",
+      "title": "PC Portable ASUS Vivobook 15 X1504VA i3 13è Gén 8Go 512Go SSD - Silver",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/85d3a9241d1b8c7e015ed6b798d90a79.jpg",
+      "currency": "TND",
+      "price": 1239.0,
+      "price_min": 1239,
+      "price_max": 1239,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/pc-portable-asus-vivobook-15-x1504va-i3-13e-gen-8go-512go-ssd-silver.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "asus",
+      "availability": "on_stock",
+      "clicks": 3,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-11-17T01:02:29Z",
+          "price": 1239.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-11-17T01:02:29Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-11-17T01:02:29Z"
+    },
+    {
+      "uniqueID": "d0d73e4fca5f6fc641fd066b19bd0cad",
+      "title": "PC Portable HP 15-fd0041nk i5 13è Gén 12Go 512Go SSD - Silver & Bleu",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/d0d73e4fca5f6fc641fd066b19bd0cad.jpg",
+      "currency": "TND",
+      "price": 1675.0,
+      "price_min": 1675,
+      "price_max": 1675,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/-pc-portable-hp-15-fd0041nk-i5-13e-gen-12go-512go-ssd-silver-bleu.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "hp",
+      "availability": "on_command",
+      "clicks": 3,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-09-01T02:12:54Z",
+          "price": 1675.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-09-01T02:12:54Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2024-09-01T02:12:54Z"
+    },
+    {
+      "uniqueID": "d7535289d311a33c50c3b6926f145d01",
+      "title": "Pc Portable HP Probook 440 G10 i7-1355u 16Go - 512Go ssd",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/d7535289d311a33c50c3b6926f145d01.jpg",
+      "currency": "TND",
+      "price": 2889.0,
+      "price_min": 2889,
+      "price_max": 2889,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/pc-portable-hp-probook-440-g10-i7-1355u-16-go-512-go-ssd.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "hp",
+      "availability": "on_command",
+      "clicks": 3,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-02-14T01:05:35Z",
+          "price": 2889.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-02-14T01:05:35Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2025-02-14T01:05:35Z"
+    },
+    {
+      "uniqueID": "bc27f1f5b9967d4838c4429860e16229",
+      "title": "PC Portable Gamer LENOVO LOQ 15IRH8 i5 12ème Gén 24Go RTX 2050",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/bc27f1f5b9967d4838c4429860e16229.jpg",
+      "currency": "TND",
+      "price": 2309.0,
+      "price_min": 2309,
+      "price_max": 2309,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/pc-portable-gamer-lenovo-loq-15irh8-i5-12eme-gen-24go-rtx-2050.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "lenovo",
+      "availability": "on_command",
+      "clicks": 3,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-06-22T14:16:23Z",
+          "price": 2309.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-06-22T14:16:23Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2024-06-22T14:16:23Z"
+    },
+    {
+      "uniqueID": "e7528063d362309ee81a4f9939b09e79",
+      "title": "PC Portable MSI Cyborg 15 A13VE / I5-13420H / RTX 4050 6G / 32 Go / 512 Go SSD / Windows 11",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/e7528063d362309ee81a4f9939b09e79.jpg",
+      "currency": "TND",
+      "price": 3315.0,
+      "price_min": 3315,
+      "price_max": 3529,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/pc-portable-msi-cyborg-15-a13ve-i5-13420h-rtx-4050-6g-32-go-512-go-ssd-windows-11.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "msi",
+      "availability": "on_command",
+      "clicks": 3,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-01-07T13:07:49Z",
+          "price": 3315.0
+        },
+        {
+          "date_price": "2024-09-14T11:46:32Z",
+          "price": 3529.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-09-14T11:46:32Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2024-09-14T11:46:32Z"
+    },
+    {
+      "uniqueID": "fd58988e59963bf309337d61e79c6c14",
+      "title": "Portable Dell Vostro 3520 i5 1235U 24 Go 512Go SSD",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/fd58988e59963bf309337d61e79c6c14.jpg",
+      "currency": "TND",
+      "price": 1519.0,
+      "price_min": 1399,
+      "price_max": 1519,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/portable-dell-vostro-3520-i5-1235u-24-go-512go-ssd.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "dell",
+      "availability": "on_stock",
+      "clicks": 3,
+      "clicksExternal": 4,
+      "priceTable": [
+        {
+          "date_price": "2025-01-21T01:07:27Z",
+          "price": 1519.0
+        },
+        {
+          "date_price": "2024-12-28T22:03:44Z",
+          "price": 1435.0
+        },
+        {
+          "date_price": "2024-10-10T13:06:01Z",
+          "price": 1459.0
+        },
+        {
+          "date_price": "2024-08-23T01:02:03Z",
+          "price": 1399.0
+        },
+        {
+          "date_price": "2024-04-04T01:02:24Z",
+          "price": 1469.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-04-04T01:02:24Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-04-04T01:02:24Z"
+    },
+    {
+      "uniqueID": "6559c2c02673bc9f9b606d33877043af",
+      "title": "PC Portable Gamer MSI Cyborg 15 A13VF / i7 13è Gén / 16Go / RTX 4060",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/6559c2c02673bc9f9b606d33877043af.jpg",
+      "currency": "TND",
+      "price": 3419.0,
+      "price_min": 3419,
+      "price_max": 3419,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/pc-portable-gamer-msi-cyborg-15-a13vf-i7-13e-gen-16go-rtx-4060.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "msi",
+      "availability": "on_stock",
+      "clicks": 3,
+      "clicksExternal": 1,
+      "priceTable": [
+        {
+          "date_price": "2024-11-17T01:05:04Z",
+          "price": 3419.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-11-17T01:05:04Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-11-17T01:05:04Z"
+    },
+    {
+      "uniqueID": "a6c2e9aa8e40d97815d11e1e6302b955",
+      "title": "PC Portable ASUS Vivobook 15 X1504VA i3 13è Gén 16Go 256G SSD - Bleu",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/a6c2e9aa8e40d97815d11e1e6302b955.jpg",
+      "currency": "TND",
+      "price": 1119.0,
+      "price_min": 1119,
+      "price_max": 1119,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/pc-portable-asus-vivobook-15-x1504va-i3-13e-gen-16go-256g-ssd-bleu.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "asus",
+      "availability": "on_command",
+      "clicks": 2,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-09-01T02:05:59Z",
+          "price": 1119.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-09-01T02:05:59Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2024-09-01T02:05:59Z"
+    },
+    {
+      "uniqueID": "d62d0cf48b15d29ee30206a62a7d56a0",
+      "title": "Pc Portable ASUS VivoBook 15 i7 13è Gén 16 Go Win11 - Silver",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/d62d0cf48b15d29ee30206a62a7d56a0.jpg",
+      "currency": "TND",
+      "price": 2069.0,
+      "price_min": 2069,
+      "price_max": 2189,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/pc-portable-asus-vivobook-15-i7-13e-gen-16-go-win11-silver.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "asus",
+      "availability": "on_command",
+      "clicks": 2,
+      "clicksExternal": 1,
+      "priceTable": [
+        {
+          "date_price": "2024-10-22T01:07:29Z",
+          "price": 2069.0
+        },
+        {
+          "date_price": "2024-08-21T01:10:13Z",
+          "price": 2129.0
+        },
+        {
+          "date_price": "2023-12-28T01:05:57Z",
+          "price": 2189.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2023-12-28T01:05:57Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2023-12-28T01:05:57Z"
+    },
+    {
+      "uniqueID": "1c3880a05988e186d1dd656fd162ff0d",
+      "title": "Apple MacBook Pro M3 Pro 16\" Space Black 18GB-512GB (MRW13FN/A)",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/1c3880a05988e186d1dd656fd162ff0d.jpg",
+      "currency": "TND",
+      "price": 9159.0,
+      "price_min": 9159,
+      "price_max": 10599,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/apple-macbook-pro-m3-pro-16-space-black-18gb-512gb-mrw13fna.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "apple",
+      "availability": "on_command",
+      "clicks": 2,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-02-20T01:27:33Z",
+          "price": 9159.0
+        },
+        {
+          "date_price": "2024-02-21T01:05:19Z",
+          "price": 10599.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-02-21T01:05:19Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2024-02-21T01:05:19Z"
+    },
+    {
+      "uniqueID": "02fdb5817a6f030a00121c5b1d7217b8",
+      "title": "Pc Portable HP 15-DW3008NK / I5 11Gen / 8Go / 1To / W10 - (2Q9G5EA)",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/02fdb5817a6f030a00121c5b1d7217b8.jpg",
+      "currency": "TND",
+      "price": 1739.0,
+      "price_min": 1739,
+      "price_max": 2039,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/pc-portable-hp-15-dw3008nk-i5-11gen-8go-1to-w10-2q9g5ea.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "hp",
+      "availability": "on_stock",
+      "clicks": 2,
+      "clicksExternal": 1,
+      "priceTable": [
+        {
+          "date_price": "2024-10-31T01:02:43Z",
+          "price": 1739.0
+        },
+        {
+          "date_price": "2024-10-12T01:03:15Z",
+          "price": 1799.0
+        },
+        {
+          "date_price": "2022-05-28T01:09:46Z",
+          "price": 2039.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2022-05-28T01:09:46Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2022-05-28T01:09:46Z"
+    },
+    {
+      "uniqueID": "7682f3fcce0c536b150d6a26115c052b",
+      "title": "Pc Portable MSI Prestige 15 i7 12Gén - 16Go 512Go SSD - Gris (9s7-16s811-033)",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/7682f3fcce0c536b150d6a26115c052b.jpg",
+      "currency": "TND",
+      "price": 4830.0,
+      "price_min": 4830,
+      "price_max": 4999,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/pc-portable-msi-prestige-15-i7-16go.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "msi",
+      "availability": "on_command",
+      "clicks": 2,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2023-04-19T01:12:50Z",
+          "price": 4830.0
+        },
+        {
+          "date_price": "2022-12-03T01:05:54Z",
+          "price": 4999.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2022-12-03T01:05:54Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2022-12-03T01:05:54Z"
+    },
+    {
+      "uniqueID": "f560beb4a6dd15d60c15ba29e0954681",
+      "title": "PC Portable HP ENVY X360 15-EW0000NK Tactile / I7-1255U / 16 GO Silver (6D6X9EA)",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/f560beb4a6dd15d60c15ba29e0954681.jpg",
+      "currency": "TND",
+      "price": 5459.0,
+      "price_min": 5389,
+      "price_max": 5459,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/-pc-portable-hp-envy-x360-15-ew0000nk-tactile-i7-1255u.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "hp",
+      "availability": "on_command",
+      "clicks": 2,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2023-01-20T01:05:09Z",
+          "price": 5459.0
+        },
+        {
+          "date_price": "2022-10-07T01:06:26Z",
+          "price": 5389.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2022-10-07T01:06:26Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2022-10-07T01:06:26Z"
+    },
+    {
+      "uniqueID": "5d590919b011e1f9cb8ea465850e9767",
+      "title": "Apple MacBook Air M2 (2022) 8Go/256 GoSSD - Lumière stellaire (MLY13FN/A)",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/5d590919b011e1f9cb8ea465850e9767.jpg",
+      "currency": "TND",
+      "price": 4335.0,
+      "price_min": 4335,
+      "price_max": 4959,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/apple-macbook-air-m2-2022-8go-256-go-ssd-lumiere-stellair.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "apple",
+      "availability": "on_command",
+      "clicks": 2,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-05-16T01:46:02Z",
+          "price": 4335.0
+        },
+        {
+          "date_price": "2023-04-26T02:02:04Z",
+          "price": 4959.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2023-04-26T02:02:04Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2023-04-26T02:02:04Z"
+    },
+    {
+      "uniqueID": "5d033616ce670297aab7da86a577aed1",
+      "title": "PC Portable ASUS X515EP / i5 11è Gén / 8Go / 512Go SSD - Gris",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/5d033616ce670297aab7da86a577aed1.jpg",
+      "currency": "TND",
+      "price": 1799.0,
+      "price_min": 1799,
+      "price_max": 2379,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/pc-portable-asus-x515ep-i5-11e-gen-8go-512go-ssd-gris-x515ep-br245t.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "asus",
+      "availability": "on_stock",
+      "clicks": 2,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-10-15T01:02:50Z",
+          "price": 1799.0
+        },
+        {
+          "date_price": "2024-01-03T01:01:43Z",
+          "price": 1999.0
+        },
+        {
+          "date_price": "2023-04-08T01:03:53Z",
+          "price": 2179.0
+        },
+        {
+          "date_price": "2022-08-18T01:07:18Z",
+          "price": 2299.0
+        },
+        {
+          "date_price": "2022-08-16T01:05:01Z",
+          "price": 2339.0
+        },
+        {
+          "date_price": "2022-06-04T01:08:08Z",
+          "price": 2165.0
+        },
+        {
+          "date_price": "2022-02-06T01:10:14Z",
+          "price": 2269.0
+        },
+        {
+          "date_price": "2021-12-30T01:05:33Z",
+          "price": 2299.0
+        },
+        {
+          "date_price": "2021-12-24T01:12:26Z",
+          "price": 2379.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2021-12-24T01:12:26Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2021-12-24T01:12:26Z"
+    },
+    {
+      "uniqueID": "0fffde850941d3d475a9aa40ac9c8dd2",
+      "title": "HP 15-DW3008NK / I5 / 8Go / SSD 256Go / W10 - (2Q9G5EA)",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/0fffde850941d3d475a9aa40ac9c8dd2.jpg",
+      "currency": "TND",
+      "price": 1769.0,
+      "price_min": 1769,
+      "price_max": 2125,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/hp-15-dw3008nk-i5-11gen-8go-ssd-256go-w10-2q9g5ea.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "hp",
+      "availability": "on_stock",
+      "clicks": 2,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-10-31T01:02:47Z",
+          "price": 1769.0
+        },
+        {
+          "date_price": "2024-10-12T01:03:14Z",
+          "price": 1799.0
+        },
+        {
+          "date_price": "2023-04-09T01:07:50Z",
+          "price": 2125.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2023-04-09T01:07:50Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2023-04-09T01:07:50Z"
+    },
+    {
+      "uniqueID": "badfcd9b54fb72cc3b5a10377e3d51a2",
+      "title": "Pc Portable HP ProBook 450 G9 - i5 12è Gén - 8 Go - Silver",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/badfcd9b54fb72cc3b5a10377e3d51a2.jpg",
+      "currency": "TND",
+      "price": 2299.0,
+      "price_min": 2299,
+      "price_max": 2559,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/pc-portable-hp-probook-450-g9-i5-12e-gen-silver.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "hp",
+      "availability": "on_command",
+      "clicks": 2,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2023-10-31T01:41:11Z",
+          "price": 2299.0
+        },
+        {
+          "date_price": "2023-06-02T01:14:46Z",
+          "price": 2559.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2023-06-02T01:14:46Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2023-06-02T01:14:46Z"
+    },
+    {
+      "uniqueID": "80d3716814d6e61c2585de55e6240e9c",
+      "title": "PC Portable HP 15-fd0048nk i5 13è Gén 12Go 512Go SSD - Silver & Or Chaud",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/80d3716814d6e61c2585de55e6240e9c.jpg",
+      "currency": "TND",
+      "price": 1749.0,
+      "price_min": 1675,
+      "price_max": 1749,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/pc-portable-hp-15-fd0048nk-i5-13e-gen-12go-512go-ssd-silver-or-chaud.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "hp",
+      "availability": "on_command",
+      "clicks": 2,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-09-23T13:05:08Z",
+          "price": 1749.0
+        },
+        {
+          "date_price": "2024-09-01T02:12:54Z",
+          "price": 1675.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-09-01T02:12:54Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2024-09-01T02:12:54Z"
+    },
+    {
+      "uniqueID": "c5b97be8460705c1b388c3fa76bc5dec",
+      "title": "Apple MacBook Air M2 13 pouces (2022) Minuit 8Go/512 Go",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/c5b97be8460705c1b388c3fa76bc5dec.jpg",
+      "currency": "TND",
+      "price": 5749.0,
+      "price_min": 5749,
+      "price_max": 5789,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/macbook-air-m2-2022-minuit-8go512-go.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "apple",
+      "availability": "on_command",
+      "clicks": 2,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-02-09T01:09:01Z",
+          "price": 5749.0
+        },
+        {
+          "date_price": "2023-10-08T01:04:10Z",
+          "price": 5789.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2023-10-08T01:04:10Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2023-10-08T01:04:10Z"
+    },
+    {
+      "uniqueID": "bcbe65c655d93b3d1310978bbc297d5b",
+      "title": "APPLE MacBook Air M2 13\" 256 Go MC7U4FN/A - Gris Sidéral",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/bcbe65c655d93b3d1310978bbc297d5b.jpg",
+      "currency": "TND",
+      "price": 4379.0,
+      "price_min": 4379,
+      "price_max": 4379,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/ordinateur-portable-apple-macbook-air-m2-13-256-go-gris-sideral.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "apple",
+      "availability": "on_command",
+      "clicks": 2,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-02-14T01:04:42Z",
+          "price": 4379.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-02-14T01:04:42Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2025-02-14T01:04:42Z"
+    },
+    {
+      "uniqueID": "45dc059a72e04c2dbdce88fde2bea4ff",
+      "title": "PC Portable DELL Vostro 3530 (N1601PVNB3530EMEA01_UBU-16)",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/45dc059a72e04c2dbdce88fde2bea4ff.jpg",
+      "currency": "TND",
+      "price": 2229.0,
+      "price_min": 2229,
+      "price_max": 2229,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/pc-portable-dell-vostro-3530-n1601pvnb3530emea01ubu-16.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "dell",
+      "availability": "on_command",
+      "clicks": 2,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-09-14T11:45:47Z",
+          "price": 2229.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-09-14T11:45:47Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2024-09-14T11:45:47Z"
+    },
+    {
+      "uniqueID": "7e4a2eefb1d570151f413675caa5ced3",
+      "title": "APPLE MacBook Pro / 14 pouces / M3 / 18Go 512Go SSD / Noir Sidéral",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/7e4a2eefb1d570151f413675caa5ced3.jpg",
+      "currency": "TND",
+      "price": 8699.0,
+      "price_min": 8699,
+      "price_max": 8699,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/apple-macbook-pro-14-pouces-m3-18go-512go-ssd-noir-sideral.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "apple",
+      "availability": "on_command",
+      "clicks": 2,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-12-28T22:03:37Z",
+          "price": 8699.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-12-28T22:03:37Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2024-12-28T22:03:37Z"
+    },
+    {
+      "uniqueID": "2c8db225eabb64b0fcb088aa70278be5",
+      "title": "PC Portable ASUS Vivobook 15 X1504VA i3 13è Gén 12Go 256Go SSD - Bleu",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/2c8db225eabb64b0fcb088aa70278be5.jpg",
+      "currency": "TND",
+      "price": 1109.0,
+      "price_min": 1109,
+      "price_max": 1109,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/copy-of-pc-portable-asus-vivobook-15-x1504va-i3-13e-gen-12go-256go-ssd-bleu.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "asus",
+      "availability": "on_command",
+      "clicks": 2,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-09-01T02:06:17Z",
+          "price": 1109.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-09-01T02:06:17Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2024-09-01T02:06:17Z"
+    },
+    {
+      "uniqueID": "f59806bbe411d29ad3c1bbfd78a2d9cf",
+      "title": "Pc Portable ASUS VivoBook 15 X1502VA i9 13è Gén 16 Go Win11 - Silver",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/f59806bbe411d29ad3c1bbfd78a2d9cf.jpg",
+      "currency": "TND",
+      "price": 2279.0,
+      "price_min": 2279,
+      "price_max": 2389,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/pc-portable-asus-vivobook-15-x1502va-i9-13e-gen-16-go-win11-silver.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "asus",
+      "availability": "on_command",
+      "clicks": 2,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-10-21T13:02:19Z",
+          "price": 2279.0
+        },
+        {
+          "date_price": "2024-08-19T13:26:28Z",
+          "price": 2299.0
+        },
+        {
+          "date_price": "2023-12-28T01:06:09Z",
+          "price": 2389.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2023-12-28T01:06:09Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2023-12-28T01:06:09Z"
+    },
+    {
+      "uniqueID": "11c2111953c1da1938a9ae7f2f666b9f",
+      "title": "Pc Portable HP 15-fd0056nk / I3-N305 / 8 Go / 256 Go SSD - Silver & Or Chaud",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/11c2111953c1da1938a9ae7f2f666b9f.jpg",
+      "currency": "TND",
+      "price": 1109.0,
+      "price_min": 1109,
+      "price_max": 1109,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/pc-portable-hp-15-fd0056nk-i3-n305-8go-256go-ssd-silver-or-chaud.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "hp",
+      "availability": "on_command",
+      "clicks": 2,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-09-01T02:05:49Z",
+          "price": 1109.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-09-01T02:05:49Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2024-09-01T02:05:49Z"
+    },
+    {
+      "uniqueID": "fecd527e2a744dd63efe0c5d3efa3c3c",
+      "title": "PC Portable ASUS Vivobook 15 X1504VA i3 13è Gén 8Go 256Go SSD - Silver",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/fecd527e2a744dd63efe0c5d3efa3c3c.jpg",
+      "currency": "TND",
+      "price": 1059.0,
+      "price_min": 1059,
+      "price_max": 1059,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/pc-portable-asus-vivobook-15-x1504va-i3-13e-gen-8go-256go-ssd-silver.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "asus",
+      "availability": "on_command",
+      "clicks": 2,
+      "clicksExternal": 1,
+      "priceTable": [
+        {
+          "date_price": "2024-09-01T01:59:05Z",
+          "price": 1059.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-09-01T01:59:05Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2024-09-01T01:59:05Z"
+    },
+    {
+      "uniqueID": "55f4a99bbc5ebe7d448617a9572c26e8",
+      "title": "PC Portable ASUS Vivobook 15 X1504VA i3 13è Gén 16Go 512Go SSD - Silver",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/55f4a99bbc5ebe7d448617a9572c26e8.jpg",
+      "currency": "TND",
+      "price": 1299.0,
+      "price_min": 1299,
+      "price_max": 1299,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/pc-portable-asus-vivobook-15-x1504va-i3-13e-gen-16go-512go-ssd-silver.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "asus",
+      "availability": "on_stock",
+      "clicks": 2,
+      "clicksExternal": 1,
+      "priceTable": [
+        {
+          "date_price": "2024-11-17T01:02:32Z",
+          "price": 1299.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-11-17T01:02:32Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-11-17T01:02:32Z"
+    },
+    {
+      "uniqueID": "bf661d741cdd70e923848388132dce59",
+      "title": "PC Portable Gamer LENOVO Légion Pro 5 16ARX8 AMD RYZEN 9 16Go RTX 4070",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/bf661d741cdd70e923848388132dce59.jpg",
+      "currency": "TND",
+      "price": 6539.0,
+      "price_min": 6539,
+      "price_max": 6539,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/lenovo-legion-pro-5-16arx8-amd-ryzen-9-16go-rtx-4070.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "lenovo",
+      "availability": "on_command",
+      "clicks": 2,
+      "clicksExternal": 1,
+      "priceTable": [
+        {
+          "date_price": "2024-09-14T11:46:54Z",
+          "price": 6539.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-09-14T11:46:54Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2024-09-14T11:46:54Z"
+    },
+    {
+      "uniqueID": "3bdecebc13eaa55bd2a5779dacbf3301",
+      "title": "Apple MacBook Air M3 8Go 256Go SSD - Gris Sidéral",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/3bdecebc13eaa55bd2a5779dacbf3301.jpg",
+      "currency": "TND",
+      "price": 4569.0,
+      "price_min": 4569,
+      "price_max": 4569,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/apple-macbook-air-m3-8go-256go-ssd-gris-sideral.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "apple",
+      "availability": "on_command",
+      "clicks": 2,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-08-23T01:01:49Z",
+          "price": 4569.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-08-23T01:01:49Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2024-08-23T01:01:49Z"
+    },
+    {
+      "uniqueID": "13bbe9cf85b88c92e862f90ddfc1629f",
+      "title": "Pc Portable LENOVO THINKPAD X1 CARBON G12 Ultra 7 / 32Go / 1To SSD / Noir / Windows 11 Pro",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/13bbe9cf85b88c92e862f90ddfc1629f.jpg",
+      "currency": "TND",
+      "price": 7399.0,
+      "price_min": 7399,
+      "price_max": 7399,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/pc-portable-lenovo-thinkpad-x1-carbon-g12-ultra-7-32go-1to-ssd-noir-windows-11-pro.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "lenovo",
+      "availability": "on_command",
+      "clicks": 2,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-11-17T01:05:40Z",
+          "price": 7399.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-11-17T01:05:40Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2024-11-17T01:05:40Z"
+    },
+    {
+      "uniqueID": "a8c7b1c581e780b1fb565407bb3ff14b",
+      "title": "Pc Portable HP ProBook 440 G11 / Ultra 7 155U / 16 Go DDR5 / 512 Go SSD / Argent",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/a8c7b1c581e780b1fb565407bb3ff14b.jpg",
+      "currency": "TND",
+      "price": 3049.0,
+      "price_min": 3049,
+      "price_max": 3049,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/hp-probook-440-g11-ultra-7-155u-16-go-ddr5-512-go-ssd.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "hp",
+      "availability": "on_command",
+      "clicks": 2,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-02-14T01:05:37Z",
+          "price": 3049.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-02-14T01:05:37Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2025-02-14T01:05:37Z"
+    },
+    {
+      "uniqueID": "87807d157bf6bbd49905f935e5bac110",
+      "title": "PC Portable LENOVO IdeaPad 3 15ALC6 AMD RYZEN 7 8Go 512Go SSD - Gris",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/87807d157bf6bbd49905f935e5bac110.jpg",
+      "currency": "TND",
+      "price": 1459.0,
+      "price_min": 1459,
+      "price_max": 1459,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/lenovo-ideapad-3-15alc6-ryzen-7.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "lenovo",
+      "availability": "on_command",
+      "clicks": 2,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-09-14T11:45:10Z",
+          "price": 1459.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-09-14T11:45:10Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2024-09-14T11:45:10Z"
+    },
+    {
+      "uniqueID": "c6858cee55ed13bda5c1858a16d39680",
+      "title": "Pc portable Dell Latitude 3540 / i5 13è gén / 16 Go",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/c6858cee55ed13bda5c1858a16d39680.jpg",
+      "currency": "TND",
+      "price": 2469.0,
+      "price_min": 2469,
+      "price_max": 2469,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/pc-portable-dell-latitude-3540-i5-13e-gen-16-go.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "dell",
+      "availability": "on_command",
+      "clicks": 2,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2023-10-26T01:11:44Z",
+          "price": 2469.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2023-10-26T01:11:44Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2023-10-26T01:11:44Z"
+    },
+    {
+      "uniqueID": "4f7d0b7055f1a5807df420efa0749c16",
+      "title": "Pc Portable HP Pavilon X360 2-IN-1 14-EK1001NK I5 13È Gén 8Go 512Go SSD - Bleu",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/4f7d0b7055f1a5807df420efa0749c16.jpg",
+      "currency": "TND",
+      "price": 2199.0,
+      "price_min": 2199,
+      "price_max": 2199,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/-pc-portable-hp-pavilon-x360-2-in-1-14-ek1001nk-i5-13e-gen-8go-512go-ssd-bleu.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "hp",
+      "availability": "on_command",
+      "clicks": 2,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-07-04T20:33:03Z",
+          "price": 2199.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-07-04T20:33:03Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2024-07-04T20:33:03Z"
+    },
+    {
+      "uniqueID": "edaaa3e21ed61b63623e195f809ff90c",
+      "title": "PC portable Dell Vostro 3530 / i3-1305U / 8 Go / Noir ( V3530I3 )",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/edaaa3e21ed61b63623e195f809ff90c.jpg",
+      "currency": "TND",
+      "price": 1019.0,
+      "price_min": 1019,
+      "price_max": 1129,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/pc-portable-dell-vostro-3530-i3-1305u-8-go-noir-V3530I3.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "dell",
+      "availability": "on_command",
+      "clicks": 2,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-11-19T13:11:33Z",
+          "price": 1019.0
+        },
+        {
+          "date_price": "2023-11-29T01:02:13Z",
+          "price": 1129.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2023-11-29T01:02:13Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2023-11-29T01:02:13Z"
+    },
+    {
+      "uniqueID": "38c9dee5199491eace26fc8166124adb",
+      "title": "PC Portable HP 15-fd0045nk i5 13è Gén 8Go 512Go SSD - Silver & Or Chaud",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/38c9dee5199491eace26fc8166124adb.jpg",
+      "currency": "TND",
+      "price": 1999.0,
+      "price_min": 1999,
+      "price_max": 1999,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/pc-portable-hp-15-fd0045nk-i5-13e-gen-8go-512go-ssd-silver-or-chaud.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "hp",
+      "availability": "on_command",
+      "clicks": 2,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-09-14T11:45:34Z",
+          "price": 1999.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-09-14T11:45:34Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2024-09-14T11:45:34Z"
+    },
+    {
+      "uniqueID": "77bae15182bcaabc115643aebfc65022",
+      "title": "Pc Portable Gamer Lenovo LOQ3 15IAX9 i5 12Gen 16Go 512Go SSD Noir",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/77bae15182bcaabc115643aebfc65022.jpg",
+      "currency": "TND",
+      "price": 2269.0,
+      "price_min": 2269,
+      "price_max": 2299,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/pc-portable-gamer-lenovo-loq3-15iax9-i5-12gen-16go-512go-ssd-noir.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "lenovo",
+      "availability": "on_command",
+      "clicks": 2,
+      "clicksExternal": 4,
+      "priceTable": [
+        {
+          "date_price": "2024-08-29T01:09:12Z",
+          "price": 2269.0
+        },
+        {
+          "date_price": "2024-06-22T14:16:24Z",
+          "price": 2299.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-06-22T14:16:24Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2024-06-22T14:16:24Z"
+    },
+    {
+      "uniqueID": "7bdb535d1a88ea4e6633fda73fb5770a",
+      "title": "Pc portable Dell Latitude 3540 / i5 13è gén / 8 Go",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/7bdb535d1a88ea4e6633fda73fb5770a.jpg",
+      "currency": "TND",
+      "price": 2399.0,
+      "price_min": 2399,
+      "price_max": 2399,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/pc-portable-dell-latitude-3540-i5-13e-gen-8-go.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "dell",
+      "availability": "on_command",
+      "clicks": 2,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2023-10-26T01:11:35Z",
+          "price": 2399.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2023-12-23T01:12:31Z",
+          "availability": "on_command"
+        },
+        {
+          "date_availability": "2023-10-26T01:11:35Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2023-10-26T01:11:35Z"
+    },
+    {
+      "uniqueID": "17c5a1b3141e72a058833dd7824b0bef",
+      "title": "PC Portable LENOVO ThinkPad E14 Gén 5 i5 13è Gén 24Go 512Go SSD - Noir",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/17c5a1b3141e72a058833dd7824b0bef.jpg",
+      "currency": "TND",
+      "price": 2759.0,
+      "price_min": 2759,
+      "price_max": 2759,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/pc-portable-lenovo-thinkpad-e14-gen-5-i5-13e-gen-24go-512go-ssd-noir.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "lenovo",
+      "availability": "on_command",
+      "clicks": 2,
+      "clicksExternal": 1,
+      "priceTable": [
+        {
+          "date_price": "2024-08-09T13:20:34Z",
+          "price": 2759.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-08-09T13:20:34Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2024-08-09T13:20:34Z"
+    },
+    {
+      "uniqueID": "eef21dc7522606ce2b0be9d2fc1b36f5",
+      "title": "Pc Portable Lenovo Thinkpad E14 GÉN 4 I5 12È Gén 8Go 512Go SSD - Noir",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/eef21dc7522606ce2b0be9d2fc1b36f5.jpg",
+      "currency": "TND",
+      "price": 2559.0,
+      "price_min": 2559,
+      "price_max": 2559,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/pc-portable-lenovo-thinkpad-e14-gen-4-i5-12e-gen-8go-512go-ssd-noir.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "lenovo",
+      "availability": "on_command",
+      "clicks": 2,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-04-19T01:05:44Z",
+          "price": 2559.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-04-19T01:05:44Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2024-04-19T01:05:44Z"
+    },
+    {
+      "uniqueID": "14fca25d64e71017e357411d2294aa2f",
+      "title": "Pc Portable HP ProBook 450 G10 i7 13ème Gén 8Go 512Go SSD - Silver",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/14fca25d64e71017e357411d2294aa2f.jpg",
+      "currency": "TND",
+      "price": 2989.0,
+      "price_min": 2989,
+      "price_max": 2989,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/pc-portable-hp-probook-450-g10-i7-13eme-gen-8go-512go-ssd-silver.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "hp",
+      "availability": "on_command",
+      "clicks": 2,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-01-04T13:53:51Z",
+          "price": 2989.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-01-04T13:53:51Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2025-01-04T13:53:51Z"
+    },
+    {
+      "uniqueID": "2f1ef259e905b979f021fcb5f1d7afff",
+      "title": "PC Portable LENOVO ThinkPad E16 Gen 1 i7 13è Gén 16Go 512Go SSD - Noir",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/2f1ef259e905b979f021fcb5f1d7afff.jpg",
+      "currency": "TND",
+      "price": 2939.0,
+      "price_min": 2939,
+      "price_max": 2939,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/pc-portable-lenovo-thinkpad-e16-gen-1-i7-13e-gen-16go-512go-ssd.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "lenovo",
+      "availability": "on_command",
+      "clicks": 2,
+      "clicksExternal": 1,
+      "priceTable": [
+        {
+          "date_price": "2024-08-09T13:20:40Z",
+          "price": 2939.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-08-09T13:20:40Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2024-08-09T13:20:40Z"
+    },
+    {
+      "uniqueID": "39ff65ce3f0f3009dd29ed33dd7f9e4b",
+      "title": "PC portable Dell Vostro 3530 / i3-1305U / 16 Go / Noir ( V3530I3-16 )",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/39ff65ce3f0f3009dd29ed33dd7f9e4b.jpg",
+      "currency": "TND",
+      "price": 1185.0,
+      "price_min": 1185,
+      "price_max": 1185,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/pc-portable-dell-vostro-3530-i3-1305u-16-go-noir-V3530I3-16.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "dell",
+      "availability": "on_command",
+      "clicks": 2,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2023-11-29T01:02:21Z",
+          "price": 1185.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2023-11-29T01:02:21Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2023-11-29T01:02:21Z"
+    },
+    {
+      "uniqueID": "e8ba135bb9664721230107f943aec8af",
+      "title": "Apple MacBook Air 13.6\" M2 (2022) - 8Go/256 Go Argent (MLXY3FN/A)",
+      "store_label": "Oxtek",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "technopro_online",
+      "image": "https://barbechli.tn/images/product/e8ba135bb9664721230107f943aec8af.jpg",
+      "currency": "TND",
+      "price": 4319.0,
+      "price_min": 4319,
+      "price_max": 4999,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.technopro-online.com/apple-macbook-air-136-m2-2022-argent-mlxy3fna.html",
+      "source_link": "https://www.technopro-online.com/",
+      "brand": "apple",
+      "availability": "on_command",
+      "clicks": 1,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-08-22T01:24:56Z",
+          "price": 4319.0
+        },
+        {
+          "date_price": "2024-05-16T01:46:03Z",
+          "price": 4449.0
+        },
+        {
+          "date_price": "2023-02-15T01:08:00Z",
+          "price": 4999.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2023-02-15T01:08:00Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2023-02-15T01:08:00Z"
+    },
+    {
+      "uniqueID": "6944fd9c81615d9928ce52b74c438b4e",
+      "title": "PC PORTABLE GAMER LENOVO LOQ3 I5 12È GÉN 16GO RTX 2050",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/6944fd9c81615d9928ce52b74c438b4e.jpg",
+      "currency": "TND",
+      "price": 2199.0,
+      "price_min": 2199,
+      "price_max": 2199,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-gamer-lenovo-loq3-i5-12e-gen-16go-rtx-2050/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "na",
+      "availability": "on_stock",
+      "clicks": 22,
+      "clicksExternal": 9,
+      "priceTable": [
+        {
+          "date_price": "2024-10-05T02:03:58Z",
+          "price": 2199.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-10-05T02:03:58Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-10-05T02:03:58Z"
+    },
+    {
+      "uniqueID": "e41b09238625ea561b6780ea40470e51",
+      "title": "PC PORTABLE LENOVO IDEAPAD GAMING 3 I5-11320H 8 GO RTX 3050 TI",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/e41b09238625ea561b6780ea40470e51.jpg",
+      "currency": "TND",
+      "price": 2429.0,
+      "price_min": 2429,
+      "price_max": 2429,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-lenovo-ideapad-gaming-3-i5-11320h-8-go-rtx-3050-ti/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "lenovo",
+      "availability": "on_stock",
+      "clicks": 12,
+      "clicksExternal": 17,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:05Z",
+          "price": 2429.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:05Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:05Z"
+    },
+    {
+      "uniqueID": "3b26b9b68d8c57da440ab04b7b6e89c6",
+      "title": "PC PORTABLE MSI MODERN A11MU I5 11É GEN 8GO 512GB SSD",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/3b26b9b68d8c57da440ab04b7b6e89c6.jpg",
+      "currency": "TND",
+      "price": 1499.0,
+      "price_min": 1499,
+      "price_max": 1499,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-msi-modern-a11mu-i5-11e-gen-8go-512gb-ssd/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "msi",
+      "availability": "on_stock",
+      "clicks": 15,
+      "clicksExternal": 2,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:08Z",
+          "price": 1499.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:08Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:08Z"
+    },
+    {
+      "uniqueID": "5a11a0d4328b666879f58e0957c68891",
+      "title": "PC PORTABLE LENOVO IDEAPAD GAMING 3 CORE I5-11320H 8GO GTX1650",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/5a11a0d4328b666879f58e0957c68891.jpg",
+      "currency": "TND",
+      "price": 1999.0,
+      "price_min": 1999,
+      "price_max": 1999,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-lenovo-ideapad-gaming-3-core-i5-11320h-8go-gtx1650/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "lenovo",
+      "availability": "on_stock",
+      "clicks": 6,
+      "clicksExternal": 13,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:08Z",
+          "price": 1999.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:08Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:08Z"
+    },
+    {
+      "uniqueID": "e2f1749849b6da21cd5820f03918e0a3",
+      "title": "PC PORTABLE LENOVO IDEAPAD 3 INTEL CELERON N4020 8GO 256GO SSD (81WQ00MWFG)",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/e2f1749849b6da21cd5820f03918e0a3.jpg",
+      "currency": "TND",
+      "price": 699.0,
+      "price_min": 699,
+      "price_max": 699,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-lenovo-ideapad-3-intel-celeron-n4020-4go-256go-ssd-81wq00jvfe/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "lenovo",
+      "availability": "on_stock",
+      "clicks": 6,
+      "clicksExternal": 6,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:12Z",
+          "price": 699.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:12Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:12Z"
+    },
+    {
+      "uniqueID": "f384f4ea0d32982e9dd982fdad00eb95",
+      "title": "Lenovo Legion 5 15IMH6 i5-10500H – RTX 3050 Ti – 16G",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/f384f4ea0d32982e9dd982fdad00eb95.jpg",
+      "currency": "TND",
+      "price": 3329.0,
+      "price_min": 3329,
+      "price_max": 3329,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/lenovo-legion-5-15imh6-i5-10500h-rtx-3050-ti-16g/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "lenovo",
+      "availability": "on_stock",
+      "clicks": 2,
+      "clicksExternal": 4,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:05Z",
+          "price": 3329.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:05Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:05Z"
+    },
+    {
+      "uniqueID": "fb59b04b07b4c724748e0d2bb6fb2415",
+      "title": "PC PORTABLE DELL VOSTRO 3400 I5 11È GÉN 8GO 1TO",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/fb59b04b07b4c724748e0d2bb6fb2415.jpg",
+      "currency": "TND",
+      "price": 1159.0,
+      "price_min": 1159,
+      "price_max": 1159,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-dell-vostro-3400-i5-11e-gen-8go-1to/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "dell",
+      "availability": "on_stock",
+      "clicks": 2,
+      "clicksExternal": 7,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:11Z",
+          "price": 1159.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:11Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:11Z"
+    },
+    {
+      "uniqueID": "a6defc73adf52e49104b89d2bd16364a",
+      "title": "PC PORTABLE ASUS X543MA INTEL CELERON N4020 8GO 1TO GRIS (X543MA-GQ1393W)",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/a6defc73adf52e49104b89d2bd16364a.jpg",
+      "currency": "TND",
+      "price": 599.0,
+      "price_min": 599,
+      "price_max": 599,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-asus-x543ma-intel-celeron-n4020-8go-1to-gris-x543ma-gq1393w/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "asus",
+      "availability": "on_stock",
+      "clicks": 5,
+      "clicksExternal": 43,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:12Z",
+          "price": 599.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:12Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:12Z"
+    },
+    {
+      "uniqueID": "c0ba613e46bed47f901784dd59f17d7f",
+      "title": "PC PORTABLE GAMING MSI KATANA 15 B12V I5 12È GÉN 8GO RTX 4050",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/c0ba613e46bed47f901784dd59f17d7f.jpg",
+      "currency": "TND",
+      "price": 3999.0,
+      "price_min": 3999,
+      "price_max": 3999,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-gaming-msi-katana-15-b12v-i5-12e-gen-8go-rtx-4050/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "msi",
+      "availability": "on_stock",
+      "clicks": 2,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:02Z",
+          "price": 3999.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:02Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:02Z"
+    },
+    {
+      "uniqueID": "1b53dca3466b8da00c14a15891d8bebb",
+      "title": "PC PORTABLE GAMING MSI THIN GF63 11SC-612 I7 11È GÉN 8GO GTX 1650 MAX Q",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/1b53dca3466b8da00c14a15891d8bebb.jpg",
+      "currency": "TND",
+      "price": 2529.0,
+      "price_min": 2529,
+      "price_max": 2529,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-gaming-msi-thin-gf63-11sc-612-i7-11e-gen-8go-gtx-1650-max-q/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "msi",
+      "availability": "on_stock",
+      "clicks": 2,
+      "clicksExternal": 1,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:01Z",
+          "price": 2529.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:01Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:01Z"
+    },
+    {
+      "uniqueID": "e2af2f484169f9c8c8ae5e32e9c2a175",
+      "title": "PC PORTABLE DELL VOSTRO 3520 I3 11È GÉN 4GO 256GO SSD",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/e2af2f484169f9c8c8ae5e32e9c2a175.jpg",
+      "currency": "TND",
+      "price": 949.0,
+      "price_min": 949,
+      "price_max": 949,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-dell-vostro-3520-i3-11e-gen-4go-256go-ssd/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "dell",
+      "availability": "on_stock",
+      "clicks": 1,
+      "clicksExternal": 6,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:07Z",
+          "price": 949.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:07Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:07Z"
+    },
+    {
+      "uniqueID": "7f169a85573a7cd760ec909192429a26",
+      "title": "LENOVO IDEAPAD SLIM 3 15IAH8 CORE i5-12450H 8Go 512Go SSD",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/7f169a85573a7cd760ec909192429a26.jpg",
+      "currency": "TND",
+      "price": 1489.0,
+      "price_min": 1489,
+      "price_max": 1489,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/lenovo-ideapad-slim-3-15iah8-core-i5-12450h-8go-512go-ssd/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "lenovo",
+      "availability": "on_stock",
+      "clicks": 1,
+      "clicksExternal": 2,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:00Z",
+          "price": 1489.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:00Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:00Z"
+    },
+    {
+      "uniqueID": "22f12bb91fbaf5fe4580f45aee29fdd6",
+      "title": "PC PORTABLE GAMING MSI THIN GF63 12VF I5 12È GÉN 16GO RTX 4060",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/22f12bb91fbaf5fe4580f45aee29fdd6.jpg",
+      "currency": "TND",
+      "price": 3399.0,
+      "price_min": 3399,
+      "price_max": 3399,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-gaming-msi-thin-gf63-12vf-i5-12e-gen-16go-rtx-4060/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "msi",
+      "availability": "on_stock",
+      "clicks": 1,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:03Z",
+          "price": 3399.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:03Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:03Z"
+    },
+    {
+      "uniqueID": "f912a6946c2d572b83a75116ed0cd18a",
+      "title": "PC PORTABLE DELL VOSTRO 3400 I3 11È GÉN 8GO 256 SSD",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/f912a6946c2d572b83a75116ed0cd18a.jpg",
+      "currency": "TND",
+      "price": 799.0,
+      "price_min": 799,
+      "price_max": 799,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-dell-vostro-3400-i3-11e-gen-8go-256-ssd/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "dell",
+      "availability": "on_stock",
+      "clicks": 1,
+      "clicksExternal": 18,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:12Z",
+          "price": 799.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:12Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:12Z"
+    },
+    {
+      "uniqueID": "0715c5ecc962bf9fbd4840686426b9cb",
+      "title": "PC PORTABLE DELL VOSTRO 3520 I3 12È GÉN 8GO 512GO SSD – NOIR",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/0715c5ecc962bf9fbd4840686426b9cb.jpg",
+      "currency": "TND",
+      "price": 989.0,
+      "price_min": 989,
+      "price_max": 989,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-dell-vostro-3520-i3-12e-gen-8go-512go-ssd-noir/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "dell",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 8,
+      "priceTable": [
+        {
+          "date_price": "2024-10-16T01:02:59Z",
+          "price": 989.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-10-16T01:02:59Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-10-16T01:02:59Z"
+    },
+    {
+      "uniqueID": "37110f21ff9b9163e3611ef5cc6e917a",
+      "title": "PC PORTABLE DELL VOSTRO 3400 I3 11È GÉN 8GO 1TO",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/37110f21ff9b9163e3611ef5cc6e917a.jpg",
+      "currency": "TND",
+      "price": 789.0,
+      "price_min": 789,
+      "price_max": 789,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-dell-vostro-3400-i3-11e-gen-8go-1to/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "dell",
+      "availability": "on_stock",
+      "clicks": 1,
+      "clicksExternal": 22,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:12Z",
+          "price": 789.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:12Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:12Z"
+    },
+    {
+      "uniqueID": "011668988e8ed4992622955e6e5f4c80",
+      "title": "PC PORTABLE LENOVO IDEAPAD 3 15ITL6 I3 11È GÉN 4GO 256GO SSD BLEU",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/011668988e8ed4992622955e6e5f4c80.jpg",
+      "currency": "TND",
+      "price": 1149.0,
+      "price_min": 1149,
+      "price_max": 1149,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-lenovo-ideapad-3-15itl6-i3-11e-gen-4go-256go-ssd/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "lenovo",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:11Z",
+          "price": 1149.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:11Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:11Z"
+    },
+    {
+      "uniqueID": "d3e29fe49f3c25bb1411bb3a190ed978",
+      "title": "PC PORTABLE HP 15-DW3019NK I3 11È GÉN 4GO 256GO SSD – SILVER",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/d3e29fe49f3c25bb1411bb3a190ed978.jpg",
+      "currency": "TND",
+      "price": 1599.0,
+      "price_min": 1599,
+      "price_max": 1599,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-hp-15-dw3019nk-i3-11e-gen-4go-256go-ssd-silver/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "hp",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:14Z",
+          "price": 1599.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:14Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:14Z"
+    },
+    {
+      "uniqueID": "7f7fc0c014afd0fd64d666c4c55836a3",
+      "title": "PC PORTABLE ASUS CELERON N4020 4GO 1TO – GRIS ( X543MA-GQ1012T )",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/7f7fc0c014afd0fd64d666c4c55836a3.jpg",
+      "currency": "TND",
+      "price": 699.0,
+      "price_min": 699,
+      "price_max": 699,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-asus-celeron-n4020-4go-1to-gris/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "asus",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 4,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:17Z",
+          "price": 699.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:17Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:17Z"
+    },
+    {
+      "uniqueID": "9f0d33aa757d426effbc31850632a52f",
+      "title": "PC PORTABLE HP 15 DW1002NK BLANC",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/9f0d33aa757d426effbc31850632a52f.jpg",
+      "currency": "TND",
+      "price": 999.0,
+      "price_min": 999,
+      "price_max": 999,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-hp-15-dw1002nk-blanc/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "hp",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 1,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:17Z",
+          "price": 999.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:17Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:17Z"
+    },
+    {
+      "uniqueID": "f142d8993a632a0c2f8d21f1dfdb75fb",
+      "title": "PC PORTABLE HP 15-DW4007NK I5 12È GÉN 16GO 256GO SSD",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/f142d8993a632a0c2f8d21f1dfdb75fb.jpg",
+      "currency": "TND",
+      "price": 1449.0,
+      "price_min": 1449,
+      "price_max": 1449,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-hp-15-dw4007nk-i5-12e-gen-16go-256go-ssd/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "hp",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 6,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:07Z",
+          "price": 1449.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:07Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:07Z"
+    },
+    {
+      "uniqueID": "daddcead647385b45e9e688b8bc92011",
+      "title": "PC PORTABLE DELL VOSTRO 3520 I5 12È GÉN 8GO 512GO SSD",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/daddcead647385b45e9e688b8bc92011.jpg",
+      "currency": "TND",
+      "price": 1479.0,
+      "price_min": 1479,
+      "price_max": 1479,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-dell-vostro-3520-i5-12e-gen-8go-512go-ssd/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "dell",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-01-18T01:10:37Z",
+          "price": 1479.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-01-18T01:10:37Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2025-01-18T01:10:37Z"
+    },
+    {
+      "uniqueID": "ab2ab886b4095a215a070f887288a45c",
+      "title": "PC PORTABLE DELL VOSTRO 3500 I5 11È GÉN 8GO 256GO SSD – NOIR",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/ab2ab886b4095a215a070f887288a45c.jpg",
+      "currency": "TND",
+      "price": 2139.0,
+      "price_min": 2139,
+      "price_max": 2139,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-dell-vostro-3500-i5-11e-gen-8go-256go-ssd-noir/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "dell",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:14Z",
+          "price": 2139.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:14Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:14Z"
+    },
+    {
+      "uniqueID": "4da4cc183bc2bc4386212c351e1fa0a2",
+      "title": "Pc Portable Lenovo Ideapad 3 15IAU7 I3 12è Gén 8Go 512Go SSD",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/4da4cc183bc2bc4386212c351e1fa0a2.jpg",
+      "currency": "TND",
+      "price": 1149.0,
+      "price_min": 1149,
+      "price_max": 1149,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-lenovo-ideapad-3-15iau7-i3-12e-gen-8go-512go-ssd/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "lenovo",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-06-29T21:45:30Z",
+          "price": 1149.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-06-29T21:45:30Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-06-29T21:45:30Z"
+    },
+    {
+      "uniqueID": "712ec6306cb6848aa829473567ff8e33",
+      "title": "MSI RAIDER GE68 HX 13VG| I7 13700HX | RTX 4060 | 16 GB DDR5 | 1 TO",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/712ec6306cb6848aa829473567ff8e33.jpg",
+      "currency": "TND",
+      "price": 6590.0,
+      "price_min": 6590,
+      "price_max": 6590,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/msi-raider-ge68-hx-13vg-i7-13700hx-rtx-4060-16-gb-ddr5-1-to/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "msi",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 1,
+      "priceTable": [
+        {
+          "date_price": "2024-06-29T21:45:30Z",
+          "price": 6590.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-06-29T21:45:30Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-06-29T21:45:30Z"
+    },
+    {
+      "uniqueID": "9aa0fe96197fbf91cc089f728ef24dc9",
+      "title": "PC PORTABLE LENOVO IDEAPAD 1 15IGL7 INTEL CELERON N4020 8GO 256 GO SSD",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/9aa0fe96197fbf91cc089f728ef24dc9.jpg",
+      "currency": "TND",
+      "price": 749.0,
+      "price_min": 749,
+      "price_max": 829,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-lenovo-ideapad-1-15igl7-intel-celeron-n4020-8go-256-go-ssd/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "lenovo",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 2,
+      "priceTable": [
+        {
+          "date_price": "2025-01-18T12:05:47Z",
+          "price": 749.0
+        },
+        {
+          "date_price": "2024-03-10T14:32:01Z",
+          "price": 829.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:01Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:01Z"
+    },
+    {
+      "uniqueID": "6c6c690eedc8f623f47cd962a9b3d873",
+      "title": "PC PORTABLE LENOVO V15 G4 IRU i5 13È GÉN 8GB 512GB SSD",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/6c6c690eedc8f623f47cd962a9b3d873.jpg",
+      "currency": "TND",
+      "price": 1569.0,
+      "price_min": 1569,
+      "price_max": 1569,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-lenovo-v15-g4-iru-i5-13e-gen-8gb-512gb-ssd/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "lenovo",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-10-05T02:04:11Z",
+          "price": 1569.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-10-05T02:04:11Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-10-05T02:04:11Z"
+    },
+    {
+      "uniqueID": "8913f38c9c77fe51a03e54f0e12d4b19",
+      "title": "PC PORTABLE HP 15-DW1001NK GRIS / DUAL CORE / 4 GO",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/8913f38c9c77fe51a03e54f0e12d4b19.jpg",
+      "currency": "TND",
+      "price": 999.0,
+      "price_min": 999,
+      "price_max": 999,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-hp-15-dw1001nk-gray-dual-core-4-go/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "hp",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:14Z",
+          "price": 999.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:14Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:14Z"
+    },
+    {
+      "uniqueID": "788494c6a4e2f6f3215cbb99f3c902fd",
+      "title": "PC PORTABLE DELL VOSTRO 3400 I5 11È GÉN 8GO 512 SSD",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/788494c6a4e2f6f3215cbb99f3c902fd.jpg",
+      "currency": "TND",
+      "price": 1199.0,
+      "price_min": 1199,
+      "price_max": 1199,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-dell-vostro-3400-i5-11e-gen-8go-256-ssd/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "dell",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 8,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:09Z",
+          "price": 1199.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:09Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:09Z"
+    },
+    {
+      "uniqueID": "66aac1db5f52517bc8f5383133fda0f0",
+      "title": "Pc Portable Lenovo Ideapad 3 15IAU7 I5 12è Gén 8Go 512Go SSD GRIS",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/66aac1db5f52517bc8f5383133fda0f0.jpg",
+      "currency": "TND",
+      "price": 1469.0,
+      "price_min": 1469,
+      "price_max": 1469,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-lenovo-ideapad-3-15iau7-i5-12e-gen-8go-512go-ssd-gris/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "lenovo",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-06-29T14:43:57Z",
+          "price": 1469.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-06-29T14:43:57Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-06-29T14:43:57Z"
+    },
+    {
+      "uniqueID": "e305b09226fe936ed17eecbcf7dceab0",
+      "title": "PC PORTABLE HP 15-DW3010NK I5 11È GÉN 8GO 1TO – NOIR",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/e305b09226fe936ed17eecbcf7dceab0.jpg",
+      "currency": "TND",
+      "price": 2159.0,
+      "price_min": 2159,
+      "price_max": 2159,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-hp-15-dw3010nk-i5-11e-gen-8go-1to-noir/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "hp",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:14Z",
+          "price": 2159.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:14Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:14Z"
+    },
+    {
+      "uniqueID": "dc40199f578db800c33fb84de55a63a8",
+      "title": "PC PORTABLE DELL VOSTRO 3510 I3 11È GÉN 4GO 256GO SSD",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/dc40199f578db800c33fb84de55a63a8.jpg",
+      "currency": "TND",
+      "price": 929.0,
+      "price_min": 929,
+      "price_max": 929,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-dell-vostro-3510-i3-11e-gen-4go-256go-ssd/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "dell",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 3,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:08Z",
+          "price": 929.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:08Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:08Z"
+    },
+    {
+      "uniqueID": "92d9c3705f1b526c770c333af809fb82",
+      "title": "PC PORTABLE GAMING MSI KATANA 15 B12V I7 12È GÉN 8GO RTX 4070",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/92d9c3705f1b526c770c333af809fb82.jpg",
+      "currency": "TND",
+      "price": 4999.0,
+      "price_min": 4999,
+      "price_max": 4999,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-gaming-msi-katana-15-b12v-i7-12e-gen-8go-rtx-4070/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "msi",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 1,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:00Z",
+          "price": 4999.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:00Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:00Z"
+    },
+    {
+      "uniqueID": "4a0b44a482ea630d6f1dca57b7e6e29e",
+      "title": "Lenovo Yoga 7 2-in-1 Ultra 7 16GO 1TO SSD",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/4a0b44a482ea630d6f1dca57b7e6e29e.jpg",
+      "currency": "TND",
+      "price": 4239.0,
+      "price_min": 4239,
+      "price_max": 4239,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/lenovo-yoga-7-2-in-1-ultra-7-16go-1to-ssd/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "na",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-06-29T14:43:57Z",
+          "price": 4239.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-06-29T14:43:57Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-06-29T14:43:57Z"
+    },
+    {
+      "uniqueID": "8bb7c75ed76bac112b24e4714c1bb48c",
+      "title": "PC PORTABLE HP 15-DW4004NK I5 12È GÉN 8GO 512GO SSD",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/8bb7c75ed76bac112b24e4714c1bb48c.jpg",
+      "currency": "TND",
+      "price": 1759.0,
+      "price_min": 1759,
+      "price_max": 1759,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-hp-15-dw4004nk-i5-12e-gen-8go-512go-ssd/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "na",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 1,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:07Z",
+          "price": 1759.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:07Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:07Z"
+    },
+    {
+      "uniqueID": "54298164711ce74e7c0a9338d49ac921",
+      "title": "PC PORTABLE LENOVO IDEAPAD1 I3 12E GEN 8GO 256GO SSD",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/54298164711ce74e7c0a9338d49ac921.jpg",
+      "currency": "TND",
+      "price": 1149.0,
+      "price_min": 1149,
+      "price_max": 1149,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-lenovo-ideapad1-i3-12e-gen-8go-256go-ssd/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "lenovo",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 1,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:00Z",
+          "price": 1149.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:00Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:00Z"
+    },
+    {
+      "uniqueID": "446de901d2fed470504268d8d89689b3",
+      "title": "MSI GF63 THIN I7-12650H RTX 2050 8GB NVME 512GB",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/446de901d2fed470504268d8d89689b3.jpg",
+      "currency": "TND",
+      "price": 2359.0,
+      "price_min": 2359,
+      "price_max": 2999,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/msi-gf63-thin-i7-12650h-rtx-2050-8gb-nvme-512gb/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "msi",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 3,
+      "priceTable": [
+        {
+          "date_price": "2024-05-18T01:49:06Z",
+          "price": 2359.0
+        },
+        {
+          "date_price": "2024-03-10T14:32:06Z",
+          "price": 2999.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:06Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:06Z"
+    },
+    {
+      "uniqueID": "e3337f5cc5230c9379c599aee337aa67",
+      "title": "PC PORTABLE LENOVO IDEAPAD1 I5 12E GEN 8GO 512GO SSD",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/e3337f5cc5230c9379c599aee337aa67.jpg",
+      "currency": "TND",
+      "price": 1425.0,
+      "price_min": 1425,
+      "price_max": 1425,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-lenovo-ideapad1-i5-12e-gen-8go-512go-ssd/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "lenovo",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:00Z",
+          "price": 1425.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:00Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:00Z"
+    },
+    {
+      "uniqueID": "74f25cad92adba88220d61f0580a62f3",
+      "title": "PC PORTABLE GAMING MSI THIN GF63 12VE-210XFR I5-12È 8GO RTX 4050",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/74f25cad92adba88220d61f0580a62f3.jpg",
+      "currency": "TND",
+      "price": 3299.0,
+      "price_min": 3299,
+      "price_max": 3299,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-gaming-msi-thin-gf63-12ve-210xfr-i5-12e-8go-rtx-4050/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "msi",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:01Z",
+          "price": 3299.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:01Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:01Z"
+    },
+    {
+      "uniqueID": "08a21078c837122196e5054c1a869fbe",
+      "title": "PC PORTABLE GAMING MSI KATANA 15 B12V I7 12È GÉN 8GO RTX 4050",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/08a21078c837122196e5054c1a869fbe.jpg",
+      "currency": "TND",
+      "price": 4349.0,
+      "price_min": 4349,
+      "price_max": 4349,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-gaming-msi-katana-15-b12v-i7-12e-gen-8go-rtx-4050/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "na",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:02Z",
+          "price": 4349.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:02Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:02Z"
+    },
+    {
+      "uniqueID": "f2d85b617d74fdb9110badc196ee7186",
+      "title": "PC PORTABLE HP 14S-DQ2007NK I7 11È GÉN 8GO 512GO SSD",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/f2d85b617d74fdb9110badc196ee7186.jpg",
+      "currency": "TND",
+      "price": 2259.0,
+      "price_min": 2259,
+      "price_max": 2259,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-hp-14s-dq2007nk-i7-11e-gen-8go-512go-ssd/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "hp",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 1,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:07Z",
+          "price": 2259.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:07Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:07Z"
+    },
+    {
+      "uniqueID": "6bb36184324f99eceb3da97c6b4b19a9",
+      "title": "PC PORTABLE DELL VOSTRO 3500 I7 11È GÉN 8GO 1TO – NOIR",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/6bb36184324f99eceb3da97c6b4b19a9.jpg",
+      "currency": "TND",
+      "price": 2399.0,
+      "price_min": 2399,
+      "price_max": 2399,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-dell-vostro-3500-i7-11e-gen-8go-1to-noir/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "dell",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:14Z",
+          "price": 2399.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:14Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:14Z"
+    },
+    {
+      "uniqueID": "15b7b6e98bc223af3abcc0a98421b40e",
+      "title": "PC PORTABLE GAMING MSI KATANA 17 B12V I5 12È GÉN 8GO RTX 4050",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/15b7b6e98bc223af3abcc0a98421b40e.jpg",
+      "currency": "TND",
+      "price": 3719.0,
+      "price_min": 3719,
+      "price_max": 3719,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-gaming-msi-katana-17-b12v-i5-12e-gen-8go-rtx-4050/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "na",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:00Z",
+          "price": 3719.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:00Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:00Z"
+    },
+    {
+      "uniqueID": "9edd6d1ca380572eda0af19d559c38c5",
+      "title": "PC PORTABLE HP 15-DW4007NK I5 12È GÉN 8GO 256GO SSD",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/9edd6d1ca380572eda0af19d559c38c5.jpg",
+      "currency": "TND",
+      "price": 1369.0,
+      "price_min": 1369,
+      "price_max": 1369,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-hp-15-dw4007nk-i5-12e-gen-8go-256go-ssd/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "hp",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 2,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:08Z",
+          "price": 1369.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:08Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:08Z"
+    },
+    {
+      "uniqueID": "f3c8f8b0952c7857d4416cefab2456d0",
+      "title": "INFINIX INBOOK X2 CORE I3 4GO-256GO",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/f3c8f8b0952c7857d4416cefab2456d0.jpg",
+      "currency": "TND",
+      "price": 799.0,
+      "price_min": 799,
+      "price_max": 799,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/infinix-inbook-x2-core-i3-4go-256go-gris/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "infinix",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 6,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:00Z",
+          "price": 799.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:00Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:00Z"
+    },
+    {
+      "uniqueID": "bbca9df4b42e64cd9cc14798e3cd0d38",
+      "title": "PC PORTABLE DELL VOSTRO 3520 I3 12È GÉN 8GO 512GO SSD",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/bbca9df4b42e64cd9cc14798e3cd0d38.jpg",
+      "currency": "TND",
+      "price": 1099.0,
+      "price_min": 1099,
+      "price_max": 1099,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-dell-vostro-3520-i3-12e-gen-8go-512go-ssd/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "dell",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-01-18T01:10:37Z",
+          "price": 1099.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-01-18T01:10:37Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2025-01-18T01:10:37Z"
+    },
+    {
+      "uniqueID": "24adf1d17cbaffbdbc0f10d23794357b",
+      "title": "PC PORTABLE GAMING MSI KATANA 17 B12U I5 12È GÉN 8GO RTX 3050",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/24adf1d17cbaffbdbc0f10d23794357b.jpg",
+      "currency": "TND",
+      "price": 3399.0,
+      "price_min": 3399,
+      "price_max": 3399,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-gaming-msi-katana-17-b12u-i5-12e-gen-8go-rtx-3050/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "msi",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:02Z",
+          "price": 3399.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:02Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:02Z"
+    },
+    {
+      "uniqueID": "01bb12d74d53f096bb1351093c0da8b7",
+      "title": "PC PORTABLE LENOVO IDEAPAD GAMING 3 16IAH7 I7-12650H RTX 3050 TI",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/01bb12d74d53f096bb1351093c0da8b7.jpg",
+      "currency": "TND",
+      "price": 3299.0,
+      "price_min": 3299,
+      "price_max": 3299,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-lenovo-ideapad-gaming-3-16iah7-i7-12650h-rtx-3050-ti/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "lenovo",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 1,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:06Z",
+          "price": 3299.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:06Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:06Z"
+    },
+    {
+      "uniqueID": "9950c8630cffc052149e81cc67478afa",
+      "title": "PC PORTABLE LENOVO IDEAPAD 3 I3 10 GÉN 4GO 1TO BLEU (81WB00XYFG)",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/9950c8630cffc052149e81cc67478afa.jpg",
+      "currency": "TND",
+      "price": 999.0,
+      "price_min": 999,
+      "price_max": 999,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-lenovo-ideapad-3-i3-10-gen-4go-1to-bleu-81wb00xyfg/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "lenovo",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:11Z",
+          "price": 999.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:11Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:11Z"
+    },
+    {
+      "uniqueID": "af2af434008bf8c1e24799765f835e81",
+      "title": "PC PORTABLE LENOVO IDEAPAD 5 I5 11È GÉN / 8 GO / 512 GO SSD / BLEU ( 82FG00WBFG )",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/af2af434008bf8c1e24799765f835e81.jpg",
+      "currency": "TND",
+      "price": 1759.0,
+      "price_min": 1759,
+      "price_max": 1759,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-lenovo-ideapad-5-i5-11e-gen-8-go-512-go-ssd-bleu/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "lenovo",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:16Z",
+          "price": 1759.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:16Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:16Z"
+    },
+    {
+      "uniqueID": "7877e882bb9a148c83a64a2ac804cd8e",
+      "title": "PC PORTABLE ASUS X515JA I3 10GÉN 8GO 512GO SSD SILVER (X515JA-EJ2134W)",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/7877e882bb9a148c83a64a2ac804cd8e.jpg",
+      "currency": "TND",
+      "price": 1419.0,
+      "price_min": 1419,
+      "price_max": 1419,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-asus-x515ja-i3-10gen-8go-512go-ssd-silver-x515ja-ej2134w/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "asus",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:13Z",
+          "price": 1419.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:13Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:13Z"
+    },
+    {
+      "uniqueID": "63de0973c190968bd4a44ca6bf4274bb",
+      "title": "PC PORTABLE DELL INSPIRON 15 3511 I511È GÉN 8GO 512GO SSD",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/63de0973c190968bd4a44ca6bf4274bb.jpg",
+      "currency": "TND",
+      "price": 1799.0,
+      "price_min": 1799,
+      "price_max": 1799,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-dell-inspiron-15-3511-i511e-gen-8go-512go-ssd/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "dell",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 3,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:12Z",
+          "price": 1799.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:12Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:12Z"
+    },
+    {
+      "uniqueID": "a15ab7bab0465a90d51c1cc4f2f815ff",
+      "title": "PC PORTABLE ASUS VIVOBOOK I3 10É 4G/1TO GRIS ( X515JA-BR051T )",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/a15ab7bab0465a90d51c1cc4f2f815ff.jpg",
+      "currency": "TND",
+      "price": 1359.0,
+      "price_min": 1359,
+      "price_max": 1359,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-asus-vivobook-i3-10e-4g-1to-win10-gris/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "vivo",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:17Z",
+          "price": 1359.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:17Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:17Z"
+    },
+    {
+      "uniqueID": "4a9fd59a37c53987e5e36dac20bdd886",
+      "title": "PC PORTABLE DELL VOSTRO 3500 I3 11È GÉN 4GO 1TO – NOIR",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/4a9fd59a37c53987e5e36dac20bdd886.jpg",
+      "currency": "TND",
+      "price": 1449.0,
+      "price_min": 1449,
+      "price_max": 1449,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-dell-vostro-3500-i3-11e-gen-4go-1to-noir-2/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "dell",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 1,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:15Z",
+          "price": 1449.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:15Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:15Z"
+    },
+    {
+      "uniqueID": "3b5da77449ca8f5c35b8814a2617ad21",
+      "title": "PC PORTABLE GAMING MSI KATANA 15 B12U I5 12È GÉN 8GO RTX 3050",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/3b5da77449ca8f5c35b8814a2617ad21.jpg",
+      "currency": "TND",
+      "price": 3549.0,
+      "price_min": 3549,
+      "price_max": 3549,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-gaming-msi-katana-15-b12u-i5-12e-gen-8go-rtx-3050/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "msi",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:01Z",
+          "price": 3549.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:01Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:01Z"
+    },
+    {
+      "uniqueID": "da7e1e077e71f2e8e262f7209c522a0c",
+      "title": "PC PORTABLE GAMING DELL G15 5530 I5 13È GÉN 16GO 512SSD RTX 3050",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/da7e1e077e71f2e8e262f7209c522a0c.jpg",
+      "currency": "TND",
+      "price": 2889.0,
+      "price_min": 2889,
+      "price_max": 2889,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-gamer-dell-g15-5530-i5-13e-gen-16go-512ssd-rtx-3050/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "dell",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 3,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:05Z",
+          "price": 2889.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:05Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:05Z"
+    },
+    {
+      "uniqueID": "3af5903be7ba96d39ee5787ab8d59fee",
+      "title": "PC PORTABLE GAMING MSI THIN GF63 12VF I7 12È GÉN 16GO RTX 4060",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/3af5903be7ba96d39ee5787ab8d59fee.jpg",
+      "currency": "TND",
+      "price": 3729.0,
+      "price_min": 3729,
+      "price_max": 3729,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/pc-portable-gaming-msi-thin-gf63-12vf-i7-12e-gen-16go-rtx-4060/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "na",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-03-10T14:32:03Z",
+          "price": 3729.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:03Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:03Z"
+    },
+    {
+      "uniqueID": "afc8fb6ba9740b2c6a07ca8e2ef1a138",
+      "title": "MSI GF63 THIN I5-12450H RTX 2050 8GB NVME 512GB + SAC À DOS",
+      "store_label": "Techstore",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "tech_store",
+      "image": "https://barbechli.tn/images/product/afc8fb6ba9740b2c6a07ca8e2ef1a138.jpg",
+      "currency": "TND",
+      "price": 2119.0,
+      "price_min": 2119,
+      "price_max": 2349,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://tech-store.tn/product/msi-gf63-thin-i5-12450h-rtx-2050-8gb-nvme-512gb-sac-a-dos/",
+      "source_link": "https://tech-store.tn/",
+      "brand": "msi",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 7,
+      "priceTable": [
+        {
+          "date_price": "2024-05-18T01:49:05Z",
+          "price": 2119.0
+        },
+        {
+          "date_price": "2024-03-10T14:32:06Z",
+          "price": 2349.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-03-10T14:32:06Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-10T14:32:06Z"
+    },
+    {
+      "uniqueID": "36084c132e38428be70814b52af389e1",
+      "title": "PC PORTABLE GAMER HP VICTUS 15-FA1006NK I5-13420H 24 GO 512 GO SSD",
+      "store_label": "Cyber Info",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "cyberinfo",
+      "image": "https://barbechli.tn/images/product/36084c132e38428be70814b52af389e1.jpg",
+      "currency": "TND",
+      "price": 2329.0,
+      "price_min": 2329,
+      "price_max": 2329,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.cyberinfo.tn/-pc-portable-gamer/2264-pc-portable-gamer-hp-victus-15-fa1006nk-i5-13420h-24-go-512-go-ssd-198122167784.html",
+      "source_link": "https://www.cyberinfo.tn/",
+      "brand": "hp",
+      "availability": "on_stock",
+      "clicks": 6,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-02-07T01:14:21Z",
+          "price": 2329.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-02-07T01:14:21Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2025-02-07T01:14:21Z"
+    },
+    {
+      "uniqueID": "3fb21d0bf7000852090b95779c6bbb15",
+      "title": "PC PORTABLE ASUS TUF GAMING F15 I7-12700H 16GO 1TO SSD RTX 3050",
+      "store_label": "Cyber Info",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "cyberinfo",
+      "image": "https://barbechli.tn/images/product/3fb21d0bf7000852090b95779c6bbb15.jpg",
+      "currency": "TND",
+      "price": 2879.0,
+      "price_min": 2879,
+      "price_max": 2919,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.cyberinfo.tn/-pc-portable-gamer/1878-pc-portable-asus-tuf-gaming-f15-i7-12700h-16go-1to-ssd-rtx-3050.html",
+      "source_link": "https://www.cyberinfo.tn/",
+      "brand": "asus",
+      "availability": "out_of_stock",
+      "clicks": 5,
+      "clicksExternal": 7,
+      "priceTable": [
+        {
+          "date_price": "2024-07-18T19:09:01Z",
+          "price": 2879.0
+        },
+        {
+          "date_price": "2024-06-29T14:43:05Z",
+          "price": 2919.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-08-22T01:11:39Z",
+          "availability": "out_of_stock"
+        },
+        {
+          "date_availability": "2024-06-29T14:43:05Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-06-29T14:43:05Z"
+    },
+    {
+      "uniqueID": "84f4ea9044c228bf6098174dc837ff34",
+      "title": "PC PORTABLE GAMING ASUS TUF FA506NFR RYZEN 7 7435HS 8 GO RTX 2050 WIN 11",
+      "store_label": "Cyber Info",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "cyberinfo",
+      "image": "https://barbechli.tn/images/product/84f4ea9044c228bf6098174dc837ff34.jpg",
+      "currency": "TND",
+      "price": 2499.0,
+      "price_min": 2499,
+      "price_max": 2499,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.cyberinfo.tn/-pc-portable-gamer/2265-pc-portable-gaming-asus-tuf-fa506nfr-ryzen-7-7435hs-8-go-rtx-2050-win-11-4711387780336.html",
+      "source_link": "https://www.cyberinfo.tn/",
+      "brand": "asus",
+      "availability": "out_of_stock",
+      "clicks": 4,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-02-04T01:16:14Z",
+          "price": 2499.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-02-27T01:02:22Z",
+          "availability": "out_of_stock"
+        },
+        {
+          "date_availability": "2025-02-04T01:16:14Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2025-02-04T01:16:14Z"
+    },
+    {
+      "uniqueID": "1e2e74a78e500ca78ada2916719cca56",
+      "title": "PC PORTABLE GAMER DELL G15 5530 I7 13È GÉN 24GO RTX 3050",
+      "store_label": "Cyber Info",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "cyberinfo",
+      "image": "https://barbechli.tn/images/product/1e2e74a78e500ca78ada2916719cca56.jpg",
+      "currency": "TND",
+      "price": 2999.0,
+      "price_min": 2999,
+      "price_max": 2999,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.cyberinfo.tn/-pc-portable-gamer/2036-pc-gamer-dell-g15-5530-i7-13e-gen-16go-rtx-3050.html",
+      "source_link": "https://www.cyberinfo.tn/",
+      "brand": "dell",
+      "availability": "out_of_stock",
+      "clicks": 9,
+      "clicksExternal": 2,
+      "priceTable": [
+        {
+          "date_price": "2024-09-13T21:44:04Z",
+          "price": 2999.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-10-13T01:02:02Z",
+          "availability": "out_of_stock"
+        },
+        {
+          "date_availability": "2024-09-13T21:44:04Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-09-13T21:44:04Z"
+    },
+    {
+      "uniqueID": "14b03971c6f9269115e5aaac42317ca6",
+      "title": "PC PORTABLE ASUS TUF GAMING F15 I7-12700H 32GO 1TO SSD RTX 3050",
+      "store_label": "Cyber Info",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "cyberinfo",
+      "image": "https://barbechli.tn/images/product/14b03971c6f9269115e5aaac42317ca6.jpg",
+      "currency": "TND",
+      "price": 2989.0,
+      "price_min": 2989,
+      "price_max": 3029,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.cyberinfo.tn/-pc-portable-gamer/1882-pc-portable-asus-tuf-gaming-f15-i7-12700h-32go-1to-ssd-rtx-3050.html",
+      "source_link": "https://www.cyberinfo.tn/",
+      "brand": "asus",
+      "availability": "out_of_stock",
+      "clicks": 40,
+      "clicksExternal": 35,
+      "priceTable": [
+        {
+          "date_price": "2024-07-18T19:09:00Z",
+          "price": 2989.0
+        },
+        {
+          "date_price": "2024-06-29T21:44:38Z",
+          "price": 3029.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-08-22T01:11:48Z",
+          "availability": "out_of_stock"
+        },
+        {
+          "date_availability": "2024-06-29T21:44:38Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-06-29T21:44:38Z"
+    },
+    {
+      "uniqueID": "aa819206eb331c53b1bf7b3fc7fdf41c",
+      "title": "PC PORTABLE GAMER GIGABYTE G5 KF I5 12È GÉN 16GO RTX 4060",
+      "store_label": "Cyber Info",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "cyberinfo",
+      "image": "https://barbechli.tn/images/product/aa819206eb331c53b1bf7b3fc7fdf41c.jpg",
+      "currency": "TND",
+      "price": 2999.0,
+      "price_min": 2999,
+      "price_max": 2999,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.cyberinfo.tn/-pc-portable-gamer/1194-pc-portable-gamer-gigabyte-g5-kf-i5-12e-gen-16go-rtx-4060.html",
+      "source_link": "https://www.cyberinfo.tn/",
+      "brand": "gigabyte",
+      "availability": "out_of_stock",
+      "clicks": 4,
+      "clicksExternal": 10,
+      "priceTable": [
+        {
+          "date_price": "2024-06-29T14:43:07Z",
+          "price": 2999.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-08-05T13:14:27Z",
+          "availability": "out_of_stock"
+        },
+        {
+          "date_availability": "2024-06-29T14:43:07Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-06-29T14:43:07Z"
+    },
+    {
+      "uniqueID": "11f270f8bf96692d42ff0bc3d31eb806",
+      "title": "PC PORTABLE DELL GAMING G15 5530 I5 13È GÉN 24 GO RTX 3050 6G",
+      "store_label": "Cyber Info",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "cyberinfo",
+      "image": "https://barbechli.tn/images/product/11f270f8bf96692d42ff0bc3d31eb806.jpg",
+      "currency": "TND",
+      "price": 2759.0,
+      "price_min": 2759,
+      "price_max": 2759,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.cyberinfo.tn/-pc-portable-gamer/1279-pc-portable-dell-gaming-g15-5530-i5-13e-gen-24-go-rtx-3050-6g-windows-11.html",
+      "source_link": "https://www.cyberinfo.tn/",
+      "brand": "dell",
+      "availability": "out_of_stock",
+      "clicks": 4,
+      "clicksExternal": 1,
+      "priceTable": [
+        {
+          "date_price": "2024-12-05T01:02:18Z",
+          "price": 2759.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-12-25T20:43:16Z",
+          "availability": "out_of_stock"
+        },
+        {
+          "date_availability": "2024-12-05T01:02:18Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-12-05T01:02:18Z"
+    },
+    {
+      "uniqueID": "a95f3ad4db12f38701d53e9e1a298de3",
+      "title": "PC PORTABLE ASUS VIVOBOOK 15 X1502VA I7 13È GÉN 16GO 512GO SSD - SILVER",
+      "store_label": "Cyber Info",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "cyberinfo",
+      "image": "https://barbechli.tn/images/product/a95f3ad4db12f38701d53e9e1a298de3.jpg",
+      "currency": "TND",
+      "price": 2079.0,
+      "price_min": 2079,
+      "price_max": 2079,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.cyberinfo.tn/pc-portable/1739-pc-portable-asus-vivobook-15-x1502va-i7-13e-gen-16go-512go-ssd-silver-4711387232334.html",
+      "source_link": "https://www.cyberinfo.tn/",
+      "brand": "asus",
+      "availability": "on_command",
+      "clicks": 3,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-01-09T01:13:25Z",
+          "price": 2079.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-02-12T01:05:40Z",
+          "availability": "on_command"
+        },
+        {
+          "date_availability": "2025-01-09T01:13:25Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2025-01-09T01:13:25Z"
+    },
+    {
+      "uniqueID": "cb255689cb98f845e06c1056cf555db7",
+      "title": "PC PORTABLE ASUS TUF I5 12500H 24GO 512GO SSD RTX 3050",
+      "store_label": "Cyber Info",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "cyberinfo",
+      "image": "https://barbechli.tn/images/product/cb255689cb98f845e06c1056cf555db7.jpg",
+      "currency": "TND",
+      "price": 2649.0,
+      "price_min": 2449,
+      "price_max": 2649,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.cyberinfo.tn/-pc-portable-gamer/1514-pc-portable-asus-tuf-i5-12500h-24go-512go-ssd-rtx-3050.html",
+      "source_link": "https://www.cyberinfo.tn/",
+      "brand": "asus",
+      "availability": "out_of_stock",
+      "clicks": 2,
+      "clicksExternal": 15,
+      "priceTable": [
+        {
+          "date_price": "2024-12-16T13:49:31Z",
+          "price": 2649.0
+        },
+        {
+          "date_price": "2024-08-22T01:11:45Z",
+          "price": 2499.0
+        },
+        {
+          "date_price": "2024-05-14T01:18:44Z",
+          "price": 2449.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-09-24T01:13:13Z",
+          "availability": "out_of_stock"
+        },
+        {
+          "date_availability": "2024-05-14T01:18:44Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-05-14T01:18:44Z"
+    },
+    {
+      "uniqueID": "08a40473492a9aede21c14b9aa1d2c0a",
+      "title": "PC PORTABLE GAMER HP VICTUS 15-FA1006NK I5-13420H 16 GO 512 GO SSD",
+      "store_label": "Cyber Info",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "cyberinfo",
+      "image": "https://barbechli.tn/images/product/08a40473492a9aede21c14b9aa1d2c0a.jpg",
+      "currency": "TND",
+      "price": 2289.0,
+      "price_min": 2289,
+      "price_max": 2289,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.cyberinfo.tn/-pc-portable-gamer/2263-pc-portable-gamer-hp-victus-15-fa1006nk-i5-13420h-16-go-512-go-ssd-198122167784.html",
+      "source_link": "https://www.cyberinfo.tn/",
+      "brand": "hp",
+      "availability": "on_stock",
+      "clicks": 3,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-02-07T01:14:40Z",
+          "price": 2289.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-02-07T01:14:40Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2025-02-07T01:14:40Z"
+    },
+    {
+      "uniqueID": "9b75170d80ca3ed4b1c520b87895b40f",
+      "title": "PC PORTABLE ASUS TUF I5 12500H 32GO 512GO SSD RTX 3050",
+      "store_label": "Cyber Info",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "cyberinfo",
+      "image": "https://barbechli.tn/images/product/9b75170d80ca3ed4b1c520b87895b40f.jpg",
+      "currency": "TND",
+      "price": 2699.0,
+      "price_min": 2509,
+      "price_max": 2699,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.cyberinfo.tn/-pc-portable-gamer/1515-pc-portable-asus-tuf-i5-12500h-32go-512go-ssd-rtx-3050.html",
+      "source_link": "https://www.cyberinfo.tn/",
+      "brand": "asus",
+      "availability": "out_of_stock",
+      "clicks": 3,
+      "clicksExternal": 35,
+      "priceTable": [
+        {
+          "date_price": "2024-12-16T13:49:36Z",
+          "price": 2699.0
+        },
+        {
+          "date_price": "2024-08-22T01:11:39Z",
+          "price": 2559.0
+        },
+        {
+          "date_price": "2024-05-14T01:18:45Z",
+          "price": 2509.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-09-24T01:13:15Z",
+          "availability": "out_of_stock"
+        },
+        {
+          "date_availability": "2024-05-14T01:18:45Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-05-14T01:18:45Z"
+    },
+    {
+      "uniqueID": "743e368e13a741d6084c0707d014245a",
+      "title": "PC PORTABLE DELL GAMING G15 5530 I5 13È GÉN 16 GO RTX 3050 6G",
+      "store_label": "Cyber Info",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "cyberinfo",
+      "image": "https://barbechli.tn/images/product/743e368e13a741d6084c0707d014245a.jpg",
+      "currency": "TND",
+      "price": 2699.0,
+      "price_min": 2699,
+      "price_max": 2899,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.cyberinfo.tn/-pc-portable-gamer/1278-pc-portable-dell-gaming-g15-5530-i5-13e-gen-16-go-rtx-3050-6g-windows-11.html",
+      "source_link": "https://www.cyberinfo.tn/",
+      "brand": "dell",
+      "availability": "out_of_stock",
+      "clicks": 1,
+      "clicksExternal": 1,
+      "priceTable": [
+        {
+          "date_price": "2024-12-05T01:01:51Z",
+          "price": 2699.0
+        },
+        {
+          "date_price": "2024-02-17T10:57:03Z",
+          "price": 2899.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-01-05T13:04:03Z",
+          "availability": "out_of_stock"
+        },
+        {
+          "date_availability": "2024-12-05T01:01:51Z",
+          "availability": "on_stock"
+        },
+        {
+          "date_availability": "2024-02-17T10:57:03Z",
+          "availability": "out_of_stock"
+        }
+      ],
+      "date_creation": "2024-02-17T10:57:03Z"
+    },
+    {
+      "uniqueID": "c00768d90e6aece95dcbc17d5577f5d2",
+      "title": "PC PORTABLE DELL GAMING G15 5530 I5 13È GÉN 32 GO RTX 3050 6G",
+      "store_label": "Cyber Info",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "cyberinfo",
+      "image": "https://barbechli.tn/images/product/c00768d90e6aece95dcbc17d5577f5d2.jpg",
+      "currency": "TND",
+      "price": 2799.0,
+      "price_min": 2799,
+      "price_max": 2799,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.cyberinfo.tn/-pc-portable-gamer/1280-pc-portable-dell-gaming-g15-5530-i5-13e-gen-32-go-rtx-3050-6g-windows-11.html",
+      "source_link": "https://www.cyberinfo.tn/",
+      "brand": "dell",
+      "availability": "out_of_stock",
+      "clicks": 1,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-12-05T01:02:16Z",
+          "price": 2799.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-01-05T13:04:08Z",
+          "availability": "out_of_stock"
+        },
+        {
+          "date_availability": "2024-12-05T01:02:16Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-12-05T01:02:16Z"
+    },
+    {
+      "uniqueID": "8854cd5b64d5287917edf35920559839",
+      "title": "PC PORTABLE DELL VOSTRO 3520 I3 12È GÉN 8GO 512GO SSD - NOIR",
+      "store_label": "Cyber Info",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "cyberinfo",
+      "image": "https://barbechli.tn/images/product/8854cd5b64d5287917edf35920559839.jpg",
+      "currency": "TND",
+      "price": 989.0,
+      "price_min": 989,
+      "price_max": 999,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.cyberinfo.tn/pc-portable/1457-pc-portable-dell-vostro-3520-i3-12e-gen-8go-512go-ssd-noir.html",
+      "source_link": "https://www.cyberinfo.tn/",
+      "brand": "dell",
+      "availability": "out_of_stock",
+      "clicks": 0,
+      "clicksExternal": 2,
+      "priceTable": [
+        {
+          "date_price": "2024-09-13T14:47:07Z",
+          "price": 989.0
+        },
+        {
+          "date_price": "2024-03-28T01:03:38Z",
+          "price": 999.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-11-18T13:43:04Z",
+          "availability": "out_of_stock"
+        },
+        {
+          "date_availability": "2024-03-28T01:03:38Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-03-28T01:03:38Z"
+    },
+    {
+      "uniqueID": "dbcbc5d01b631928350bdd1ca942aa64",
+      "title": "PC PORTABLE ASUS VIVOBOOK 15 X1502VA I5 13È GÉN 8GO 512GO SSD - SILVER",
+      "store_label": "Cyber Info",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "cyberinfo",
+      "image": "https://barbechli.tn/images/product/dbcbc5d01b631928350bdd1ca942aa64.jpg",
+      "currency": "TND",
+      "price": 1669.0,
+      "price_min": 1649,
+      "price_max": 1669,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.cyberinfo.tn/pc-portable/1658-pc-portable-asus-vivobook-15-x1502va-i5-13e-gen-8go-512go-ssd-silver-4711387078754.html",
+      "source_link": "https://www.cyberinfo.tn/",
+      "brand": "asus",
+      "availability": "out_of_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-01-09T01:13:16Z",
+          "price": 1669.0
+        },
+        {
+          "date_price": "2024-12-16T13:49:12Z",
+          "price": 1649.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-02-24T01:13:52Z",
+          "availability": "out_of_stock"
+        },
+        {
+          "date_availability": "2024-12-16T13:49:12Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-12-16T13:49:12Z"
+    },
+    {
+      "uniqueID": "7aa748e729b994aada6c1cce36bf6393",
+      "title": "PC PORTABLE HP 15-FD0053NK I3-N305 8GO 512GO SSD - SILVER",
+      "store_label": "Cyber Info",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "cyberinfo",
+      "image": "https://barbechli.tn/images/product/7aa748e729b994aada6c1cce36bf6393.jpg",
+      "currency": "TND",
+      "price": 1169.0,
+      "price_min": 1149,
+      "price_max": 1169,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.cyberinfo.tn/pc-portable/1871-pc-portable-hp-15-fd0053nk-i3-n305-8go-512go-ssd-silver-0196068820110.html",
+      "source_link": "https://www.cyberinfo.tn/",
+      "brand": "hp",
+      "availability": "out_of_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-01-26T01:05:55Z",
+          "price": 1169.0
+        },
+        {
+          "date_price": "2025-01-09T01:13:14Z",
+          "price": 1149.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-02-12T01:05:28Z",
+          "availability": "out_of_stock"
+        },
+        {
+          "date_availability": "2025-01-09T01:13:14Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2025-01-09T01:13:14Z"
+    },
+    {
+      "uniqueID": "e63fbfe43d9eb151812331d45f1c1ba4",
+      "title": "PC PORTABLE GAMER HP VICTUS 15-FA1007NK I5-13420H 32 GO 512 GO SSD",
+      "store_label": "Cyber Info",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "cyberinfo",
+      "image": "https://barbechli.tn/images/product/e63fbfe43d9eb151812331d45f1c1ba4.jpg",
+      "currency": "TND",
+      "price": 2419.0,
+      "price_min": 2419,
+      "price_max": 2509,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.cyberinfo.tn/-pc-portable-gamer/2108-pc-portable-gamer-hp-victus-15-fa1007nk-i5-13420h-32-go-512-go-ssd.html",
+      "source_link": "https://www.cyberinfo.tn/",
+      "brand": "hp",
+      "availability": "out_of_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-11-05T13:07:22Z",
+          "price": 2419.0
+        },
+        {
+          "date_price": "2024-10-28T13:11:15Z",
+          "price": 2459.0
+        },
+        {
+          "date_price": "2024-10-19T01:01:50Z",
+          "price": 2509.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-11-12T13:08:54Z",
+          "availability": "out_of_stock"
+        },
+        {
+          "date_availability": "2024-10-19T01:01:50Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-10-19T01:01:50Z"
+    },
+    {
+      "uniqueID": "7a812a865b34b8059aa4fed852fa4fe2",
+      "title": "PC PORTABLE ASUS TUF I5 12500H 16GO 512GO SSD RTX 3050",
+      "store_label": "Cyber Info",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "cyberinfo",
+      "image": "https://barbechli.tn/images/product/7a812a865b34b8059aa4fed852fa4fe2.jpg",
+      "currency": "TND",
+      "price": 2599.0,
+      "price_min": 2399,
+      "price_max": 2599,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.cyberinfo.tn/-pc-portable-gamer/1513-pc-portable-asus-tuf-i5-12500h-16go-512go-ssd-rtx-3050.html",
+      "source_link": "https://www.cyberinfo.tn/",
+      "brand": "asus",
+      "availability": "out_of_stock",
+      "clicks": 0,
+      "clicksExternal": 22,
+      "priceTable": [
+        {
+          "date_price": "2024-12-16T13:49:34Z",
+          "price": 2599.0
+        },
+        {
+          "date_price": "2024-08-22T01:15:52Z",
+          "price": 2449.0
+        },
+        {
+          "date_price": "2024-05-14T01:18:41Z",
+          "price": 2399.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-10-08T13:11:49Z",
+          "availability": "out_of_stock"
+        },
+        {
+          "date_availability": "2024-10-07T13:03:24Z",
+          "availability": "on_stock"
+        },
+        {
+          "date_availability": "2024-09-24T01:13:09Z",
+          "availability": "out_of_stock"
+        },
+        {
+          "date_availability": "2024-05-14T01:18:41Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-05-14T01:18:41Z"
+    },
+    {
+      "uniqueID": "849e876db3baf2642679ad84dc6ebf87",
+      "title": "APPLE MACEBOOK AIR M2 8GO 256 GO SILVER",
+      "store_label": "Cyber Info",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "cyberinfo",
+      "image": "https://barbechli.tn/images/product/849e876db3baf2642679ad84dc6ebf87.jpg",
+      "currency": "TND",
+      "price": 5339.0,
+      "price_min": 5339,
+      "price_max": 5339,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.cyberinfo.tn/pc-portable/2084-apple-macebook-air-m2-8go-256-go-silver.html",
+      "source_link": "https://www.cyberinfo.tn/",
+      "brand": "apple",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-10-31T13:10:01Z",
+          "price": 5339.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-10-31T13:10:01Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-10-31T13:10:01Z"
+    },
+    {
+      "uniqueID": "1c9aa7e8ed7f3ff578be87ad95ab6087",
+      "title": "PC PORTABLE ASUS EXPERTBOOK B1402CVA I7 13È GÉN 16GO 512GO SSD",
+      "store_label": "Cyber Info",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "cyberinfo",
+      "image": "https://barbechli.tn/images/product/1c9aa7e8ed7f3ff578be87ad95ab6087.jpg",
+      "currency": "TND",
+      "price": 2449.0,
+      "price_min": 2449,
+      "price_max": 2449,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.cyberinfo.tn/pc-portable/2174-pc-portable-asus-expertbook-b1402cva-i7-13e-gen-16go-512go-ssd.html",
+      "source_link": "https://www.cyberinfo.tn/",
+      "brand": "asus",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-11-21T01:02:00Z",
+          "price": 2449.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-11-21T13:08:20Z",
+          "availability": "on_stock"
+        },
+        {
+          "date_availability": "2024-11-21T01:02:00Z",
+          "availability": "on_command"
+        }
+      ],
+      "date_creation": "2024-11-21T01:02:00Z"
+    },
+    {
+      "uniqueID": "0f5db51f2c24e376572bf9a2d4fc7617",
+      "title": "PC PORTABLE GAMING ASUS TUF FA506NFR RYZEN 7 7435HS 16 GO RTX 2050 WIN 11",
+      "store_label": "Cyber Info",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "cyberinfo",
+      "image": "https://barbechli.tn/images/product/0f5db51f2c24e376572bf9a2d4fc7617.jpg",
+      "currency": "TND",
+      "price": 2569.0,
+      "price_min": 2569,
+      "price_max": 2569,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.cyberinfo.tn/-pc-portable-gamer/2266-pc-portable-gaming-asus-tuf-fa506nfr-ryzen-7-7435hs-16-go-rtx-2050-win-11-4711387780336.html",
+      "source_link": "https://www.cyberinfo.tn/",
+      "brand": "asus",
+      "availability": "out_of_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-02-07T01:15:03Z",
+          "price": 2569.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-02-27T01:03:08Z",
+          "availability": "out_of_stock"
+        },
+        {
+          "date_availability": "2025-02-07T01:15:03Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2025-02-07T01:15:03Z"
+    },
+    {
+      "uniqueID": "c573bc9cde2b2a50f3f2e62f6db48ce7",
+      "title": "PC PORTABLE GAMER LENOVO LOQ I5-12450HX 32 GO 512 GO SSD RTX 3050 6G",
+      "store_label": "Cyber Info",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "cyberinfo",
+      "image": "https://barbechli.tn/images/product/c573bc9cde2b2a50f3f2e62f6db48ce7.jpg",
+      "currency": "TND",
+      "price": 2885.0,
+      "price_min": 2885,
+      "price_max": 2959,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.cyberinfo.tn/-pc-portable-gamer/2218-pc-portable-gamer-lenovo-loq-i5-12450hx-32-go-512-go-ssd-rtx-3050-6g-198155368905.html",
+      "source_link": "https://www.cyberinfo.tn/",
+      "brand": "lenovo",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-01-09T01:13:36Z",
+          "price": 2885.0
+        },
+        {
+          "date_price": "2024-12-25T20:44:38Z",
+          "price": 2959.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-12-25T20:44:38Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-12-25T20:44:38Z"
+    },
+    {
+      "uniqueID": "35bee903d8b532ceb8d99b92a2628a76",
+      "title": "PC PORTABLE MSI GAMING THIN 15 B13UCX i5-13420H 16G 512SSD RTX 2050-4G",
+      "store_label": "Cyber Info",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "cyberinfo",
+      "image": "https://barbechli.tn/images/product/35bee903d8b532ceb8d99b92a2628a76.jpg",
+      "currency": "TND",
+      "price": 2379.0,
+      "price_min": 2379,
+      "price_max": 2379,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.cyberinfo.tn/-pc-portable-gamer/2133-pc-portable-msi-gaming-thin-15-b13ucx-i5-13420h-16g-512ssd-rtx-2050-4g-4719072992607.html",
+      "source_link": "https://www.cyberinfo.tn/",
+      "brand": "msi",
+      "availability": "out_of_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-01-09T01:13:25Z",
+          "price": 2379.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-01-18T01:09:12Z",
+          "availability": "out_of_stock"
+        },
+        {
+          "date_availability": "2025-01-09T01:13:25Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2025-01-09T01:13:25Z"
+    },
+    {
+      "uniqueID": "f44c8506c7252f3e4a884abe95a4ffb7",
+      "title": "PC PORTABLE GAMER LENOVO LOQ I5-12450HX 8 GO 512 GO SSD RTX 3050 6G",
+      "store_label": "Cyber Info",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "cyberinfo",
+      "image": "https://barbechli.tn/images/product/f44c8506c7252f3e4a884abe95a4ffb7.jpg",
+      "currency": "TND",
+      "price": 2669.0,
+      "price_min": 2659,
+      "price_max": 2669,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.cyberinfo.tn/-pc-portable-gamer/2200-pc-portable-gamer-lenovo-loq-i5-13450hx-16-go-512-go-ssd-rtx-3050-6g-198155368905.html",
+      "source_link": "https://www.cyberinfo.tn/",
+      "brand": "lenovo",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-01-09T01:13:32Z",
+          "price": 2669.0
+        },
+        {
+          "date_price": "2024-12-25T20:44:26Z",
+          "price": 2659.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-12-25T20:44:26Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-12-25T20:44:26Z"
+    },
+    {
+      "uniqueID": "7375ac749fe5881a0a59d42a163baddb",
+      "title": "PC PORTABLE GAMER LENOVO LOQ I5-12450HX 16 GO 512 GO SSD RTX 3050 6G",
+      "store_label": "Cyber Info",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "cyberinfo",
+      "image": "https://barbechli.tn/images/product/7375ac749fe5881a0a59d42a163baddb.jpg",
+      "currency": "TND",
+      "price": 2739.0,
+      "price_min": 2739,
+      "price_max": 2789,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.cyberinfo.tn/-pc-portable-gamer/2216-pc-portable-gamer-lenovo-loq-i5-12450hx-16-go-512-go-ssd-rtx-3050-6g-198155368905.html",
+      "source_link": "https://www.cyberinfo.tn/",
+      "brand": "lenovo",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-01-09T01:13:41Z",
+          "price": 2739.0
+        },
+        {
+          "date_price": "2024-12-25T20:44:35Z",
+          "price": 2789.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-12-25T20:44:35Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-12-25T20:44:35Z"
+    },
+    {
+      "uniqueID": "490b6ac0caf7b42514bd346068c0671d",
+      "title": "PC PORTABLE ASUS VIVOBOOK 15 X1502VA I5 13È GÉN 16GO 512GO SSD - SILVER",
+      "store_label": "Cyber Info",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "cyberinfo",
+      "image": "https://barbechli.tn/images/product/490b6ac0caf7b42514bd346068c0671d.jpg",
+      "currency": "TND",
+      "price": 1739.0,
+      "price_min": 1709,
+      "price_max": 1739,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.cyberinfo.tn/pc-portable/1659-pc-portable-asus-vivobook-15-x1502va-i5-13e-gen-16go-512go-ssd-silver-4711387078754.html",
+      "source_link": "https://www.cyberinfo.tn/",
+      "brand": "asus",
+      "availability": "out_of_stock",
+      "clicks": 0,
+      "clicksExternal": 1,
+      "priceTable": [
+        {
+          "date_price": "2025-01-09T01:13:15Z",
+          "price": 1739.0
+        },
+        {
+          "date_price": "2024-12-16T13:49:11Z",
+          "price": 1709.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-02-24T01:13:47Z",
+          "availability": "out_of_stock"
+        },
+        {
+          "date_availability": "2024-12-16T13:49:11Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-12-16T13:49:11Z"
+    },
+    {
+      "uniqueID": "d98fe5bf6a64978bd17f769dbc2b6b46",
+      "title": "APPLE MACEBOOK PRO M3 8GO 512 SSD GRIS SIDÉRAL",
+      "store_label": "Cyber Info",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "cyberinfo",
+      "image": "https://barbechli.tn/images/product/d98fe5bf6a64978bd17f769dbc2b6b46.jpg",
+      "currency": "TND",
+      "price": 7129.0,
+      "price_min": 7129,
+      "price_max": 7129,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.cyberinfo.tn/pc-portable/2087-apple-macebook-pro-m3-8go-512-ssd-gris-sideral.html",
+      "source_link": "https://www.cyberinfo.tn/",
+      "brand": "apple",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-10-12T01:02:21Z",
+          "price": 7129.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-10-12T01:02:21Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-10-12T01:02:21Z"
+    },
+    {
+      "uniqueID": "4d5ff6170b0f6ef156b0fc7f1522abf1",
+      "title": "PC PORTABLE GAMING ASUS TUF FA506NFR RYZEN 7 7435HS 24 GO RTX 2050 WIN 11",
+      "store_label": "Cyber Info",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "cyberinfo",
+      "image": "https://barbechli.tn/images/product/4d5ff6170b0f6ef156b0fc7f1522abf1.jpg",
+      "currency": "TND",
+      "price": 2619.0,
+      "price_min": 2619,
+      "price_max": 2619,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.cyberinfo.tn/-pc-portable-gamer/2267-pc-portable-gaming-asus-tuf-fa506nfr-ryzen-7-7435hs-24-go-rtx-2050-win-11-4711387780336.html",
+      "source_link": "https://www.cyberinfo.tn/",
+      "brand": "asus",
+      "availability": "out_of_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-02-07T01:15:13Z",
+          "price": 2619.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-02-27T01:02:30Z",
+          "availability": "out_of_stock"
+        },
+        {
+          "date_availability": "2025-02-07T01:15:13Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2025-02-07T01:15:13Z"
+    },
+    {
+      "uniqueID": "e83bb230ba2d7b258bae57a340a54224",
+      "title": "PC PORTABLE GAMING ASUS TUF FA506NFR RYZEN 7 7435HS 32 GO RTX 2050 WIN 11",
+      "store_label": "Cyber Info",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "cyberinfo",
+      "image": "https://barbechli.tn/images/product/e83bb230ba2d7b258bae57a340a54224.jpg",
+      "currency": "TND",
+      "price": 2679.0,
+      "price_min": 2679,
+      "price_max": 2679,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.cyberinfo.tn/-pc-portable-gamer/2268-pc-portable-gaming-asus-tuf-fa506nfr-ryzen-7-7435hs-32-go-rtx-2050-win-11-4711387780336.html",
+      "source_link": "https://www.cyberinfo.tn/",
+      "brand": "asus",
+      "availability": "out_of_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-02-07T01:15:08Z",
+          "price": 2679.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-02-27T01:02:26Z",
+          "availability": "out_of_stock"
+        },
+        {
+          "date_availability": "2025-02-07T01:15:08Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2025-02-07T01:15:08Z"
+    },
+    {
+      "uniqueID": "3baf3b361c996e8c5ccf4b078ae876e9",
+      "title": "PC PORTABLE ASUS VIVOBOOK 15 X1502VA I7 13È GÉN 8GO 512GO SSD - SILVER",
+      "store_label": "Cyber Info",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "cyberinfo",
+      "image": "https://barbechli.tn/images/product/3baf3b361c996e8c5ccf4b078ae876e9.jpg",
+      "currency": "TND",
+      "price": 2019.0,
+      "price_min": 2019,
+      "price_max": 2019,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.cyberinfo.tn/pc-portable/1738-pc-portable-asus-vivobook-15-x1502va-i7-13e-gen-8go-512go-ssd-silver-4711387232334.html",
+      "source_link": "https://www.cyberinfo.tn/",
+      "brand": "asus",
+      "availability": "on_command",
+      "clicks": 0,
+      "clicksExternal": 1,
+      "priceTable": [
+        {
+          "date_price": "2025-01-09T01:13:26Z",
+          "price": 2019.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-02-12T01:05:46Z",
+          "availability": "on_command"
+        },
+        {
+          "date_availability": "2025-01-09T01:13:26Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2025-01-09T01:13:26Z"
+    },
+    {
+      "uniqueID": "52d2d53008ebbc9c609c0a88b34ea1da",
+      "title": "APPLE MACBOOK AIR M1 8GO 256GO SSD - GRIS",
+      "store_label": "Cyber Info",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "cyberinfo",
+      "image": "https://barbechli.tn/images/product/52d2d53008ebbc9c609c0a88b34ea1da.jpg",
+      "currency": "TND",
+      "price": 3339.0,
+      "price_min": 3339,
+      "price_max": 3339,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.cyberinfo.tn/pc-portable/2068-apple-macbook-air-m1-8go-256go-ssd-gris.html",
+      "source_link": "https://www.cyberinfo.tn/",
+      "brand": "apple",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 4,
+      "priceTable": [
+        {
+          "date_price": "2024-09-13T21:44:12Z",
+          "price": 3339.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-09-13T21:44:12Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-09-13T21:44:12Z"
+    },
+    {
+      "uniqueID": "472b3f57e2545c6068708c26c85b3039",
+      "title": "PC PORTABLE GAMER LENOVO LOQ I5-12450HX 24 GO 512 GO SSD RTX 3050 6G",
+      "store_label": "Cyber Info",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "cyberinfo",
+      "image": "https://barbechli.tn/images/product/472b3f57e2545c6068708c26c85b3039.jpg",
+      "currency": "TND",
+      "price": 2809.0,
+      "price_min": 2809,
+      "price_max": 2839,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.cyberinfo.tn/-pc-portable-gamer/2217-pc-portable-gamer-lenovo-loq-i5-12450hx-24-go-512-go-ssd-rtx-3050-6g-198155368905.html",
+      "source_link": "https://www.cyberinfo.tn/",
+      "brand": "lenovo",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 1,
+      "priceTable": [
+        {
+          "date_price": "2025-01-09T01:13:39Z",
+          "price": 2809.0
+        },
+        {
+          "date_price": "2024-12-25T20:44:40Z",
+          "price": 2839.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-12-25T20:44:40Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-12-25T20:44:40Z"
+    },
+    {
+      "uniqueID": "3477b2b75d64366268b8c1acf1b08cfe",
+      "title": "PC PORTABLE GAMER HP VICTUS 15-FA1006NK I5-13420H 8 GO 512 GO SSD",
+      "store_label": "Cyber Info",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "cyberinfo",
+      "image": "https://barbechli.tn/images/product/3477b2b75d64366268b8c1acf1b08cfe.jpg",
+      "currency": "TND",
+      "price": 2239.0,
+      "price_min": 2239,
+      "price_max": 2279,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.cyberinfo.tn/-pc-portable-gamer/2254-pc-portable-gamer-hp-victus-15-fa1006nk-i5-13420h-8-go-512-go-ssd-198122167784.html",
+      "source_link": "https://www.cyberinfo.tn/",
+      "brand": "hp",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-02-07T01:14:18Z",
+          "price": 2239.0
+        },
+        {
+          "date_price": "2025-01-30T01:05:08Z",
+          "price": 2279.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-01-30T01:05:08Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2025-01-30T01:05:08Z"
+    },
+    {
+      "uniqueID": "9571f097232545c2090d3ec4f56af75f",
+      "title": "APPLE MACEBOOK AIR M2 8GO 256 GO BLEU MIDNIGHT",
+      "store_label": "Cyber Info",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "cyberinfo",
+      "image": "https://barbechli.tn/images/product/9571f097232545c2090d3ec4f56af75f.jpg",
+      "currency": "TND",
+      "price": 5339.0,
+      "price_min": 5339,
+      "price_max": 5339,
+      "price_drop": 0,
+      "price_drop_percent": 0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://www.cyberinfo.tn/pc-portable/2085-apple-macebook-air-m2-8go-256-go-bleu-midnight.html",
+      "source_link": "https://www.cyberinfo.tn/",
+      "brand": "apple",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2024-10-31T13:10:02Z",
+          "price": 5339.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2024-10-31T13:10:02Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2024-10-31T13:10:02Z"
     }
   ]
 }

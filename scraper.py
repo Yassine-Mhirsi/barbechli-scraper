@@ -1,106 +1,12 @@
 from playwright.sync_api import sync_playwright
 import json
+import os
+from typing import List, Optional, Dict
 import logging
 import queue
 import threading
 import time
-import requests
-
-def save_to_api():
-    """
-    Continuously sends product data to the FastAPI /products endpoint.
-    """
-    while not (producer_done.is_set() and product_queue.empty()):
-        with products_lock:  # Use a lock for thread-safe access
-            if all_products:
-                product_data = all_products.pop(0)  # Get the first dictionary
-                
-                if "response" in product_data and product_data["response"]:
-                    product_list = product_data["response"]  # Extract the list of products
-                    
-                    for product in product_list:  # Iterate through products
-                        try:
-                            # Prepare the product data
-                            product_info = {
-                                "uniqueID": product.get("uniqueID"),
-                                "title": product.get("title"),
-                                "summary": product.get("summary"),
-                                "currency": product.get("currency"),
-                                "price": float(product.get("price", 0)),
-                                "price_min": float(product.get("price_min", 0)),
-                                "price_max": float(product.get("price_max", 0)),
-                                "price_drop": float(product.get("price_drop", 0)),
-                                "price_drop_percent": float(product.get("price_drop_percent", 0)),
-                                "price_week_changed": product.get("price_week_changed"),
-                                "price_week_drop": float(product.get("price_week_drop", 0)),
-                                "price_week_drop_percent": float(product.get("price_week_drop_percent", 0)),
-                                "price_deal": product.get("price_deal"),
-                                "price_hot_deal": product.get("price_hot_deal"),
-                                "price_top_deal": product.get("price_top_deal"),
-                                "link": product.get("link"),
-                                "category": product.get("category"),
-                                "subcategory": product.get("subcategory"),
-                                "source_name": product.get("source_name"),
-                                "source_link": product.get("source_link"),
-                                "brand": product.get("brand"),
-                                "model": product.get("model"),
-                                "gender": product.get("gender"),
-                                "color": product.get("color"),
-                                "material": product.get("material"),
-                                "store": product.get("store"),
-                                "store_label": product.get("store_label"),
-                                "store_description": product.get("store_description"),
-                                "delivery": product.get("delivery"),
-                                "delivery_description": product.get("delivery_description"),
-                                "availability": product.get("availability"),
-                                "clicks": int(product.get("clicks", 0)),
-                                "clicksExternal": int(product.get("clicksExternal", 0)),
-                                "reviewsNumber": int(product.get("reviewsNumber", 0)),
-                                "reviewsValue": float(product.get("reviewsValue", 0)),
-                                "priceTable": [
-                                    {
-                                        "date_price": entry.get("date_price"),
-                                        "price": float(entry.get("price", 0))
-                                    }
-                                    for entry in product.get("priceTable", [])
-                                ],
-                                "availabilityTable": [
-                                    {
-                                        "date_availability": entry.get("date_availability"),
-                                        "availability": entry.get("availability")
-                                    }
-                                    for entry in product.get("availabilityTable", [])
-                                ],
-                                "image": product.get("image"),
-                                "date_creation": product.get("date_creation"),
-                                "imageSearch": product.get("imageSearch")
-                            }
-                            
-                            # Send data to FastAPI endpoint
-                            response = requests.post(
-                                "http://127.0.0.1:8000/products",  # FastAPI endpoint
-                                json=product_info,  # Send data as JSON
-                                headers={"Content-Type": "application/json"}  # Set content type
-                            )
-                            
-                            # Check if the request was successful
-                            if response.status_code == 200:
-                                logging.info(f"Inserted product: {product_info['title']}")
-                            else:
-                                logging.error(f"Failed to insert product: {response.text}")
-                        except Exception as e:
-                            logging.error(f"Error inserting product: {e}")
-        time.sleep(1)  # Sleep to avoid busy-waiting
-
-# Initialize global variables
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler('scraper.log'),
-        logging.StreamHandler()
-    ]
-)
+import db
 
 # Shared queue for product IDs
 product_queue = queue.Queue()
@@ -168,7 +74,7 @@ def get_product_ids(text: str,subcategories: str,sources: str):
                 try:
                     url = f"https://barbechli.tn/search;text={text};subcategories={subcategories};sources={sources};orderby=popularity;pagenumber={page_number}"
                     page.goto(url)
-                    page.wait_for_timeout(2000)
+                    page.wait_for_timeout(3000)
                 except Exception as e:
                     logging.error(f"An error occurred: {e}")
 
@@ -267,9 +173,44 @@ def get_product_details():
             except Exception as e:
                 logging.error(f"An error occurred: {e}")
 
-            if response_body:
+            if response_body and "response" in response_body and len(response_body["response"]) > 0:
+                # Extract the product data and clean it up
+                product_data = response_body["response"][0]
+                
+                # Create a cleaned product object with only the fields we want
+                cleaned_product = {
+                    "uniqueID": product_data.get("uniqueID", ""),
+                    "title": product_data.get("title", ""),
+                    "store_label": product_data.get("store_label", ""),
+                    "category": product_data.get("category", ""),
+                    "subcategory": product_data.get("subcategory", ""),
+                    "source_name": product_data.get("source_name", ""),
+                    "image": product_data.get("image", ""),
+                    "currency": product_data.get("currency", ""),
+                    "price": product_data.get("price", 0),
+                    "price_min": product_data.get("price_min", 0),
+                    "price_max": product_data.get("price_max", 0),
+                    "price_drop": product_data.get("price_drop", 0),
+                    "price_drop_percent": product_data.get("price_drop_percent", 0),
+                    "price_week_changed": product_data.get("price_week_changed", ""),
+                    "price_week_drop": product_data.get("price_week_drop", 0),
+                    "price_week_drop_percent": product_data.get("price_week_drop_percent", 0),
+                    "price_deal": product_data.get("price_deal", ""),
+                    "price_hot_deal": product_data.get("price_hot_deal", ""),
+                    "price_top_deal": product_data.get("price_top_deal", ""),
+                    "link": product_data.get("link", ""),
+                    "source_link": product_data.get("source_link", ""),
+                    "brand": product_data.get("brand", ""),
+                    "availability": product_data.get("availability", ""),
+                    "clicks": product_data.get("clicks", 0),
+                    "clicksExternal": product_data.get("clicksExternal", 0),
+                    "priceTable": product_data.get("priceTable", []),
+                    "availabilityTable": product_data.get("availabilityTable", []),
+                    "date_creation": product_data.get("date_creation", "")
+                }
+                
                 with products_lock:
-                    all_products.append(response_body)
+                    all_products.append(cleaned_product)
                 logging.info(f"Successfully processed product {product_id}")
             else:
                 logging.warning(f"No response body received for product {product_id}")
@@ -277,50 +218,106 @@ def get_product_details():
         context.close()
         browser.close()
 
-def save_results(output_file='all_products.json'):
+def save_results(output_file='products.json'):
+    """
+    Save results to a single products.json file without overwriting existing data.
+    """
     while not (producer_done.is_set() and product_queue.empty()):
         time.sleep(2)
         # Save current progress
         with products_lock:
-            with open(output_file, 'w', encoding='utf-8') as f:
-                json.dump(all_products, f, indent=2, ensure_ascii=False)
+            save_to_products_file(all_products, output_file)
             logging.info(f"Saved {len(all_products)} products to {output_file}")
 
-if __name__ == "__main__":
-    logging.info("Starting scraping process")
-    #category = "fashion_beauty"
-    text = "mytek"
-    sources = "mytek"
-    subcategories = "laptops"
+def save_to_products_file(new_products, output_file='products.json'):
+    """
+    Save products to a single JSON file without overwriting existing data.
+    Also generates and includes statistics about the products.
     
-    # Create dynamic output filename based on store and category
-    output_file = f"{sources}_{subcategories}_test.json"
-    logging.info(f"Output will be saved to: {output_file}")
-
-    NUM_CONSUMERS = 5  # Number of concurrent consumer threads
+    Args:
+        new_products: List of new products to add
+        output_file: Output file name (default: products.json)
+    """
+    # Create products structure if it doesn't exist
+    products_data = {"stats": {}, "products": []}
     
-    # Create threads
-    producer_thread = threading.Thread(target=get_product_ids, args=(text,subcategories,sources))
-    consumer_threads = [threading.Thread(target=get_product_details) for _ in range(NUM_CONSUMERS)]
-    saver_thread = threading.Thread(target=save_results, args=(output_file,))
-    api_saver_thread = threading.Thread(target=save_to_api)
+    # Load existing data if file exists
+    if os.path.exists(output_file):
+        try:
+            with open(output_file, 'r', encoding='utf-8') as f:
+                products_data = json.load(f)
+                if "products" not in products_data:
+                    products_data["products"] = []
+                if "stats" not in products_data:
+                    products_data["stats"] = {}
+        except json.JSONDecodeError:
+            logging.error(f"Error reading {output_file}, creating new file")
     
-    # Start all threads
-    producer_thread.start()
-    for consumer_thread in consumer_threads:
-        consumer_thread.start()
-    saver_thread.start()
-    api_saver_thread.start()
+    # Get existing product IDs to avoid duplicates
+    existing_ids = {product.get("uniqueID") for product in products_data.get("products", [])}
     
-    # Wait for all threads to complete
-    producer_thread.join()
-    for consumer_thread in consumer_threads:
-        consumer_thread.join()
-    saver_thread.join()
-    api_saver_thread.join()
+    # Add new products that don't already exist
+    for product in new_products:
+        if product.get("uniqueID") not in existing_ids:
+            products_data["products"].append(product)
+            existing_ids.add(product.get("uniqueID"))
     
-    # Final save
+    # Generate statistics
+    all_products = products_data["products"]
+    
+    # Count total products
+    total_products = len(all_products)
+    
+    # Count products by source
+    sources_count = {}
+    for product in all_products:
+        source_name = product.get("source_name")
+        if source_name:
+            sources_count[source_name] = sources_count.get(source_name, 0) + 1
+    
+    # Calculate percentages and create source stats
+    sources_stats = []
+    for source_name, count in sources_count.items():
+        percentage = round((count / total_products) * 100, 2) if total_products > 0 else 0
+        sources_stats.append({
+            "name": source_name,
+            "products": count,
+            "percentage": percentage
+        })
+    
+    # Sort sources by product count (descending)
+    sources_stats.sort(key=lambda x: x["products"], reverse=True)
+    
+    # Update stats in the data structure
+    products_data["stats"] = {
+        "total_products": total_products,
+        "total_sources": len(sources_count),
+        "sources": sources_stats
+    }
+    
+    # Save the updated data
     with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(all_products, f, indent=2, ensure_ascii=False)
+        json.dump(products_data, f, indent=2, ensure_ascii=False)
+
+def save_to_database(products):
+    """
+    Save products to the PostgreSQL database.
     
-    logging.info(f"Scraping completed. Saved {len(all_products)} products to {output_file}")
+    Args:
+        products: List of product dictionaries
+    """
+    try:
+        # Create tables if they don't exist
+        db.create_tables()
+        
+        # Insert products into the database
+        db.insert_products(products)
+        
+        # Get updated stats
+        stats = db.get_product_stats()
+        logging.info(f"Database stats: {stats['total_products']} total products from {stats['total_sources']} sources")
+        
+        return stats
+    except Exception as e:
+        logging.error(f"Error saving to database: {e}")
+        return None

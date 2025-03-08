@@ -12,6 +12,8 @@ A multi-threaded web scraper built with Python and Playwright to extract product
 - Dynamic output filenames based on store and category
 - Comprehensive logging and error handling
 - Automatic progress saving
+- Product statistics generation
+- Command-line interface for easy configuration
 
 ## Prerequisites
 
@@ -20,62 +22,133 @@ A multi-threaded web scraper built with Python and Playwright to extract product
 
 ## Installation
 
-1. Clone this repository or download the source code && Navigate to the project directory:
+1. Clone this repository or download the source code:
 
 ```bash
 git clone git@github.com:Yassine-Mhirsi/barbechli-scraper.git
+```
+
+2. Navigate to the project directory:
+
+```bash
 cd barbechli-scraper
 ```
 
-2. Create and Activate virtual environment (recommended):
+3. Create a virtual environment (recommended):
 
 ```bash
 python -m venv venv
-venv\Scripts\activate
 ```
 
-3. Install the required dependencies:
+4. Activate the virtual environment:
+
+- On Windows:
+```bash
+venv\Scripts\activate
+```
+- On macOS/Linux:
+```bash
+source venv/bin/activate
+```
+
+5. Install the required dependencies:
 
 ```bash
 pip install playwright
+```
+
+6. Install Playwright browsers:
+
+```bash
 playwright install chromium
 ```
 
-
 ## Usage
 
-1. Configure the scraper in `main.py`:
+### Command-Line Interface
 
-```python
-# Set the store and category to scrape
-text = "mytek"          # Store name for search
-sources = "mytek"       # Store identifier
-subcategories = "laptops"  # Category to scrape
-
-# Adjust number of concurrent threads if needed
-NUM_CONSUMERS = 5  # Increase for faster scraping
-```
-
-2. Run the scraper:
+The scraper now provides a command-line interface for easy configuration:
 
 ```bash
-python main.py
+python run_scraper.py --text "mytek" --sources "mytek" --subcategories "laptops" --output "products.json" --threads 5
 ```
 
-3. The script will:
-   - Start collecting product IDs from the specified store and category
-   - Process product details concurrently using multiple threads
-   - Save results to `<store>_<category>.json` (e.g., `mytek_laptops.json`)
-   - Create a detailed log file `scraper.log`
+#### Available Arguments:
+
+- `--text`: Store name for search (e.g., "mytek", "tunisianet")
+- `--sources`: Store identifier (e.g., "mytek", "tunisianet")
+- `--subcategories`: Category to scrape (default: "laptops")
+- `--output`: Output file name (default: "products.json")
+- `--threads`: Number of consumer threads (default: 5)
+
+If `--text` or `--sources` is not provided, you will be prompted to enter them.
+
+### Using as a Module
+
+You can also import and use the scraper in your own Python code:
+
+```python
+from main import run_scraper
+
+# Run the scraper with custom parameters
+products_count = run_scraper(
+    text="mytek",
+    sources="mytek",
+    subcategories="laptops",
+    num_consumers=5,
+    output_file="products.json"
+)
+
+print(f"Scraped {products_count} products")
+```
 
 ## Output
 
-- `<store>_<category>.json`: Contains all scraped product data
-- `scraper.log`: Detailed log of the scraping process, including:
-  - Page processing status
-  - Retry attempts
-  - Product counts
-  - Error messages
+The scraper saves all products to a single JSON file with the following structure:
+
+```json
+{
+    "stats": {
+        "total_products": 42,
+        "total_sources": 3,
+        "sources": [
+            {
+                "name": "mytek",
+                "products": 20,
+                "percentage": 47.62
+            },
+            {
+                "name": "tunisianet",
+                "products": 15,
+                "percentage": 35.71
+            },
+            {
+                "name": "mediavision",
+                "products": 7,
+                "percentage": 16.67
+            }
+        ]
+    },
+    "products": [
+        {
+            "uniqueID": "...",
+            "title": "...",
+            "store_label": "...",
+            "category": "...",
+            "subcategory": "...",
+            "source_name": "...",
+            "image": "...",
+            "currency": "...",
+            "price": 0,
+            "link": "...",
+            "availability": "...",
+            "date_creation": "..."
+            // ... other product fields
+        },
+        // ... more products
+    ]
+}
+```
 
 ## How It Works
 
@@ -97,6 +170,7 @@ The scraper operates in three main stages using a multi-threaded approach:
    - Periodically saves progress to JSON file
    - Uses dynamic filenames based on store and category
    - Ensures no data loss in case of interruption
+   - Generates statistics about the collected products
 
 ## Performance Features
 
@@ -124,8 +198,7 @@ If you encounter any issues:
 2. Ensure stable internet connection
 3. Try reducing the number of consumer threads
 4. Verify the store and category parameters
-5. Check if the website is blocking automated access 
-
+5. Check if the website is blocking automated access
 
 # API Endpoints
 
