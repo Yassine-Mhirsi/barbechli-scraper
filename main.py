@@ -1,6 +1,7 @@
 from playwright.sync_api import sync_playwright
 import json
-from typing import List, Optional
+import os
+from typing import List, Optional, Dict
 import logging
 import queue
 import threading
@@ -82,7 +83,7 @@ def get_product_ids(text: str,subcategories: str,sources: str):
                 try:
                     url = f"https://barbechli.tn/search;text={text};subcategories={subcategories};sources={sources};orderby=popularity;pagenumber={page_number}"
                     page.goto(url)
-                    page.wait_for_timeout(2000)
+                    page.wait_for_timeout(3000)
                 except Exception as e:
                     logging.error(f"An error occurred: {e}")
 
@@ -181,9 +182,44 @@ def get_product_details():
             except Exception as e:
                 logging.error(f"An error occurred: {e}")
 
-            if response_body:
+            if response_body and "response" in response_body and len(response_body["response"]) > 0:
+                # Extract the product data and clean it up
+                product_data = response_body["response"][0]
+                
+                # Create a cleaned product object with only the fields we want
+                cleaned_product = {
+                    "uniqueID": product_data.get("uniqueID", ""),
+                    "title": product_data.get("title", ""),
+                    "store_label": product_data.get("store_label", ""),
+                    "category": product_data.get("category", ""),
+                    "subcategory": product_data.get("subcategory", ""),
+                    "source_name": product_data.get("source_name", ""),
+                    "image": product_data.get("image", ""),
+                    "currency": product_data.get("currency", ""),
+                    "price": product_data.get("price", 0),
+                    "price_min": product_data.get("price_min", 0),
+                    "price_max": product_data.get("price_max", 0),
+                    "price_drop": product_data.get("price_drop", 0),
+                    "price_drop_percent": product_data.get("price_drop_percent", 0),
+                    "price_week_changed": product_data.get("price_week_changed", ""),
+                    "price_week_drop": product_data.get("price_week_drop", 0),
+                    "price_week_drop_percent": product_data.get("price_week_drop_percent", 0),
+                    "price_deal": product_data.get("price_deal", ""),
+                    "price_hot_deal": product_data.get("price_hot_deal", ""),
+                    "price_top_deal": product_data.get("price_top_deal", ""),
+                    "link": product_data.get("link", ""),
+                    "source_link": product_data.get("source_link", ""),
+                    "brand": product_data.get("brand", ""),
+                    "availability": product_data.get("availability", ""),
+                    "clicks": product_data.get("clicks", 0),
+                    "clicksExternal": product_data.get("clicksExternal", 0),
+                    "priceTable": product_data.get("priceTable", []),
+                    "availabilityTable": product_data.get("availabilityTable", []),
+                    "date_creation": product_data.get("date_creation", "")
+                }
+                
                 with products_lock:
-                    all_products.append(response_body)
+                    all_products.append(cleaned_product)
                 logging.info(f"Successfully processed product {product_id}")
             else:
                 logging.warning(f"No response body received for product {product_id}")
@@ -191,24 +227,96 @@ def get_product_details():
         context.close()
         browser.close()
 
-def save_results(output_file='all_products.json'):
+def save_results(output_file='products.json'):
+    """
+    Save results to a single products.json file without overwriting existing data.
+    """
     while not (producer_done.is_set() and product_queue.empty()):
         time.sleep(2)
         # Save current progress
         with products_lock:
-            with open(output_file, 'w', encoding='utf-8') as f:
-                json.dump(all_products, f, indent=2, ensure_ascii=False)
+            save_to_products_file(all_products, output_file)
             logging.info(f"Saved {len(all_products)} products to {output_file}")
+
+def save_to_products_file(new_products, output_file='products.json'):
+    """
+    Save products to a single JSON file without overwriting existing data.
+    Also generates and includes statistics about the products.
+    
+    Args:
+        new_products: List of new products to add
+        output_file: Output file name (default: products.json)
+    """
+    # Create products structure if it doesn't exist
+    products_data = {"stats": {}, "products": []}
+    
+    # Load existing data if file exists
+    if os.path.exists(output_file):
+        try:
+            with open(output_file, 'r', encoding='utf-8') as f:
+                products_data = json.load(f)
+                if "products" not in products_data:
+                    products_data["products"] = []
+                if "stats" not in products_data:
+                    products_data["stats"] = {}
+        except json.JSONDecodeError:
+            logging.error(f"Error reading {output_file}, creating new file")
+    
+    # Get existing product IDs to avoid duplicates
+    existing_ids = {product.get("uniqueID") for product in products_data.get("products", [])}
+    
+    # Add new products that don't already exist
+    for product in new_products:
+        if product.get("uniqueID") not in existing_ids:
+            products_data["products"].append(product)
+            existing_ids.add(product.get("uniqueID"))
+    
+    # Generate statistics
+    all_products = products_data["products"]
+    
+    # Count total products
+    total_products = len(all_products)
+    
+    # Count products by source
+    sources_count = {}
+    for product in all_products:
+        source_name = product.get("source_name")
+        if source_name:
+            sources_count[source_name] = sources_count.get(source_name, 0) + 1
+    
+    # Calculate percentages and create source stats
+    sources_stats = []
+    for source_name, count in sources_count.items():
+        percentage = round((count / total_products) * 100, 2) if total_products > 0 else 0
+        sources_stats.append({
+            "name": source_name,
+            "products": count,
+            "percentage": percentage
+        })
+    
+    # Sort sources by product count (descending)
+    sources_stats.sort(key=lambda x: x["products"], reverse=True)
+    
+    # Update stats in the data structure
+    products_data["stats"] = {
+        "total_products": total_products,
+        "total_sources": len(sources_count),
+        "sources": sources_stats
+    }
+    
+    # Save the updated data
+    with open(output_file, 'w', encoding='utf-8') as f:
+        json.dump(products_data, f, indent=2, ensure_ascii=False)
 
 if __name__ == "__main__":
     logging.info("Starting scraping process")
     #category = "fashion_beauty"
-    text = "mytek"
-    sources = "mytek"
+    text = "ordinateur%20portable"  
+    sources = "technopro_online"
     subcategories = "laptops"
     
-    # Create dynamic output filename based on store and category
-    output_file = f"{sources}_{subcategories}.json"
+    # Use a single products.json file for all stores and categories
+    output_file = "output/products.json"
     logging.info(f"Output will be saved to: {output_file}")
 
     NUM_CONSUMERS = 5  # Number of concurrent consumer threads
@@ -231,7 +339,6 @@ if __name__ == "__main__":
     saver_thread.join()
     
     # Final save
-    with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(all_products, f, indent=2, ensure_ascii=False)
+    save_to_products_file(all_products, output_file)
     
-    logging.info(f"Scraping completed. Saved {len(all_products)} products to {output_file}")
+    logging.info(f"Scraping completed. Saved products to {output_file}")
