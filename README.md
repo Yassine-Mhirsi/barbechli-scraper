@@ -125,3 +125,16 @@ If you encounter any issues:
 3. Try reducing the number of consumer threads
 4. Verify the store and category parameters
 5. Check if the website is blocking automated access 
+
+
+# API Endpoints
+
+## Installation 
+see updated requirements.txt
+
+## Usage
+
+to start Up FastAPI Server run the command:
+uvicorn api:app --reload
+
+open your browser and navigate to http://127.0.0.1:8000/products
