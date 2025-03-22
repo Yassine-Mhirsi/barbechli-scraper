@@ -1,2 +1,6 @@
 .env
-/.cursor
+/.cursor/rules
+.mdc
+.vscode
+.cursor
+.cursorrules
