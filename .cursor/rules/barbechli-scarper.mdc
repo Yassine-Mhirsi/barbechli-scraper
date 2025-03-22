@@ -1,0 +1,40 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+**Barbechli.tn Web Scraping Project**
+
+## Project Overview
+This project creates a web scraping system that collects product data from Tunisian e-commerce websites and provides it through a REST API for Barbechli.tn's price comparison service.
+
+## Key Components
+
+1. **Web Scraper (Using Playwright)**
+   - Scrapes multiple Tunisian stores in barbechli (tunisianet, MyTek, mediavision, etc.)
+   - Extracts: product names, prices, descriptions, categories, URLs, images, availability, seller info
+
+2. **Database (Neon PostgreSQL)**
+   - Stores all scraped product data
+   - Tracks historical price changes
+
+3. **REST API (FastAPI)**
+   - Provides access to the collected data
+   - Main endpoints:
+     - GET /products - List all products with filtering options
+     - GET /products/{id} - Get specific product details
+     - GET /categories - Get available product categories
+     - POST /scrape - Trigger a new scraping operation
+
+## Implementation Requirements
+- Use Playwright for browser automation and scraping
+- Store data in Neon PostgreSQL
+- Implement the API with FastAPI
+- Version control with Git/GitHub
+- Include requirements.txt for dependencies
+- Document installation and usage instructions
+
+## Project Goals
+1. Create a comprehensive product database from Tunisian e-commerce sites
+2. Maintain up-to-date product information with regular scraping
+3. Provide a reliable and performant API for the Barbechli.tn website 
