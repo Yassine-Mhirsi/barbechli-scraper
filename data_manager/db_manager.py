@@ -30,7 +30,7 @@ def init_db():
     
     try:
         # Create a connection pool with min 1, max 10 connections
-        connection_pool = pool.SimpleConnectionPool(1, 10, NEON_URI)
+        connection_pool = pool.SimpleConnectionPool(1, 10, NEON_URI,"postgresql://neondb_owner:npg_OZ9myoVwL8nb@ep-morning-glitter-a2z9vqaa-pooler.eu-central-1.aws.neon.tech/neondb?sslmode=require")
         logger.info("Database connection pool created successfully")
         
         # Get a connection from the pool
