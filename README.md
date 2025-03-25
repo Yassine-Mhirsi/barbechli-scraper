@@ -1,104 +1,93 @@
-# Barbechli Price Comparison System
+# Barbechli Web Scraper
 
-A comprehensive web scraping and API system that collects product data from Tunisian e-commerce websites and provides it through a REST API for Barbechli.tn's price comparison service.
+A specialized web scraping system for collecting product data from Tunisian e-commerce websites. This project helps gather product information for price comparison purposes.
 
-## Web Scraper
+## Features
 
-The core of the Barbechli system is a powerful web scraper built with Playwright that automatically extracts product information from multiple Tunisian e-commerce websites.
+- **Multi-store Scraping**: Collect product data from major Tunisian e-stores including Tunisianet, MyTek, Wiki, Jumia, and more
+- **Concurrent Processing**: Uses threading for simultaneous collection of product IDs and details
+- **Data Persistence**: Stores scraped data in both PostgreSQL database and JSON files
+- **Historical Price Tracking**: Records price changes over time
+- **Comprehensive Product Details**: Collects product names, prices, descriptions, images, availability, and more
 
-### Scraper Features
+## Requirements
 
-- **Multi-store Collection**: Scrapes products from major Tunisian stores including Tunisianet, MyTek, Wiki, Jumia, and others
-- **Comprehensive Data Extraction**:
-  - Product names, descriptions, and specifications
-  - Current and historical prices
-  - Categories and subcategories
-  - Images and product URLs
-  - Availability status
-  - Store/seller information
-- **Automatic Data Processing**: Normalizes and standardizes data across different sources
-- **Scheduled Operation**: Runs at configurable intervals to keep product data current
-- **Price History Tracking**: Records price changes over time for trend analysis
-- **Efficient Operation**: Uses browser automation with Playwright for reliable scraping
-
-### Scraper Configuration
-
-The scraper can be configured through the `config.py` file:
-
-```python
-# How often to run the full scraping cycle (in hours)
-SCRAPE_INTERVAL = 24  
-
-# Stores to scrape (True to enable, False to disable)
-STORES = {
-    "tunisianet": True,
-    "mytek": True,
-    # Add more stores as needed
-}
-```
-
-### Running the Scraper
-
-To execute the scraper:
-
-```bash
-python -m scraper.main
-```
-
-This will start the scraping process for all enabled stores in the configuration.
-
-## REST API
-
-All data collected by the scraper is accessible through a FastAPI-based REST API. The API provides endpoints for product listing, searching, filtering, and retrieving statistical information.
-
-For detailed information about the API, including endpoints, request parameters, and response formats, please refer to the [API README](api/README.md).
-
-
-## Technology Stack
-
-- **Web Scraping**: Playwright for browser automation
-- **Database**: PostgreSQL (Neon)
-- **API**: FastAPI
-- **Data Processing**: SQLAlchemy ORM
-- **Documentation**: Swagger UI and ReDoc
-
-## Getting Started
-
-### Prerequisites
 - Python 3.9+
-- PostgreSQL database (or Neon PostgreSQL)
-- pip and virtualenv
+- PostgreSQL database (Neon PostgreSQL recommended)
+- Playwright for browser automation
 
-### Installation
+## Installation
 
-1. Clone the repository:
+1. Clone the repository
 ```bash
 git clone https://github.com/Yassine-Mhirsi/barbechli-scraper.git
-cd barbechli
+cd barbechli-scraper
 ```
 
-2. Create and activate a virtual environment:
-```bash
-python -m venv env
-# On Windows
-env\Scripts\activate
-# On macOS/Linux
-source env/bin/activate
-```
-
-3. Install dependencies:
+2. Install the required dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Configure the database connection:
-   - Copy `config.py.example` to `config.py`
-   - Add your database connection string as `NEON_URI`
+3. Install Playwright browsers
+```bash
+playwright install
+```
 
-## Contributing
+4. Configure the application
+```bash
+cp config.py.example config.py
+# Edit config.py with your database credentials and scraper settings
+```
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+## Usage
 
-## License
+### Basic Usage
 
-This project is licensed under the MIT License - see the LICENSE file for details. 
+Run the main scraper:
+
+```bash
+python main.py
+```
+
+This will start two concurrent processes:
+- Product ID collection
+- Product detail scraping
+
+### Customizing Scraping Parameters
+
+You can customize the scraping parameters in `main.py`:
+
+```python
+# Example parameters for product search
+params = {
+    "text": "ordinateur portable",
+    "category": "computers",
+    "subcategories": "laptops",
+    "sources": "tunisianet"
+}
+```
+
+Available parameters:
+- `text`: Search query
+- `category`: Product category
+- `subcategories`: Specific subcategories
+- `sources`: Specific e-commerce stores
+- `orderby`: Sorting order (default: popularity)
+
+## Project Structure
+
+- `scrape_ids.py`: Collects product IDs from search results
+- `scrape_product_details.py`: Extracts detailed product information
+- `data_manager.py`: Manages product data formatting and persistence
+- `db_manager.py`: Handles database operations
+- `main.py`: Main entry point that coordinates the scraping processes
+- `config.py`: Configuration settings
+
+## Data Storage
+
+Scraped data is stored in:
+1. PostgreSQL database (primary storage)
+2. JSON files (backup storage):
+   - `barbechli_product_ids.json`: Contains product IDs
+   - `barbechli_products_details.json`: Contains complete product details
