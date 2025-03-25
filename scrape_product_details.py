@@ -4,7 +4,10 @@ import time
 import sys
 import threading
 import queue
+import os
+from collections import Counter
 from scrape_ids import get_product_ids
+import data_manager
 
 
 def get_product_details(id_queue, stop_event):
@@ -15,7 +18,10 @@ def get_product_details(id_queue, stop_event):
         id_queue: Queue containing product IDs to process
         stop_event: Event to signal when ID collection is complete
     """
-    all_products = {}
+    # Load existing data
+    _, existing_products_dict = data_manager.load_existing_data()
+    
+    # Initialize counters
     processed = 0
     
     with sync_playwright() as p:
@@ -51,7 +57,7 @@ def get_product_details(id_queue, stop_event):
                     if "https://barbechli.tn/find/?q={%22uid" in url:
                         try:
                             xhr_data = response.json()
-                            print(f"Captured product XHR response")
+                            # print(f"Captured product XHR response")
                             # The product data is in the response field
                             if "response" in xhr_data and xhr_data["response"]:
                                 product_data = xhr_data["response"]
@@ -76,14 +82,22 @@ def get_product_details(id_queue, stop_event):
                             break
                         page.wait_for_timeout(100)
                     
-                    # Store the product data if captured
-                    if product_data:
-                        all_products[product_id] = product_data
-                        # Save progress periodically (every 10 products)
-                        if processed % 1 == 0:
-                            with open("barbechli_products_details.json", "w", encoding="utf-8") as f:
-                                json.dump(all_products, f, indent=2, ensure_ascii=False)
-                            print(f"Progress saved: {processed} products")
+                    # Process and store the product data if captured
+                    if product_data and len(product_data) > 0:
+                        # Update the product in our collection
+                        updated = data_manager.update_product(existing_products_dict, product_id, product_data)
+                        
+                        if updated:
+                            # Save right away after each product to prevent data loss
+                            data_manager.save_products_data(existing_products_dict, is_incremental=True)
+                            # print(f"Product saved immediately: {product_id}")
+                            
+                            # Also do a more comprehensive save every 1 products
+                            if processed % 1 == 0:
+                                data_manager.save_products_data(existing_products_dict)
+                                print(f"Progress milestone: {processed} products processed in this session")
+                        else:
+                            print(f"No data captured for product {product_id}")
                     else:
                         print(f"No data captured for product {product_id}")
                 
@@ -103,13 +117,10 @@ def get_product_details(id_queue, stop_event):
         browser.close()
         print("\nBrowser closed")
     
-    # Save all product details to a single file
-    if all_products:
-        with open("barbechli_products_details.json", "w", encoding="utf-8") as f:
-            json.dump(all_products, f, indent=2, ensure_ascii=False)
-        print(f"All product details saved to barbechli_products_details.json")
-        print(f"Total products with details: {len(all_products)}")
+    # Save all product details one final time
+    if existing_products_dict:
+        data_manager.save_products_data(existing_products_dict, is_final=True)
     else:
         print("No product details were collected")
     
-    return all_products
+    return existing_products_dict

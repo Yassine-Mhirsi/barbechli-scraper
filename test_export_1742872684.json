@@ -1,0 +1,9 @@
+{
+  "stats": {
+    "total_products": 1,
+    "total_sources": 1,
+    "sources": [
+      {
+        "name": "test_script",
+        "products": 1,
+        "percentage": 
