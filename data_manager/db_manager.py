@@ -1,3 +1,4 @@
+import os
 import psycopg2
 from psycopg2 import pool
 from psycopg2.extras import Json, DictCursor
@@ -5,7 +6,10 @@ import json
 import time
 import logging
 from datetime import datetime
-from config import NEON_URI
+from config import NEON_URL
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Configure logging
 logging.basicConfig(
@@ -21,6 +25,8 @@ logger = logging.getLogger("db_manager")
 # Connection pool for efficient database access
 connection_pool = None
 
+NEON_URI = os.getenv("NEON_URI")
+
 def init_db():
     """
     Initialize the database by creating tables if they don't exist
@@ -30,7 +36,7 @@ def init_db():
     
     try:
         # Create a connection pool with min 1, max 10 connections
-        connection_pool = pool.SimpleConnectionPool(1, 10, NEON_URI,"postgresql://neondb_owner:npg_OZ9myoVwL8nb@ep-morning-glitter-a2z9vqaa-pooler.eu-central-1.aws.neon.tech/neondb?sslmode=require")
+        connection_pool = pool.SimpleConnectionPool(1, 10,NEON_URI,NEON_URL)
         logger.info("Database connection pool created successfully")
         
         # Get a connection from the pool
