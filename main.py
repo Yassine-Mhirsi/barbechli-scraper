@@ -14,7 +14,7 @@ def main():
         "text": "ordinateur portable",
         "category": "computers",
         "subcategories": "laptops",
-        "sources": "skymil_informatique"
+        # "sources": "skymil_informatique"
     }
     
     # Create a queue for passing product IDs between threads

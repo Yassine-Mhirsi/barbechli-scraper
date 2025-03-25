@@ -6,7 +6,6 @@ import threading
 import queue
 import os
 from collections import Counter
-from scraper.scrape_ids import get_product_ids
 from data_manager import data_manager
 
 
@@ -26,7 +25,7 @@ def get_product_details(id_queue, stop_event):
     
     with sync_playwright() as p:
         # Launch the browser
-        browser = p.chromium.launch(headless=False)  # Set to True for production
+        browser = p.chromium.launch(headless=True)  
         page = browser.new_page(viewport={"width": 1000, "height": 400})
         
         # Continue processing as long as we're not stopped and there might be more IDs
