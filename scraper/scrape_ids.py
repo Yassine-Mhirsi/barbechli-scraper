@@ -7,16 +7,16 @@ import os
 from dotenv import load_dotenv
 import logging
 
-load_dotenv()
-logger = logging.getLogger(__name__)
+# load_dotenv()
+# logger = logging.getLogger(__name__)
 
-# Set browser path based on environment
-if os.getenv('IS_RENDER', 'false').lower() == 'true':
-    # For Render deployment
-    os.environ["PLAYWRIGHT_BROWSERS_PATH"] = "0"
-else:
-    # For local development
-    logger.info("Running in local development mode")
+# # Set browser path based on environment
+# if os.getenv('IS_RENDER', 'false').lower() == 'true':
+#     # For Render deployment
+#     os.environ["PLAYWRIGHT_BROWSERS_PATH"] = "0"
+# else:
+#     # For local development
+#     logger.info("Running in local development mode")
 
 def collect_ids_thread(id_queue, stop_event, params=None, start_page=1):
     """

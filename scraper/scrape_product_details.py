@@ -10,16 +10,16 @@ import os
 from collections import Counter
 from data_manager import data_manager
 
-load_dotenv()
-logger = logging.getLogger(__name__)
+# load_dotenv()
+# logger = logging.getLogger(__name__)
 
-# Set browser path based on environment
-if os.getenv('IS_RENDER', 'false').lower() == 'true':
-    # For Render deployment
-    os.environ["PLAYWRIGHT_BROWSERS_PATH"] = "0"
-else:
-    # For local development
-    logger.info("Running in local development mode")
+# # Set browser path based on environment
+# if os.getenv('IS_RENDER', 'false').lower() == 'true':
+#     # For Render deployment
+#     os.environ["PLAYWRIGHT_BROWSERS_PATH"] = "0"
+# else:
+#     # For local development
+#     logger.info("Running in local development mode")
 
 
 def get_product_details(id_queue, stop_event):

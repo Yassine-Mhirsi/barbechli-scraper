@@ -30,7 +30,6 @@ env.bak/
 venv.bak/
 
 # Configuration
-config.py
 output/
 *.json
 
