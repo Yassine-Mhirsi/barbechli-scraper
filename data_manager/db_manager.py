@@ -41,7 +41,7 @@ def init_db():
         
         # Create tables if they don't exist
         with conn.cursor() as cursor:
-            # Create products table
+            # Create products table with price_history and availability_history as JSONB
             cursor.execute("""
                 CREATE TABLE IF NOT EXISTS products (
                     id SERIAL PRIMARY KEY,
@@ -62,27 +62,9 @@ def init_db():
                     clicks_external INTEGER DEFAULT 0,
                     date_creation TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
                     last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    price_history JSONB DEFAULT '[]'::jsonb,
+                    availability_history JSONB DEFAULT '[]'::jsonb,
                     additional_data JSONB DEFAULT '{}'::jsonb
-                )
-            """)
-            
-            # Create price_history table
-            cursor.execute("""
-                CREATE TABLE IF NOT EXISTS price_history (
-                    id SERIAL PRIMARY KEY,
-                    product_id INTEGER REFERENCES products(id),
-                    price DECIMAL(10,2) NOT NULL,
-                    recorded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-                )
-            """)
-            
-            # Create availability_history table
-            cursor.execute("""
-                CREATE TABLE IF NOT EXISTS availability_history (
-                    id SERIAL PRIMARY KEY,
-                    product_id INTEGER REFERENCES products(id),
-                    availability VARCHAR(50) NOT NULL,
-                    recorded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
                 )
             """)
             
@@ -99,9 +81,6 @@ def init_db():
             
             # Create indexes for better performance
             cursor.execute("CREATE INDEX IF NOT EXISTS idx_products_source_name ON products(source_name)")
-            cursor.execute("CREATE INDEX IF NOT EXISTS idx_price_history_product_id ON price_history(product_id)")
-            cursor.execute("CREATE INDEX IF NOT EXISTS idx_price_history_recorded_at ON price_history(recorded_at)")
-            cursor.execute("CREATE INDEX IF NOT EXISTS idx_availability_history_product_id ON availability_history(product_id)")
             
             conn.commit()
             logger.info("Database tables created successfully")
@@ -182,7 +161,7 @@ def add_or_update_product(product_data):
         with conn.cursor() as cursor:
             # Check if product exists
             cursor.execute(
-                "SELECT id, current_price, availability FROM products WHERE unique_id = %s",
+                "SELECT id, current_price, availability, price_history, availability_history FROM products WHERE unique_id = %s",
                 (product_data.get("uniqueID"),)
             )
             result = cursor.fetchone()
@@ -217,7 +196,63 @@ def add_or_update_product(product_data):
             
             if result:
                 # Product exists, update it
-                product_id, old_price, old_availability = result
+                product_id, old_price, old_availability, price_history_json, availability_history_json = result
+                
+                # Parse existing history or initialize empty arrays
+                try:
+                    # Handle case where price_history might be None or already deserialized
+                    if price_history_json is None:
+                        price_history = []
+                    elif isinstance(price_history_json, str):
+                        price_history = json.loads(price_history_json)
+                    else:
+                        # Already a list or dict from psycopg2 JSONB
+                        price_history = price_history_json
+                except (TypeError, json.JSONDecodeError):
+                    logger.warning(f"Failed to parse price_history for {unique_id}, initializing empty array")
+                    price_history = []
+                
+                try:
+                    # Handle case where availability_history might be None or already deserialized
+                    if availability_history_json is None:
+                        availability_history = []
+                    elif isinstance(availability_history_json, str):
+                        availability_history = json.loads(availability_history_json)
+                    else:
+                        # Already a list or dict from psycopg2 JSONB
+                        availability_history = availability_history_json
+                except (TypeError, json.JSONDecodeError):
+                    logger.warning(f"Failed to parse availability_history for {unique_id}, initializing empty array")
+                    availability_history = []
+                
+                # Update price history if price has changed
+                if old_price != current_price:
+                    price_history.append({
+                        "date_price": current_time.isoformat(),
+                        "price": float(current_price)
+                    })
+                
+                # Update availability history if availability has changed
+                if old_availability != availability:
+                    availability_history.append({
+                        "date_availability": current_time.isoformat(),
+                        "availability": availability
+                    })
+                
+                # Import existing price and availability history from product_data if available
+                if "priceTable" in product_data and product_data["priceTable"]:
+                    # Merge with existing, avoiding duplicates based on date_price
+                    existing_dates = {item.get("date_price") for item in price_history}
+                    for price_entry in product_data["priceTable"]:
+                        if price_entry.get("date_price") not in existing_dates:
+                            price_history.append(price_entry)
+                
+                if "availabilityTable" in product_data and product_data["availabilityTable"]:
+                    # Merge with existing, avoiding duplicates based on date_availability
+                    existing_dates = {item.get("date_availability") for item in availability_history}
+                    for avail_entry in product_data["availabilityTable"]:
+                        if avail_entry.get("date_availability") not in existing_dates:
+                            availability_history.append(avail_entry)
                 
                 cursor.execute("""
                     UPDATE products 
@@ -225,61 +260,57 @@ def add_or_update_product(product_data):
                         source_name = %s, image_url = %s, currency = %s, current_price = %s,
                         brand = %s, availability = %s, link = %s, source_link = %s,
                         clicks = %s, clicks_external = %s, last_updated = %s,
-                        additional_data = %s
+                        price_history = %s, availability_history = %s, additional_data = %s
                     WHERE id = %s
                 """, (
                     title, store_label, category, subcategory, source_name, image_url,
                     currency, current_price, brand, availability, link, source_link,
-                    clicks, clicks_external, current_time, Json(additional_data), product_id
+                    clicks, clicks_external, current_time, Json(price_history), 
+                    Json(availability_history), Json(additional_data), product_id
                 ))
-                
-                # Add price history if price has changed
-                if old_price != current_price:
-                    cursor.execute(
-                        "INSERT INTO price_history (product_id, price, recorded_at) VALUES (%s, %s, %s)",
-                        (product_id, current_price, current_time)
-                    )
-                
-                # Add availability history if availability has changed
-                if old_availability != availability:
-                    cursor.execute(
-                        "INSERT INTO availability_history (product_id, availability, recorded_at) VALUES (%s, %s, %s)",
-                        (product_id, availability, current_time)
-                    )
                 
                 is_new = False
                 
             else:
+                # Initialize price and availability history
+                price_history = [{
+                    "date_price": current_time.isoformat(),
+                    "price": float(current_price)
+                }]
+                
+                availability_history = [{
+                    "date_availability": current_time.isoformat(),
+                    "availability": availability
+                }]
+                
+                # Import existing price and availability history if available
+                if "priceTable" in product_data and product_data["priceTable"]:
+                    for price_entry in product_data["priceTable"]:
+                        if price_entry.get("date_price") != current_time.isoformat():
+                            price_history.append(price_entry)
+                
+                if "availabilityTable" in product_data and product_data["availabilityTable"]:
+                    for avail_entry in product_data["availabilityTable"]:
+                        if avail_entry.get("date_availability") != current_time.isoformat():
+                            availability_history.append(avail_entry)
+                
                 # Insert new product
                 cursor.execute("""
                     INSERT INTO products (
                         unique_id, title, store_label, category, subcategory, source_name,
                         image_url, currency, current_price, brand, availability, link,
                         source_link, clicks, clicks_external, date_creation, last_updated,
-                        additional_data
-                    ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                        price_history, availability_history, additional_data
+                    ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
                     RETURNING id
                 """, (
                     unique_id, title, store_label, category, subcategory, source_name,
                     image_url, currency, current_price, brand, availability, link,
                     source_link, clicks, clicks_external, current_time, current_time,
-                    Json(additional_data)
+                    Json(price_history), Json(availability_history), Json(additional_data)
                 ))
                 
                 product_id = cursor.fetchone()[0]
-                
-                # Add initial price history
-                cursor.execute(
-                    "INSERT INTO price_history (product_id, price, recorded_at) VALUES (%s, %s, %s)",
-                    (product_id, current_price, current_time)
-                )
-                
-                # Add initial availability history
-                cursor.execute(
-                    "INSERT INTO availability_history (product_id, availability, recorded_at) VALUES (%s, %s, %s)",
-                    (product_id, availability, current_time)
-                )
-                
                 is_new = True
             
             # Update source stats
@@ -386,7 +417,8 @@ def get_all_products():
                 SELECT id, unique_id, title, store_label, category, subcategory,
                        source_name, image_url, currency, current_price, brand,
                        availability, link, source_link, clicks, clicks_external,
-                       date_creation, last_updated, additional_data
+                       date_creation, last_updated, price_history, availability_history,
+                       additional_data
                 FROM products
                 ORDER BY last_updated DESC
             """)
@@ -407,33 +439,33 @@ def get_all_products():
                 product['image'] = product.pop('image_url')
                 product['clicksExternal'] = product.pop('clicks_external')
                 
-                # Add price history
-                cursor.execute("""
-                    SELECT price, recorded_at
-                    FROM price_history
-                    WHERE product_id = %s
-                    ORDER BY recorded_at DESC
-                """, (product['id'],))
+                # Process price_history - ensure we get the full array
+                try:
+                    if product['price_history'] is None:
+                        product['priceTable'] = []
+                    elif isinstance(product['price_history'], str):
+                        product['priceTable'] = json.loads(product['price_history'])
+                    else:
+                        # Already a list from psycopg2 JSONB handling
+                        product['priceTable'] = product['price_history']
+                except (TypeError, json.JSONDecodeError):
+                    logger.warning(f"Failed to parse price_history for {product['uniqueID']}, initializing empty array")
+                    product['priceTable'] = []
+                del product['price_history']
                 
-                price_history = cursor.fetchall()
-                product['priceTable'] = [
-                    {"date_price": str(ph['recorded_at']), "price": float(ph['price'])}
-                    for ph in price_history
-                ]
-                
-                # Add availability history
-                cursor.execute("""
-                    SELECT availability, recorded_at
-                    FROM availability_history
-                    WHERE product_id = %s
-                    ORDER BY recorded_at DESC
-                """, (product['id'],))
-                
-                availability_history = cursor.fetchall()
-                product['availabilityTable'] = [
-                    {"date_availability": str(ah['recorded_at']), "availability": ah['availability']}
-                    for ah in availability_history
-                ]
+                # Process availability_history - ensure we get the full array
+                try:
+                    if product['availability_history'] is None:
+                        product['availabilityTable'] = []
+                    elif isinstance(product['availability_history'], str):
+                        product['availabilityTable'] = json.loads(product['availability_history'])
+                    else:
+                        # Already a list from psycopg2 JSONB handling
+                        product['availabilityTable'] = product['availability_history']
+                except (TypeError, json.JSONDecodeError):
+                    logger.warning(f"Failed to parse availability_history for {product['uniqueID']}, initializing empty array")
+                    product['availabilityTable'] = []
+                del product['availability_history']
                 
                 # Convert timestamps to strings
                 product['date_creation'] = str(product['date_creation'])

@@ -31,6 +31,8 @@ venv.bak/
 
 # Configuration
 config.py
+output/
+*.json
 
 # Logs
 *.log
