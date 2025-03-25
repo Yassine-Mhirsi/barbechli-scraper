@@ -2,48 +2,57 @@
 
 A comprehensive web scraping and API system that collects product data from Tunisian e-commerce websites and provides it through a REST API for Barbechli.tn's price comparison service.
 
-## Project Structure
+## Web Scraper
 
-```
-barbechli/
-├── api/                  # FastAPI application
-│   ├── app/
-│   │   ├── api/          # API routes
-│   │   │   └── v1/       # API v1 endpoints
-│   │   ├── core/         # Core configuration
-│   │   ├── db/           # Database connection
-│   │   ├── models/       # SQLAlchemy models
-│   │   └── schemas/      # Pydantic schemas
-│   ├── README.md         # API-specific README
-│   └── run.py            # Script to run the API
-├── scraper/              # Web scraping modules
-│   ├── stores/           # Store-specific scrapers
-│   ├── utils/            # Utility functions
-│   └── main.py           # Main scraping script
-├── config.py             # Configuration file
-└── README.md             # Main README file
-```
-
-## Features
+The core of the Barbechli system is a powerful web scraper built with Playwright that automatically extracts product information from multiple Tunisian e-commerce websites.
 
 ### Scraper Features
-- Multi-store scraping from major Tunisian e-commerce websites
-- Automated data extraction for products, including:
-  - Names, descriptions, and specifications
-  - Prices and price history
-  - Categories and subcategories
-  - Images and URLs
-  - Availability status
-  - Seller information
-- Scheduled scraping to keep data up-to-date
 
-### API Features
-- Product listing with filtering, sorting, and pagination
-- Advanced product search by various criteria
-- Category and subcategory browsing
-- Detailed product information with price history
-- Store/source statistics
-- Auto-generated API documentation
+- **Multi-store Collection**: Scrapes products from major Tunisian stores including Tunisianet, MyTek, Wiki, Jumia, and others
+- **Comprehensive Data Extraction**:
+  - Product names, descriptions, and specifications
+  - Current and historical prices
+  - Categories and subcategories
+  - Images and product URLs
+  - Availability status
+  - Store/seller information
+- **Automatic Data Processing**: Normalizes and standardizes data across different sources
+- **Scheduled Operation**: Runs at configurable intervals to keep product data current
+- **Price History Tracking**: Records price changes over time for trend analysis
+- **Efficient Operation**: Uses browser automation with Playwright for reliable scraping
+
+### Scraper Configuration
+
+The scraper can be configured through the `config.py` file:
+
+```python
+# How often to run the full scraping cycle (in hours)
+SCRAPE_INTERVAL = 24  
+
+# Stores to scrape (True to enable, False to disable)
+STORES = {
+    "tunisianet": True,
+    "mytek": True,
+    # Add more stores as needed
+}
+```
+
+### Running the Scraper
+
+To execute the scraper:
+
+```bash
+python -m scraper.main
+```
+
+This will start the scraping process for all enabled stores in the configuration.
+
+## REST API
+
+All data collected by the scraper is accessible through a FastAPI-based REST API. The API provides endpoints for product listing, searching, filtering, and retrieving statistical information.
+
+For detailed information about the API, including endpoints, request parameters, and response formats, please refer to the [API README](api/README.md).
+
 
 ## Technology Stack
 
@@ -64,7 +73,7 @@ barbechli/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/barbechli.git
+git clone https://github.com/Yassine-Mhirsi/barbechli-scraper.git
 cd barbechli
 ```
 
@@ -83,54 +92,8 @@ pip install -r requirements.txt
 ```
 
 4. Configure the database connection:
-   - Create a `config.py` file in the root directory
+   - Copy `config.py.example` to `config.py`
    - Add your database connection string as `NEON_URI`
-
-### Running the API
-
-Navigate to the API directory and run the application:
-```bash
-cd api
-python run.py
-```
-
-The API will be available at http://localhost:8000. You can access:
-- API documentation: http://localhost:8000/docs
-- ReDoc documentation: http://localhost:8000/redoc
-
-### Running the Scraper
-
-Execute the scraper module:
-```bash
-python -m scraper.main
-```
-
-## Documentation
-
-- API documentation is available at `/docs` endpoint when the API is running
-- The `/api/README.md` file contains detailed information about the API endpoints and usage
-
-## Project Structure
-
-```
-barbechli/
-├── api/                  # FastAPI application
-│   ├── app/
-│   │   ├── api/          # API routes
-│   │   │   └── v1/       # API v1 endpoints
-│   │   ├── core/         # Core configuration
-│   │   ├── db/           # Database connection
-│   │   ├── models/       # SQLAlchemy models
-│   │   └── schemas/      # Pydantic schemas
-│   ├── README.md         # API-specific README
-│   └── run.py            # Script to run the API
-├── scraper/              # Web scraping modules
-│   ├── stores/           # Store-specific scrapers
-│   ├── utils/            # Utility functions
-│   └── main.py           # Main scraping script
-├── config.py             # Configuration file
-└── README.md             # Main README file
-```
 
 ## Contributing
 
