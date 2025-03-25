@@ -91,3 +91,18 @@ Scraped data is stored in:
 2. JSON files (backup storage):
    - `barbechli_product_ids.json`: Contains product IDs
    - `barbechli_products_details.json`: Contains complete product details
+
+## [API](api/README.md)
+
+This project also includes a REST API component that provides access to the scraped data. The API is built with FastAPI and offers endpoints for:
+
+- Browsing products with filtering, sorting, and pagination
+- Searching products by various criteria
+- Viewing product categories and sources
+- Accessing detailed product information
+
+For more details on the API, including installation, configuration, and available endpoints, please see the [API README](api/README.md).
+
+## License
+
+[MIT License](LICENSE)
