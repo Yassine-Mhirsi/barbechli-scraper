@@ -12,7 +12,7 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler("scraper_db.log"),
+        logging.FileHandler("data_manager/scraper_db.log"),
         logging.StreamHandler()
     ]
 )

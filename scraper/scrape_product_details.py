@@ -6,8 +6,8 @@ import threading
 import queue
 import os
 from collections import Counter
-from scrape_ids import get_product_ids
-import data_manager
+from scraper.scrape_ids import get_product_ids
+from data_manager import data_manager
 
 
 def get_product_details(id_queue, stop_event):

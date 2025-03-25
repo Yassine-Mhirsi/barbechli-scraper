@@ -4,7 +4,7 @@ Test script for the database functionality.
 This script verifies that the database connection and operations work correctly.
 """
 
-import db_manager
+from data_manager import db_manager
 import time
 import uuid
 import random

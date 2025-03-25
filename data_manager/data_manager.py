@@ -2,7 +2,7 @@ import json
 import os
 from collections import Counter
 from typing import Dict, List, Any
-import db_manager
+from data_manager import db_manager
 
 def load_existing_data():
     """
@@ -16,9 +16,9 @@ def load_existing_data():
     # Initialize with empty structure
     existing_data = {"stats": {"total_products": 0, "total_sources": 0, "sources": []}, "products": []}
     
-    if os.path.exists("barbechli_products_details.json"):
+    if os.path.exists("output/barbechli_products_details.json"):
         try:
-            with open("barbechli_products_details.json", "r", encoding="utf-8") as f:
+            with open("output/barbechli_products_details.json", "r", encoding="utf-8") as f:
                 existing_data = json.load(f)
             print(f"Loaded {len(existing_data['products'])} existing products")
         except Exception as e:
@@ -164,9 +164,9 @@ def save_products_data(products_dict, is_final=False, is_incremental=False):
     products_list = list(products_dict.values())
     
     # For incremental saves, try to reuse existing stats if available
-    if is_incremental and os.path.exists("barbechli_products_details.json"):
+    if is_incremental and os.path.exists("output/barbechli_products_details.json"):
         try:
-            with open("barbechli_products_details.json", "r", encoding="utf-8") as f:
+            with open("output/barbechli_products_details.json", "r", encoding="utf-8") as f:
                 existing_data = json.load(f)
             
             # Update only the products list, keeping existing stats
@@ -191,11 +191,11 @@ def save_products_data(products_dict, is_final=False, is_incremental=False):
         }
     
     # Save to JSON file (for backward compatibility)
-    with open("barbechli_products_details.json", "w", encoding="utf-8") as f:
+    with open("output/barbechli_products_details.json", "w", encoding="utf-8") as f:
         json.dump(final_data, f, indent=2, ensure_ascii=False)
     
     if is_final:
-        print(f"All product details saved to barbechli_products_details.json")
+        print(f"All product details saved to output/barbechli_products_details.json")
         print(f"Total products: {final_data['stats']['total_products']}, Total sources: {final_data['stats']['total_sources']}")
         
     elif not is_incremental:

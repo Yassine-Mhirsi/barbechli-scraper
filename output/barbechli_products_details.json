@@ -1,27 +1,32 @@
 {
   "stats": {
-    "total_products": 1249,
-    "total_sources": 8,
+    "total_products": 1271,
+    "total_sources": 9,
     "sources": [
       {
         "name": "tunisianet",
         "products": 562,
-        "percentage": 45.0
+        "percentage": 44.22
       },
       {
         "name": "technopro_online",
         "products": 346,
-        "percentage": 27.7
+        "percentage": 27.22
       },
       {
         "name": "mytek",
         "products": 243,
-        "percentage": 19.46
+        "percentage": 19.12
       },
       {
         "name": "mediavision",
         "products": 90,
-        "percentage": 7.21
+        "percentage": 7.08
+      },
+      {
+        "name": "skymil_informatique",
+        "products": 22,
+        "percentage": 1.73
       },
       {
         "name": "bstore",
@@ -462,8 +467,8 @@
       "source_link": "https://www.tunisianet.com.tn/",
       "brand": "samsung",
       "availability": "on_stock",
-      "clicks": 31,
-      "clicksExternal": 13,
+      "clicks": 36,
+      "clicksExternal": 14,
       "priceTable": [
         {
           "date_price": "2025-01-16T13:33:56Z",
@@ -490,8 +495,8 @@
       "price": 219.0,
       "price_min": 209,
       "price_max": 219,
-      "price_drop": 0,
-      "price_drop_percent": 0,
+      "price_drop": -10.0,
+      "price_drop_percent": -4.785,
       "price_week_changed": "no",
       "price_week_drop": 0,
       "price_week_drop_percent": 0,
@@ -534,8 +539,8 @@
       "price": 3419.0,
       "price_min": 3419,
       "price_max": 3419,
-      "price_drop": 0,
-      "price_drop_percent": 0,
+      "price_drop": 0.0,
+      "price_drop_percent": 0.0,
       "price_week_changed": "no",
       "price_week_drop": 0,
       "price_week_drop_percent": 0,
@@ -574,8 +579,8 @@
       "price": 1039.0,
       "price_min": 945,
       "price_max": 1039,
-      "price_drop": 0,
-      "price_drop_percent": 0,
+      "price_drop": -94.0,
+      "price_drop_percent": -9.947,
       "price_week_changed": "no",
       "price_week_drop": 0,
       "price_week_drop_percent": 0,
@@ -642,19 +647,19 @@
       "price": 199.0,
       "price_min": 199,
       "price_max": 229,
-      "price_drop": 0,
-      "price_drop_percent": 0,
+      "price_drop": 10.0,
+      "price_drop_percent": 4.785,
       "price_week_changed": "no",
       "price_week_drop": 0,
       "price_week_drop_percent": 0,
-      "price_deal": "no",
+      "price_deal": "yes",
       "price_hot_deal": "no",
       "price_top_deal": "no",
       "link": "https://www.tunisianet.com.tn/ecran-pc-tunisie/74600-ecran-gaming-redragon-thugga-215-full-hd-va-100hz.html",
       "source_link": "https://www.tunisianet.com.tn/",
       "brand": "redragon",
       "availability": "on_stock",
-      "clicks": 17,
+      "clicks": 19,
       "clicksExternal": 9,
       "priceTable": [
         {
@@ -702,7 +707,7 @@
       "source_link": "https://www.tunisianet.com.tn/",
       "brand": "dell",
       "availability": "on_stock",
-      "clicks": 12,
+      "clicks": 14,
       "clicksExternal": 0,
       "priceTable": [
         {
@@ -734,12 +739,12 @@
       "price": 3159.0,
       "price_min": 3089,
       "price_max": 3459,
-      "price_drop": 0,
-      "price_drop_percent": 0,
+      "price_drop": 70.0,
+      "price_drop_percent": 2.168,
       "price_week_changed": "no",
       "price_week_drop": 0,
       "price_week_drop_percent": 0,
-      "price_deal": "no",
+      "price_deal": "yes",
       "price_hot_deal": "no",
       "price_top_deal": "no",
       "link": "https://www.tunisianet.com.tn/pc-portable-tunisie/76831-pc-portable-msi-cyborg-15-a13ve-i5-13420h-rtx-4050-6g-24-go-512-go-ssd-windows-11.html",
@@ -870,11 +875,11 @@
       "source_link": "https://www.tunisianet.com.tn/",
       "brand": "lenovo",
       "availability": "on_stock",
-      "clicks": 14,
+      "clicks": 15,
       "clicksExternal": 2,
       "priceTable": [
         {
-          "date_price": "2025-03-24T22:07:04Z",
+          "date_price": "2025-03-24T22:08:01Z",
           "price": 2699.0
         },
         {
@@ -947,14 +952,14 @@
       "source_name": "tunisianet",
       "image": "https://barbechli.tn/images/product/5f819d8f35cdd7bdef1238fec2f9ee97.jpg",
       "currency": "TND",
-      "price": 2099.0,
-      "price_min": 2099.0,
+      "price": 1999.0,
+      "price_min": 1999.0,
       "price_max": 2149.0,
-      "price_drop": 50.0,
-      "price_drop_percent": 2.327,
+      "price_drop": 100.0,
+      "price_drop_percent": 4.764,
       "price_week_changed": "yes",
-      "price_week_drop": 50.0,
-      "price_week_drop_percent": 2.327,
+      "price_week_drop": 150.0,
+      "price_week_drop_percent": 6.98,
       "price_deal": "yes",
       "price_hot_deal": "yes",
       "price_top_deal": "yes",
@@ -962,9 +967,13 @@
       "source_link": "https://www.tunisianet.com.tn/",
       "brand": "lenovo",
       "availability": "on_stock",
-      "clicks": 15,
+      "clicks": 16,
       "clicksExternal": 0,
       "priceTable": [
+        {
+          "date_price": "2025-03-24T22:07:37Z",
+          "price": 1999.0
+        },
         {
           "date_price": "2025-03-21T22:14:26Z",
           "price": 2099.0
@@ -66469,6 +66478,898 @@
         }
       ],
       "date_creation": "2023-11-04T01:12:15Z"
+    },
+    {
+      "uniqueID": "48024714494a4870b166718ce6cdda3f",
+      "title": "Asus Intel Pentium| UHD Graphic | 8Go | 32 Go",
+      "store_label": "Skymil Informatique",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "skymil_informatique",
+      "image": "https://barbechli.tn/images/product/48024714494a4870b166718ce6cdda3f.jpg",
+      "currency": "TND",
+      "price": 1129.0,
+      "price_min": 1129,
+      "price_max": 1129,
+      "price_drop": 0.0,
+      "price_drop_percent": 0.0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://skymil-informatique.com/pc-portable-pro/10710-asus-intel-pentium-uhd-graphic-8go-32-go.html",
+      "source_link": "https://skymil-informatique.com/",
+      "brand": "na",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-02-14T01:12:26Z",
+          "price": 1129.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-02-14T01:12:26Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2025-02-14T01:12:26Z"
+    },
+    {
+      "uniqueID": "88fe906fb3b66b83ad94562caab5323e",
+      "title": "Lenovo ThinkBook 16 G5 IRL | i5-13420H | 16GB...",
+      "store_label": "Skymil Informatique",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "skymil_informatique",
+      "image": "https://barbechli.tn/images/product/88fe906fb3b66b83ad94562caab5323e.jpg",
+      "currency": "TND",
+      "price": 2149.0,
+      "price_min": 2149,
+      "price_max": 2149,
+      "price_drop": 0.0,
+      "price_drop_percent": 0.0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://skymil-informatique.com/pc-portable-pro/11270-lenovo-thinkbook-16-g5-irl-i5-13420h-16gb-ddr5-512-gb-ssd.html",
+      "source_link": "https://skymil-informatique.com/",
+      "brand": "na",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-03-01T01:06:06Z",
+          "price": 2149.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-03-01T01:06:06Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2025-03-01T01:06:06Z"
+    },
+    {
+      "uniqueID": "b5a25bd049994f028eee8d96f5cb6c4f",
+      "title": "ASUS I5-1335U | UHD Graphic | 16Go | 512Go",
+      "store_label": "Skymil Informatique",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "skymil_informatique",
+      "image": "https://barbechli.tn/images/product/b5a25bd049994f028eee8d96f5cb6c4f.jpg",
+      "currency": "TND",
+      "price": 2349.0,
+      "price_min": 2349,
+      "price_max": 2349,
+      "price_drop": 0.0,
+      "price_drop_percent": 0.0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://skymil-informatique.com/pc-portable-pro/9351-asus-i5-1335u-uhd-graphic-16go-512go-.html",
+      "source_link": "https://skymil-informatique.com/",
+      "brand": "na",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-02-14T01:12:28Z",
+          "price": 2349.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-02-14T01:12:28Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2025-02-14T01:12:28Z"
+    },
+    {
+      "uniqueID": "c12642fcbf2ce996d16cb4f3c1ca46b5",
+      "title": "Lenovo ThinkPad E16 | Ultra 7 155H | 16GB DDR5...",
+      "store_label": "Skymil Informatique",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "skymil_informatique",
+      "image": "https://barbechli.tn/images/product/c12642fcbf2ce996d16cb4f3c1ca46b5.jpg",
+      "currency": "TND",
+      "price": 3199.0,
+      "price_min": 3199,
+      "price_max": 3199,
+      "price_drop": 0.0,
+      "price_drop_percent": 0.0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://skymil-informatique.com/pc-portable-pro/11268-lenovo-thinkpad-e16-ultra-7-155h-16gb-ddr5-512-gb-ssd.html",
+      "source_link": "https://skymil-informatique.com/",
+      "brand": "na",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-03-01T01:06:08Z",
+          "price": 3199.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-03-01T01:06:08Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2025-03-01T01:06:08Z"
+    },
+    {
+      "uniqueID": "dfa943e50586cb48cbb713d01333a85d",
+      "title": "ASUS i7-1355U | Iris Xᵉ Graphic | 16Go | 1 To",
+      "store_label": "Skymil Informatique",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "skymil_informatique",
+      "image": "https://barbechli.tn/images/product/dfa943e50586cb48cbb713d01333a85d.jpg",
+      "currency": "TND",
+      "price": 4759.0,
+      "price_min": 4759,
+      "price_max": 4759,
+      "price_drop": 0.0,
+      "price_drop_percent": 0.0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://skymil-informatique.com/pc-portable-pro/10713-asus-i7-1355u-iris-x-graphic-16go-1-to-.html",
+      "source_link": "https://skymil-informatique.com/",
+      "brand": "na",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-02-14T01:12:29Z",
+          "price": 4759.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-02-14T01:12:29Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2025-02-14T01:12:29Z"
+    },
+    {
+      "uniqueID": "b08b16a981a85963a8ee5ab16e43a215",
+      "title": "Lenovo ThinkPad T14s Gen 5 | Ultra 7 155U |...",
+      "store_label": "Skymil Informatique",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "skymil_informatique",
+      "image": "https://barbechli.tn/images/product/b08b16a981a85963a8ee5ab16e43a215.jpg",
+      "currency": "TND",
+      "price": 5999.0,
+      "price_min": 5999,
+      "price_max": 5999,
+      "price_drop": 0.0,
+      "price_drop_percent": 0.0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://skymil-informatique.com/pc-portable-pro/11275-lenovo-thinkpad-t14s-gen-5-ultra-7-155u-32gb-ddr5-1-tb-ssd-windows-11.html",
+      "source_link": "https://skymil-informatique.com/",
+      "brand": "na",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-03-01T01:06:09Z",
+          "price": 5999.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-03-01T01:06:09Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2025-03-01T01:06:09Z"
+    },
+    {
+      "uniqueID": "1295e860bbdd16b5e293bc535f442e70",
+      "title": "LENOVO ThinkPad T14 Gen 5 | Ultra 5 135U |...",
+      "store_label": "Skymil Informatique",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "skymil_informatique",
+      "image": "https://barbechli.tn/images/product/1295e860bbdd16b5e293bc535f442e70.jpg",
+      "currency": "TND",
+      "price": 7559.0,
+      "price_min": 7559,
+      "price_max": 7559,
+      "price_drop": 0.0,
+      "price_drop_percent": 0.0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://skymil-informatique.com/pc-portable-pro/11274-lenovo-thinkpad-t14-gen-5-ultra-5-135u-16gb-ddr5-1-tb-ssd-windows-11.html",
+      "source_link": "https://skymil-informatique.com/",
+      "brand": "na",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-03-01T01:06:10Z",
+          "price": 7559.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-03-01T01:06:10Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2025-03-01T01:06:10Z"
+    },
+    {
+      "uniqueID": "6cc0628942e97a8377ae815898e284b1",
+      "title": "DELL Vostro 3530 | i3-1305U | 8Go | 512Go",
+      "store_label": "Skymil Informatique",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "skymil_informatique",
+      "image": "https://barbechli.tn/images/product/6cc0628942e97a8377ae815898e284b1.jpg",
+      "currency": "TND",
+      "price": 1169.0,
+      "price_min": 1169,
+      "price_max": 1169,
+      "price_drop": 0.0,
+      "price_drop_percent": 0.0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://skymil-informatique.com/pc-portable-pro/10262-dell-vostro-3530-i3-1305u-8go-512go-.html",
+      "source_link": "https://skymil-informatique.com/",
+      "brand": "na",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-02-14T01:12:26Z",
+          "price": 1169.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-02-14T01:12:26Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2025-02-14T01:12:26Z"
+    },
+    {
+      "uniqueID": "f290bafcc2288375b3098490f7fa78f0",
+      "title": "DELL VOSTRO 3520 | i5-1235U | 8GB | 512GB",
+      "store_label": "Skymil Informatique",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "skymil_informatique",
+      "image": "https://barbechli.tn/images/product/f290bafcc2288375b3098490f7fa78f0.jpg",
+      "currency": "TND",
+      "price": 1469.0,
+      "price_min": 1469,
+      "price_max": 1469,
+      "price_drop": 0.0,
+      "price_drop_percent": 0.0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://skymil-informatique.com/pc-portable-pro/9224-dell-vostro-3520-i5-1235u-8gb-512gb-.html",
+      "source_link": "https://skymil-informatique.com/",
+      "brand": "na",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-02-14T01:12:26Z",
+          "price": 1469.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-02-14T01:12:26Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2025-02-14T01:12:26Z"
+    },
+    {
+      "uniqueID": "54ec1254cba7a6bce591e5a54bc49f1c",
+      "title": "LENOVO i5-13420H | UHD Graphic | 8 Go | 512 Go",
+      "store_label": "Skymil Informatique",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "skymil_informatique",
+      "image": "https://barbechli.tn/images/product/54ec1254cba7a6bce591e5a54bc49f1c.jpg",
+      "currency": "TND",
+      "price": 1595.0,
+      "price_min": 1595,
+      "price_max": 1595,
+      "price_drop": 0.0,
+      "price_drop_percent": 0.0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://skymil-informatique.com/pc-portable-pro/10843-lenovo-i5-13420h-uhd-graphic-8-go-512-go-.html",
+      "source_link": "https://skymil-informatique.com/",
+      "brand": "na",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-02-14T01:12:27Z",
+          "price": 1595.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-02-14T01:12:27Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2025-02-14T01:12:27Z"
+    },
+    {
+      "uniqueID": "86dc8e0e30e85fa07df2b02c5a4fdd86",
+      "title": "ASUS i7-1355U | UHD Graphic | 16Go | 512Go",
+      "store_label": "Skymil Informatique",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "skymil_informatique",
+      "image": "https://barbechli.tn/images/product/86dc8e0e30e85fa07df2b02c5a4fdd86.jpg",
+      "currency": "TND",
+      "price": 2199.0,
+      "price_min": 2199,
+      "price_max": 2199,
+      "price_drop": 0.0,
+      "price_drop_percent": 0.0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://skymil-informatique.com/pc-portable-pro/9718-asus-i7-1355u-uhd-graphic-16go-512go-.html",
+      "source_link": "https://skymil-informatique.com/",
+      "brand": "na",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-02-14T01:12:27Z",
+          "price": 2199.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-02-14T01:12:27Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2025-02-14T01:12:27Z"
+    },
+    {
+      "uniqueID": "3e2db232b534b6e30069401438afa7a2",
+      "title": "LENOVO ThinkPad X1 Carbon Gen 12 | Ultra 7 155U...",
+      "store_label": "Skymil Informatique",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "skymil_informatique",
+      "image": "https://barbechli.tn/images/product/3e2db232b534b6e30069401438afa7a2.jpg",
+      "currency": "TND",
+      "price": 7499.0,
+      "price_min": 7499.0,
+      "price_max": 7559,
+      "price_drop": 60.0,
+      "price_drop_percent": 0.794,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://skymil-informatique.com/pc-portable-pro/11273-lenovo-thinkpad-x1-carbon-gen-12-ultra-7-155u-32gb-ddr5-1-tb-ssd-windows-11.html",
+      "source_link": "https://skymil-informatique.com/",
+      "brand": "na",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-03-04T22:50:26Z",
+          "price": 7499.0
+        },
+        {
+          "date_price": "2025-03-01T01:06:10Z",
+          "price": 7559.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-03-01T01:06:10Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2025-03-01T01:06:10Z"
+    },
+    {
+      "uniqueID": "a3a5abf375d6f10822e49138d0d7498f",
+      "title": "DELL Vostro 3530 | I5-1334U | 8Go | 512Go",
+      "store_label": "Skymil Informatique",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "skymil_informatique",
+      "image": "https://barbechli.tn/images/product/a3a5abf375d6f10822e49138d0d7498f.jpg",
+      "currency": "TND",
+      "price": 1589.0,
+      "price_min": 1589,
+      "price_max": 1589,
+      "price_drop": 0.0,
+      "price_drop_percent": 0.0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://skymil-informatique.com/pc-portable-pro/10263-dell-vostro-3530-i5-1334u-8go-512go.html",
+      "source_link": "https://skymil-informatique.com/",
+      "brand": "na",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-02-14T01:12:26Z",
+          "price": 1589.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-02-14T01:12:26Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2025-02-14T01:12:26Z"
+    },
+    {
+      "uniqueID": "89ec798cbf25d3b86badd9377cd304bb",
+      "title": "ACER I5-12450H | UHD GRAPHIC | 16 GO | 512 GO",
+      "store_label": "Skymil Informatique",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "skymil_informatique",
+      "image": "https://barbechli.tn/images/product/89ec798cbf25d3b86badd9377cd304bb.jpg",
+      "currency": "TND",
+      "price": 1699.0,
+      "price_min": 1699,
+      "price_max": 1890,
+      "price_drop": 191.0,
+      "price_drop_percent": 10.106,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "yes",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://skymil-informatique.com/pc-portable-pro/10111-acer-i5-12450h-uhd-graphic-16-go-512-go.html",
+      "source_link": "https://skymil-informatique.com/",
+      "brand": "na",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-03-05T22:13:33Z",
+          "price": 1699.0
+        },
+        {
+          "date_price": "2025-03-01T01:06:06Z",
+          "price": 1890.0
+        },
+        {
+          "date_price": "2025-02-14T01:12:26Z",
+          "price": 1699.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-02-14T01:12:26Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2025-02-14T01:12:26Z"
+    },
+    {
+      "uniqueID": "a7b1c09b35a6847be8d7050fb55b52c1",
+      "title": "ASUS i7-1355U | UHD Graphic | 16Go | 512Go SSD",
+      "store_label": "Skymil Informatique",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "skymil_informatique",
+      "image": "https://barbechli.tn/images/product/a7b1c09b35a6847be8d7050fb55b52c1.jpg",
+      "currency": "TND",
+      "price": 2499.0,
+      "price_min": 2499,
+      "price_max": 2499,
+      "price_drop": 0.0,
+      "price_drop_percent": 0.0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://skymil-informatique.com/pc-portable-pro/10712-asus-i7-1355u-uhd-graphic-16go-512go-ssd.html",
+      "source_link": "https://skymil-informatique.com/",
+      "brand": "na",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-02-14T01:12:28Z",
+          "price": 2499.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-02-14T01:12:28Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2025-02-14T01:12:28Z"
+    },
+    {
+      "uniqueID": "e102368f58f19c42fcc39de99e93d779",
+      "title": "LENOVO ThinkPad L13 | Ultra 7 165U | 32GB DDR5...",
+      "store_label": "Skymil Informatique",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "skymil_informatique",
+      "image": "https://barbechli.tn/images/product/e102368f58f19c42fcc39de99e93d779.jpg",
+      "currency": "TND",
+      "price": 5999.0,
+      "price_min": 5999,
+      "price_max": 5999,
+      "price_drop": 0.0,
+      "price_drop_percent": 0.0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://skymil-informatique.com/pc-portable-pro/11272-lenovo-thinkpad-l13-ultra-7-165u-32gb-ddr5-1-tb-ssd-windows-11-.html",
+      "source_link": "https://skymil-informatique.com/",
+      "brand": "na",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-03-01T01:06:11Z",
+          "price": 5999.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-03-01T01:06:11Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2025-03-01T01:06:11Z"
+    },
+    {
+      "uniqueID": "8ca8cd2345f6bd8419631b03a7144a7f",
+      "title": "Lenovo ThinkPad E16 | Ultra 5 125U | 8GB DDR5...",
+      "store_label": "Skymil Informatique",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "skymil_informatique",
+      "image": "https://barbechli.tn/images/product/8ca8cd2345f6bd8419631b03a7144a7f.jpg",
+      "currency": "TND",
+      "price": 2849.0,
+      "price_min": 2849,
+      "price_max": 2849,
+      "price_drop": 0.0,
+      "price_drop_percent": 0.0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://skymil-informatique.com/pc-portable-pro/11267-lenovo-thinkpad-e16-ultra-5-125u-8gb-ddr5-512-gb-ssd.html",
+      "source_link": "https://skymil-informatique.com/",
+      "brand": "na",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-03-01T01:06:08Z",
+          "price": 2849.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-03-01T01:06:08Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2025-03-01T01:06:08Z"
+    },
+    {
+      "uniqueID": "804d72711ce9c20896a3c6646a30c1d2",
+      "title": "Lenovo ThinkBook 16p G5 IRX | I7-14650HX | RTX...",
+      "store_label": "Skymil Informatique",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "skymil_informatique",
+      "image": "https://barbechli.tn/images/product/804d72711ce9c20896a3c6646a30c1d2.jpg",
+      "currency": "TND",
+      "price": 5885.0,
+      "price_min": 5885,
+      "price_max": 5885,
+      "price_drop": 0.0,
+      "price_drop_percent": 0.0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://skymil-informatique.com/pc-portable-pro/11269-lenovo-thinkbook-16p-g5-irx-i7-14650hx-rtx-4060-8gb-16gb-ddr5-512-gb-ssd.html",
+      "source_link": "https://skymil-informatique.com/",
+      "brand": "na",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-03-01T01:06:10Z",
+          "price": 5885.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-03-01T01:06:10Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2025-03-01T01:06:10Z"
+    },
+    {
+      "uniqueID": "e8a04435428150837d723520ed705378",
+      "title": "LENOVO Celeron N4500 | 8Go | 256G SSD - Bleu",
+      "store_label": "Skymil Informatique",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "skymil_informatique",
+      "image": "https://barbechli.tn/images/product/e8a04435428150837d723520ed705378.jpg",
+      "currency": "TND",
+      "price": 689.0,
+      "price_min": 689,
+      "price_max": 689,
+      "price_drop": 0.0,
+      "price_drop_percent": 0.0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://skymil-informatique.com/pc-portable-pro/11266-lenovo-celeron-n4500-8go-256g-ssd-bleu.html",
+      "source_link": "https://skymil-informatique.com/",
+      "brand": "na",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-03-01T01:06:04Z",
+          "price": 689.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-03-01T01:06:04Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2025-03-01T01:06:04Z"
+    },
+    {
+      "uniqueID": "1d87c3167b21cbd6dddce96d88938f81",
+      "title": "Lenovo ThinkBook 16 G5 IRL | i7-13700H | 16GB...",
+      "store_label": "Skymil Informatique",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "skymil_informatique",
+      "image": "https://barbechli.tn/images/product/1d87c3167b21cbd6dddce96d88938f81.jpg",
+      "currency": "TND",
+      "price": 2530.0,
+      "price_min": 2530,
+      "price_max": 2530,
+      "price_drop": 0.0,
+      "price_drop_percent": 0.0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://skymil-informatique.com/pc-portable-pro/11271-lenovo-thinkbook-16-g5-irl-i7-13700h-16gb-ddr5-512-gb-ssd.html",
+      "source_link": "https://skymil-informatique.com/",
+      "brand": "na",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-03-01T01:06:07Z",
+          "price": 2530.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-03-01T01:06:07Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2025-03-01T01:06:07Z"
+    },
+    {
+      "uniqueID": "2569ca42efb879f76db311ac821adf68",
+      "title": "ASUS Ultra 7 150U | Iris Xe Graphic | 16Go | 1 To",
+      "store_label": "Skymil Informatique",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "skymil_informatique",
+      "image": "https://barbechli.tn/images/product/2569ca42efb879f76db311ac821adf68.jpg",
+      "currency": "TND",
+      "price": 4149.0,
+      "price_min": 4149,
+      "price_max": 4149,
+      "price_drop": 0.0,
+      "price_drop_percent": 0.0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://skymil-informatique.com/pc-portable-pro/11050-asus-ultra-7-150u-iris-xe-graphic-16go-1-to-.html",
+      "source_link": "https://skymil-informatique.com/",
+      "brand": "na",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-02-14T01:12:28Z",
+          "price": 4149.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-02-14T01:12:28Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2025-02-14T01:12:28Z"
+    },
+    {
+      "uniqueID": "8be4ec7000dab8a7c1bfb3115f899fef",
+      "title": "ASUS i7-1355U | RTX 2050 | 16Go | 1 To",
+      "store_label": "Skymil Informatique",
+      "category": "computers",
+      "subcategory": "laptops",
+      "source_name": "skymil_informatique",
+      "image": "https://barbechli.tn/images/product/8be4ec7000dab8a7c1bfb3115f899fef.jpg",
+      "currency": "TND",
+      "price": 2959.0,
+      "price_min": 2959,
+      "price_max": 2959,
+      "price_drop": 0.0,
+      "price_drop_percent": 0.0,
+      "price_week_changed": "no",
+      "price_week_drop": 0,
+      "price_week_drop_percent": 0,
+      "price_deal": "no",
+      "price_hot_deal": "no",
+      "price_top_deal": "no",
+      "link": "https://skymil-informatique.com/pc-portable-pro/11049-asus-i7-1355u-rtx-2050-16go-1-to-.html",
+      "source_link": "https://skymil-informatique.com/",
+      "brand": "na",
+      "availability": "on_stock",
+      "clicks": 0,
+      "clicksExternal": 0,
+      "priceTable": [
+        {
+          "date_price": "2025-02-14T01:12:27Z",
+          "price": 2959.0
+        }
+      ],
+      "availabilityTable": [
+        {
+          "date_availability": "2025-02-14T01:12:27Z",
+          "availability": "on_stock"
+        }
+      ],
+      "date_creation": "2025-02-14T01:12:27Z"
     }
   ]
 }

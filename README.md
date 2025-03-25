@@ -89,8 +89,8 @@ Available parameters:
 Scraped data is stored in:
 1. PostgreSQL database (primary storage)
 2. JSON files (backup storage):
-   - `barbechli_product_ids.json`: Contains product IDs
-   - `barbechli_products_details.json`: Contains complete product details
+   - `output/barbechli_product_ids.json`: Contains product IDs
+   - `output/barbechli_products_details.json`: Contains complete product details
 
 ## [API](api/README.md)
 

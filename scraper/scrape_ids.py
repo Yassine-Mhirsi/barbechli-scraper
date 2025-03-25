@@ -104,7 +104,7 @@ def get_product_ids(params=None, start_page=1):
                     all_unique_ids.extend(page_unique_ids)
                     
                     # Save progress after each page
-                    with open("barbechli_product_ids.json", "w", encoding="utf-8") as f:
+                    with open("output/barbechli_product_ids.json", "w", encoding="utf-8") as f:
                         json.dump(all_unique_ids, f, indent=2, ensure_ascii=False)
                     print(f"Total product IDs collected so far: {len(all_unique_ids)}")
                     
@@ -120,9 +120,9 @@ def get_product_ids(params=None, start_page=1):
         
         # Final save of all product IDs
         if all_unique_ids:
-            with open("barbechli_product_ids.json", "w", encoding="utf-8") as f:
+            with open("output/barbechli_product_ids.json", "w", encoding="utf-8") as f:
                 json.dump(all_unique_ids, f, indent=2, ensure_ascii=False)
-            print(f"All product IDs saved to barbechli_product_ids.json")
+            print(f"All product IDs saved to output/barbechli_product_ids.json")
             print(f"Total product IDs collected: {len(all_unique_ids)}")
         else:
             print("No product IDs were collected")
@@ -236,9 +236,9 @@ def collect_ids_thread(id_queue, stop_event, params=None, start_page=1):
                         # Save all IDs to a single backup file periodically
                         if current_page % 3 == 0:  # Save every 3 pages to avoid excessive disk writes
                             try:
-                                with open("barbechli_product_ids.json", "w", encoding="utf-8") as f:
+                                with open("output/barbechli_product_ids.json", "w", encoding="utf-8") as f:
                                     json.dump(all_ids, f, indent=2, ensure_ascii=False)
-                                print(f"Saved backup of {len(all_ids)} IDs to barbechli_product_ids.json")
+                                print(f"Saved backup of {len(all_ids)} IDs to output/barbechli_product_ids.json")
                             except Exception as e:
                                 print(f"Error saving IDs to backup file: {e}")
                         
@@ -251,9 +251,9 @@ def collect_ids_thread(id_queue, stop_event, params=None, start_page=1):
             # Save final backup of all IDs
             if all_ids:
                 try:
-                    with open("barbechli_product_ids.json", "w", encoding="utf-8") as f:
+                    with open("output/barbechli_product_ids.json", "w", encoding="utf-8") as f:
                         json.dump(all_ids, f, indent=2, ensure_ascii=False)
-                    print(f"Saved final backup of {len(all_ids)} IDs to barbechli_product_ids.json")
+                    print(f"Saved final backup of {len(all_ids)} IDs to output/barbechli_product_ids.json")
                 except Exception as e:
                     print(f"Error saving IDs to backup file: {e}")
             

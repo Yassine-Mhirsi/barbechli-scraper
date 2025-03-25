@@ -1,8 +1,8 @@
 import threading
 import time
 import queue
-from scrape_product_details import get_product_details
-from scrape_ids import collect_ids_thread   
+from scraper.scrape_product_details import get_product_details
+from scraper.scrape_ids import collect_ids_thread   
 
 
 def main():
@@ -14,7 +14,7 @@ def main():
         "text": "ordinateur portable",
         "category": "computers",
         "subcategories": "laptops",
-        "sources": "tunisianet"
+        "sources": "skymil_informatique"
     }
     
     # Create a queue for passing product IDs between threads
