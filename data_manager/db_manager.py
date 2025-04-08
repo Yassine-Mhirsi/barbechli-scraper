@@ -6,7 +6,6 @@ import json
 import time
 import logging
 from datetime import datetime
-from config import NEON_URL
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -36,7 +35,7 @@ def init_db():
     
     try:
         # Create a connection pool with min 1, max 10 connections
-        connection_pool = pool.SimpleConnectionPool(1, 10,NEON_URI,NEON_URL)
+        connection_pool = pool.SimpleConnectionPool(1, 10,NEON_URI)
         logger.info("Database connection pool created successfully")
         
         # Get a connection from the pool
