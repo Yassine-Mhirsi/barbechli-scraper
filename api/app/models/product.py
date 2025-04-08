@@ -1,6 +1,5 @@
-from sqlalchemy import Column, Integer, String, Float, DateTime, ForeignKey, Text, Boolean
+from sqlalchemy import Column, Integer, String, Float, DateTime, Text
 from sqlalchemy.dialects.postgresql import JSONB
-from sqlalchemy.orm import relationship
 from datetime import datetime
 
 from app.db.database import Base
@@ -27,46 +26,12 @@ class Product(Base):
     clicks_external = Column(Integer, default=0)
     date_creation = Column(DateTime, default=datetime.utcnow)
     last_updated = Column(DateTime, default=datetime.utcnow)
+    price_history = Column(JSONB, default=[])
+    availability_history = Column(JSONB, default=[])
     additional_data = Column(JSONB, default={})
-    
-    # Relationships
-    price_history = relationship("PriceHistory", back_populates="product", cascade="all, delete-orphan")
-    availability_history = relationship("AvailabilityHistory", back_populates="product", cascade="all, delete-orphan")
     
     def __repr__(self):
         return f"<Product {self.unique_id}: {self.title}>"
-
-
-class PriceHistory(Base):
-    """SQLAlchemy model for price_history table"""
-    __tablename__ = "price_history"
-    
-    id = Column(Integer, primary_key=True, index=True)
-    product_id = Column(Integer, ForeignKey("products.id"), nullable=False)
-    price = Column(Float, nullable=False)
-    recorded_at = Column(DateTime, default=datetime.utcnow)
-    
-    # Relationships
-    product = relationship("Product", back_populates="price_history")
-    
-    def __repr__(self):
-        return f"<PriceHistory {self.product_id}: {self.price} at {self.recorded_at}>"
-
-
-class AvailabilityHistory(Base):
-    """SQLAlchemy model for availability_history table"""
-    __tablename__ = "availability_history"
-    
-    id = Column(Integer, primary_key=True, index=True)
-    product_id = Column(Integer, ForeignKey("products.id"), nullable=False)
-    availability = Column(String(50), nullable=False)
-    recorded_at = Column(DateTime, default=datetime.utcnow)
-    
-    # Relationships
-    product = relationship("Product", back_populates="availability_history")
-    
-    def __repr__(self):
-        return f"<AvailabilityHistory {self.product_id}: {self.availability} at {self.recorded_at}>"
 
 
 class SourceStats(Base):
