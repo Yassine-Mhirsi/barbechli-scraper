@@ -4,7 +4,7 @@ A specialized web scraping system for collecting product data from Tunisian e-co
 
 ## Features
 
-- **Multi-store Scraping**: Collect product data from major Tunisian e-stores including Tunisianet, MyTek, Wiki, Jumia, and more
+- **Multi-store Scraping**: Collect product data from major Tunisian e-stores including Tunisianet, MyTek, and more
 - **Concurrent Processing**: Uses threading for simultaneous collection of product IDs and details
 - **Data Persistence**: Stores scraped data in both PostgreSQL database and JSON files
 - **Historical Price Tracking**: Records price changes over time
@@ -32,12 +32,6 @@ pip install -r requirements.txt
 3. Install Playwright browsers
 ```bash
 playwright install
-```
-
-4. Configure the application
-```bash
-cp config.py.example config.py
-# Edit config.py with your database credentials and scraper settings
 ```
 
 ## Usage
@@ -82,7 +76,6 @@ Available parameters:
 - `data_manager.py`: Manages product data formatting and persistence
 - `db_manager.py`: Handles database operations
 - `main.py`: Main entry point that coordinates the scraping processes
-- `config.py`: Configuration settings
 
 ## Data Storage
 
@@ -94,12 +87,17 @@ Scraped data is stored in:
 
 ## [API](api/README.md)
 
+- Docs URL : https://barbechli-api.onrender.com/docs
+
 This project also includes a REST API component that provides access to the scraped data. The API is built with FastAPI and offers endpoints for:
 
 - Browsing products with filtering, sorting, and pagination
 - Searching products by various criteria
 - Viewing product categories and sources
 - Accessing detailed product information
+
+The API is hosted and available for both testing and production use at:
+- https://barbechli-api.onrender.com
 
 For more details on the API, including installation, configuration, and available endpoints, please see the [API README](api/README.md).
 
