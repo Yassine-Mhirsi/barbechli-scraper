@@ -37,7 +37,7 @@ class Settings(BaseSettings):
     
     # API behavior settings
     DEFAULT_PAGE_SIZE: int = 50
-    MAX_PAGE_SIZE: int = 500
+    MAX_PAGE_SIZE: int = 5000
     
     # Security settings (can be expanded later if needed)
     SECRET_KEY: str = os.getenv("SECRET_KEY", "dev_secret_key")
