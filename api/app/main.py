@@ -54,7 +54,7 @@ async def health():
 
 # Keep-alive mechanism
 API_URL = "https://barbechli-api.onrender.com/"
-PING_INTERVAL = 60  # 14 minutes (Render's free tier has a 15-minute timeout)
+PING_INTERVAL = 14 *60  # 14 minutes (Render's free tier has a 15-minute timeout)
 
 def ping_api():
     try:
