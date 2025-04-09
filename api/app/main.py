@@ -1,6 +1,10 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
+import threading
+import requests
+import time
+from datetime import datetime
 
 from app.api.v1 import api_router
 from app.core.config import settings
@@ -46,6 +50,31 @@ async def health():
     Health check endpoint
     """
     return {"status": "healthy"}
+
+
+# Keep-alive mechanism
+API_URL = "https://barbechli-api.onrender.com/"
+PING_INTERVAL = 60  # 14 minutes (Render's free tier has a 15-minute timeout)
+
+def ping_api():
+    try:
+        response = requests.get(API_URL)
+        if response.status_code == 200:
+            print(f"Successfully pinged API at {datetime.now()}")
+        else:
+            print(f"API ping returned status code {response.status_code}")
+    except Exception as e:
+        print(f"Error pinging API: {e}")
+
+def keep_alive():
+    print("Starting keep-alive service...")
+    while True:
+        ping_api()
+        time.sleep(PING_INTERVAL)
+
+# Start keep-alive in a separate thread
+keep_alive_thread = threading.Thread(target=keep_alive, daemon=True)
+keep_alive_thread.start()
 
 
 if __name__ == "__main__":
