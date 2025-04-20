@@ -31,13 +31,14 @@ def prepare_chart_data(df):
     # For top brands by product count (for treemap)
     brand_counts = df['brand'].value_counts().reset_index()
     brand_counts.columns = ['brand', 'count']
+    brand_counts=brand_counts[brand_counts['brand'] != 'na']
     top_brands = brand_counts.nlargest(5, 'count')
    
     return {
         'availability_counts': availability_counts,
         'top_brands': top_brands,
         'median_prices': median_prices,
-        'brands_count': df['brand'].nunique(),
+        'brands_count': df['brand'][df['brand'] != 'na'].nunique(),
         'total_products': len(df),
         'avg_price': df['price'].mean()
     }
