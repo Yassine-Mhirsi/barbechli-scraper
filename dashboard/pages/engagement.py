@@ -1,10 +1,12 @@
 import dash
-from dash import callback, dcc, html, Input, Output
+from dash import dcc, html, Input, Output, callback
 import dash_bootstrap_components as dbc
 from utils.functions import create_card
 import pandas as pd
 import plotly.express as px
+import numpy as np
 
+# Initialize the Dash page
 dash.register_page(
     __name__,
     suppress_callback_exceptions=True,
@@ -12,232 +14,276 @@ dash.register_page(
     path="/engagement_overview",
 )
 
-df=pd.read_csv('products.csv')
+# Load and prepare data
+df = pd.read_csv('products.csv')
 
-# Clicks vs. Clicks External	Bar Chart	clicks, clicksExternal
-# Melt the DataFrame to long format for clicks and clicksExternal
-df_long31 = df.melt(
-    id_vars=['brand','title'],               # Keep uniqueID as identifier (or another column like 'title')
-    value_vars=['clicks', 'clicksExternal'], # Columns to compare
-    var_name='click_type',              # Name of the new category column
-    value_name='click_count'            # Name of the new value column
+# =============================================
+# Data Preparation
+# =============================================
+
+def prepare_chart_data(df):
+    """Prepare all data needed for visualizations"""
+    # Create data for clicks comparison
+    clicks_comparison = df.melt(
+        id_vars=['brand', 'title', 'uniqueID'],
+        value_vars=['clicks', 'clicksExternal'],
+        var_name='click_type',
+        value_name='click_count'
+    )
+    
+    # Calculate click statistics by brand
+    brand_engagement = df.groupby('brand').agg({
+        'clicks': 'sum',
+        'clicksExternal': 'sum'
+    }).reset_index()
+    brand_engagement['click_ratio'] = brand_engagement['clicksExternal'] / brand_engagement['clicks']
+    brand_engagement = brand_engagement.sort_values('clicks', ascending=False).head(10)
+    
+    # Calculate engagement by availability
+    availability_engagement = df.groupby('availability').agg({
+        'clicks': 'sum',
+        'clicksExternal': 'sum',
+        'uniqueID': 'count'
+    }).reset_index()
+    availability_engagement['clicks_per_product'] = availability_engagement['clicks'] / availability_engagement['uniqueID']
+    availability_engagement['external_clicks_per_product'] = availability_engagement['clicksExternal'] / availability_engagement['uniqueID']
+    
+    # Top products by engagement
+    df['total_engagement'] = df['clicks'] + df['clicksExternal']
+    top_products = df.sort_values('total_engagement', ascending=False).head(15)
+    
+    # Create engagement metrics for store comparison
+    store_engagement = df.groupby('store_label').agg({
+        'clicks': 'sum',
+        'clicksExternal': 'sum',
+        'uniqueID': 'count'
+    }).reset_index()
+    store_engagement['conversion_rate'] = (store_engagement['clicksExternal'] / store_engagement['clicks'] * 100).round(2)
+    store_engagement = store_engagement.sort_values('clicks', ascending=False).head(10)
+    brand_engagement_notna=brand_engagement[brand_engagement['brand']!='na']
+    return {
+        'clicks_comparison': clicks_comparison,
+        'brand_engagement': brand_engagement,
+        'brand_engagement_notna': brand_engagement_notna,
+        'availability_engagement': availability_engagement,
+        'top_products': top_products,
+        'store_engagement': store_engagement,
+        'total_clicks': df['clicks'].sum(),
+        'total_external_clicks': df['clicksExternal'].sum(),
+        'conversion_rate': (df['clicksExternal'].sum() / df['clicks'].sum() * 100) if df['clicks'].sum() > 0 else 0
+    }
+
+chart_data = prepare_chart_data(df)
+
+# =============================================
+# Visualizations
+# =============================================
+
+def create_visualizations(df, chart_data):
+    """Create all visualization figures"""
+    # Clicks vs. External Clicks by Brand
+    fig01 = px.bar(
+        chart_data['brand_engagement_notna'],
+        x="brand",
+        y=["clicks", "clicksExternal"],
+        title="Clicks vs. External Clicks by Top 10 Brands",
+        barmode="group",
+        color_discrete_sequence=["#1F77B4", "#FF7F0E"]
+    )
+    fig01.update_layout(
+        xaxis_title="Brand",
+        yaxis_title="Number of Clicks",
+        legend_title="Click Type"
+    )
+    
+    # Engagement by Availability Status
+    availability_data = chart_data['availability_engagement'].melt(
+        id_vars=['availability', 'uniqueID'],
+        value_vars=['clicks_per_product', 'external_clicks_per_product'],
+        var_name='metric',
+        value_name='value'
+    )
+    
+    fig02 = px.bar(
+        availability_data,
+        x="availability",
+        y="value",
+        color="metric",
+        title="Engagement Metrics by Product Availability",
+        barmode="group",
+        color_discrete_sequence=["#2CA02C", "#D62728"]
+    )
+    fig02.update_layout(
+        xaxis_title="Availability Status",
+        yaxis_title="Average Clicks per Product",
+        legend_title="Metric"
+    )
+    
+    # Top Products by Engagement
+    fig03 = px.bar(
+        chart_data['top_products'],
+        x="total_engagement",
+        y="title",
+        orientation="h",
+        title="Top 15 Products by Total Engagement",
+        color="total_engagement",
+        color_continuous_scale="viridis",
+        hover_data=["clicks", "clicksExternal"]
+    )
+    fig03.update_layout(
+        xaxis_title="Total Engagement (Clicks)",
+        yaxis_title="Product",
+        yaxis=dict(autorange="reversed")
+    )
+    
+    # Conversion Rate by Store (External Clicks / Total Clicks)
+    fig04 = px.bar(
+        chart_data['store_engagement'],
+        x="store_label",
+        y="conversion_rate",
+        title="Conversion Rate by Top 10 Stores (External Clicks / Total Clicks)",
+        color="conversion_rate",
+        color_continuous_scale="RdYlGn",
+        hover_data=["clicks", "clicksExternal", "uniqueID"]
+    )
+    fig04.update_layout(
+        xaxis_title="Store",
+        yaxis_title="Conversion Rate (%)",
+        xaxis_tickangle=-45
+    )
+    
+    return {
+        'clicks_by_brand': fig01,
+        'engagement_by_availability': fig02,
+        'top_products': fig03,
+        'conversion_by_store': fig04
+    }
+
+figures = create_visualizations(df, chart_data)
+
+# =============================================
+# Dashboard Layout
+# =============================================
+
+layout = dbc.Container(
+    [
+        # Header Section
+        html.Div(
+            [
+                html.H1("Engagement Analysis Dashboard", className="page-header"),
+                html.P("This dashboard provides insights into user engagement metrics, focusing on the relationship between clicks and external clicks.", 
+                      className="page-subtitle"),
+            ],
+            className="header-section"
+        ),
+        
+        # Summary Cards
+        dbc.Row(
+            [
+              dbc.Col(
+                  create_card(
+                      "Total Clicks",
+                      f"{chart_data['total_clicks']:,}",
+                      "fa-mouse-pointer"
+                  ),
+                  width=4,
+              ),
+              dbc.Col(
+                  create_card(
+                      "External Clicks",
+                      f"{chart_data['total_external_clicks']:,}",
+                      "fa-external-link-alt"
+                  ),
+                  width=4,
+              ),
+              dbc.Col(
+                  create_card(
+                      "Conversion Rate",
+                      f"{chart_data['conversion_rate']:.2f}%",
+                      "fa-chart-line"
+                  ),
+                  width=4,
+              ),
+          ],className="summary-cards-row",
+      ),
+        
+        # Main Visualizations
+        html.H2("Engagement Performance Metrics", className="section-header"),
+        
+        dbc.Row(
+            [
+                dbc.Col(
+                    dcc.Graph(
+                        figure=figures['clicks_by_brand'],
+                        config={"displayModeBar": False},
+                        className="chart-card",
+                        style={"height": "500px"}
+                    ),
+                    width=6
+                ),
+                dbc.Col(
+                    dcc.Graph(
+                        figure=figures['engagement_by_availability'],
+                        config={"displayModeBar": False},
+                        className="chart-card",
+                        style={"height": "500px"}
+                    ),
+                    width=6
+                ),
+            ],
+            className="chart-row"
+        ),
+        
+        dbc.Row(
+            [
+                dbc.Col(
+                    dcc.Graph(
+                        figure=figures['top_products'],
+                        config={"displayModeBar": False},
+                        className="chart-card",
+                        style={"height": "500px"}
+                    ),
+                    width=6
+                ),
+                dbc.Col(
+                    dcc.Graph(
+                        figure=figures['conversion_by_store'],
+                        config={"displayModeBar": False},
+                        className="chart-card",
+                        style={"height": "500px"}
+                    ),
+                    width=6
+                ),
+            ],
+            className="chart-row"
+        ),
+        
+        # Explanation Section
+        dbc.Row(
+            dbc.Col(
+                html.Div(
+                    [
+                        html.H3("Understanding Clicks vs. External Clicks", className="mt-4"),
+                        html.P([
+                            html.Strong("Clicks: "), 
+                            "Total number of times users interacted with the product listing on the platform."
+                        ]),
+                        html.P([
+                            html.Strong("External Clicks: "), 
+                            "Number of times users clicked through to the external retailer's website to potentially make a purchase."
+                        ]),
+                        html.P([
+                            html.Strong("Conversion Rate: "), 
+                            "The percentage of total clicks that resulted in external clicks, indicating potential purchase intent."
+                        ]),
+                    ],
+                    className="info-section"
+                ),
+                width=12
+            ),
+            className="mt-4"
+        )
+    ],
+    fluid=True,
+    className="dashboard-container"
 )
-
-# Create the Bar Chart
-fig31 = px.bar(
-    df_long31, 
-    x='brand',                       # X-axis: one bar per product
-    y='click_count',                    # Y-axis: number of clicks
-    color='click_type',                 # Different colors for clicks vs clicksExternal
-    barmode='group',                    # Group bars side-by-side
-    title='Clicks vs. Clicks External',
-    hover_name='title',               # Show product name on hover
-
-)
-# fig31 = px.bar(df, x="clicks,clicks_external", title="Bar Chart Example")
-
-# Engagement by Availability	Grouped Bar	availability, clicks, clicksExternal
-# fig32 = px.bar(df, x="category", y="value", color="subcategory", 
-#              title="Grouped Bar Example", barmode="group")
-
-
-# # Top Products by Engagement	Horizontal Bar	title, clicks, clicksExternal
-# fig33 = px.bar(df, x="value", y="category", orientation="h", 
-            #  title="Horizontal Bar Example")
-
-
-layout = html.Div([
-    html.H1("Analysis Dashboard"),  # Main title
-    html.H2("4. Engagement Insights"),
-    dcc.Graph(figure=fig31),
-])
-# # layout
-# layout = dbc.Container(
-#     [
-#         html.Div(
-#             [
-#                 html.H2(
-#                     "Purchase overview",  # title
-#                     className="title",
-#                 ),
-#                 html.Br(),
-#                 dbc.Row(
-#                     [
-#                         dbc.Col(
-#                             [
-#                                 html.H3(
-#                                     "Select Year",
-#                                     className="subtitle-small",
-#                                 ),
-#                                 dcc.Dropdown(
-#                                     id="year-dropdown",
-#                                     options=[
-#                                         {"label": "All (2018-2022)", "value": "All"}
-#                                     ],
-#                                     # + [
-#                                     #     {"label": col, "value": col}
-#                                     #     for col in sorted(
-#                                     #         df["Order Date Year"].unique()
-#                                     #     )
-#                                     # ],
-#                                     value="All",
-#                                     clearable=True,
-#                                     multi=False,
-#                                     placeholder="Select here",
-#                                     className="custom-dropdown",
-#                                 ),
-#                             ],
-#                             width=4,
-#                         ),
-#                     ]
-#                 ),
-#                 html.Br(),
-#                 dbc.Row(
-#                     [
-#                         dbc.Col(
-#                             create_card("Purchases", "purchases-card", "fa-list"),
-#                             width=4,
-#                         ),
-#                         dbc.Col(
-#                             create_card("Total Spend", "spend-card", "fa-coins"),
-#                             width=4,
-#                         ),
-#                         dbc.Col(
-#                             create_card("Top Category", "category-card", "fa-tags"),
-#                             width=4,
-#                         ),
-#                     ],
-#                 ),
-#                 html.Br(),
-#                 dbc.Row(
-#                     [
-#                         dbc.Col(
-#                             dcc.Loading(
-#                                 dcc.Graph(
-#                                     id="sales-chart",
-#                                     config={"displayModeBar": False},
-#                                     className="chart-card",
-#                                     style={"height": "400px"},
-#                                 ),
-#                                 type="circle",
-#                                 color="#f79500",
-#                             ),
-#                             width=6,
-#                         ),
-#                         dbc.Col(
-#                             dcc.Loading(
-#                                 dcc.Graph(
-#                                     id="category-chart",
-#                                     config={"displayModeBar": False},
-#                                     className="chart-card",
-#                                     style={"height": "400px"},
-#                                 ),
-#                                 type="circle",
-#                                 color="#f79500",
-#                             ),
-#                             width=6,
-#                         ),
-#                     ],
-#                 ),
-#             ],
-#             className="page-content",
-#         )
-#     ],
-#     fluid=True,
-# )
-
-
-# # callback cards and graphs
-# @callback(
-#     [
-#         Output("purchases-card", "children"),
-#         Output("spend-card", "children"),
-#         Output("category-card", "children"),
-#         Output("sales-chart", "figure"),
-#         Output("category-chart", "figure"),
-#     ],
-#     [
-#         Input("year-dropdown", "value"),
-#     ],
-# )
-# def update_values(select_year):
-#     # Brand Insights	
-
-#     # Top Brands by Clicks	Bar Chart	brand, clicks
-#     fig01 = px.bar(df, x="brand", y="clicks", title="Top Brands by Clicks")
-
-#     # Brand Price Distribution	Box Plot	brand, price
-#     fig02 = px.box(df, x="brand", y="price", title="Brand Price Distribution")
-
-
-#     # Brand Availability Breakdown	Pie Chart	brand, availability
-#     # Group by 'brand' and 'availability' and count occurrences
-#     availability_counts = df.groupby(['brand', 'availability']).size().reset_index(name='count')
-
-#     # Create the Pie Chart
-#     fig03 = px.pie(
-#         availability_counts, 
-#         names='brand',              # Categories for the pie slices
-#         values='count',             # Numeric values for slice sizes
-#         title='Brand Availability Breakdown',
-#         hover_data=['availability'] # Show availability status on hover
-#     )
-
-#     # filtered_df = df.copy()
-
-#     # # filter
-#     # if select_year and select_year != "All":
-#     #     filtered_df = filtered_df[filtered_df["Order Date Year"] == select_year]
-
-#     # # cards
-#     # purchases_card = f"{filtered_df['Quantity'].count():,.0f}"
-#     # spend_card = f"$ {round(filtered_df['Purchase Total'].sum(), -2):,.0f}"
-#     # category_card = (
-#     #     filtered_df.groupby("Category")["Survey ResponseID"].nunique().idxmax()
-#     # )
-
-#     # # sales
-#     # sales_chart = px.bar(
-#     #     filtered_df.groupby("Order Date Month", observed=True)["Purchase Total"]
-#     #     .sum()
-#     #     .reset_index(),
-#     #     x="Order Date Month",
-#     #     y="Purchase Total",
-#     #     text_auto=".2s",
-#     #     title="Total Monthly Spend",
-#     # )
-
-#     # sales_chart.update_traces(
-#     #     textposition="outside",
-#     #     marker_color="#f79500",
-#     #     hoverlabel=dict(bgcolor="rgba(255, 255, 255, 0.1)", font_size=12),
-#     #     hovertemplate="<b>%{x}</b><br>Value: %{y:,}<extra></extra>",
-#     # )
-
-#     # sales_chart.update_layout(
-#     #     xaxis_title=None,
-#     #     yaxis_title=None,
-#     #     plot_bgcolor="rgba(0, 0, 0, 0)",
-#     #     yaxis=dict(showticklabels=False),
-#     #     margin=dict(l=35, r=35, t=60, b=40),
-#     # )
-
-#     # # category
-#     # category_chart = px.treemap(
-#     #     filtered_df.groupby("Category", as_index=False, observed=True)["Quantity"]
-#     #     .count()
-#     #     .nlargest(5, columns="Quantity"),
-#     #     path=["Category"],
-#     #     values="Quantity",
-#     #     title="Top 5 Purchase Categories",
-#     #     color="Category",
-#     #     color_discrete_sequence=["#cb7721", "#b05611", "#ffb803", "#F79500", "#803f0c"],
-#     # )
-
-#     # category_chart.data[0].textinfo = "label+value"
-
-#     # category_chart.update_traces(textfont=dict(size=13))
-
-#     # category_chart.update_layout(margin=dict(l=35, r=35, t=60, b=35), hovermode=False)
-
-#     return fig01, fig02, fig03 #purchases_card, spend_card, category_card, sales_chart, category_chart
