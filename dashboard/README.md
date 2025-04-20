@@ -1,4 +1,4 @@
-Barbechli Price Analysis Dashboard
+# Barbechli Price Analysis Dashboard
 
 A dynamic web application built with Dash and Python for analyzing and visualizing e-commerce product pricing data.
 
