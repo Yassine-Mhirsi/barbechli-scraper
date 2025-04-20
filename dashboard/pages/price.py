@@ -3,6 +3,7 @@ from dash import dcc, html, Input, Output, callback
 import dash_bootstrap_components as dbc
 from utils.functions import create_card
 import pandas as pd
+from utils.data import data_import
 import plotly.express as px
 import json
 from datetime import datetime
@@ -14,9 +15,11 @@ dash.register_page(
     external_stylesheets=[dbc.themes.BOOTSTRAP],
     path="/price_overview",
 )
+# =============================================
+# Load data
+# =============================================
 
-# Load and prepare data
-df = pd.read_csv('products.csv')
+df=data_import()
 
 # =============================================
 # Data Preparation

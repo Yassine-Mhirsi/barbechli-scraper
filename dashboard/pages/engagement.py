@@ -3,6 +3,7 @@ from dash import dcc, html, Input, Output, callback
 import dash_bootstrap_components as dbc
 from utils.functions import create_card
 import pandas as pd
+from utils.data import data_import
 import plotly.express as px
 import numpy as np
 
@@ -14,8 +15,11 @@ dash.register_page(
     path="/engagement_overview",
 )
 
-# Load and prepare data
-df = pd.read_csv('products.csv')
+# =============================================
+# Load data
+# =============================================
+
+df=data_import()
 
 # =============================================
 # Data Preparation
