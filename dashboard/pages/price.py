@@ -1,10 +1,13 @@
 import dash
-from dash import callback, dcc, html, Input, Output
+from dash import dcc, html, Input, Output, callback
 import dash_bootstrap_components as dbc
 from utils.functions import create_card
 import pandas as pd
 import plotly.express as px
+import json
+from datetime import datetime
 
+# Initialize the Dash page
 dash.register_page(
     __name__,
     suppress_callback_exceptions=True,
@@ -12,216 +15,247 @@ dash.register_page(
     path="/price_overview",
 )
 
-df=pd.read_csv('products.csv')
+# Load and prepare data
+df = pd.read_csv('products.csv')
 
-# Price Evolution Insights	
+# =============================================
+# Data Preparation
+# =============================================
 
-# # Price Drop Impact on Engagement	Scatter Plot	price_drop, price_drop_percent, clicks
-# fig21 = px.scatter(df, x="x_value", y="y_value", title="Scatter Plot Example")
+def prepare_chart_data(df):
+    """Prepare all data needed for visualizations"""
+    # Parse the priceTable column to extract price history data
+    df['priceTable'] = df['priceTable'].apply(
+    lambda x: json.loads(x.replace("'", '"')) if isinstance(x, str) else x
+)
 
-# # Price History per Product	Line Graph	uniqueID, priceTable (parsed price, date_price)
-# # fig22 = px.line(df, x="date", y="value", title="Line Graph Example")
+    
+    # Create price distribution data
+    price_distribution = df['price'].value_counts().reset_index()
+    price_distribution.columns = ['price_point', 'count']
+    price_distribution = price_distribution.sort_values('price_point')
+    
+    # Calculate price statistics by brand
+    price_by_brand = df.groupby('brand')['price'].agg(['mean', 'median', 'min', 'max']).reset_index()
+    price_by_brand = price_by_brand.sort_values('median', ascending=False).head(10)
+    
+    # Price range distribution by store
+    price_by_store = df.groupby('store_label')['price'].agg(['count', 'mean', 'median']).reset_index()
+    price_by_store = price_by_store.sort_values('count', ascending=False).head(15)
+    
+    # Extract price history for time series
+    price_history = []
+    for idx, row in df.iterrows():
+        if isinstance(row['priceTable'], list):
+            for entry in row['priceTable']:
+                if 'date_price' in entry and 'price' in entry:
+                    try:
+                        date = datetime.strptime(entry['date_price'].split('T')[0], '%Y-%m-%d')
+                        price_history.append({
+                            'date': date,
+                            'price': entry['price'],
+                            'product_id': row['uniqueID'],
+                            'product_name': row['title']
+                        })
+                    except:
+                        pass
+    
+    price_history_df = pd.DataFrame(price_history)
+    if not price_history_df.empty:
+        price_history_df = price_history_df.sort_values('date')
+    
+    return {
+        'price_distribution': price_distribution,
+        'price_by_brand': price_by_brand,
+        'price_by_store': price_by_store,
+        'price_history_df': price_history_df,
+        'avg_price': df['price'].mean(),
+        'median_price': df['price'].median(),
+        'product_count': len(df)
+    }
 
-# Weekly Price Drop Trends	Area Chart	price_week_drop, price_week_drop_percent, date_creation
-fig23 = px.area(df, x="date_creation", y="price", title="Weekly Price Drop Trends")
+chart_data = prepare_chart_data(df)
 
+# =============================================
+# Visualizations
+# =============================================
 
+def create_visualizations(df, chart_data):
+    """Create all visualization figures"""
+    # Price Distribution Histogram
+    fig01 = px.histogram(
+        df,
+        x="price",
+        nbins=50,
+        title="Price Distribution of Products",
+        color_discrete_sequence=["#636EFA"],
+    )
+    
+    # Price by Brand (Bar Chart)
+    fig02 = px.bar(
+        chart_data['price_by_brand'],
+        x="brand",
+        y="median",
+        title="Median Price by Top 10 Brands",
+        color="median",
+        color_continuous_scale='blues',
+        error_y="max",
+        error_y_minus="min"
+    )
+    
+    # Price by Store (Bar Chart) - Replacement for price drop visualization
+    fig03 = px.bar(
+        chart_data['price_by_store'],
+        x="store_label",
+        y="median",
+        title="Median Price by Top 15 Stores",
+        color="count",
+        color_continuous_scale='purples',
+        hover_data=["mean", "count"]
+    )
+    fig03.update_layout(xaxis_tickangle=-45)
+    
+    # Price Evolution Over Time (Line Chart)
+    if not chart_data['price_history_df'].empty:
+        # Group by date and calculate average price
+        avg_price_over_time = chart_data['price_history_df'].groupby('date')['price'].mean().reset_index()
+        
+        # Create figure with improved hover information
+        fig04 = px.line(
+            avg_price_over_time,
+            x="date",
+            y="price",
+            title="Average Price Evolution Over Time",
+            line_shape="spline"
+        )
+        
+        # Add a scatter trace for hover points with product information
+        scatter_df = chart_data['price_history_df'].copy()
+        fig04.add_trace(
+            px.scatter(
+                scatter_df,
+                x="date",
+                y="price",
+                hover_data=["product_name", "product_id"],
+                opacity=0.1
+            ).data[0]
+        )
+        
+        # Improve the hover template
+        fig04.update_traces(
+            hovertemplate="<b>Date:</b> %{x}<br><b>Price:</b> $%{y:.2f}<br><b>Product:</b> %{customdata[0]}<extra></extra>",
+            selector=dict(type="scatter", mode="markers")
+        )
+    else:
+        # Create empty figure if no data
+        fig04 = px.line(title="Price Evolution Over Time (No data available)")
+    
+    return {
+        'price_distribution': fig01,
+        'price_by_brand': fig02,
+        'price_by_store': fig03,
+        'price_evolution': fig04
+    }
 
+figures = create_visualizations(df, chart_data)
 
-layout = html.Div([
-    html.H1("Analysis Dashboard"),  # Main title
-    html.H2("3. Price Evolution Insights"),
-    # dcc.Graph(figure=fig21),       
-    # # dcc.Graph(figure=fig22),       
-    dcc.Graph(figure=fig23),
-])
-# # layout
-# layout = dbc.Container(
-#     [
-#         html.Div(
-#             [
-#                 html.H2(
-#                     "Purchase overview",  # title
-#                     className="title",
-#                 ),
-#                 html.Br(),
-#                 dbc.Row(
-#                     [
-#                         dbc.Col(
-#                             [
-#                                 html.H3(
-#                                     "Select Year",
-#                                     className="subtitle-small",
-#                                 ),
-#                                 dcc.Dropdown(
-#                                     id="year-dropdown",
-#                                     options=[
-#                                         {"label": "All (2018-2022)", "value": "All"}
-#                                     ],
-#                                     # + [
-#                                     #     {"label": col, "value": col}
-#                                     #     for col in sorted(
-#                                     #         df["Order Date Year"].unique()
-#                                     #     )
-#                                     # ],
-#                                     value="All",
-#                                     clearable=True,
-#                                     multi=False,
-#                                     placeholder="Select here",
-#                                     className="custom-dropdown",
-#                                 ),
-#                             ],
-#                             width=4,
-#                         ),
-#                     ]
-#                 ),
-#                 html.Br(),
-#                 dbc.Row(
-#                     [
-#                         dbc.Col(
-#                             create_card("Purchases", "purchases-card", "fa-list"),
-#                             width=4,
-#                         ),
-#                         dbc.Col(
-#                             create_card("Total Spend", "spend-card", "fa-coins"),
-#                             width=4,
-#                         ),
-#                         dbc.Col(
-#                             create_card("Top Category", "category-card", "fa-tags"),
-#                             width=4,
-#                         ),
-#                     ],
-#                 ),
-#                 html.Br(),
-#                 dbc.Row(
-#                     [
-#                         dbc.Col(
-#                             dcc.Loading(
-#                                 dcc.Graph(
-#                                     id="sales-chart",
-#                                     config={"displayModeBar": False},
-#                                     className="chart-card",
-#                                     style={"height": "400px"},
-#                                 ),
-#                                 type="circle",
-#                                 color="#f79500",
-#                             ),
-#                             width=6,
-#                         ),
-#                         dbc.Col(
-#                             dcc.Loading(
-#                                 dcc.Graph(
-#                                     id="category-chart",
-#                                     config={"displayModeBar": False},
-#                                     className="chart-card",
-#                                     style={"height": "400px"},
-#                                 ),
-#                                 type="circle",
-#                                 color="#f79500",
-#                             ),
-#                             width=6,
-#                         ),
-#                     ],
-#                 ),
-#             ],
-#             className="page-content",
-#         )
-#     ],
-#     fluid=True,
-# )
+# =============================================
+# Dashboard Layout
+# =============================================
 
-
-# # callback cards and graphs
-# @callback(
-#     [
-#         Output("purchases-card", "children"),
-#         Output("spend-card", "children"),
-#         Output("category-card", "children"),
-#         Output("sales-chart", "figure"),
-#         Output("category-chart", "figure"),
-#     ],
-#     [
-#         Input("year-dropdown", "value"),
-#     ],
-# )
-# def update_values(select_year):
-#     # Brand Insights	
-
-#     # Top Brands by Clicks	Bar Chart	brand, clicks
-#     fig01 = px.bar(df, x="brand", y="clicks", title="Top Brands by Clicks")
-
-#     # Brand Price Distribution	Box Plot	brand, price
-#     fig02 = px.box(df, x="brand", y="price", title="Brand Price Distribution")
-
-
-#     # Brand Availability Breakdown	Pie Chart	brand, availability
-#     # Group by 'brand' and 'availability' and count occurrences
-#     availability_counts = df.groupby(['brand', 'availability']).size().reset_index(name='count')
-
-#     # Create the Pie Chart
-#     fig03 = px.pie(
-#         availability_counts, 
-#         names='brand',              # Categories for the pie slices
-#         values='count',             # Numeric values for slice sizes
-#         title='Brand Availability Breakdown',
-#         hover_data=['availability'] # Show availability status on hover
-#     )
-
-#     # filtered_df = df.copy()
-
-#     # # filter
-#     # if select_year and select_year != "All":
-#     #     filtered_df = filtered_df[filtered_df["Order Date Year"] == select_year]
-
-#     # # cards
-#     # purchases_card = f"{filtered_df['Quantity'].count():,.0f}"
-#     # spend_card = f"$ {round(filtered_df['Purchase Total'].sum(), -2):,.0f}"
-#     # category_card = (
-#     #     filtered_df.groupby("Category")["Survey ResponseID"].nunique().idxmax()
-#     # )
-
-#     # # sales
-#     # sales_chart = px.bar(
-#     #     filtered_df.groupby("Order Date Month", observed=True)["Purchase Total"]
-#     #     .sum()
-#     #     .reset_index(),
-#     #     x="Order Date Month",
-#     #     y="Purchase Total",
-#     #     text_auto=".2s",
-#     #     title="Total Monthly Spend",
-#     # )
-
-#     # sales_chart.update_traces(
-#     #     textposition="outside",
-#     #     marker_color="#f79500",
-#     #     hoverlabel=dict(bgcolor="rgba(255, 255, 255, 0.1)", font_size=12),
-#     #     hovertemplate="<b>%{x}</b><br>Value: %{y:,}<extra></extra>",
-#     # )
-
-#     # sales_chart.update_layout(
-#     #     xaxis_title=None,
-#     #     yaxis_title=None,
-#     #     plot_bgcolor="rgba(0, 0, 0, 0)",
-#     #     yaxis=dict(showticklabels=False),
-#     #     margin=dict(l=35, r=35, t=60, b=40),
-#     # )
-
-#     # # category
-#     # category_chart = px.treemap(
-#     #     filtered_df.groupby("Category", as_index=False, observed=True)["Quantity"]
-#     #     .count()
-#     #     .nlargest(5, columns="Quantity"),
-#     #     path=["Category"],
-#     #     values="Quantity",
-#     #     title="Top 5 Purchase Categories",
-#     #     color="Category",
-#     #     color_discrete_sequence=["#cb7721", "#b05611", "#ffb803", "#F79500", "#803f0c"],
-#     # )
-
-#     # category_chart.data[0].textinfo = "label+value"
-
-#     # category_chart.update_traces(textfont=dict(size=13))
-
-#     # category_chart.update_layout(margin=dict(l=35, r=35, t=60, b=35), hovermode=False)
-
-#     return fig01, fig02, fig03 #purchases_card, spend_card, category_card, sales_chart, category_chart
+layout = dbc.Container(
+    [
+        # Header Section
+        html.Div(
+            [
+                html.H1("Price Analysis Dashboard", className="page-header"),
+                html.P("This dashboard provides insights into product pricing trends and distribution.", 
+                      className="page-subtitle"),
+            ],
+            className="header-section"
+        ),
+        
+        # Summary Cards
+        dbc.Row(
+            [
+              dbc.Col(
+                  create_card(
+                      "Average Price",
+                      f"${chart_data['avg_price']:.2f}",
+                      "fa-tag"
+                  ),
+                  width=4,
+              ),
+              dbc.Col(
+                  create_card(
+                      "Median Price",
+                      f"${chart_data['median_price']:.2f}",
+                      "fa-dollar-sign"
+                  ),
+                  width=4,
+              ),
+              dbc.Col(
+                  create_card(
+                      "Total Products",
+                      f"{chart_data['product_count']:,}",
+                      "fa-boxes"
+                  ),
+                  width=4,
+              ),
+          ],className="summary-cards-row",
+      ),
+        
+        # Main Visualizations
+        html.H2("Price Performance Metrics", className="section-header"),
+        
+        dbc.Row(
+            [
+                dbc.Col(
+                    dcc.Graph(
+                        figure=figures['price_distribution'],
+                        config={"displayModeBar": False},
+                        className="chart-card",
+                        style={"height": "500px"}
+                    ),
+                    width=6
+                ),
+                dbc.Col(
+                    dcc.Graph(
+                        figure=figures['price_by_brand'],
+                        config={"displayModeBar": False},
+                        className="chart-card",
+                        style={"height": "500px"}
+                    ),
+                    width=6
+                ),
+            ],
+            className="chart-row"
+        ),
+        
+        dbc.Row(
+            [
+                dbc.Col(
+                    dcc.Graph(
+                        figure=figures['price_by_store'],
+                        config={"displayModeBar": False},
+                        className="chart-card",
+                        style={"height": "500px"}
+                    ),
+                    width=6
+                ),
+                dbc.Col(
+                    dcc.Graph(
+                        figure=figures['price_evolution'],
+                        config={"displayModeBar": False},
+                        className="chart-card",
+                        style={"height": "500px"}
+                    ),
+                    width=6
+                ),
+            ],
+            className="chart-row"
+        ),
+    ],
+    fluid=True,
+    className="dashboard-container"
+)

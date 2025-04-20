@@ -1,12 +1,12 @@
+import os
 import dash
 import dash_bootstrap_components as dbc
 from dash import Dash, dcc, html
-import os
 
 app = Dash(
     __name__,
     use_pages=True,
-    title="Amazon Dashboard",
+    title="Barbechli Scraper Dashboard",
     external_stylesheets=[dbc.themes.BOOTSTRAP],
 )
 server = app.server
@@ -41,15 +41,21 @@ sidebar = html.Div(
             [
                 html.Span("Created by "),
                 html.A(
-                    "Mayara Daher",
-                    href="https://github.com/mayaradaher",
+                    "Yassine Mhirsi",
+                    href="https://github.com/Yassine-Mhirsi",
+                    target="_blank",
+                ),
+                html.Span(" & "),
+                html.A(
+                    "Nour Smiai",
+                    href="https://github.com/S01Nour",
                     target="_blank",
                 ),
                 html.Br(),
-                html.Span("Data Source "),
+                html.Span("Code Source "),
                 html.A(
-                    "MIT Publication",
-                    href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YGLYDY",
+                    "Barbechli Scraper",
+                    href="https://github.com/Yassine-Mhirsi/barbechli-scraper",
                     target="_blank",
                 ),
             ],
@@ -91,13 +97,12 @@ app.index_string = """
 # layout
 app.layout = html.Div(
     [
-        dcc.Location(id="url", pathname="/brand_overview"),
+        dcc.Location(id="url", pathname="/brands_overview"),
         sidebar,
         content,
         dash.page_container,
     ]
 )
-
 if __name__ == "__main__":
     # Get port from environment variable or default to 10000
     port = int(os.environ.get("PORT", 10000))
