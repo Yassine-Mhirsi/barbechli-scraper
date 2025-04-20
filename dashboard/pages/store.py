@@ -333,11 +333,11 @@ def update_price_trends(selected_store):
     # Format hover template based on selection
     if selected_store == 'ALL':
         fig.update_traces(
-            hovertemplate="<b>%{fullData.name}</b><br>Product: %{customdata[0]}<br>Date: %{x|%Y-%m-%d}<br>Price: DT%{y:.2f}"
+            hovertemplate="<b>%{fullData.name}</b><br>Product: %{customdata[0]}<br>Date: %{x|%Y-%m-%d}<br>Price: %{y:.2f} DT"
         )
     else:
         fig.update_traces(
-            hovertemplate="<b>%{customdata[0]}</b><br>Date: %{x|%Y-%m-%d}<br>Price: DT%{y:.2f}"
+            hovertemplate="<b>%{customdata[0]}</b><br>Date: %{x|%Y-%m-%d}<br>Price: %{y:.2f} DT"
         )
     
     return fig
@@ -362,7 +362,7 @@ layout = dbc.Container(
         dbc.Row(
             [
                 dbc.Col(create_card("Total Stores", f"{store_data['total_stores']:,}", "fa-store"), width=4),
-                dbc.Col(create_card("Avg Price", f"DT{store_data['avg_price']:.2f}", "fa-tag"), width=4),
+                dbc.Col(create_card("Avg Price", f"{store_data['avg_price']:.2f} DT", "fa-tag"), width=4),
                 dbc.Col(create_card("Total Products", f"{store_data['total_products']:,}", "fa-box"), width=4),
             ],
             className="summary-cards-row",

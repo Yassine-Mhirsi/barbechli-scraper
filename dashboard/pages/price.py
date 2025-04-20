@@ -146,7 +146,7 @@ def create_visualizations(df, chart_data):
         
         # Improve the hover template
         fig04.update_traces(
-            hovertemplate="<b>Date:</b> %{x}<br><b>Price:</b> DT%{y:.2f}<br><b>Product:</b> %{customdata[0]}<extra></extra>",
+            hovertemplate="<b>Date:</b> %{x}<br><b>Price:</b>%{y:.2f} DT<br><b>Product:</b> %{customdata[0]}<extra></extra>",
             selector=dict(type="scatter", mode="markers")
         )
     else:
@@ -184,7 +184,7 @@ layout = dbc.Container(
               dbc.Col(
                   create_card(
                       "Average Price",
-                      f"DT{chart_data['avg_price']:.2f}",
+                      f"{chart_data['avg_price']:.2f} DT",
                       "fa-tag"
                   ),
                   width=4,
@@ -192,7 +192,7 @@ layout = dbc.Container(
               dbc.Col(
                   create_card(
                       "Median Price",
-                      f"DT{chart_data['median_price']:.2f}",
+                      f"{chart_data['median_price']:.2f} DT",
                       "fa-dollar-sign"
                   ),
                   width=4,

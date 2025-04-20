@@ -142,7 +142,7 @@ layout = dbc.Container(
               dbc.Col(
                   create_card(
                       "Avg Price",
-                      f"DT{chart_data['avg_price']:.2f}",
+                      f"{chart_data['avg_price']:.2f} DT",
                       "fa-tag"
                   ),
                   width=4,
