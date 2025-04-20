@@ -101,6 +101,24 @@ The API is hosted and available for both testing and production use at:
 
 For more details on the API, including installation, configuration, and available endpoints, please see the [API README](api/README.md).
 
+## [Dashboard](dashboard/README.md)
+
+The project includes an interactive data visualization dashboard built with Dash and Python. The dashboard provides comprehensive insights into the scraped product data through various interactive charts and analyses.
+
+### Key Features
+
+- **Price Distribution Analysis**: Visualize product price distributions across the dataset
+- **Brand Price Analysis**: Compare median prices across top brands with min/max ranges
+- **Store Price Comparison**: Analyze median prices and product counts across different stores
+- **Price Evolution Tracking**: Monitor price changes over time with detailed product information
+- **Interactive Visualizations**: All charts feature interactive elements and hover details
+- **Responsive Design**: Built with Bootstrap for a clean, modern interface
+
+The dashboard is hosted and accessible online at:
+- https://barbechli-scraper-dashboard.onrender.com/
+
+For more details about the dashboard, including local setup and configuration, please see the [Dashboard README](dashboard/README.md).
+
 ## License
 
 [MIT License](LICENSE)
