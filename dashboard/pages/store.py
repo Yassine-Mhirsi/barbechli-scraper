@@ -206,12 +206,12 @@ def create_store_visualizations(store_data):
         title='Average Price by Top 10 Stores',
         color='price',
         color_continuous_scale='Greens',
-        labels={'price': 'Average Price ($)', 'store_label': 'Store'}
+        labels={'price': 'Average Price (DT)', 'store_label': 'Store'}
     )
     avg_price_chart.update_layout(
         xaxis_tickangle=-45,
         xaxis_title="Store",
-        yaxis_title="Average Price ($)"
+        yaxis_title="Average Price (DT)"
     )
     
     # 5. Store Deal Frequency
@@ -326,18 +326,18 @@ def update_price_trends(selected_store):
     fig.update_layout(
         hovermode='x unified',
         xaxis_title='Date',
-        yaxis_title='Price ($)',
+        yaxis_title='Price (DT)',
         showlegend=selected_store == 'ALL'
     )
     
     # Format hover template based on selection
     if selected_store == 'ALL':
         fig.update_traces(
-            hovertemplate="<b>%{fullData.name}</b><br>Product: %{customdata[0]}<br>Date: %{x|%Y-%m-%d}<br>Price: $%{y:.2f}"
+            hovertemplate="<b>%{fullData.name}</b><br>Product: %{customdata[0]}<br>Date: %{x|%Y-%m-%d}<br>Price: DT%{y:.2f}"
         )
     else:
         fig.update_traces(
-            hovertemplate="<b>%{customdata[0]}</b><br>Date: %{x|%Y-%m-%d}<br>Price: $%{y:.2f}"
+            hovertemplate="<b>%{customdata[0]}</b><br>Date: %{x|%Y-%m-%d}<br>Price: DT%{y:.2f}"
         )
     
     return fig
@@ -362,7 +362,7 @@ layout = dbc.Container(
         dbc.Row(
             [
                 dbc.Col(create_card("Total Stores", f"{store_data['total_stores']:,}", "fa-store"), width=4),
-                dbc.Col(create_card("Avg Price", f"${store_data['avg_price']:.2f}", "fa-tag"), width=4),
+                dbc.Col(create_card("Avg Price", f"DT{store_data['avg_price']:.2f}", "fa-tag"), width=4),
                 dbc.Col(create_card("Total Products", f"{store_data['total_products']:,}", "fa-box"), width=4),
             ],
             className="summary-cards-row",
