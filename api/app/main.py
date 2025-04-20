@@ -54,22 +54,31 @@ async def health():
 
 # Keep-alive mechanism
 API_URL = "https://barbechli-api.onrender.com/"
-PING_INTERVAL = 14 *60  # 14 minutes (Render's free tier has a 15-minute timeout)
+DASHBOARD_URL = "https://barbechli-scraper-dashboard.onrender.com/"
+PING_INTERVAL = 14 * 60  # 14 minutes (Render's free tier has a 15-minute timeout)
 
-def ping_api():
+def ping_services():
     try:
-        response = requests.get(API_URL)
-        if response.status_code == 200:
+        # Ping API
+        api_response = requests.get(API_URL)
+        if api_response.status_code == 200:
             print(f"Successfully pinged API at {datetime.now()}")
         else:
-            print(f"API ping returned status code {response.status_code}")
+            print(f"API ping returned status code {api_response.status_code}")
+            
+        # Ping Dashboard
+        dashboard_response = requests.get(DASHBOARD_URL)
+        if dashboard_response.status_code == 200:
+            print(f"Successfully pinged Dashboard at {datetime.now()}")
+        else:
+            print(f"Dashboard ping returned status code {dashboard_response.status_code}")
     except Exception as e:
-        print(f"Error pinging API: {e}")
+        print(f"Error pinging services: {e}")
 
 def keep_alive():
-    print("Starting keep-alive service...")
+    print("Starting keep-alive service for API and Dashboard...")
     while True:
-        ping_api()
+        ping_services()
         time.sleep(PING_INTERVAL)
 
 # Start keep-alive in a separate thread
