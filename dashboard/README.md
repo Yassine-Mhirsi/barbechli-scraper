@@ -1,6 +1,6 @@
 # Barbechli Price Analysis Dashboard
 
-A dynamic web application built with Dash and Python for analyzing and visualizing e-commerce product pricing data.
+A dynamic web application built with Dash and Python for analyzing and visualizing barbechli's product pricing data.
 
 ## Live Demo
 
